@@ -528,144 +528,144 @@ PHM,"PulteGroup, Inc.",STOCK,Consumer Cyclical,Residential Construction,yfinance
 RSG,"Republic Services, Inc.",STOCK,Industrials,Waste Management,yfinance
 RMD,ResMed Inc.,STOCK,Healthcare,Medical Instruments & Supplies,yfinance
 RVTY,"Revvity, Inc.",STOCK,Healthcare,Diagnostics & Research,yfinance
-SPGI,SPGI,STOCK,Unmapped,Unmapped,fallback
-SW,SW,STOCK,Unmapped,Unmapped,fallback
-SOLV,SOLV,STOCK,Unmapped,Unmapped,fallback
-STE,STE,STOCK,Unmapped,Unmapped,fallback
-TKO,TKO,STOCK,Unmapped,Unmapped,fallback
-TSCO,TSCO,STOCK,Unmapped,Unmapped,fallback
-TDG,TDG,STOCK,Unmapped,Unmapped,fallback
-UHS,UHS,STOCK,Unmapped,Unmapped,fallback
-VLTO,VLTO,STOCK,Unmapped,Unmapped,fallback
-WRB,WRB,STOCK,Unmapped,Unmapped,fallback
-WAT,WAT,STOCK,Unmapped,Unmapped,fallback
-WY,WY,STOCK,Unmapped,Unmapped,fallback
-WSM,WSM,STOCK,Unmapped,Unmapped,fallback
-WTW,WTW,STOCK,Unmapped,Unmapped,fallback
-XYL,XYL,STOCK,Unmapped,Unmapped,fallback
-ZBH,ZBH,STOCK,Unmapped,Unmapped,fallback
-ZTS,ZTS,STOCK,Unmapped,Unmapped,fallback
-ALNY,ALNY,STOCK,Unmapped,Unmapped,fallback
-INSM,INSM,STOCK,Unmapped,Unmapped,fallback
-PDD,PDD,STOCK,Unmapped,Unmapped,fallback
-XYZ,XYZ,STOCK,Unmapped,Unmapped,fallback
-KDP,KDP,STOCK,Unmapped,Unmapped,fallback
-SBAC,SBAC,STOCK,Unmapped,Unmapped,fallback
-IYW,IYW,ETF,Unmapped,Unmapped,fallback
-OIH,OIH,ETF,Unmapped,Unmapped,fallback
-SLB,SLB,STOCK,Unmapped,Unmapped,fallback
+SPGI,S&P Global Inc.,STOCK,Financial Services,Financial Data & Stock Exchanges,yfinance
+SW,Smurfit WestRock plc,STOCK,Consumer Cyclical,Packaging & Containers,yfinance
+SOLV,Solventum Corporation,STOCK,Healthcare,Medical Instruments & Supplies,yfinance
+STE,STERIS plc (Ireland),STOCK,Healthcare,Medical Devices,yfinance
+TKO,"TKO Group Holdings, Inc.",STOCK,Communication Services,Entertainment,yfinance
+TSCO,Tractor Supply Company,STOCK,Consumer Cyclical,Specialty Retail,yfinance
+TDG,Transdigm Group Incorporated,STOCK,Industrials,Aerospace & Defense,yfinance
+UHS,"Universal Health Services, Inc.",STOCK,Healthcare,Medical Care Facilities,yfinance
+VLTO,Veralto Corp,STOCK,Industrials,Pollution & Treatment Controls,yfinance
+WRB,W.R. Berkley Corporation,STOCK,Financial Services,Insurance - Property & Casualty,yfinance
+WAT,Waters Corporation,STOCK,Healthcare,Diagnostics & Research,yfinance
+WY,Weyerhaeuser Company,STOCK,Real Estate,REIT - Specialty,yfinance
+WSM,"Williams-Sonoma, Inc.",STOCK,Consumer Cyclical,Specialty Retail,yfinance
+WTW,Willis Towers Watson Public Lim,STOCK,Financial Services,Insurance Brokers,yfinance
+XYL,Xylem Inc.,STOCK,Industrials,Specialty Industrial Machinery,yfinance
+ZBH,"Zimmer Biomet Holdings, Inc.",STOCK,Healthcare,Medical Devices,yfinance
+ZTS,Zoetis Inc.,STOCK,Healthcare,Drug Manufacturers - Specialty & Generic,yfinance
+ALNY,"Alnylam Pharmaceuticals, Inc.",STOCK,Healthcare,Biotechnology,yfinance
+INSM,Insmed Incorporated,STOCK,Healthcare,Biotechnology,yfinance
+PDD,PDD Holdings Inc.,STOCK,Consumer Cyclical,Internet Retail,yfinance
+XYZ,"Block, Inc.",STOCK,Technology,Software - Infrastructure,yfinance
+KDP,Keurig Dr Pepper Inc.,STOCK,Consumer Defensive,Beverages - Non-Alcoholic,yfinance
+SBAC,SBA Communications Corporation,STOCK,Real Estate,REIT - Specialty,yfinance
+IYW,iShares U.S. Technology ETF,ETF,ETF,ETF / Fund,yfinance
+OIH,VanEck Oil Services ETF,ETF,ETF,ETF / Fund,yfinance
+SLB,SLB Limited,STOCK,Energy,Oil & Gas Equipment & Services,yfinance
 SMH,VanEck Semiconductor ETF,ETF,ETF,Semiconductor ETF,builtin
-XLK,XLK,ETF,Unmapped,Unmapped,fallback
+XLK,State Street Technology Select,ETF,ETF,ETF / Fund,yfinance
 AMD,Advanced Micro Devices,STOCK,Technology,Semiconductors,builtin
 MU,Micron Technology,STOCK,Technology,Memory Semiconductors,builtin
-TXN,TXN,STOCK,Unmapped,Unmapped,fallback
+TXN,Texas Instruments Incorporated,STOCK,Technology,Semiconductors,yfinance
 GOOGL,Alphabet Inc. Class A,STOCK,Communication Services,Internet / Search,builtin
 AMZN,Amazon.com,STOCK,Consumer Discretionary,E-commerce / Cloud,builtin
 V,Visa Inc.,STOCK,Financials,Payments,builtin
 PWR,Quanta Services,STOCK,Industrials,Grid Infrastructure,builtin
-CAT,CAT,STOCK,Unmapped,Unmapped,fallback
-NUE,NUE,STOCK,Unmapped,Unmapped,fallback
-MBLY,MBLY,STOCK,Unmapped,Unmapped,fallback
-ON,ON,STOCK,Unmapped,Unmapped,fallback
-NXPI,NXPI,STOCK,Unmapped,Unmapped,fallback
-ARRY,ARRY,STOCK,Unmapped,Unmapped,fallback
-GSAT,GSAT,STOCK,Unmapped,Unmapped,fallback
-BE,BE,STOCK,Unmapped,Unmapped,fallback
-QS,QS,STOCK,Unmapped,Unmapped,fallback
-MTZ,MTZ,STOCK,Unmapped,Unmapped,fallback
-SBUX,SBUX,STOCK,Unmapped,Unmapped,fallback
-JBL,JBL,STOCK,Unmapped,Unmapped,fallback
-FLEX,FLEX,STOCK,Unmapped,Unmapped,fallback
-DBC,DBC,STOCK,Unmapped,Unmapped,fallback
-PDBC,PDBC,STOCK,Unmapped,Unmapped,fallback
-COM,COM,STOCK,Unmapped,Unmapped,fallback
-LIT,LIT,ETF,Unmapped,Unmapped,fallback
-FANG,FANG,STOCK,Unmapped,Unmapped,fallback
-WMB,WMB,STOCK,Unmapped,Unmapped,fallback
-ET,ET,STOCK,Unmapped,Unmapped,fallback
+CAT,"Caterpillar, Inc.",STOCK,Industrials,Farm & Heavy Construction Machinery,yfinance
+NUE,Nucor Corporation,STOCK,Basic Materials,Steel,yfinance
+MBLY,Mobileye Global Inc.,STOCK,Consumer Cyclical,Auto Parts,yfinance
+ON,ON Semiconductor Corporation,STOCK,Technology,Semiconductors,yfinance
+NXPI,NXP Semiconductors N.V.,STOCK,Technology,Semiconductors,yfinance
+ARRY,"Array Technologies, Inc.",STOCK,Technology,Solar,yfinance
+GSAT,"Globalstar, Inc.",STOCK,Communication Services,Telecom Services,yfinance
+BE,Bloom Energy Corporation,STOCK,Industrials,Electrical Equipment & Parts,yfinance
+QS,QuantumScape Corporation,STOCK,Consumer Cyclical,Auto Parts,yfinance
+MTZ,"MasTec, Inc.",STOCK,Industrials,Engineering & Construction,yfinance
+SBUX,Starbucks Corporation,STOCK,Consumer Cyclical,Restaurants,yfinance
+JBL,Jabil Inc.,STOCK,Technology,Electronic Components,yfinance
+FLEX,Flex Ltd.,STOCK,Technology,Electronic Components,yfinance
+DBC,Invesco DB Commodity Index Trac,ETF,ETF,ETF / Fund,yfinance
+PDBC,Invesco Optimum Yield Diversifi,ETF,ETF,ETF / Fund,yfinance
+COM,Direxion Auspice Broad Commodit,ETF,ETF,ETF / Fund,yfinance
+LIT,Global X Lithium & Battery Tech,ETF,ETF,ETF / Fund,yfinance
+FANG,"Diamondback Energy, Inc.",STOCK,Energy,Oil & Gas E&P,yfinance
+WMB,"Williams Companies, Inc. (The)",STOCK,Energy,Oil & Gas Midstream,yfinance
+ET,Energy Transfer LP,STOCK,Energy,Oil & Gas Midstream,yfinance
 GOOG,Alphabet Inc. Class C,STOCK,Communication Services,Internet / Search,builtin
-MO,MO,STOCK,Unmapped,Unmapped,fallback
-ADI,ADI,STOCK,Unmapped,Unmapped,fallback
-ADP,ADP,STOCK,Unmapped,Unmapped,fallback
-BXP,BXP,STOCK,Unmapped,Unmapped,fallback
-CASY,CASY,STOCK,Unmapped,Unmapped,fallback
-CNC,CNC,STOCK,Unmapped,Unmapped,fallback
-CSCO,CSCO,STOCK,Unmapped,Unmapped,fallback
-FIX,FIX,STOCK,Unmapped,Unmapped,fallback
-BEN,BEN,STOCK,Unmapped,Unmapped,fallback
-GNRC,GNRC,STOCK,Unmapped,Unmapped,fallback
-HUM,HUM,STOCK,Unmapped,Unmapped,fallback
-INTC,INTC,STOCK,Unmapped,Unmapped,fallback
-IRM,IRM,STOCK,Unmapped,Unmapped,fallback
-MCHP,MCHP,STOCK,Unmapped,Unmapped,fallback
-NDAQ,NDAQ,STOCK,Unmapped,Unmapped,fallback
-PFG,PFG,STOCK,Unmapped,Unmapped,fallback
-STX,STX,STOCK,Unmapped,Unmapped,fallback
-STLD,STLD,STOCK,Unmapped,Unmapped,fallback
-TEAM,TEAM,STOCK,Unmapped,Unmapped,fallback
-MRVL,MRVL,STOCK,Unmapped,Unmapped,fallback
-ABNB,ABNB,STOCK,Unmapped,Unmapped,fallback
-SANM,SANM,STOCK,Unmapped,Unmapped,fallback
-AXON,AXON,STOCK,Unmapped,Unmapped,fallback
-HPE,HPE,STOCK,Unmapped,Unmapped,fallback
-SJM,SJM,STOCK,Unmapped,Unmapped,fallback
-TGT,TGT,STOCK,Unmapped,Unmapped,fallback
-WST,WST,STOCK,Unmapped,Unmapped,fallback
-WDC,WDC,STOCK,Unmapped,Unmapped,fallback
-AVB,AVB,STOCK,Unmapped,Unmapped,fallback
-CDNS,CDNS,STOCK,Unmapped,Unmapped,fallback
-DDOG,DDOG,STOCK,Unmapped,Unmapped,fallback
-ELV,ELV,STOCK,Unmapped,Unmapped,fallback
-NTAP,NTAP,STOCK,Unmapped,Unmapped,fallback
-SWKS,SWKS,STOCK,Unmapped,Unmapped,fallback
-SNPS,SNPS,STOCK,Unmapped,Unmapped,fallback
-UNH,UNH,STOCK,Unmapped,Unmapped,fallback
-QCOM,QCOM,STOCK,Unmapped,Unmapped,fallback
-URI,URI,STOCK,Unmapped,Unmapped,fallback
-AUR,AUR,STOCK,Unmapped,Unmapped,fallback
-CRWD,CRWD,STOCK,Unmapped,Unmapped,fallback
-INVH,INVH,STOCK,Unmapped,Unmapped,fallback
-NWSA,NWSA,STOCK,Unmapped,Unmapped,fallback
-PANW,PANW,STOCK,Unmapped,Unmapped,fallback
-ARM,ARM,STOCK,Unmapped,Unmapped,fallback
-MSTR,MSTR,STOCK,Unmapped,Unmapped,fallback
-APO,APO,STOCK,Unmapped,Unmapped,fallback
-EQNR,EQNR,STOCK,Unmapped,Unmapped,fallback
-TTE,TTE,STOCK,Unmapped,Unmapped,fallback
-VG,VG,STOCK,Unmapped,Unmapped,fallback
-CRAK,CRAK,STOCK,Unmapped,Unmapped,fallback
-USO,USO,ETF,Unmapped,Unmapped,fallback
-BNO,BNO,ETF,Unmapped,Unmapped,fallback
-BATL,BATL,STOCK,Unmapped,Unmapped,fallback
-RCAT,RCAT,STOCK,Unmapped,Unmapped,fallback
-ZD,ZD,STOCK,Unmapped,Unmapped,fallback
-NPT,NPT,STOCK,Unmapped,Unmapped,fallback
-KTB,KTB,STOCK,Unmapped,Unmapped,fallback
-SEM,SEM,STOCK,Unmapped,Unmapped,fallback
-SRRK,SRRK,STOCK,Unmapped,Unmapped,fallback
-LWLG,LWLG,STOCK,Unmapped,Unmapped,fallback
-TDW,TDW,STOCK,Unmapped,Unmapped,fallback
-GTE,GTE,STOCK,Unmapped,Unmapped,fallback
-IDYA,IDYA,STOCK,Unmapped,Unmapped,fallback
-CNR,CNR,STOCK,Unmapped,Unmapped,fallback
-DEC,DEC,STOCK,Unmapped,Unmapped,fallback
-INGM,INGM,STOCK,Unmapped,Unmapped,fallback
-CHRD,CHRD,STOCK,Unmapped,Unmapped,fallback
-WDS,WDS,STOCK,Unmapped,Unmapped,fallback
-FLNG,FLNG,STOCK,Unmapped,Unmapped,fallback
-HAFN,HAFN,STOCK,Unmapped,Unmapped,fallback
-KOS,KOS,STOCK,Unmapped,Unmapped,fallback
+MO,"Altria Group, Inc.",STOCK,Consumer Defensive,Tobacco,yfinance
+ADI,"Analog Devices, Inc.",STOCK,Technology,Semiconductors,yfinance
+ADP,"Automatic Data Processing, Inc.",STOCK,Technology,Software - Application,yfinance
+BXP,"BXP, Inc.",STOCK,Real Estate,REIT - Office,yfinance
+CASY,"Caseys General Stores, Inc.",STOCK,Consumer Cyclical,Specialty Retail,yfinance
+CNC,Centene Corporation,STOCK,Healthcare,Healthcare Plans,yfinance
+CSCO,"Cisco Systems, Inc.",STOCK,Technology,Communication Equipment,yfinance
+FIX,"Comfort Systems USA, Inc.",STOCK,Industrials,Engineering & Construction,yfinance
+BEN,"Franklin Resources, Inc.",STOCK,Financial Services,Asset Management,yfinance
+GNRC,Generac Holdlings Inc.,STOCK,Industrials,Specialty Industrial Machinery,yfinance
+HUM,Humana Inc.,STOCK,Healthcare,Healthcare Plans,yfinance
+INTC,Intel Corporation,STOCK,Technology,Semiconductors,yfinance
+IRM,Iron Mountain Incorporated (Del,STOCK,Real Estate,REIT - Specialty,yfinance
+MCHP,Microchip Technology Incorporat,STOCK,Technology,Semiconductors,yfinance
+NDAQ,"Nasdaq, Inc.",STOCK,Financial Services,Financial Data & Stock Exchanges,yfinance
+PFG,Principal Financial Group Inc,STOCK,Financial Services,Asset Management,yfinance
+STX,Seagate Technology Holdings PLC,STOCK,Technology,Computer Hardware,yfinance
+STLD,"Steel Dynamics, Inc.",STOCK,Basic Materials,Steel,yfinance
+TEAM,Atlassian Corporation,STOCK,Technology,Software - Application,yfinance
+MRVL,"Marvell Technology, Inc.",STOCK,Technology,Semiconductors,yfinance
+ABNB,"Airbnb, Inc.",STOCK,Consumer Cyclical,Travel Services,yfinance
+SANM,Sanmina Corporation,STOCK,Technology,Electronic Components,yfinance
+AXON,"Axon Enterprise, Inc.",STOCK,Industrials,Aerospace & Defense,yfinance
+HPE,Hewlett Packard Enterprise Comp,STOCK,Technology,Communication Equipment,yfinance
+SJM,The J.M. Smucker Company,STOCK,Consumer Defensive,Packaged Foods,yfinance
+TGT,Target Corporation,STOCK,Consumer Defensive,Discount Stores,yfinance
+WST,"West Pharmaceutical Services, I",STOCK,Healthcare,Medical Instruments & Supplies,yfinance
+WDC,Western Digital Corporation,STOCK,Technology,Computer Hardware,yfinance
+AVB,"AvalonBay Communities, Inc.",STOCK,Real Estate,REIT - Residential,yfinance
+CDNS,"Cadence Design Systems, Inc.",STOCK,Technology,Software - Application,yfinance
+DDOG,"Datadog, Inc.",STOCK,Technology,Software - Application,yfinance
+ELV,"Elevance Health, Inc.",STOCK,Healthcare,Healthcare Plans,yfinance
+NTAP,"NetApp, Inc.",STOCK,Technology,Software - Infrastructure,yfinance
+SWKS,"Skyworks Solutions, Inc.",STOCK,Technology,Semiconductors,yfinance
+SNPS,"Synopsys, Inc.",STOCK,Technology,Software - Infrastructure,yfinance
+UNH,UnitedHealth Group Incorporated,STOCK,Healthcare,Healthcare Plans,yfinance
+QCOM,QUALCOMM Incorporated,STOCK,Technology,Semiconductors,yfinance
+URI,"United Rentals, Inc.",STOCK,Industrials,Rental & Leasing Services,yfinance
+AUR,"Aurora Innovation, Inc.",STOCK,Consumer Cyclical,Auto Parts,yfinance
+CRWD,"CrowdStrike Holdings, Inc.",STOCK,Technology,Software - Infrastructure,yfinance
+INVH,Invitation Homes Inc.,STOCK,Real Estate,REIT - Residential,yfinance
+NWSA,News Corporation,STOCK,Communication Services,Entertainment,yfinance
+PANW,"Palo Alto Networks, Inc.",STOCK,Technology,Software - Infrastructure,yfinance
+ARM,Arm Holdings plc,STOCK,Technology,Semiconductors,yfinance
+MSTR,Strategy Inc,STOCK,Technology,Software - Application,yfinance
+APO,"Apollo Global Management, Inc.",STOCK,Financial Services,Asset Management,yfinance
+EQNR,Equinor ASA,STOCK,Energy,Oil & Gas Integrated,yfinance
+TTE,TotalEnergies SE,STOCK,Energy,Oil & Gas Integrated,yfinance
+VG,"Venture Global, Inc.",STOCK,Energy,Oil & Gas Midstream,yfinance
+CRAK,VanEck Oil Refiners ETF,ETF,ETF,ETF / Fund,yfinance
+USO,United States Oil Fund,ETF,ETF,ETF / Fund,yfinance
+BNO,"United States Brent Oil Fund, L",ETF,ETF,ETF / Fund,yfinance
+BATL,Battalion Oil Corporation,STOCK,Energy,Oil & Gas E&P,yfinance
+RCAT,"Red Cat Holdings, Inc.",STOCK,Industrials,Aerospace & Defense,yfinance
+ZD,"Ziff Davis, Inc.",STOCK,Communication Services,Advertising Agencies,yfinance
+NPT,Texxon Holding Limited,STOCK,Consumer Cyclical,Specialty Retail,yfinance
+KTB,"Kontoor Brands, Inc.",STOCK,Consumer Cyclical,Apparel Manufacturing,yfinance
+SEM,Select Medical Holdings Corpora,STOCK,Healthcare,Medical Care Facilities,yfinance
+SRRK,Scholar Rock Holding Corporatio,STOCK,Healthcare,Biotechnology,yfinance
+LWLG,"Lightwave Logic, Inc.",STOCK,Basic Materials,Specialty Chemicals,yfinance
+TDW,Tidewater Inc.,STOCK,Energy,Oil & Gas Equipment & Services,yfinance
+GTE,Gran Tierra Energy Inc.,STOCK,Energy,Oil & Gas E&P,yfinance
+IDYA,"IDEAYA Biosciences, Inc.",STOCK,Healthcare,Biotechnology,yfinance
+CNR,"Core Natural Resources, Inc.",STOCK,Energy,Thermal Coal,yfinance
+DEC,Diversified Energy Company,STOCK,Energy,Oil & Gas Integrated,yfinance
+INGM,Ingram Micro Holding Corporatio,STOCK,Technology,Information Technology Services,yfinance
+CHRD,Chord Energy Corporation,STOCK,Energy,Oil & Gas E&P,yfinance
+WDS,Woodside Energy Group Limited,STOCK,Energy,Oil & Gas E&P,yfinance
+FLNG,FLEX LNG Ltd.,STOCK,Energy,Oil & Gas Midstream,yfinance
+HAFN,Hafnia Limited,STOCK,Industrials,Marine Shipping,yfinance
+KOS,Kosmos Energy Ltd.,STOCK,Energy,Oil & Gas E&P,yfinance
 FBF,FBF,STOCK,Unmapped,Unmapped,fallback
-PARR,PARR,STOCK,Unmapped,Unmapped,fallback
-GLNG,GLNG,STOCK,Unmapped,Unmapped,fallback
-IOT,IOT,STOCK,Unmapped,Unmapped,fallback
-PBR,PBR,STOCK,Unmapped,Unmapped,fallback
+PARR,"Par Pacific Holdings, Inc. Comm",STOCK,Energy,Oil & Gas Refining & Marketing,yfinance
+GLNG,Golar LNG Limited,STOCK,Energy,Oil & Gas Midstream,yfinance
+IOT,Samsara Inc.,STOCK,Technology,Software - Infrastructure,yfinance
+PBR,Petroleo Brasileiro S.A. Petrob,STOCK,Energy,Oil & Gas Integrated,yfinance
 ABB,ABB,STOCK,Unmapped,Unmapped,fallback
-HIMS,HIMS,STOCK,Unmapped,Unmapped,fallback
+HIMS,"Hims & Hers Health, Inc.",STOCK,Healthcare,Drug Manufacturers - Specialty & Generic,yfinance
 VIASAT,VIASAT,STOCK,Unmapped,Unmapped,fallback
 LTHM,LTHM,STOCK,Unmapped,Unmapped,fallback
-UNG,UNG,ETF,Unmapped,Unmapped,fallback
-KOLD,KOLD,ETF,Unmapped,Unmapped,fallback
+UNG,United States Natural Gas Fund,ETF,ETF,ETF / Fund,yfinance
+KOLD,ProShares UltraShort Bloomberg,ETF,ETF,ETF / Fund,yfinance
 CL=F,CL=F,INDEX/FUTURE,Unmapped,Unmapped,fallback
 BZ=F,BZ=F,INDEX/FUTURE,Unmapped,Unmapped,fallback
 RB=F,RB=F,INDEX/FUTURE,Unmapped,Unmapped,fallback
@@ -675,106 +675,106 @@ NQ=F,NQ=F,INDEX/FUTURE,Unmapped,Unmapped,fallback
 ^VIX,^VIX,INDEX/FUTURE,Unmapped,Unmapped,fallback
 ^TNX,^TNX,INDEX/FUTURE,Unmapped,Unmapped,fallback
 GC=F,GC=F,INDEX/FUTURE,Unmapped,Unmapped,fallback
-UUP,UUP,ETF,Unmapped,Unmapped,fallback
-JETS,JETS,ETF,Unmapped,Unmapped,fallback
+UUP,Invesco DB USD Index Bullish Fu,ETF,ETF,ETF / Fund,yfinance
+JETS,U.S. Global Jets ETF,ETF,ETF,ETF / Fund,yfinance
 SPY,SPDR S&P 500 ETF,ETF,ETF,S&P 500 ETF,builtin
 QQQ,Invesco QQQ Trust,ETF,ETF,Nasdaq 100 ETF,builtin
-DIA,DIA,ETF,Unmapped,Unmapped,fallback
-IWM,IWM,ETF,Unmapped,Unmapped,fallback
-MDY,MDY,ETF,Unmapped,Unmapped,fallback
+DIA,State Street SPDR Dow Jones Ind,ETF,ETF,ETF / Fund,yfinance
+IWM,iShares Russell 2000 Index Fund,ETF,ETF,ETF / Fund,yfinance
+MDY,State Street SPDR S&P MIDCAP 40,ETF,ETF,ETF / Fund,yfinance
 TQQQ,ProShares UltraPro QQQ,ETF,ETF,Nasdaq 100 leveraged ETF,builtin
 SQQQ,ProShares UltraPro Short QQQ,ETF,ETF,Nasdaq 100 inverse leveraged ETF,builtin
 SOXL,Direxion Daily Semiconductor Bull 3X,ETF,ETF,Semiconductor leveraged ETF,builtin
 SOXS,Direxion Daily Semiconductor Bear 3X,ETF,ETF,Semiconductor inverse leveraged ETF,builtin
-TECL,TECL,ETF,Unmapped,Unmapped,fallback
-FNGU,FNGU,ETF,Unmapped,Unmapped,fallback
-QLD,QLD,ETF,Unmapped,Unmapped,fallback
-QID,QID,ETF,Unmapped,Unmapped,fallback
+TECL,Direxion Daily Technology Bull,ETF,ETF,ETF / Fund,yfinance
+FNGU,MicroSectors FANG+ 3X Leveraged,ETF,ETF,ETF / Fund,yfinance
+QLD,ProShares Ultra QQQ,ETF,ETF,ETF / Fund,yfinance
+QID,ProShares UltraShort QQQ,ETF,ETF,ETF / Fund,yfinance
 SOXX,iShares Semiconductor ETF,ETF,ETF,Semiconductor ETF,builtin
-XSD,XSD,ETF,Unmapped,Unmapped,fallback
-IGV,IGV,STOCK,Unmapped,Unmapped,fallback
-AIQ,AIQ,ETF,Unmapped,Unmapped,fallback
-BOTZ,BOTZ,ETF,Unmapped,Unmapped,fallback
-VPU,VPU,STOCK,Unmapped,Unmapped,fallback
-XLI,XLI,ETF,Unmapped,Unmapped,fallback
-PAVE,PAVE,ETF,Unmapped,Unmapped,fallback
-GRID,GRID,ETF,Unmapped,Unmapped,fallback
-XLV,XLV,ETF,Unmapped,Unmapped,fallback
-IBB,IBB,ETF,Unmapped,Unmapped,fallback
-XLP,XLP,ETF,Unmapped,Unmapped,fallback
-XLY,XLY,ETF,Unmapped,Unmapped,fallback
-TLT,TLT,ETF,Unmapped,Unmapped,fallback
-IEF,IEF,ETF,Unmapped,Unmapped,fallback
-VIXY,VIXY,ETF,Unmapped,Unmapped,fallback
-HYG,HYG,ETF,Unmapped,Unmapped,fallback
-LQD,LQD,ETF,Unmapped,Unmapped,fallback
+XSD,State Street SPDR S&P Semicondu,ETF,ETF,ETF / Fund,yfinance
+IGV,iShares Expanded Tech-Software,ETF,ETF,ETF / Fund,yfinance
+AIQ,Global X Artificial Intelligenc,ETF,ETF,ETF / Fund,yfinance
+BOTZ,Global X Robotics & Artificial,ETF,ETF,ETF / Fund,yfinance
+VPU,Vanguard Utilities ETF,ETF,ETF,ETF / Fund,yfinance
+XLI,State Street Industrial Select,ETF,ETF,ETF / Fund,yfinance
+PAVE,Global X U.S. Infrastructure De,ETF,ETF,ETF / Fund,yfinance
+GRID,First Trust NASDAQ Clean Edge S,ETF,ETF,ETF / Fund,yfinance
+XLV,State Street Health Care Select,ETF,ETF,ETF / Fund,yfinance
+IBB,iShares Biotechnology ETF,ETF,ETF,ETF / Fund,yfinance
+XLP,State Street Consumer Staples S,ETF,ETF,ETF / Fund,yfinance
+XLY,State Street Consumer Discretio,ETF,ETF,ETF / Fund,yfinance
+TLT,iShares 20+ Year Treasury Bond,ETF,ETF,ETF / Fund,yfinance
+IEF,iShares 7-10 Year Treasury Bond,ETF,ETF,ETF / Fund,yfinance
+VIXY,VIX Short-Term Futures ETF,ETF,ETF,ETF / Fund,yfinance
+HYG,iShares iBoxx $ High Yield Corp,ETF,ETF,ETF / Fund,yfinance
+LQD,iShares iBoxx $ Investment Grad,ETF,ETF,ETF / Fund,yfinance
 AUX,AUX,STOCK,Unmapped,Unmapped,fallback
-BDH,BDH,STOCK,Unmapped,Unmapped,fallback
-BHH,BHH,STOCK,Unmapped,Unmapped,fallback
-BIX,BIX,STOCK,Unmapped,Unmapped,fallback
+BDH,71389,ETF,ETF,ETF / Fund,yfinance
+BHH,92007,ETF,ETF,ETF / Fund,yfinance
+BIX,Biometrics Ltd,STOCK,Unmapped,Unmapped,yfinance
 CWX,CWX,STOCK,Unmapped,Unmapped,fallback
 FPP,FPP,STOCK,Unmapped,Unmapped,fallback
 GAX,GAX,STOCK,Unmapped,Unmapped,fallback
 GIP,GIP,STOCK,Unmapped,Unmapped,fallback
 HCX,HCX,STOCK,Unmapped,Unmapped,fallback
-IAH,IAH,STOCK,Unmapped,Unmapped,fallback
+IAH,40968,ETF,ETF,ETF / Fund,yfinance
 IUX,IUX,STOCK,Unmapped,Unmapped,fallback
 IXF,IXF,STOCK,Unmapped,Unmapped,fallback
 IYD,IYD,STOCK,Unmapped,Unmapped,fallback
 IYV,IYV,ETF,Unmapped,Unmapped,fallback
-RMS,RMS,STOCK,Unmapped,Unmapped,fallback
-TTH,TTH,STOCK,Unmapped,Unmapped,fallback
-UTH,UTH,STOCK,Unmapped,Unmapped,fallback
+RMS,Rydex Inverse 2x S&P MidCap 400,ETF,ETF,ETF / Fund,yfinance
+TTH,481552,ETF,ETF,ETF / Fund,yfinance
+UTH,496838,ETF,ETF,ETF / Fund,yfinance
 PLL,PLL,STOCK,Unmapped,Unmapped,fallback
 LAAC,LAAC,STOCK,Unmapped,Unmapped,fallback
 MRO,MRO,STOCK,Unmapped,Unmapped,fallback
-Q,Q,STOCK,Unmapped,Unmapped,fallback
-USD,USD,ETF,Unmapped,Unmapped,fallback
-UPRO,UPRO,ETF,Unmapped,Unmapped,fallback
-SPXU,SPXU,ETF,Unmapped,Unmapped,fallback
-SPXL,SPXL,ETF,Unmapped,Unmapped,fallback
-SPXS,SPXS,ETF,Unmapped,Unmapped,fallback
-SSO,SSO,ETF,Unmapped,Unmapped,fallback
-SDS,SDS,ETF,Unmapped,Unmapped,fallback
-UDOW,UDOW,STOCK,Unmapped,Unmapped,fallback
-SDOW,SDOW,STOCK,Unmapped,Unmapped,fallback
-TNA,TNA,STOCK,Unmapped,Unmapped,fallback
-TZA,TZA,STOCK,Unmapped,Unmapped,fallback
-TECS,TECS,ETF,Unmapped,Unmapped,fallback
-FNGD,FNGD,ETF,Unmapped,Unmapped,fallback
-FAS,FAS,ETF,Unmapped,Unmapped,fallback
-FAZ,FAZ,ETF,Unmapped,Unmapped,fallback
-LABU,LABU,ETF,Unmapped,Unmapped,fallback
-LABD,LABD,ETF,Unmapped,Unmapped,fallback
-CURE,CURE,ETF,Unmapped,Unmapped,fallback
-DRN,DRN,ETF,Unmapped,Unmapped,fallback
-DRV,DRV,ETF,Unmapped,Unmapped,fallback
-ERY,ERY,ETF,Unmapped,Unmapped,fallback
-DRIP,DRIP,ETF,Unmapped,Unmapped,fallback
-SCO,SCO,ETF,Unmapped,Unmapped,fallback
-DUST,DUST,ETF,Unmapped,Unmapped,fallback
-GLL,GLL,ETF,Unmapped,Unmapped,fallback
-TMF,TMF,ETF,Unmapped,Unmapped,fallback
-TMV,TMV,ETF,Unmapped,Unmapped,fallback
-UBOT,UBOT,ETF,Unmapped,Unmapped,fallback
-AIBU,AIBU,ETF,Unmapped,Unmapped,fallback
-AIBD,AIBD,ETF,Unmapped,Unmapped,fallback
+Q,"Qnity Electronics, Inc.",STOCK,Technology,Semiconductor Equipment & Materials,yfinance
+USD,ProShares Ultra Semiconductors,ETF,ETF,ETF / Fund,yfinance
+UPRO,ProShares UltraPro S&P 500,ETF,ETF,ETF / Fund,yfinance
+SPXU,ProShares UltraPro Short S&P500,ETF,ETF,ETF / Fund,yfinance
+SPXL,Direxion Daily S&P 500 Bull 3X,ETF,ETF,ETF / Fund,yfinance
+SPXS,Direxion Daily S&P 500 Bear 3X,ETF,ETF,ETF / Fund,yfinance
+SSO,ProShares Ultra S&P500,ETF,ETF,ETF / Fund,yfinance
+SDS,ProShares UltraShort S&P500,ETF,ETF,ETF / Fund,yfinance
+UDOW,ProShares UltraPro Dow30,ETF,ETF,ETF / Fund,yfinance
+SDOW,UltraPro Short Dow30,ETF,ETF,ETF / Fund,yfinance
+TNA,Direxion Small Cap Bull 3X ETF,ETF,ETF,ETF / Fund,yfinance
+TZA,Direxion Small Cap Bear 3X ETF,ETF,ETF,ETF / Fund,yfinance
+TECS,Direxion Technology Bear 3X ETF,ETF,ETF,ETF / Fund,yfinance
+FNGD,MicroSectors FANG  Index -3X In,ETF,ETF,ETF / Fund,yfinance
+FAS,Direxion Financial Bull 3X ETF,ETF,ETF,ETF / Fund,yfinance
+FAZ,Direxion Financial Bear 3X ETF,ETF,ETF,ETF / Fund,yfinance
+LABU,Direxion Daily S&P Biotech Bull,ETF,ETF,ETF / Fund,yfinance
+LABD,Direxion Daily S&P Biotech Bear,ETF,ETF,ETF / Fund,yfinance
+CURE,Direxion Daily Healthcare Bull,ETF,ETF,ETF / Fund,yfinance
+DRN,Direxion Daily Real Estate Bull,ETF,ETF,ETF / Fund,yfinance
+DRV,Direxion Daily Real Estate Bear,ETF,ETF,ETF / Fund,yfinance
+ERY,Direxion Daily Energy Bear 2X E,ETF,ETF,ETF / Fund,yfinance
+DRIP,Direxion Daily S&P Oil & Gas Ex,ETF,ETF,ETF / Fund,yfinance
+SCO,ProShares UltraShort Bloomberg,ETF,ETF,ETF / Fund,yfinance
+DUST,Direxion Daily Gold Miners Inde,ETF,ETF,ETF / Fund,yfinance
+GLL,ProShares UltraShort Gold,ETF,ETF,ETF / Fund,yfinance
+TMF,Direxion Daily 20-Yr Treasury B,ETF,ETF,ETF / Fund,yfinance
+TMV,Direxion Daily 20-Year Treasury,ETF,ETF,ETF / Fund,yfinance
+UBOT,"Direxion Daily Robotics, Artifi",ETF,ETF,ETF / Fund,yfinance
+AIBU,Direxion Daily AI and Big Data,ETF,ETF,ETF / Fund,yfinance
+AIBD,Direxion Daily AI and Big Data,ETF,ETF,ETF / Fund,yfinance
 NVDL,GraniteShares 2x Long NVDA Daily ETF,ETF,ETF,Single-stock leveraged NVDA ETF,builtin
 NVDU,Direxion Daily NVDA Bull 2X,ETF,ETF,Single-stock leveraged NVDA ETF,builtin
-BULZ,BULZ,ETF,Unmapped,Unmapped,fallback
-BERZ,BERZ,ETF,Unmapped,Unmapped,fallback
+BULZ,MicroSectors FANG & Innovation,ETF,ETF,ETF / Fund,yfinance
+BERZ,MicroSectors FANG & Innovation,ETF,ETF,ETF / Fund,yfinance
 SICK,SICK,STOCK,Unmapped,Unmapped,fallback
-PILL,PILL,STOCK,Unmapped,Unmapped,fallback
-WANT,WANT,STOCK,Unmapped,Unmapped,fallback
-PASS,PASS,STOCK,Unmapped,Unmapped,fallback
-DUSL,DUSL,STOCK,Unmapped,Unmapped,fallback
-DFEN,DFEN,STOCK,Unmapped,Unmapped,fallback
-TPOR,TPOR,STOCK,Unmapped,Unmapped,fallback
-LMTL,LMTL,STOCK,Unmapped,Unmapped,fallback
-BOEU,BOEU,STOCK,Unmapped,Unmapped,fallback
-EVAV,EVAV,STOCK,Unmapped,Unmapped,fallback
-KLNE,KLNE,STOCK,Unmapped,Unmapped,fallback
-NVDD,NVDD,ETF,Unmapped,Unmapped,fallback
+PILL,Direxion Daily Pharmaceutical &,ETF,ETF,ETF / Fund,yfinance
+WANT,Direxion Daily Consumer Discret,ETF,ETF,ETF / Fund,yfinance
+PASS,Direxion Daily Consumer Discret,ETF,ETF,ETF / Fund,yfinance
+DUSL,Direxion Daily Industrials Bull,ETF,ETF,ETF / Fund,yfinance
+DFEN,Direxion Daily Aerospace & Defe,ETF,ETF,ETF / Fund,yfinance
+TPOR,Direxion Daily Transportation B,ETF,ETF,ETF / Fund,yfinance
+LMTL,Direxion Daily LMT Bull 2X ETF,ETF,ETF,ETF / Fund,yfinance
+BOEU,Direxion Daily BA Bull 2X ETF,ETF,ETF,ETF / Fund,yfinance
+EVAV,Direxion Shares ETF Trust Direx,ETF,ETF,ETF / Fund,yfinance
+KLNE,"KLNE,0P0001MBRP,0",ETF,ETF,ETF / Fund,yfinance
+NVDD,Direxion Daily NVDA Bear 1X ETF,ETF,ETF,ETF / Fund,yfinance
 BF.B,BF.B,STOCK,Unmapped,Unmapped,fallback
 AA,Alcoa Corp,STOCK,Basic Materials,Aluminum,finviz_members
 CSTM,Constellium SE,STOCK,Basic Materials,Aluminum,finviz_members
@@ -826,22 +826,22 @@ AGIG,Abundia Global Impact Group Inc,STOCK,Utilities,Utilities - Renewable,finvi
 SAFX,XCF Global Inc,STOCK,Utilities,Utilities - Renewable,finviz_members
 CARS.COM,CARS.COM,STOCK,Unmapped,Unmapped,fallback
 SQ,SQ,STOCK,Unmapped,Unmapped,fallback
-WTI,WTI,STOCK,Unmapped,Unmapped,fallback
+WTI,"W&T Offshore, Inc.",STOCK,Energy,Oil & Gas E&P,yfinance
 CRUDE,CRUDE,STOCK,Unmapped,Unmapped,fallback
-OIL,OIL,STOCK,Unmapped,Unmapped,fallback
+OIL,iPath Pure Beta Crude Oil ETN,ETF,ETF,ETF / Fund,yfinance
 BRENT,BRENT,STOCK,Unmapped,Unmapped,fallback
 GASOLINE,GASOLINE,STOCK,Unmapped,Unmapped,fallback
 RBOB,RBOB,STOCK,Unmapped,Unmapped,fallback
-GAS,GAS,STOCK,Unmapped,Unmapped,fallback
+GAS,330431,ETF,ETF,ETF / Fund,yfinance
 NASDAQ,NASDAQ,STOCK,Unmapped,Unmapped,fallback
 VIX,VIX,STOCK,Unmapped,Unmapped,fallback
 SP,SP,STOCK,Unmapped,Unmapped,fallback
 DIREXION,DIREXION,STOCK,Unmapped,Unmapped,fallback
 DAILY,DAILY,STOCK,Unmapped,Unmapped,fallback
 SEMICONDUCTOR,SEMICONDUCTOR,STOCK,Unmapped,Unmapped,fallback
-BULL,BULL,STOCK,Unmapped,Unmapped,fallback
+BULL,Webull Corporation,STOCK,Technology,Software - Application,yfinance
 3X,3X,STOCK,Unmapped,Unmapped,fallback
-BEAR,BEAR,STOCK,Unmapped,Unmapped,fallback
+BEAR,9854,ETF,ETF,ETF / Fund,yfinance
 PROSHARES,PROSHARES,STOCK,Unmapped,Unmapped,fallback
 ULTRA,ULTRA,STOCK,Unmapped,Unmapped,fallback
 SEMICONDUCTORS,SEMICONDUCTORS,STOCK,Unmapped,Unmapped,fallback
