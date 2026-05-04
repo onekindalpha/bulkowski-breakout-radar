@@ -888,43 +888,56 @@ tab1, tab2, tab3, tab4 = st.tabs(["Radar", "Avoid Board", "Metadata Gaps", "Raw 
 
 with tab1:
     selected_row = None
-    left, right = st.columns([1.35, 0.85])
+
     display_cols = [
         "ticker", "name", "sector", "industry", "asset_type", "bucket", "entry_state", "label",
         "grade", "score", "price", "daily_break_level", "dist_pct", "room_to_weekly_r1_pct",
         "rsi14", "px_vs_sma10", "px_vs_sma40", "px_vs_sma50", "px_vs_sma200", "thesis_state", "manage"
     ]
     display_cols = [c for c in display_cols if c in filtered.columns]
-    with left:
-        st.subheader("Breakout Candidates")
-        st.caption("티커 번호만 보이면 사이드바의 Build / refresh Korean names를 눌러 전체 한글명을 다시 생성한다. 현재 화면 일부는 Auto-fill visible Korean names로 즉시 보정된다.")
-        st.dataframe(
-            filtered[display_cols],
-            use_container_width=True,
-            hide_index=True,
-            column_config={
-                "name": st.column_config.TextColumn("name / ticker fallback"),
-                "price": st.column_config.NumberColumn("price", format="%.2f"),
-                "daily_break_level": st.column_config.NumberColumn("break", format="%.2f"),
-                "dist_pct": st.column_config.NumberColumn("dist %", format="%.2f"),
-                "room_to_weekly_r1_pct": st.column_config.NumberColumn("room %", format="%.2f"),
-                "px_vs_sma10": st.column_config.NumberColumn("10DMA %", format="%.2f"),
-                "px_vs_sma40": st.column_config.NumberColumn("40DMA %", format="%.2f"),
-                "px_vs_sma50": st.column_config.NumberColumn("50DMA %", format="%.2f"),
-                "px_vs_sma200": st.column_config.NumberColumn("200DMA %", format="%.2f"),
-            },
+
+    st.subheader("Breakout Candidates")
+    st.caption(
+        "표를 넓게 보기 위해 상세 패널은 아래쪽으로 이동했다. "
+        "아래 Select ticker에서 종목을 고르면 상세/차트/리포트 카드가 아래에 표시된다."
+    )
+
+    st.dataframe(
+        filtered[display_cols],
+        use_container_width=True,
+        hide_index=True,
+        height=560,
+        column_config={
+            "name": st.column_config.TextColumn("name"),
+            "price": st.column_config.NumberColumn("price", format="%.2f"),
+            "daily_break_level": st.column_config.NumberColumn("break", format="%.2f"),
+            "dist_pct": st.column_config.NumberColumn("dist %", format="%.2f"),
+            "room_to_weekly_r1_pct": st.column_config.NumberColumn("room %", format="%.2f"),
+            "px_vs_sma10": st.column_config.NumberColumn("10DMA %", format="%.2f"),
+            "px_vs_sma40": st.column_config.NumberColumn("40DMA %", format="%.2f"),
+            "px_vs_sma50": st.column_config.NumberColumn("50DMA %", format="%.2f"),
+            "px_vs_sma200": st.column_config.NumberColumn("200DMA %", format="%.2f"),
+        },
+    )
+
+    st.divider()
+    st.subheader("Selected Ticker Detail")
+
+    if filtered.empty:
+        st.info("No rows after filters.")
+    else:
+        choices = (filtered["ticker"] + " · " + filtered["name"].fillna("")).tolist()
+        idx = st.selectbox(
+            "Select ticker",
+            range(len(choices)),
+            format_func=lambda i: choices[i],
+            key="radar_selected_ticker",
         )
-    with right:
-        st.subheader("Detail")
-        if filtered.empty:
-            st.info("No rows after filters.")
-        else:
-            choices = (filtered["ticker"] + " · " + filtered["name"].fillna("")).tolist()
-            idx = st.selectbox("Select ticker", range(len(choices)), format_func=lambda i: choices[i])
-            selected_row = filtered.iloc[idx]
-            render_detail(selected_row)
-            render_external_links(selected_row)
-    if selected_row is not None:
+        selected_row = filtered.iloc[idx]
+
+        render_detail(selected_row)
+        render_external_links(selected_row)
+
         st.divider()
         render_chart(selected_row, chart_period, chart_interval)
         render_report_card(selected_row)
