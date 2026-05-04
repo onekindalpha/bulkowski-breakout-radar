@@ -64,14 +64,8 @@ jobs:
 
       - name: Build US ticker master
         run: |
-          python bulkowski_breakout_radar/build_ticker_master_us.py \
-            --report bulkowski_breakout_radar/data/us/report_v2.csv \ \ \
-            --max-yf 2000
-            --max-yf 2000
-            --tickers bulkowski_breakout_radar/data/us/tickers.txt \
-            --premarket bulkowski_breakout_radar/data/us/premarket_auto.csv \
-            --finviz-members bulkowski_breakout_radar/data/us/finviz_top_groups_members.csv \
-            --out bulkowski_breakout_radar/data/us/ticker_master_us.csv
+          python bulkowski_breakout_radar/build_ticker_master_us.py --report bulkowski_breakout_radar/data/us/report_v2.csv --tickers bulkowski_breakout_radar/data/us/tickers.txt --premarket bulkowski_breakout_radar/data/us/premarket_auto.csv --finviz-members charts_today/finviz_top_groups_members.csv --out bulkowski_breakout_radar/data/us/ticker_master_us.csv --max-yf 2000
+          python bulkowski_breakout_radar/repair_us_master.py --path bulkowski_breakout_radar/data/us/ticker_master_us.csv
 
       - name: Commit updated US data
         run: |
