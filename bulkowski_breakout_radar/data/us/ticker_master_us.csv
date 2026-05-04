@@ -264,270 +264,270 @@ FAST,Fastenal Company,STOCK,Industrials,Industrial Distribution,yfinance
 FIS,Fidelity National Information S,STOCK,Technology,Information Technology Services,yfinance
 GRMN,Garmin Ltd.,STOCK,Technology,Scientific & Technical Instruments,yfinance
 GEN,Gen Digital Inc.,STOCK,Technology,Software - Infrastructure,yfinance
-GIS,GIS,STOCK,Unmapped,Unmapped,fallback
-HRL,HRL,STOCK,Unmapped,Unmapped,fallback
-INTU,INTU,STOCK,Unmapped,Unmapped,fallback
-JKHY,JKHY,STOCK,Unmapped,Unmapped,fallback
-KVUE,KVUE,STOCK,Unmapped,Unmapped,fallback
-KMB,KMB,STOCK,Unmapped,Unmapped,fallback
-KHC,KHC,STOCK,Unmapped,Unmapped,fallback
-L,L,STOCK,Unmapped,Unmapped,fallback
-MSI,MSI,STOCK,Unmapped,Unmapped,fallback
-NTRS,NTRS,STOCK,Unmapped,Unmapped,fallback
-PLTR,PLTR,STOCK,Unmapped,Unmapped,fallback
-PPL,PPL,STOCK,Unmapped,Unmapped,fallback
-PTC,PTC,STOCK,Unmapped,Unmapped,fallback
-DGX,DGX,STOCK,Unmapped,Unmapped,fallback
-ROL,ROL,STOCK,Unmapped,Unmapped,fallback
-CRM,CRM,STOCK,Unmapped,Unmapped,fallback
-SRE,SRE,STOCK,Unmapped,Unmapped,fallback
-NOW,NOW,STOCK,Unmapped,Unmapped,fallback
-SNA,SNA,STOCK,Unmapped,Unmapped,fallback
-SYY,SYY,STOCK,Unmapped,Unmapped,fallback
-TMUS,TMUS,STOCK,Unmapped,Unmapped,fallback
-TPR,TPR,STOCK,Unmapped,Unmapped,fallback
-TDY,TDY,STOCK,Unmapped,Unmapped,fallback
-TT,TT,STOCK,Unmapped,Unmapped,fallback
-TYL,TYL,STOCK,Unmapped,Unmapped,fallback
-GWW,GWW,STOCK,Unmapped,Unmapped,fallback
-WM,WM,STOCK,Unmapped,Unmapped,fallback
-WDAY,WDAY,STOCK,Unmapped,Unmapped,fallback
-YUM,YUM,STOCK,Unmapped,Unmapped,fallback
-TRI,TRI,STOCK,Unmapped,Unmapped,fallback
-CVE,CVE,STOCK,Unmapped,Unmapped,fallback
-HAL,HAL,STOCK,Unmapped,Unmapped,fallback
+GIS,"General Mills, Inc.",STOCK,Consumer Defensive,Packaged Foods,yfinance
+HRL,Hormel Foods Corporation,STOCK,Consumer Defensive,Packaged Foods,yfinance
+INTU,Intuit Inc.,STOCK,Technology,Software - Application,yfinance
+JKHY,"Jack Henry & Associates, Inc.",STOCK,Technology,Information Technology Services,yfinance
+KVUE,Kenvue Inc.,STOCK,Consumer Defensive,Household & Personal Products,yfinance
+KMB,Kimberly-Clark Corporation,STOCK,Consumer Defensive,Household & Personal Products,yfinance
+KHC,The Kraft Heinz Company,STOCK,Consumer Defensive,Packaged Foods,yfinance
+L,Loews Corporation,STOCK,Financial Services,Insurance - Property & Casualty,yfinance
+MSI,"Motorola Solutions, Inc.",STOCK,Technology,Communication Equipment,yfinance
+NTRS,Northern Trust Corporation,STOCK,Financial Services,Asset Management,yfinance
+PLTR,Palantir Technologies Inc.,STOCK,Technology,Software - Infrastructure,yfinance
+PPL,PPL Corporation,STOCK,Utilities,Utilities - Regulated Electric,yfinance
+PTC,PTC Inc.,STOCK,Technology,Software - Application,yfinance
+DGX,Quest Diagnostics Incorporated,STOCK,Healthcare,Diagnostics & Research,yfinance
+ROL,"Rollins, Inc.",STOCK,Consumer Cyclical,Personal Services,yfinance
+CRM,"Salesforce, Inc.",STOCK,Technology,Software - Application,yfinance
+SRE,DBA Sempra,STOCK,Utilities,Utilities - Diversified,yfinance
+NOW,"ServiceNow, Inc.",STOCK,Technology,Software - Application,yfinance
+SNA,Snap-On Incorporated,STOCK,Industrials,Tools & Accessories,yfinance
+SYY,Sysco Corporation,STOCK,Consumer Defensive,Food Distribution,yfinance
+TMUS,"T-Mobile US, Inc.",STOCK,Communication Services,Telecom Services,yfinance
+TPR,"Tapestry, Inc.",STOCK,Consumer Cyclical,Luxury Goods,yfinance
+TDY,Teledyne Technologies Incorpora,STOCK,Technology,Scientific & Technical Instruments,yfinance
+TT,Trane Technologies plc,STOCK,Industrials,Building Products & Equipment,yfinance
+TYL,"Tyler Technologies, Inc.",STOCK,Technology,Software - Application,yfinance
+GWW,"W.W. Grainger, Inc.",STOCK,Industrials,Industrial Distribution,yfinance
+WM,"Waste Management, Inc.",STOCK,Industrials,Waste Management,yfinance
+WDAY,"Workday, Inc.",STOCK,Technology,Software - Application,yfinance
+YUM,"Yum! Brands, Inc.",STOCK,Consumer Cyclical,Restaurants,yfinance
+TRI,Thomson Reuters Corp,STOCK,Industrials,Specialty Business Services,yfinance
+CVE,Cenovus Energy Inc,STOCK,Energy,Oil & Gas Integrated,yfinance
+HAL,Halliburton Company,STOCK,Energy,Oil & Gas Equipment & Services,yfinance
 AVGO,Broadcom Inc.,STOCK,Technology,Semiconductors,builtin
-EME,EME,STOCK,Unmapped,Unmapped,fallback
-ROK,ROK,STOCK,Unmapped,Unmapped,fallback
+EME,"EMCOR Group, Inc.",STOCK,Industrials,Engineering & Construction,yfinance
+ROK,"Rockwell Automation, Inc.",STOCK,Industrials,Specialty Industrial Machinery,yfinance
 TSLA,Tesla Inc.,STOCK,Consumer Discretionary,EV / Energy,builtin
-VSAT,VSAT,STOCK,Unmapped,Unmapped,fallback
+VSAT,"ViaSat, Inc.",STOCK,Technology,Communication Equipment,yfinance
 AAPL,Apple Inc.,STOCK,Technology,Consumer Electronics,builtin
-CHPT,CHPT,STOCK,Unmapped,Unmapped,fallback
-ROST,ROST,STOCK,Unmapped,Unmapped,fallback
-APH,APH,STOCK,Unmapped,Unmapped,fallback
-GSG,GSG,STOCK,Unmapped,Unmapped,fallback
-TRGP,TRGP,STOCK,Unmapped,Unmapped,fallback
-ADM,ADM,STOCK,Unmapped,Unmapped,fallback
-ADSK,ADSK,STOCK,Unmapped,Unmapped,fallback
-BKR,BKR,STOCK,Unmapped,Unmapped,fallback
-CBOE,CBOE,STOCK,Unmapped,Unmapped,fallback
-CRH,CRH,STOCK,Unmapped,Unmapped,fallback
-FDS,FDS,STOCK,Unmapped,Unmapped,fallback
-FRT,FRT,STOCK,Unmapped,Unmapped,fallback
-FISV,FISV,STOCK,Unmapped,Unmapped,fallback
-GL,GL,STOCK,Unmapped,Unmapped,fallback
-HST,HST,STOCK,Unmapped,Unmapped,fallback
-J,J,STOCK,Unmapped,Unmapped,fallback
-KEYS,KEYS,STOCK,Unmapped,Unmapped,fallback
-SNDK,SNDK,STOCK,Unmapped,Unmapped,fallback
-STT,STT,STOCK,Unmapped,Unmapped,fallback
-AEM,AEM,STOCK,Unmapped,Unmapped,fallback
-BBH,BBH,STOCK,Unmapped,Unmapped,fallback
+CHPT,"ChargePoint Holdings, Inc.",STOCK,Consumer Cyclical,Specialty Retail,yfinance
+ROST,"Ross Stores, Inc.",STOCK,Consumer Cyclical,Apparel Retail,yfinance
+APH,Amphenol Corporation,STOCK,Technology,Electronic Components,yfinance
+GSG,iShares GSCI Commodity-Indexed,ETF,ETF,ETF / Fund,yfinance
+TRGP,"Targa Resources, Inc.",STOCK,Energy,Oil & Gas Midstream,yfinance
+ADM,Archer-Daniels-Midland Company,STOCK,Consumer Defensive,Farm Products,yfinance
+ADSK,"Autodesk, Inc.",STOCK,Technology,Software - Application,yfinance
+BKR,Baker Hughes Company,STOCK,Energy,Oil & Gas Equipment & Services,yfinance
+CBOE,"Cboe Global Markets, Inc.",STOCK,Financial Services,Financial Data & Stock Exchanges,yfinance
+CRH,CRH PLC,STOCK,Basic Materials,Building Materials,yfinance
+FDS,FactSet Research Systems Inc.,STOCK,Financial Services,Financial Data & Stock Exchanges,yfinance
+FRT,Federal Realty Investment Trust,STOCK,Real Estate,REIT - Retail,yfinance
+FISV,"Fiserv, Inc.",STOCK,Unmapped,Unmapped,yfinance
+GL,Globe Life Inc.,STOCK,Financial Services,Insurance - Life,yfinance
+HST,"Host Hotels & Resorts, Inc.",STOCK,Real Estate,REIT - Hotel & Motel,yfinance
+J,Jacobs Solutions Inc.,STOCK,Industrials,Engineering & Construction,yfinance
+KEYS,Keysight Technologies Inc.,STOCK,Technology,Scientific & Technical Instruments,yfinance
+SNDK,Sandisk Corporation,STOCK,Technology,Computer Hardware,yfinance
+STT,State Street Corporation,STOCK,Financial Services,Asset Management,yfinance
+AEM,Agnico Eagle Mines Limited,STOCK,Basic Materials,Gold,yfinance
+BBH,VanEck Biotech ETF,ETF,ETF,ETF / Fund,yfinance
 FCX,Freeport-McMoRan Inc,STOCK,Basic Materials,Copper,finviz_members
-PPH,PPH,STOCK,Unmapped,Unmapped,fallback
+PPH,VanEck Pharmaceutical ETF,ETF,ETF,ETF / Fund,yfinance
 SCCO,Southern Copper Corporation,STOCK,Basic Materials,Copper,finviz_members
-TRX,TRX,STOCK,Unmapped,Unmapped,fallback
+TRX,TRX Gold Corporation,STOCK,Basic Materials,Gold,yfinance
 ANET,Arista Networks Inc,STOCK,Technology,Computer Hardware,finviz_members
-PH,PH,STOCK,Unmapped,Unmapped,fallback
-JNJ,JNJ,STOCK,Unmapped,Unmapped,fallback
-LIN,LIN,STOCK,Unmapped,Unmapped,fallback
-CME,CME,STOCK,Unmapped,Unmapped,fallback
-GM,GM,STOCK,Unmapped,Unmapped,fallback
-RDW,RDW,STOCK,Unmapped,Unmapped,fallback
-GLD,GLD,ETF,Unmapped,Unmapped,fallback
-IAU,IAU,ETF,Unmapped,Unmapped,fallback
-GLDM,GLDM,ETF,Unmapped,Unmapped,fallback
-SIVR,SIVR,ETF,Unmapped,Unmapped,fallback
-LUV,LUV,STOCK,Unmapped,Unmapped,fallback
-TJX,TJX,STOCK,Unmapped,Unmapped,fallback
-AMKR,AMKR,STOCK,Unmapped,Unmapped,fallback
-UGL,UGL,ETF,Unmapped,Unmapped,fallback
-AGQ,AGQ,ETF,Unmapped,Unmapped,fallback
-PALL,PALL,STOCK,Unmapped,Unmapped,fallback
-COPX,COPX,ETF,Unmapped,Unmapped,fallback
-PPLT,PPLT,STOCK,Unmapped,Unmapped,fallback
-GDX,GDX,ETF,Unmapped,Unmapped,fallback
-GDXJ,GDXJ,ETF,Unmapped,Unmapped,fallback
-NEM,NEM,STOCK,Unmapped,Unmapped,fallback
-GOLD,GOLD,STOCK,Unmapped,Unmapped,fallback
-FNV,FNV,STOCK,Unmapped,Unmapped,fallback
-WPM,WPM,STOCK,Unmapped,Unmapped,fallback
-PAAS,PAAS,STOCK,Unmapped,Unmapped,fallback
-HL,HL,STOCK,Unmapped,Unmapped,fallback
-AG,AG,STOCK,Unmapped,Unmapped,fallback
-SIL,SIL,ETF,Unmapped,Unmapped,fallback
-SILJ,SILJ,ETF,Unmapped,Unmapped,fallback
-HII,HII,STOCK,Unmapped,Unmapped,fallback
-AXP,AXP,STOCK,Unmapped,Unmapped,fallback
-AMGN,AMGN,STOCK,Unmapped,Unmapped,fallback
-ACGL,ACGL,STOCK,Unmapped,Unmapped,fallback
-TECH,TECH,STOCK,Unmapped,Unmapped,fallback
-COF,COF,STOCK,Unmapped,Unmapped,fallback
-CAH,CAH,STOCK,Unmapped,Unmapped,fallback
-CBRE,CBRE,STOCK,Unmapped,Unmapped,fallback
-CINF,CINF,STOCK,Unmapped,Unmapped,fallback
-STZ,STZ,STOCK,Unmapped,Unmapped,fallback
-CSX,CSX,STOCK,Unmapped,Unmapped,fallback
-DLR,DLR,STOCK,Unmapped,Unmapped,fallback
-EA,EA,STOCK,Unmapped,Unmapped,fallback
-EXC,EXC,STOCK,Unmapped,Unmapped,fallback
-FE,FE,STOCK,Unmapped,Unmapped,fallback
-FOXA,FOXA,STOCK,Unmapped,Unmapped,fallback
-FOX,FOX,STOCK,Unmapped,Unmapped,fallback
-GILD,GILD,STOCK,Unmapped,Unmapped,fallback
-HIG,HIG,STOCK,Unmapped,Unmapped,fallback
-HSIC,HSIC,STOCK,Unmapped,Unmapped,fallback
-HON,HON,STOCK,Unmapped,Unmapped,fallback
-IFF,IFF,STOCK,Unmapped,Unmapped,fallback
-JBHT,JBHT,STOCK,Unmapped,Unmapped,fallback
-KR,KR,STOCK,Unmapped,Unmapped,fallback
-LHX,LHX,STOCK,Unmapped,Unmapped,fallback
-MCK,MCK,STOCK,Unmapped,Unmapped,fallback
-MRK,MRK,STOCK,Unmapped,Unmapped,fallback
-MRNA,MRNA,STOCK,Unmapped,Unmapped,fallback
-MPWR,MPWR,STOCK,Unmapped,Unmapped,fallback
-MSCI,MSCI,STOCK,Unmapped,Unmapped,fallback
-PCAR,PCAR,STOCK,Unmapped,Unmapped,fallback
-PFE,PFE,STOCK,Unmapped,Unmapped,fallback
-PCG,PCG,STOCK,Unmapped,Unmapped,fallback
-REGN,REGN,STOCK,Unmapped,Unmapped,fallback
-UNP,UNP,STOCK,Unmapped,Unmapped,fallback
-VRSK,VRSK,STOCK,Unmapped,Unmapped,fallback
-VTRS,VTRS,STOCK,Unmapped,Unmapped,fallback
-WBD,WBD,STOCK,Unmapped,Unmapped,fallback
-CCEP,CCEP,STOCK,Unmapped,Unmapped,fallback
-ZS,ZS,STOCK,Unmapped,Unmapped,fallback
-BOIL,BOIL,ETF,Unmapped,Unmapped,fallback
-HHH,HHH,STOCK,Unmapped,Unmapped,fallback
-IYH,IYH,ETF,Unmapped,Unmapped,fallback
-KLAC,KLAC,STOCK,Unmapped,Unmapped,fallback
-LRCX,LRCX,STOCK,Unmapped,Unmapped,fallback
-TER,TER,STOCK,Unmapped,Unmapped,fallback
+PH,Parker-Hannifin Corporation,STOCK,Industrials,Specialty Industrial Machinery,yfinance
+JNJ,Johnson & Johnson,STOCK,Healthcare,Drug Manufacturers - General,yfinance
+LIN,Linde plc,STOCK,Basic Materials,Specialty Chemicals,yfinance
+CME,CME Group Inc.,STOCK,Financial Services,Financial Data & Stock Exchanges,yfinance
+GM,General Motors Company,STOCK,Consumer Cyclical,Auto Manufacturers,yfinance
+RDW,Redwire Corporation,STOCK,Industrials,Aerospace & Defense,yfinance
+GLD,SPDR Gold Shares,ETF,ETF,ETF / Fund,yfinance
+IAU,iShares Gold Trust Shares,ETF,ETF,ETF / Fund,yfinance
+GLDM,SPDR Gold MiniShares Trust,ETF,ETF,ETF / Fund,yfinance
+SIVR,abrdn Physical Silver Shares ET,ETF,ETF,ETF / Fund,yfinance
+LUV,Southwest Airlines Company,STOCK,Industrials,Airlines,yfinance
+TJX,"TJX Companies, Inc. (The)",STOCK,Consumer Cyclical,Apparel Retail,yfinance
+AMKR,"Amkor Technology, Inc.",STOCK,Technology,Semiconductor Equipment & Materials,yfinance
+UGL,ProShares Ultra Gold,ETF,ETF,ETF / Fund,yfinance
+AGQ,ProShares Ultra Silver,ETF,ETF,ETF / Fund,yfinance
+PALL,abrdn Physical Palladium Shares,ETF,ETF,ETF / Fund,yfinance
+COPX,Global X Copper Miners ETF,ETF,ETF,ETF / Fund,yfinance
+PPLT,abrdn Physical Platinum Shares,ETF,ETF,ETF / Fund,yfinance
+GDX,VanEck Gold Miners ETF,ETF,ETF,ETF / Fund,yfinance
+GDXJ,VanEck Junior Gold Miners ETF,ETF,ETF,ETF / Fund,yfinance
+NEM,Newmont Corporation,STOCK,Basic Materials,Gold,yfinance
+GOLD,"Gold.com, Inc.",STOCK,Financial Services,Capital Markets,yfinance
+FNV,Franco-Nevada Corporation,STOCK,Basic Materials,Gold,yfinance
+WPM,Wheaton Precious Metals Corp,STOCK,Basic Materials,Gold,yfinance
+PAAS,Pan American Silver Corp.,STOCK,Basic Materials,Gold,yfinance
+HL,Hecla Mining Company,STOCK,Basic Materials,Other Precious Metals & Mining,yfinance
+AG,First Majestic Silver Corp.,STOCK,Basic Materials,Silver,yfinance
+SIL,Global X Silver Miners ETF,ETF,ETF,ETF / Fund,yfinance
+SILJ,Amplify Junior Silver Miners ET,ETF,ETF,ETF / Fund,yfinance
+HII,"Huntington Ingalls Industries,",STOCK,Industrials,Aerospace & Defense,yfinance
+AXP,American Express Company,STOCK,Financial Services,Credit Services,yfinance
+AMGN,Amgen Inc.,STOCK,Healthcare,Drug Manufacturers - General,yfinance
+ACGL,Arch Capital Group Ltd.,STOCK,Financial Services,Insurance - Diversified,yfinance
+TECH,Bio-Techne Corp,STOCK,Healthcare,Biotechnology,yfinance
+COF,Capital One Financial Corporati,STOCK,Financial Services,Credit Services,yfinance
+CAH,"Cardinal Health, Inc.",STOCK,Healthcare,Medical Distribution,yfinance
+CBRE,CBRE Group Inc,STOCK,Real Estate,Real Estate Services,yfinance
+CINF,Cincinnati Financial Corporatio,STOCK,Financial Services,Insurance - Property & Casualty,yfinance
+STZ,"Constellation Brands, Inc.",STOCK,Consumer Defensive,Beverages - Brewers,yfinance
+CSX,CSX Corporation,STOCK,Industrials,Railroads,yfinance
+DLR,"Digital Realty Trust, Inc.",STOCK,Real Estate,REIT - Specialty,yfinance
+EA,Electronic Arts Inc.,STOCK,Communication Services,Electronic Gaming & Multimedia,yfinance
+EXC,Exelon Corporation,STOCK,Utilities,Utilities - Regulated Electric,yfinance
+FE,FirstEnergy Corp.,STOCK,Utilities,Utilities - Regulated Electric,yfinance
+FOXA,Fox Corporation,STOCK,Communication Services,Entertainment,yfinance
+FOX,Fox Corporation,STOCK,Communication Services,Entertainment,yfinance
+GILD,"Gilead Sciences, Inc.",STOCK,Healthcare,Drug Manufacturers - General,yfinance
+HIG,"The Hartford Insurance Group, I",STOCK,Financial Services,Insurance - Diversified,yfinance
+HSIC,"Henry Schein, Inc.",STOCK,Healthcare,Medical Distribution,yfinance
+HON,Honeywell International Inc.,STOCK,Industrials,Conglomerates,yfinance
+IFF,International Flavors & Fragran,STOCK,Basic Materials,Specialty Chemicals,yfinance
+JBHT,"J.B. Hunt Transport Services, I",STOCK,Industrials,Integrated Freight & Logistics,yfinance
+KR,Kroger Company (The),STOCK,Consumer Defensive,Grocery Stores,yfinance
+LHX,"L3Harris Technologies, Inc.",STOCK,Industrials,Aerospace & Defense,yfinance
+MCK,McKesson Corporation,STOCK,Healthcare,Medical Distribution,yfinance
+MRK,"Merck & Company, Inc.",STOCK,Healthcare,Drug Manufacturers - General,yfinance
+MRNA,"Moderna, Inc.",STOCK,Healthcare,Biotechnology,yfinance
+MPWR,"Monolithic Power Systems, Inc.",STOCK,Technology,Semiconductors,yfinance
+MSCI,MSCI Inc.,STOCK,Financial Services,Financial Data & Stock Exchanges,yfinance
+PCAR,PACCAR Inc.,STOCK,Industrials,Farm & Heavy Construction Machinery,yfinance
+PFE,"Pfizer, Inc.",STOCK,Healthcare,Drug Manufacturers - General,yfinance
+PCG,Pacific Gas & Electric Co.,STOCK,Utilities,Utilities - Regulated Electric,yfinance
+REGN,"Regeneron Pharmaceuticals, Inc.",STOCK,Healthcare,Biotechnology,yfinance
+UNP,Union Pacific Corporation,STOCK,Industrials,Railroads,yfinance
+VRSK,"Verisk Analytics, Inc.",STOCK,Industrials,Consulting Services,yfinance
+VTRS,Viatris Inc.,STOCK,Healthcare,Drug Manufacturers - Specialty & Generic,yfinance
+WBD,"Warner Bros. Discovery, Inc. -",STOCK,Communication Services,Entertainment,yfinance
+CCEP,Coca-Cola Europacific Partners,STOCK,Consumer Defensive,Beverages - Non-Alcoholic,yfinance
+ZS,"Zscaler, Inc.",STOCK,Technology,Software - Infrastructure,yfinance
+BOIL,ProShares Ultra Bloomberg Natur,ETF,ETF,ETF / Fund,yfinance
+HHH,Howard Hughes Holdings Inc.,STOCK,Real Estate,Real Estate - Development,yfinance
+IYH,iShares U.S. Healthcare ETF,ETF,ETF,ETF / Fund,yfinance
+KLAC,KLA Corporation,STOCK,Technology,Semiconductor Equipment & Materials,yfinance
+LRCX,Lam Research Corporation,STOCK,Technology,Semiconductor Equipment & Materials,yfinance
+TER,"Teradyne, Inc.",STOCK,Technology,Semiconductor Equipment & Materials,yfinance
 MSFT,Microsoft Corporation,STOCK,Technology,Software / Cloud,builtin
 META,Meta Platforms,STOCK,Communication Services,Social / AI,builtin
 BRK-B,Berkshire Hathaway,STOCK,Financials,Financial Conglomerate,builtin
 MA,Mastercard,STOCK,Financials,Payments,builtin
 VST,Vistra Corp.,STOCK,Utilities,Power Generation,builtin
-NRG,NRG,STOCK,Unmapped,Unmapped,fallback
-RTX,RTX,STOCK,Unmapped,Unmapped,fallback
-LMT,LMT,STOCK,Unmapped,Unmapped,fallback
-NOC,NOC,STOCK,Unmapped,Unmapped,fallback
-GE,GE,STOCK,Unmapped,Unmapped,fallback
-IR,IR,STOCK,Unmapped,Unmapped,fallback
-ISRG,ISRG,STOCK,Unmapped,Unmapped,fallback
-ABT,ABT,STOCK,Unmapped,Unmapped,fallback
-BSX,BSX,STOCK,Unmapped,Unmapped,fallback
-SYK,SYK,STOCK,Unmapped,Unmapped,fallback
-TMO,TMO,STOCK,Unmapped,Unmapped,fallback
-DHR,DHR,STOCK,Unmapped,Unmapped,fallback
-VRTX,VRTX,STOCK,Unmapped,Unmapped,fallback
+NRG,"NRG Energy, Inc.",STOCK,Utilities,Utilities - Independent Power Producers,yfinance
+RTX,RTX Corporation,STOCK,Industrials,Aerospace & Defense,yfinance
+LMT,Lockheed Martin Corporation,STOCK,Industrials,Aerospace & Defense,yfinance
+NOC,Northrop Grumman Corporation,STOCK,Industrials,Aerospace & Defense,yfinance
+GE,GE Aerospace,STOCK,Industrials,Aerospace & Defense,yfinance
+IR,Ingersoll Rand Inc.,STOCK,Industrials,Specialty Industrial Machinery,yfinance
+ISRG,"Intuitive Surgical, Inc.",STOCK,Healthcare,Medical Instruments & Supplies,yfinance
+ABT,Abbott Laboratories,STOCK,Healthcare,Medical Devices,yfinance
+BSX,Boston Scientific Corporation,STOCK,Healthcare,Medical Devices,yfinance
+SYK,Stryker Corporation,STOCK,Healthcare,Medical Devices,yfinance
+TMO,Thermo Fisher Scientific Inc,STOCK,Healthcare,Diagnostics & Research,yfinance
+DHR,Danaher Corporation,STOCK,Healthcare,Diagnostics & Research,yfinance
+VRTX,Vertex Pharmaceuticals Incorpor,STOCK,Healthcare,Biotechnology,yfinance
 MDLZ,Mondelez International Inc,STOCK,Consumer Defensive,Confectioners,finviz_members
-ECL,ECL,STOCK,Unmapped,Unmapped,fallback
-SHW,SHW,STOCK,Unmapped,Unmapped,fallback
-AES,AES,STOCK,Unmapped,Unmapped,fallback
-ASTS,ASTS,STOCK,Unmapped,Unmapped,fallback
-SATL,SATL,STOCK,Unmapped,Unmapped,fallback
-RIVN,RIVN,STOCK,Unmapped,Unmapped,fallback
-F,F,STOCK,Unmapped,Unmapped,fallback
-WFC,WFC,STOCK,Unmapped,Unmapped,fallback
-SCHW,SCHW,STOCK,Unmapped,Unmapped,fallback
-ACM,ACM,STOCK,Unmapped,Unmapped,fallback
-UAL,UAL,STOCK,Unmapped,Unmapped,fallback
-ALK,ALK,STOCK,Unmapped,Unmapped,fallback
-CCL,CCL,STOCK,Unmapped,Unmapped,fallback
-RCL,RCL,STOCK,Unmapped,Unmapped,fallback
-NCLH,NCLH,STOCK,Unmapped,Unmapped,fallback
-BKNG,BKNG,STOCK,Unmapped,Unmapped,fallback
-LVS,LVS,STOCK,Unmapped,Unmapped,fallback
-HD,HD,STOCK,Unmapped,Unmapped,fallback
-LOW,LOW,STOCK,Unmapped,Unmapped,fallback
-LULU,LULU,STOCK,Unmapped,Unmapped,fallback
-CMG,CMG,STOCK,Unmapped,Unmapped,fallback
-MCD,MCD,STOCK,Unmapped,Unmapped,fallback
-TEL,TEL,STOCK,Unmapped,Unmapped,fallback
-PYPL,PYPL,STOCK,Unmapped,Unmapped,fallback
-NUGT,NUGT,ETF,Unmapped,Unmapped,fallback
-JNUG,JNUG,STOCK,Unmapped,Unmapped,fallback
-EMR,EMR,STOCK,Unmapped,Unmapped,fallback
-MMM,MMM,STOCK,Unmapped,Unmapped,fallback
-AOS,AOS,STOCK,Unmapped,Unmapped,fallback
-ACN,ACN,STOCK,Unmapped,Unmapped,fallback
-A,A,STOCK,Unmapped,Unmapped,fallback
-ARE,ARE,STOCK,Unmapped,Unmapped,fallback
-ALLE,ALLE,STOCK,Unmapped,Unmapped,fallback
-AMCR,AMCR,STOCK,Unmapped,Unmapped,fallback
-AWK,AWK,STOCK,Unmapped,Unmapped,fallback
-AON,AON,STOCK,Unmapped,Unmapped,fallback
-ARES,ARES,STOCK,Unmapped,Unmapped,fallback
-AJG,AJG,STOCK,Unmapped,Unmapped,fallback
-AVY,AVY,STOCK,Unmapped,Unmapped,fallback
-BAX,BAX,STOCK,Unmapped,Unmapped,fallback
-BDX,BDX,STOCK,Unmapped,Unmapped,fallback
-BBY,BBY,STOCK,Unmapped,Unmapped,fallback
-BR,BR,STOCK,Unmapped,Unmapped,fallback
-BRO,BRO,STOCK,Unmapped,Unmapped,fallback
-BF-B,BF-B,STOCK,Unmapped,Unmapped,fallback
-BLDR,BLDR,STOCK,Unmapped,Unmapped,fallback
-COR,COR,STOCK,Unmapped,Unmapped,fallback
-CRL,CRL,STOCK,Unmapped,Unmapped,fallback
-CHTR,CHTR,STOCK,Unmapped,Unmapped,fallback
-CTAS,CTAS,STOCK,Unmapped,Unmapped,fallback
-CLX,CLX,STOCK,Unmapped,Unmapped,fallback
-CTSH,CTSH,STOCK,Unmapped,Unmapped,fallback
-CMCSA,CMCSA,STOCK,Unmapped,Unmapped,fallback
-CAG,CAG,STOCK,Unmapped,Unmapped,fallback
-COO,COO,STOCK,Unmapped,Unmapped,fallback
-CPAY,CPAY,STOCK,Unmapped,Unmapped,fallback
-CSGP,CSGP,STOCK,Unmapped,Unmapped,fallback
-DECK,DECK,STOCK,Unmapped,Unmapped,fallback
-DXCM,DXCM,STOCK,Unmapped,Unmapped,fallback
-DG,DG,STOCK,Unmapped,Unmapped,fallback
-DLTR,DLTR,STOCK,Unmapped,Unmapped,fallback
-DPZ,DPZ,STOCK,Unmapped,Unmapped,fallback
-SATS,SATS,STOCK,Unmapped,Unmapped,fallback
-EPAM,EPAM,STOCK,Unmapped,Unmapped,fallback
-EFX,EFX,STOCK,Unmapped,Unmapped,fallback
-ERIE,ERIE,STOCK,Unmapped,Unmapped,fallback
-EG,EG,STOCK,Unmapped,Unmapped,fallback
-FFIV,FFIV,STOCK,Unmapped,Unmapped,fallback
-FTNT,FTNT,STOCK,Unmapped,Unmapped,fallback
-IT,IT,STOCK,Unmapped,Unmapped,fallback
-GEHC,GEHC,STOCK,Unmapped,Unmapped,fallback
-GPC,GPC,STOCK,Unmapped,Unmapped,fallback
-HCA,HCA,STOCK,Unmapped,Unmapped,fallback
-DOC,DOC,STOCK,Unmapped,Unmapped,fallback
+ECL,Ecolab Inc.,STOCK,Basic Materials,Specialty Chemicals,yfinance
+SHW,Sherwin-Williams Company (The),STOCK,Basic Materials,Specialty Chemicals,yfinance
+AES,The AES Corporation,STOCK,Utilities,Utilities - Diversified,yfinance
+ASTS,"AST SpaceMobile, Inc.",STOCK,Technology,Communication Equipment,yfinance
+SATL,Satellogic Inc.,STOCK,Industrials,Aerospace & Defense,yfinance
+RIVN,"Rivian Automotive, Inc.",STOCK,Consumer Cyclical,Auto Manufacturers,yfinance
+F,Ford Motor Company,STOCK,Consumer Cyclical,Auto Manufacturers,yfinance
+WFC,Wells Fargo & Company,STOCK,Financial Services,Banks - Diversified,yfinance
+SCHW,Charles Schwab Corporation (The,STOCK,Financial Services,Capital Markets,yfinance
+ACM,AECOM,STOCK,Industrials,Engineering & Construction,yfinance
+UAL,"United Airlines Holdings, Inc.",STOCK,Industrials,Airlines,yfinance
+ALK,"Alaska Air Group, Inc.",STOCK,Industrials,Airlines,yfinance
+CCL,Carnival Corporation,STOCK,Consumer Cyclical,Travel Services,yfinance
+RCL,Royal Caribbean Cruises Ltd.,STOCK,Consumer Cyclical,Travel Services,yfinance
+NCLH,Norwegian Cruise Line Holdings,STOCK,Consumer Cyclical,Travel Services,yfinance
+BKNG,Booking Holdings Inc. Common St,STOCK,Consumer Cyclical,Travel Services,yfinance
+LVS,Las Vegas Sands Corp.,STOCK,Consumer Cyclical,Resorts & Casinos,yfinance
+HD,"Home Depot, Inc. (The)",STOCK,Consumer Cyclical,Home Improvement Retail,yfinance
+LOW,"Lowe's Companies, Inc.",STOCK,Consumer Cyclical,Home Improvement Retail,yfinance
+LULU,lululemon athletica inc.,STOCK,Consumer Cyclical,Apparel Retail,yfinance
+CMG,"Chipotle Mexican Grill, Inc.",STOCK,Consumer Cyclical,Restaurants,yfinance
+MCD,McDonald's Corporation,STOCK,Consumer Cyclical,Restaurants,yfinance
+TEL,TE Connectivity plc,STOCK,Technology,Electronic Components,yfinance
+PYPL,"PayPal Holdings, Inc.",STOCK,Financial Services,Credit Services,yfinance
+NUGT,Direxion Daily Gold Miners Inde,ETF,ETF,ETF / Fund,yfinance
+JNUG,Direxion Daily Junior Gold Mine,ETF,ETF,ETF / Fund,yfinance
+EMR,Emerson Electric Company,STOCK,Industrials,Specialty Industrial Machinery,yfinance
+MMM,3M Company,STOCK,Industrials,Conglomerates,yfinance
+AOS,A.O. Smith Corporation,STOCK,Industrials,Specialty Industrial Machinery,yfinance
+ACN,Accenture plc,STOCK,Technology,Information Technology Services,yfinance
+A,"Agilent Technologies, Inc.",STOCK,Healthcare,Diagnostics & Research,yfinance
+ARE,Alexandria Real Estate Equities,STOCK,Real Estate,REIT - Office,yfinance
+ALLE,Allegion plc,STOCK,Industrials,Security & Protection Services,yfinance
+AMCR,Amcor plc,STOCK,Consumer Cyclical,Packaging & Containers,yfinance
+AWK,"American Water Works Company, I",STOCK,Utilities,Utilities - Regulated Water,yfinance
+AON,Aon plc,STOCK,Financial Services,Insurance Brokers,yfinance
+ARES,Ares Management Corporation,STOCK,Financial Services,Asset Management,yfinance
+AJG,Arthur J. Gallagher & Co.,STOCK,Financial Services,Insurance Brokers,yfinance
+AVY,Avery Dennison Corporation,STOCK,Consumer Cyclical,Packaging & Containers,yfinance
+BAX,Baxter International Inc.,STOCK,Healthcare,Medical Instruments & Supplies,yfinance
+BDX,"Becton, Dickinson and Company",STOCK,Healthcare,Medical Instruments & Supplies,yfinance
+BBY,"Best Buy Co., Inc.",STOCK,Consumer Cyclical,Specialty Retail,yfinance
+BR,"Broadridge Financial Solutions,",STOCK,Technology,Information Technology Services,yfinance
+BRO,"Brown & Brown, Inc.",STOCK,Financial Services,Insurance Brokers,yfinance
+BF-B,Brown Forman Inc,STOCK,Consumer Defensive,Beverages - Wineries & Distilleries,yfinance
+BLDR,"Builders FirstSource, Inc.",STOCK,Industrials,Building Products & Equipment,yfinance
+COR,"Cencora, Inc.",STOCK,Healthcare,Medical Distribution,yfinance
+CRL,Charles River Laboratories Inte,STOCK,Healthcare,Diagnostics & Research,yfinance
+CHTR,"Charter Communications, Inc.",STOCK,Communication Services,Telecom Services,yfinance
+CTAS,Cintas Corporation,STOCK,Industrials,Specialty Business Services,yfinance
+CLX,Clorox Company (The),STOCK,Consumer Defensive,Household & Personal Products,yfinance
+CTSH,Cognizant Technology Solutions,STOCK,Technology,Information Technology Services,yfinance
+CMCSA,Comcast Corporation,STOCK,Communication Services,Telecom Services,yfinance
+CAG,"ConAgra Brands, Inc.",STOCK,Consumer Defensive,Packaged Foods,yfinance
+COO,"The Cooper Companies, Inc.",STOCK,Healthcare,Medical Instruments & Supplies,yfinance
+CPAY,"Corpay, Inc.",STOCK,Technology,Software - Infrastructure,yfinance
+CSGP,"CoStar Group, Inc.",STOCK,Real Estate,Real Estate Services,yfinance
+DECK,Deckers Outdoor Corporation,STOCK,Consumer Cyclical,Footwear & Accessories,yfinance
+DXCM,"DexCom, Inc.",STOCK,Healthcare,Medical Devices,yfinance
+DG,Dollar General Corporation,STOCK,Consumer Defensive,Discount Stores,yfinance
+DLTR,"Dollar Tree, Inc.",STOCK,Consumer Defensive,Discount Stores,yfinance
+DPZ,Domino's Pizza Inc,STOCK,Consumer Cyclical,Restaurants,yfinance
+SATS,EchoStar Corporation,STOCK,Communication Services,Telecom Services,yfinance
+EPAM,"EPAM Systems, Inc.",STOCK,Technology,Information Technology Services,yfinance
+EFX,"Equifax, Inc.",STOCK,Industrials,Consulting Services,yfinance
+ERIE,Erie Indemnity Company,STOCK,Financial Services,Insurance Brokers,yfinance
+EG,"Everest Group, Ltd.",STOCK,Financial Services,Insurance - Reinsurance,yfinance
+FFIV,"F5, Inc.",STOCK,Technology,Software - Infrastructure,yfinance
+FTNT,"Fortinet, Inc.",STOCK,Technology,Software - Infrastructure,yfinance
+IT,"Gartner, Inc.",STOCK,Technology,Information Technology Services,yfinance
+GEHC,GE HealthCare Technologies Inc.,STOCK,Healthcare,Medical Devices,yfinance
+GPC,Genuine Parts Company,STOCK,Consumer Cyclical,Auto Parts,yfinance
+HCA,"HCA Healthcare, Inc.",STOCK,Healthcare,Medical Care Facilities,yfinance
+DOC,"Healthpeak Properties, Inc.",STOCK,Real Estate,REIT - Healthcare Facilities,yfinance
 HSY,Hershey Company,STOCK,Consumer Defensive,Confectioners,finviz_members
 HPQ,HP Inc,STOCK,Technology,Computer Hardware,finviz_members
-IBM,IBM,STOCK,Unmapped,Unmapped,fallback
-IDXX,IDXX,STOCK,Unmapped,Unmapped,fallback
-ITW,ITW,STOCK,Unmapped,Unmapped,fallback
-PODD,PODD,STOCK,Unmapped,Unmapped,fallback
-ICE,ICE,STOCK,Unmapped,Unmapped,fallback
-IP,IP,STOCK,Unmapped,Unmapped,fallback
-IQV,IQV,STOCK,Unmapped,Unmapped,fallback
-LH,LH,STOCK,Unmapped,Unmapped,fallback
-LDOS,LDOS,STOCK,Unmapped,Unmapped,fallback
-LEN,LEN,STOCK,Unmapped,Unmapped,fallback
-MRSH,MRSH,STOCK,Unmapped,Unmapped,fallback
-MLM,MLM,STOCK,Unmapped,Unmapped,fallback
-MKC,MKC,STOCK,Unmapped,Unmapped,fallback
-MDT,MDT,STOCK,Unmapped,Unmapped,fallback
-MTD,MTD,STOCK,Unmapped,Unmapped,fallback
-TAP,TAP,STOCK,Unmapped,Unmapped,fallback
-MOS,MOS,STOCK,Unmapped,Unmapped,fallback
-NFLX,NFLX,STOCK,Unmapped,Unmapped,fallback
-NVR,NVR,STOCK,Unmapped,Unmapped,fallback
-ORCL,ORCL,STOCK,Unmapped,Unmapped,fallback
-OTIS,OTIS,STOCK,Unmapped,Unmapped,fallback
-PNR,PNR,STOCK,Unmapped,Unmapped,fallback
-POOL,POOL,STOCK,Unmapped,Unmapped,fallback
-PPG,PPG,STOCK,Unmapped,Unmapped,fallback
-PGR,PGR,STOCK,Unmapped,Unmapped,fallback
-PEG,PEG,STOCK,Unmapped,Unmapped,fallback
-PHM,PHM,STOCK,Unmapped,Unmapped,fallback
-RSG,RSG,STOCK,Unmapped,Unmapped,fallback
-RMD,RMD,STOCK,Unmapped,Unmapped,fallback
-RVTY,RVTY,STOCK,Unmapped,Unmapped,fallback
+IBM,International Business Machines,STOCK,Technology,Information Technology Services,yfinance
+IDXX,"IDEXX Laboratories, Inc.",STOCK,Healthcare,Diagnostics & Research,yfinance
+ITW,Illinois Tool Works Inc.,STOCK,Industrials,Specialty Industrial Machinery,yfinance
+PODD,Insulet Corporation,STOCK,Healthcare,Medical Devices,yfinance
+ICE,Intercontinental Exchange Inc.,STOCK,Financial Services,Financial Data & Stock Exchanges,yfinance
+IP,International Paper Company,STOCK,Consumer Cyclical,Packaging & Containers,yfinance
+IQV,"IQVIA Holdings, Inc.",STOCK,Healthcare,Diagnostics & Research,yfinance
+LH,Labcorp Holdings Inc.,STOCK,Healthcare,Diagnostics & Research,yfinance
+LDOS,"Leidos Holdings, Inc.",STOCK,Technology,Information Technology Services,yfinance
+LEN,Lennar Corporation,STOCK,Consumer Cyclical,Residential Construction,yfinance
+MRSH,Marsh,STOCK,Financial Services,Insurance Brokers,yfinance
+MLM,"Martin Marietta Materials, Inc.",STOCK,Basic Materials,Building Materials,yfinance
+MKC,"McCormick & Company, Incorporat",STOCK,Consumer Defensive,Packaged Foods,yfinance
+MDT,Medtronic plc.,STOCK,Healthcare,Medical Devices,yfinance
+MTD,"Mettler-Toledo International, I",STOCK,Healthcare,Diagnostics & Research,yfinance
+TAP,Molson Coors Beverage Company,STOCK,Consumer Defensive,Beverages - Brewers,yfinance
+MOS,Mosaic Company (The),STOCK,Basic Materials,Agricultural Inputs,yfinance
+NFLX,"Netflix, Inc.",ETF,Communication Services,Entertainment,yfinance
+NVR,"NVR, Inc.",STOCK,Consumer Cyclical,Residential Construction,yfinance
+ORCL,Oracle Corporation,STOCK,Technology,Software - Infrastructure,yfinance
+OTIS,Otis Worldwide Corporation,STOCK,Industrials,Specialty Industrial Machinery,yfinance
+PNR,Pentair plc.,STOCK,Industrials,Specialty Industrial Machinery,yfinance
+POOL,Pool Corporation,STOCK,Industrials,Industrial Distribution,yfinance
+PPG,"PPG Industries, Inc.",STOCK,Basic Materials,Specialty Chemicals,yfinance
+PGR,Progressive Corporation (The),STOCK,Financial Services,Insurance - Property & Casualty,yfinance
+PEG,Public Service Enterprise Group,STOCK,Utilities,Utilities - Regulated Electric,yfinance
+PHM,"PulteGroup, Inc.",STOCK,Consumer Cyclical,Residential Construction,yfinance
+RSG,"Republic Services, Inc.",STOCK,Industrials,Waste Management,yfinance
+RMD,ResMed Inc.,STOCK,Healthcare,Medical Instruments & Supplies,yfinance
+RVTY,"Revvity, Inc.",STOCK,Healthcare,Diagnostics & Research,yfinance
 SPGI,SPGI,STOCK,Unmapped,Unmapped,fallback
 SW,SW,STOCK,Unmapped,Unmapped,fallback
 SOLV,SOLV,STOCK,Unmapped,Unmapped,fallback
