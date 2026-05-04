@@ -834,6 +834,60 @@ def render_company_snapshot(row: pd.Series):
         st.caption(meta)
 
 
+def _fmt_large_number(v):
+    x = to_float(v, None)
+    if x is None:
+        return "-"
+    try:
+        if abs(x) >= 1_000_000_000_000:
+            return f"${x/1_000_000_000_000:.2f}T"
+        if abs(x) >= 1_000_000_000:
+            return f"${x/1_000_000_000:.2f}B"
+        if abs(x) >= 1_000_000:
+            return f"${x/1_000_000:.2f}M"
+        return f"${x:,.0f}"
+    except Exception:
+        return "-"
+
+
+def _fmt_ratio(v):
+    x = to_float(v, None)
+    return "-" if x is None else f"{x:.2f}"
+
+
+def _fmt_growth(v):
+    x = to_float(v, None)
+    if x is None:
+        return "-"
+    # yfinance usually returns 0.1234 for 12.34%.
+    if abs(x) <= 3:
+        x *= 100
+    return f"{x:+.1f}%"
+
+
+def render_company_snapshot(row: pd.Series):
+    current_market = globals().get("market", "Korea")
+    if current_market != "US":
+        return
+    st.markdown("#### Company Snapshot")
+    c1, c2, c3, c4 = st.columns(4)
+    c1.metric("Market Cap", _fmt_large_number(row.get("market_cap")))
+    c2.metric("Beta", _fmt_ratio(row.get("beta")))
+    c3.metric("Trailing P/E", _fmt_ratio(row.get("trailing_pe")))
+    c4.metric("Forward P/E", _fmt_ratio(row.get("forward_pe")))
+    c5, c6, c7, c8 = st.columns(4)
+    c5.metric("Revenue Growth", _fmt_growth(row.get("revenue_growth")))
+    c6.metric("Earnings Growth", _fmt_growth(row.get("earnings_growth")))
+    c7.metric("Target Mean", fmt_num(row.get("target_mean_price")))
+    c8.metric("Recommendation", str(row.get("recommendation", "") or "-"))
+    website = str(row.get("website", "") or "").strip()
+    exchange = str(row.get("exchange", "") or "").strip()
+    quote_type = str(row.get("quote_type", "") or "").strip()
+    meta = " · ".join([x for x in [exchange, quote_type, website] if x])
+    if meta:
+        st.caption(meta)
+
+
 def render_detail(row: pd.Series):
     ticker = str(row.get("ticker", ""))
     name = str(row.get("name", "") or "").strip()

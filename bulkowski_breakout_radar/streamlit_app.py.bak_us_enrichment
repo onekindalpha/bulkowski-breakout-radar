@@ -480,7 +480,44 @@ def krx_kind_url(row: pd.Series) -> str:
 
 
 def render_external_links(row: pd.Series):
+    from urllib.parse import quote_plus
+
     st.markdown("#### Research Links")
+    ticker = str(row.get("ticker", "") or "").strip().upper()
+    name = str(row.get("name", "") or ticker).strip()
+    asset = str(row.get("asset_type", "") or "").upper()
+    current_market = globals().get("market", "Korea")
+
+    if current_market == "US":
+        q = quote_plus(f"{ticker} {name}")
+        pdf_q = quote_plus(f"{ticker} {name} investor presentation annual report pdf")
+        sec_q = quote_plus(ticker)
+        links = [
+            ("Yahoo Finance", f"https://finance.yahoo.com/quote/{ticker}"),
+            ("Finviz", f"https://finviz.com/quote.ashx?t={ticker}"),
+            ("TradingView", f"https://www.tradingview.com/symbols/{ticker}/"),
+            ("SEC EDGAR", f"https://www.sec.gov/edgar/search/#/q={sec_q}"),
+            ("Nasdaq", f"https://www.nasdaq.com/market-activity/stocks/{ticker.lower()}"),
+            ("Google PDF Report", f"https://www.google.com/search?q={pdf_q}"),
+        ]
+        if asset == "ETF":
+            links += [
+                ("ETF.com", f"https://www.etf.com/{ticker}"),
+                ("ETF Holdings Search", f"https://www.google.com/search?q={quote_plus(ticker + ' ETF holdings')}")
+            ]
+            if ticker in {"XLB","XLC","XLE","XLF","XLI","XLK","XLP","XLRE","XLU","XLV","XLY"}:
+                links.append(("Sector SPDR", f"https://www.sectorspdrs.com/mainfund/{ticker}"))
+        else:
+            links += [
+                ("StockAnalysis", f"https://stockanalysis.com/stocks/{ticker.lower()}/"),
+                ("StockRow Snapshot", f"https://stockrow.com/{ticker}"),
+                ("TipRanks", f"https://www.tipranks.com/stocks/{ticker.lower()}"),
+            ]
+        cols = st.columns(4)
+        for i, (label, url) in enumerate(links):
+            cols[i % 4].link_button(label, url, use_container_width=True)
+        return
+
     links = [
         ("네이버 종목", naver_url(row.get("ticker", ""))),
         ("네이버 리서치", naver_research_url(row.get("ticker", ""))),
@@ -495,7 +532,6 @@ def render_external_links(row: pd.Series):
     for i, (label, url) in enumerate(links):
         if url:
             cols[i % 4].link_button(label, url, use_container_width=True)
-
 
 def render_chart(row: pd.Series, period: str, interval: str):
     st.markdown("### Chart")
@@ -744,10 +780,65 @@ def state_html(state: str) -> str:
     return f'<span class="state-pill {klass}">{state}</span>'
 
 
+def _fmt_large_number(v):
+    x = to_float(v, None)
+    if x is None:
+        return "-"
+    try:
+        if abs(x) >= 1_000_000_000_000:
+            return f"${x/1_000_000_000_000:.2f}T"
+        if abs(x) >= 1_000_000_000:
+            return f"${x/1_000_000_000:.2f}B"
+        if abs(x) >= 1_000_000:
+            return f"${x/1_000_000:.2f}M"
+        return f"${x:,.0f}"
+    except Exception:
+        return "-"
+
+
+def _fmt_ratio(v):
+    x = to_float(v, None)
+    return "-" if x is None else f"{x:.2f}"
+
+
+def _fmt_growth(v):
+    x = to_float(v, None)
+    if x is None:
+        return "-"
+    # yfinance usually returns 0.1234 for 12.34%.
+    if abs(x) <= 3:
+        x *= 100
+    return f"{x:+.1f}%"
+
+
+def render_company_snapshot(row: pd.Series):
+    current_market = globals().get("market", "Korea")
+    if current_market != "US":
+        return
+    st.markdown("#### Company Snapshot")
+    c1, c2, c3, c4 = st.columns(4)
+    c1.metric("Market Cap", _fmt_large_number(row.get("market_cap")))
+    c2.metric("Beta", _fmt_ratio(row.get("beta")))
+    c3.metric("Trailing P/E", _fmt_ratio(row.get("trailing_pe")))
+    c4.metric("Forward P/E", _fmt_ratio(row.get("forward_pe")))
+    c5, c6, c7, c8 = st.columns(4)
+    c5.metric("Revenue Growth", _fmt_growth(row.get("revenue_growth")))
+    c6.metric("Earnings Growth", _fmt_growth(row.get("earnings_growth")))
+    c7.metric("Target Mean", fmt_num(row.get("target_mean_price")))
+    c8.metric("Recommendation", str(row.get("recommendation", "") or "-"))
+    website = str(row.get("website", "") or "").strip()
+    exchange = str(row.get("exchange", "") or "").strip()
+    quote_type = str(row.get("quote_type", "") or "").strip()
+    meta = " · ".join([x for x in [exchange, quote_type, website] if x])
+    if meta:
+        st.caption(meta)
+
+
 def render_detail(row: pd.Series):
     ticker = str(row.get("ticker", ""))
     name = str(row.get("name", "") or "").strip()
-    if name == ticker or not name:
+    current_market = globals().get("market", "Korea")
+    if current_market == "Korea" and (name == ticker or not name):
         live_name = fetch_naver_name(ticker)
         if live_name:
             name = live_name
@@ -770,7 +861,7 @@ def render_detail(row: pd.Series):
         st.warning(row.get("warnings"))
     if str(row.get("notes", "")).strip():
         st.info(f"Overlay notes: {row.get('notes')}")
-
+    render_company_snapshot(row)
 
 def default_path(filename: str) -> Optional[Path]:
     p = DATA_DIR / filename
