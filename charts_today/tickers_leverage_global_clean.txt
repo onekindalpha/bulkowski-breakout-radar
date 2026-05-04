@@ -1,0 +1,71 @@
+# tickers_leverage_global_clean.txt
+# (No inline comments to avoid being parsed as part of the ticker)
+
+# Semis / AI chips
+SOXL
+SOXS
+USD
+SOXX
+SMH
+
+# Broad / Nasdaq / Tech leverage
+TQQQ
+SQQQ
+QLD
+QID
+UPRO
+SPXU
+SPXL
+SPXS
+SSO
+SDS
+UDOW
+SDOW
+TNA
+TZA
+TECL
+TECS
+FNGU
+FNGD
+
+# Sector leverage
+FAS
+FAZ
+LABU
+LABD
+CURE
+DRN
+DRV
+
+# Energy / Oil / Gas leverage + 1x benchmarks
+ERX
+ERY
+GUSH
+DRIP
+UCO
+SCO
+BOIL
+KOLD
+USO
+BNO
+
+# Metals / Rates
+NUGT
+DUST
+UGL
+GLL
+TMF
+TMV
+
+# Robotics / AI theme leverage (availability varies)
+UBOT
+AIBU
+AIBD
+
+# Single-name leverage (availability varies)
+NVDL
+NVDU
+
+# Crypto-linked leverage (availability varies)
+BITX
+BITI

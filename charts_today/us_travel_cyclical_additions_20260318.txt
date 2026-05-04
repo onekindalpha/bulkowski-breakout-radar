@@ -1,0 +1,51 @@
+# us_travel_cyclical_additions_20260318.txt
+# US additive tactical overlay: airlines / cruise / travel / retail / leisure / consumer cyclicals
+
+# --- Airlines ---
+DAL
+UAL
+AAL
+LUV
+ALK
+JBLU
+ULCC
+
+# --- Cruise lines ---
+CCL
+RCL
+NCLH
+VIK
+
+# --- Travel / booking / hotels ---
+BKNG
+EXPE
+ABNB
+MAR
+HLT
+RCL
+
+# --- Leisure / gaming / resorts ---
+MGM
+LVS
+WYNN
+CZR
+
+# --- Consumer cyclical / retail / restaurants / apparel ---
+AMZN
+HD
+LOW
+TJX
+ROST
+ULTA
+NKE
+LULU
+CMG
+MCD
+SBUX
+
+# --- Auto / mobility cyclical ---
+TSLA
+UBER
+LYFT
+GM
+F

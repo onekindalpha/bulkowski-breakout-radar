@@ -1,0 +1,92 @@
+# tickers_core_us_cycle_aggressive_20260318.txt
+# Cycle-aware aggressive US core universe
+# Objective: profitable leaders, strong sectors, cycle beneficiaries, lower-volatility compounders
+
+# --- AI / semis / networking / infrastructure leaders ---
+NVDA
+AVGO
+AMD
+TSM
+ASML
+MU
+ANET
+VRT
+SMCI
+MRVL
+AMAT
+KLAC
+LRCX
+TER
+QCOM
+TXN
+
+# --- Big-cap compounding leaders / high earnings power ---
+MSFT
+GOOGL
+META
+AMZN
+BRK-B
+JPM
+V
+MA
+COST
+WMT
+
+# --- Power / electrification / AI power chain ---
+VST
+CEG
+NRG
+GEV
+ETN
+PWR
+HWM
+PH
+EME
+
+# --- Industrials / defense / reshoring / physical AI beneficiaries ---
+CAT
+DE
+RTX
+LMT
+NOC
+GE
+ABB
+URI
+ROK
+IR
+
+# --- Healthcare / pharma / medical device (cycle-resilient leaders) ---
+LLY
+ABBV
+JNJ
+ISRG
+ABT
+BSX
+SYK
+TMO
+DHR
+VRTX
+
+# --- Consumer defensive / staples / stable growers ---
+PG
+KO
+PM
+PEP
+CL
+MDLZ
+
+# --- Energy / materials strong sectors ---
+XOM
+CVX
+COP
+SLB
+SHEL
+LIN
+NUE
+FCX
+
+# --- Tactical crypto / exchange / proxies ---
+COIN
+HOOD
+MSTR
+CME

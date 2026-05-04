@@ -1,0 +1,5 @@
+ticker,status,entry,current_px,drawdown_pct,break_level,tol_pct,breakout_date,hold_confirmed,warn_fail_close_below_level,sell_fail_2_closes_below_level,warn_dd_3pct,sell_dd_5pct,entry_ready
+MPC,SELL_SIGNAL,214.28,212.94,-0.63,212.14,2.75,,False,True,True,False,False,False
+XLE,SELL_SIGNAL,58.04,58.03,-0.02,57.88,1.75,,False,True,True,False,False,False
+XOP,SELL_SIGNAL,162.5,162.31,-0.12,160.99,1.75,,False,True,True,False,False,False
+UYM,BREAKOUT_SEEN(wait_hold),33.15,33.31,0.48,32.81,4.5,2026-03-02,False,False,False,False,False,False

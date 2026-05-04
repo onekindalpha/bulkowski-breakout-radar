@@ -1,0 +1,93 @@
+# finviz_manual_us_cycle_aggressive_20260318.txt
+# Tactical US winners-first watchlist
+# Bias: AI infra, power, GTC/physical AI, defense/industrials, crypto/ETH, 1-2-3 reversal watch
+
+# --- AI infra / semis / networking / GTC direct chain ---
+NVDA
+AVGO
+AMD
+TSM
+ASML
+MU
+ANET
+VRT
+SMCI
+MRVL
+AMAT
+KLAC
+LRCX
+TER
+
+# --- Power / electrification / AI factories / grid winners ---
+VST
+CEG
+NRG
+GEV
+ETN
+PWR
+EME
+HWM
+PH
+
+# --- Physical AI / robotics / factory automation watch ---
+TER
+ROK
+ABB
+IR
+DE
+CAT
+SYM
+
+# --- Defense / industrial leaders ---
+RTX
+LMT
+NOC
+GE
+URI
+
+# --- Healthcare / medtech / selective biotech leaders ---
+LLY
+ABBV
+ISRG
+BSX
+VRTX
+TMO
+DHR
+HIMS
+
+# --- Consumer defensive / resilient earnings ---
+COST
+WMT
+PG
+PM
+KO
+MDLZ
+
+# --- Tactical crypto / ETH / beta leaders ---
+COIN
+HOOD
+MSTR
+CME
+IBIT
+FBTC
+ETHA
+FETH
+ETH
+EZET
+ETHV
+ETHW
+TETH
+QETH
+ETHE
+
+# --- 1-2-3 reversal watch bucket (watch, not automatic buys) ---
+ETHA
+FETH
+COIN
+HOOD
+MSTR
+SMCI
+MRVL
+VRT
+CEG
+GEV

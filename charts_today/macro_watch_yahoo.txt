@@ -1,0 +1,63 @@
+# macro_watch_yahoo.txt  (Yahoo Finance / yfinance용 심볼)
+# --- Energy (1차 반응: 공급차질/전쟁 프리미엄) ---
+CL=F      # WTI Crude Oil
+BZ=F      # Brent Crude Oil
+RB=F      # Gasoline (RBOB)  -> 정유(PSX/MPC) 체감에 더 직접적
+NG=F      # Natural Gas
+# --- Risk-on/off (유가↑여도 지수선물↓면 에너지도 눌릴 수 있음) ---
+ES=F      # S&P 500 futures
+NQ=F      # Nasdaq 100 futures
+^VIX      # VIX (공포지수)
+# --- Rates / Safe haven ---
+^TNX      # US 10Y yield (수익률 지수)
+GC=F      # Gold futures
+UUP       # Dollar ETF (달러강세 온도계)
+# --- Optional (상관 확인용) ---
+JETS      # Airline ETF (유가 급등과 역상관 체크)
+# macro_watch_yahoo_us_cycle_aggressive_20260318.txt
+# US macro / sector / beta / benchmark proxies
+# Intended to be read by the pipeline and/or regenerated periodically
+# --- Broad beta / indexes ---
+SPY
+QQQ
+DIA
+IWM
+MDY
+# --- Leveraged / tactical beta ---
+TQQQ
+SQQQ
+SOXL
+SOXS
+TECL
+FNGU
+QLD
+QID
+# --- Semiconductor / AI infrastructure proxies ---
+SOXX
+SMH
+XSD
+IGV
+AIQ
+BOTZ
+# --- Power / utilities / energy / industrial proxies ---
+XLU
+VPU
+XLE
+OIH
+XLI
+PAVE
+GRID
+# --- Healthcare / staples / consumer proxies ---
+XLV
+IBB
+XLP
+XLY
+# --- Crypto / BTC / ETH proxies ---
+QETH
+# --- Rates / dollar / volatility / credit context ---
+TLT
+IEF
+UUP
+VIXY
+HYG
+LQD

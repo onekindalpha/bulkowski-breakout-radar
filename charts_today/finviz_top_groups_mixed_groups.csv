@@ -1,0 +1,6 @@
+kind,rank,name,url,score,change,perf_week,perf_month,rel_volume,stocks,rank_change,rank_perf_week,rank_perf_month,rank_rel_volume
+industry,1,Internet Content & Information,https://finviz.com/screener.ashx?f=ind_internetcontentinformation&v=141,0.9486111111111111,1.46,2.87,23.84,0.98,,0.9652777777777778,0.9097222222222222,0.9652777777777778,0.7951388888888888
+industry,2,Healthcare Plans,https://finviz.com/screener.ashx?f=ind_healthcareplans&v=141,0.8746527777777777,0.72,7.19,22.41,0.79,,0.78125,0.9791666666666666,0.9513888888888888,0.6006944444444444
+industry,3,Oil & Gas Drilling,https://finviz.com/screener.ashx?f=ind_oilgasdrilling&v=141,0.8388888888888889,3.59,11.41,-0.61,1.02,,1.0,1.0,0.19444444444444445,0.8263888888888888
+industry,4,Uranium,https://finviz.com/screener.ashx?f=ind_uranium&v=141,0.8170138888888889,1.29,-0.73,16.31,0.89,,0.954861111111111,0.5347222222222222,0.8958333333333333,0.7256944444444444
+industry,5,Financial Conglomerates,https://finviz.com/screener.ashx?f=ind_financialconglomerates&v=141,0.8083333333333333,3.3,-0.51,8.12,0.63,,0.9930555555555556,0.6041666666666666,0.6527777777777777,0.35416666666666663

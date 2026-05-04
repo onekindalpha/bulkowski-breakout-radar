@@ -1,0 +1,6 @@
+ticker,entry_price,custom_break_level,rebuilt_break_level,rebuilt_src,diff_pct_vs_old
+XLE,58.04,57.88,57.88,report_daily_break_level,0.0
+XOP,162.5,160.99,160.99,report_daily_break_level,0.0
+UYM,33.15,34.54,34.54,report_daily_break_level,0.0
+MPC,214.28,210.42,210.42,report_daily_break_level,0.0
+IYE,61.4,61.04,61.04,report_daily_break_level,0.0

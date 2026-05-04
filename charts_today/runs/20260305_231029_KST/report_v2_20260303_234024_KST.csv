@@ -1,0 +1,48 @@
+# saved_at_kr,2026-03-03 23:40:24 KST
+# used_candidates_txt,True
+# count_base,10
+# count_premarket,41
+# count_final_universe,41
+# count_scored,40
+# count_skipped,1
+ticker,price,gap_pct,rsi14,px_vs_sma50,px_vs_sma200,weekly_up,weekly_r1,weekly_s1,room_to_weekly_r1_pct,daily_break_level,daily_breakout,daily_retest,in_daily_box_middle,breakout_confirmed_close,breakout_volume_confirmed,breakout_confirmed_intraday,grade,score
+SHEL,82.57,-0.04,63.81,8.71,13.12,True,75.56,68.62,-8.5,84.55,True,True,False,True,True,False,C,9.0
+SLB,50.41,0.06,50.38,7.73,32.47,True,52.4,34.65,3.95,52.45,False,False,False,False,False,False,C,9.0
+SCCO,200.87,0.18,51.06,10.51,57.16,True,217.07,181.6,8.07,223.89,False,False,False,False,False,False,C,9.0
+GC=F,5149.4,0.21,55.63,7.32,30.27,True,5586.2,4400.0,8.48,5586.2,False,False,False,False,False,False,C,9.0
+PSX,158.46,0.35,50.94,9.69,19.37,True,163.79,127.16,3.36,163.79,False,False,False,False,False,False,C,9.0
+GUSH,34.03,-0.31,68.9,31.77,41.72,True,26.71,20.81,-21.52,34.8,True,True,False,True,True,False,C,7.0
+XOP,159.39,-0.03,69.75,15.95,21.72,True,139.48,123.16,-12.49,160.99,True,True,False,True,True,False,C,7.0
+FANG,179.59,0.12,69.66,13.06,21.56,True,164.44,139.41,-8.44,183.36,True,True,False,True,True,False,C,7.0
+TTE,79.34,-0.12,68.46,11.74,23.75,True,66.92,62.16,-15.66,82.21,True,False,False,True,True,False,C,6.0
+UYM,31.15,0.0,37.91,6.33,23.25,True,34.54,21.34,10.88,34.54,False,False,False,False,False,False,C,6.0
+XLB,51.44,0.14,38.04,3.54,12.47,True,54.14,42.03,5.25,54.14,False,False,False,False,False,False,C,6.0
+CCJ,116.2,0.23,47.37,3.7,33.16,True,135.24,107.92,16.39,135.24,False,False,False,False,False,False,C,6.0
+FCX,63.28,0.58,49.23,6.12,35.65,True,69.44,58.23,9.73,69.75,False,False,False,False,False,False,C,6.0
+AEM,234.49,-0.61,62.66,15.06,47.32,True,225.0,187.04,-4.05,255.24,False,False,False,True,False,False,C,5.0
+NG=F,3.17,-0.28,52.98,-15.72,-11.37,False,7.83,3.01,146.75,7.83,False,False,False,False,False,False,C,5.0
+CVE,22.66,-0.2,61.67,17.46,35.2,True,18.75,15.63,-17.24,23.56,False,False,False,True,False,False,C,5.0
+HAL,35.69,-0.15,63.35,9.1,38.95,True,35.55,24.92,-0.38,37.03,False,False,False,False,False,False,C,5.0
+OIH,389.99,-0.08,64.22,14.12,40.57,True,311.49,280.19,-20.13,406.12,False,False,False,True,False,False,C,5.0
+BOIL,19.69,0.02,56.78,-8.88,-41.04,False,41.25,15.2,109.5,46.85,False,False,False,False,False,False,C,5.0
+IYM,181.83,0.2,50.14,5.73,20.14,True,152.55,139.08,-16.1,189.81,False,False,False,True,False,False,C,5.0
+MPC,209.93,0.32,54.69,14.67,16.82,True,210.32,170.08,0.18,210.42,False,False,False,False,False,False,C,5.0
+IYE,60.07,-0.2,71.26,13.63,24.89,True,49.58,46.15,-17.46,61.04,True,True,False,True,True,False,C,3.0
+DIG,57.44,-0.1,71.23,27.88,53.31,True,39.12,34.35,-31.89,59.41,True,True,False,True,True,False,C,3.0
+NQ=F,24518.25,-0.08,38.51,-3.56,1.07,False,26349.0,24239.75,7.47,26349.0,False,False,False,False,False,False,C,3.0
+ES=F,6771.5,-0.06,34.02,-2.28,2.64,False,7043.0,6751.5,4.01,7043.0,False,False,True,False,False,False,C,3.0
+APA,31.99,0.06,70.85,20.92,39.93,True,27.72,23.25,-13.35,32.75,True,True,False,True,True,False,C,3.0
+EQNR,31.71,0.06,72.35,21.77,27.25,True,24.9,22.26,-21.48,32.58,True,True,False,True,True,False,C,3.0
+JETS,26.62,0.08,26.74,-7.98,3.25,False,31.33,27.61,17.69,31.33,False,False,False,False,False,False,C,3.0
+ERX,89.27,0.13,70.1,28.39,54.12,True,60.5,53.08,-32.23,91.98,True,True,False,True,True,False,C,3.0
+XLE,56.86,-0.21,71.57,13.85,25.52,True,46.66,43.77,-17.94,57.88,True,False,False,True,True,False,C,2.0
+^TNX,4.11,0.0,45.95,-1.2,-2.42,False,4.31,4.11,4.97,4.31,False,False,True,False,False,False,C,2.0
+CNQ,44.18,0.18,84.17,19.92,33.71,True,35.12,30.13,-20.51,45.85,True,False,False,True,True,False,C,2.0
+LNG,249.55,-0.61,81.89,19.51,12.11,False,217.81,186.2,-12.72,252.5,True,True,False,True,True,False,C,1.0
+^VIX,25.88,-0.12,71.1,49.73,49.32,False,23.1,13.38,-10.74,25.24,True,True,False,True,True,False,C,1.0
+BZ=F,84.07,0.12,84.84,26.3,26.63,False,71.88,59.45,-14.5,82.11,True,True,False,True,True,True,C,1.0
+CL=F,77.46,0.14,82.61,25.04,23.42,False,66.48,55.76,-14.18,75.33,True,False,False,True,True,True,C,0.0
+UCO,30.32,-0.15,78.31,37.44,36.36,False,24.6,18.49,-18.85,28.52,True,False,False,True,False,True,C,-1.0
+COP,119.27,-0.07,76.35,16.67,26.22,True,102.98,90.75,-13.66,119.3,False,False,False,True,False,False,C,-1.0
+UUP,27.56,0.04,90.27,1.72,0.26,False,27.45,26.4,-0.38,28.2,False,False,True,False,False,False,C,-3.0
+RB=F,2.47,0.08,85.58,31.73,24.45,False,2.02,1.67,-18.17,2.5,False,False,False,True,False,False,C,-3.0

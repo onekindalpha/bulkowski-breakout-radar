@@ -1,0 +1,29 @@
+# tickers_leverage2x.txt (KRX leverage/inverse ETFs, yfinance symbols)
+
+122630.KS  # KODEX 레버리지 (KOSPI200 2x)
+267770.KS  # TIGER 200선물레버리지 (KOSPI200 선물 2x)
+233740.KS  # KODEX 코스닥150레버리지 (KOSDAQ150 2x)
+233160.KS  # TIGER 코스닥150 레버리지 (KOSDAQ150 2x)
+252670.KS  # KODEX 200선물인버스2X (KOSPI200 선물 -2x)
+251340.KS  # KODEX 코스닥150선물인버스 (KOSDAQ150 선물 인버스)
+409820.KS  # KODEX 미국나스닥100레버리지(합성 H) (NASDAQ100 2x)
+
+# --- Semiconductor / AI-Semiconductor (최근 3개월 수익 강했던 후보들) ---
+488080.KS  # TIGER 반도체TOP10레버리지 (2x, 3M +131.40%)
+494310.KS  # KODEX 반도체레버리지 (2x, 3M +116.32%)
+
+091230.KS  # TIGER 반도체 (3M +89.23%)
+396500.KS  # TIGER 반도체TOP10 (3M +81.89%)
+469150.KS  # ACE AI반도체TOP3+ (구: ACE AI반도체포커스, 3M +64.30%)
+
+395270.KS  # HANARO Fn K-반도체 (3M +54.95%)
+475310.KS  # SOL 반도체후공정 (3M +53.32%)
+091160.KS  # KODEX 반도체 (3M +48.82%)
+395160.KS  # KODEX AI반도체 (3M +40.82%)
+
+471760.KS  # TIGER AI반도체핵심공정 (3M +42.66%)
+471990.KS  # KODEX AI반도체핵심장비 (3M +31.49%)
+
+# (참고: 미국 반도체 지수 추종 국내상장 해외ETF — 3M은 상대적으로 덜 강했음)
+381180.KS  # TIGER 미국필라델피아반도체나스닥 (3M +14.63%)
+390390.KS  # KODEX 미국반도체 (3M +13.97%)

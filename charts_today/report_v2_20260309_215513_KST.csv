@@ -1,0 +1,18 @@
+# saved_at_kr,2026-03-09 21:55:13 KST
+# used_candidates_txt,True
+# used_candidates_meta,True
+# count_base,10
+# count_premarket,87
+# count_final_universe,10
+# count_scored,9
+# count_skipped,1
+ticker,price,gap_pct,rsi14,px_vs_sma50,px_vs_sma200,weekly_up,weekly_r1,weekly_s1,room_to_weekly_r1_pct,daily_break_level,break_level_src,daily_breakout,daily_retest,in_daily_box_middle,breakout_confirmed_close,breakout_volume_confirmed,breakout_confirmed_intraday,grade,score
+RCAT,16.35,6.45,74.01,29.77,63.89,True,18.02,10.8,10.23,13.83,pattern:DOUBLE_BOTTOM,True,False,False,True,True,True,A,4.0
+IYR,97.72,-1.31,42.15,0.5,1.79,True,98.46,94.41,0.76,98.46,pattern:DOUBLE_BOTTOM,True,True,True,True,True,False,C,8.0
+TTE,78.72,-0.06,58.22,9.78,22.27,True,66.92,62.16,-14.99,66.69,pattern:DOUBLE_BOTTOM,True,False,False,True,True,True,C,8.0
+INDS,39.42,0.0,43.67,1.08,4.61,True,39.78,38.03,0.91,39.78,pattern:DOUBLE_BOTTOM,True,True,True,True,True,False,C,8.0
+FANG,185.09,2.52,66.26,15.21,24.81,True,164.44,139.41,-11.16,177.25,pattern:DOUBLE_BOTTOM,True,False,False,True,True,True,C,5.0
+IOT,34.71,-1.84,75.54,13.4,-5.8,False,47.47,23.38,36.76,28.28,pattern:DOUBLE_BOTTOM,True,False,True,True,True,True,C,3.0
+FLNG,30.5,0.89,87.86,14.89,20.42,True,27.46,25.41,-9.97,28.16,pattern:DOUBLE_BOTTOM,True,False,False,True,True,True,C,2.0
+UUP,27.58,0.4,84.95,1.87,0.37,False,27.45,26.4,-0.47,27.09,pattern:DOUBLE_BOTTOM,True,True,True,True,True,True,C,1.0
+PBR,18.12,2.96,79.18,26.72,41.15,True,13.62,11.43,-24.84,16.03,pattern:DOUBLE_BOTTOM,True,False,False,True,True,True,C,1.0

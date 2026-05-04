@@ -1,0 +1,13 @@
+ticker,theme_strength,cycle_strength,news_strength,flow_strength,company_quality,prebreak_ok,must_wait_breakout,avoid_new,notes
+009150.KS,2,2,2,2,2,True,False,False,"AI server MLCC/FC-BGA, strong institutional story"
+267260.KS,2,2,1,2,2,True,False,False,power infra / grid capex / export story
+010120.KS,2,2,1,2,2,True,False,False,power automation / grid capex / data center
+298040.KS,2,2,1,2,2,True,False,False,transformer / heavy electrical capex
+103590.KS,2,2,1,1,1,True,False,False,power cable / grid investment
+062040.KS,2,2,1,1,1,True,False,False,power equipment / expansion story
+007660.KS,2,2,1,1,2,False,False,False,AI server PCB / story good but room often tight
+356860.KQ,2,1,1,1,1,False,True,False,SOCAMM/DDR5 story -> prefer breakout confirm
+471760.KS,2,2,1,1,1,False,False,False,AI semiconductor core ETF / clean theme basket
+278470.KS,2,1,1,1,1,False,True,False,strong price but late feel
+475150.KS,2,2,1,1,1,False,False,True,renewables story but too hot / wait reset
+336260.KS,1,2,1,1,1,False,False,False,alt energy / fuel cell optional

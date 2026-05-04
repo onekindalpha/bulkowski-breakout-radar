@@ -1,0 +1,55 @@
+# finviz_manual_korea_aggressive_20260318.txt
+# Tactical / aggressive winners-first watchlist
+# Built for profit-seeking rotation around current cycle themes
+
+# --- HBM / GTC / AI memory direct chain ---
+000660.KS
+005930.KS
+042700.KS
+009150.KS
+403870.KQ
+240810.KQ
+089030.KQ
+222800.KQ
+039030.KQ
+058470.KQ
+
+# --- Semiconductor / AI beta ETFs and instruments ---
+091160.KS
+091230.KS
+396500.KS
+488080.KS
+494310.KS
+469150.KS
+395270.KS
+395160.KS
+471990.KS
+471760.KS
+390390.KS
+381180.KS
+
+# --- Shipbuilding / Defense / Nuclear / Power high-priority swing list ---
+012450.KS
+042660.KS
+329180.KS
+010140.KS
+034020.KS
+267260.KS
+064350.KS
+079550.KS
+047810.KS
+015760.KS
+
+# --- Selective biotech winners only ---
+207940.KS
+068270.KS
+000100.KS
+326030.KS
+196170.KQ
+000250.KQ
+
+# --- Foreign / policy / strategic accumulation watch ---
+035420.KS
+278470.KS
+097950.KS
+003230.KS

@@ -1,0 +1,3 @@
+CSV=buy_report_20260305_175612_KST.csv
+XLSX=buy_report_20260305_175612_KST.xlsx
+PDF=buy_report_20260305_175612_KST.pdf

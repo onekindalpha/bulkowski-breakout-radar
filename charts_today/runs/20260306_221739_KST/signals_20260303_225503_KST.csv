@@ -1,0 +1,6 @@
+ticker,status,entry,current_px,drawdown_pct,break_level,break_level_src,reason,px_source,last_close
+IYE,SELL_SIGNAL,61.4,61.49,0.15,61.04,custom,2_closes_below_break,yf_1m@2026-03-03T13:51:08,60.29
+MPC,SELL_SIGNAL,214.28,212.0,-1.06,210.42,custom,2_closes_below_break,yf_1m@2026-03-03T13:54:42,209.82
+UYM,SELL_SIGNAL,33.15,33.29,0.42,34.54,custom,2_closes_below_break,yf_1m@2026-03-03T13:11:00,33.31
+XLE,SELL_SIGNAL,58.05,57.5,-0.95,57.88,custom,2_closes_below_break,yf_1m@2026-03-03T13:54:49,57.04
+XOP,SELL_SIGNAL,162.5,161.59,-0.56,160.99,custom,2_closes_below_break,yf_1m@2026-03-03T13:54:36,159.56

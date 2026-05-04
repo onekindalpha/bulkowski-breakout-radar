@@ -1,0 +1,2 @@
+ticker,status,entry,current_px,drawdown_pct,break_level,prebreakout,last_close,prev_close,reason,break_level_src,px_source
+XOP,OK,162.5,164.12,1.0,160.99,False,164.665,160.77,,custom,yf_1m@2026-03-05T16:06:00

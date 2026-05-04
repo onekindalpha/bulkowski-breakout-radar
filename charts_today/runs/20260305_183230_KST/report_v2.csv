@@ -1,0 +1,17 @@
+# saved_at_kr,2026-03-05 18:32:26 KST
+# used_candidates_txt,True
+# used_candidates_meta,False
+# count_base,8
+# count_premarket,11
+# count_final_universe,8
+# count_scored,8
+# count_skipped,0
+ticker,price,gap_pct,rsi14,px_vs_sma50,px_vs_sma200,weekly_up,weekly_r1,weekly_s1,room_to_weekly_r1_pct,daily_break_level,break_level_src,daily_breakout,daily_retest,in_daily_box_middle,breakout_confirmed_close,breakout_volume_confirmed,breakout_confirmed_intraday,grade,score
+PARR,49.76,0.16,67.59,27.74,42.33,True,48.4,34.37,-2.73,47.76,rolling60d_high,True,False,False,True,True,True,C,6.0
+GLNG,46.8,0.32,62.09,14.01,15.89,False,39.11,36.51,-16.43,46.98,rolling60d_high,False,False,False,False,False,False,C,3.0
+TTE,77.44,0.68,46.79,8.73,20.62,True,66.92,62.16,-13.58,82.21,rolling60d_high,False,False,False,False,False,False,C,2.0
+ZD,42.98,0.0,71.74,24.22,24.97,True,41.07,33.14,-4.44,50.55,rolling60d_high,False,False,False,False,False,False,C,-1.0
+BNO,39.02,0.31,83.19,24.4,30.11,True,31.73,27.83,-18.68,40.05,rolling60d_high,False,False,False,False,False,False,C,-1.0
+USO,92.08,0.57,78.78,22.15,25.27,True,80.38,67.35,-12.71,94.37,rolling60d_high,False,False,False,False,False,False,C,-1.0
+BATL,16.25,-12.49,72.05,379.42,804.95,True,6.89,2.33,-57.6,29.7,rolling60d_high,False,False,False,False,False,False,C,-3.0
+UCO,29.85,2.44,74.78,34.25,34.08,False,24.6,18.49,-17.59,30.48,rolling60d_high,False,False,False,False,False,False,C,-4.0

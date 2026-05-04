@@ -1,0 +1,6 @@
+# kr_tactical_leverage.txt
+# Tactical / leverage / inverse basket for Korea.
+122630.KS  # KODEX 레버리지
+233740.KS  # KODEX 코스닥150레버리지
+252670.KS  # KODEX 200선물인버스2X
+251340.KS  # KODEX 코스닥150선물인버스

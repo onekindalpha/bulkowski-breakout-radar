@@ -1,0 +1,6 @@
+# Notes
+# 1) SpaceX itself is not a public ticker, so use SpaceX-adjacent public names.
+# 2) Ethereum is proof-of-stake, so 'ETH mining' is not a direct modern theme.
+#    Use ETH ETFs + crypto exchanges/infrastructure instead.
+# 3) For KR, MLCC/substrate direct names are emphasized via Samsung Electro-Mechanics,
+#    LG Innotek, Simmtech, Daeduck Electronics, HaeSung DS.

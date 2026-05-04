@@ -1,0 +1,5 @@
+# finviz_manual.txt (KRX momentum / new-high / top-gainers watchlist)
+000250.KQ  # 삼천당제약 (KOSDAQ) citeturn0search4turn0search16
+329180.KS  # HD현대중공업 (KOSPI) citeturn0search17turn0search9
+
+# (optional) add more daily: 52주 신고가 / 상승률 상위 종목들

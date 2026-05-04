@@ -1,0 +1,92 @@
+# us_thematic_additions_20260318_v4.txt
+# Additive US thematic overlay v4
+# Themes: financials / power / construction / nuclear / renewables / Tesla / SpaceX-adjacent / AI infra / gold/silver / EV-battery
+
+# --- Financials / brokers / alt managers / holdings ---
+JPM
+GS
+MS
+BAC
+WFC
+SCHW
+KKR
+BX
+APO
+BRK-B
+
+# --- Power / grid / construction / nuclear / infrastructure ---
+VST
+CEG
+NRG
+GEV
+ETN
+PWR
+EME
+PH
+HWM
+FLR
+MTZ
+ACM
+
+# --- Renewables / solar / wind / power transition ---
+FSLR
+NXT
+ENPH
+ARRY
+AES
+NEE
+BE
+
+# --- Tesla / EV / autonomous / ADAS ---
+TSLA
+GM
+F
+MBLY
+AUR
+ON
+NXPI
+RIVN
+CHPT
+
+# --- SpaceX-adjacent / space / satellite / launch ---
+RKLB
+ASTS
+LUNR
+RDW
+PL
+SPIR
+SATL
+GSAT
+VSAT
+IRDM
+BA
+
+# --- AI infra / semis / networking ---
+NVDA
+AVGO
+AMD
+TSM
+ASML
+MU
+ANET
+VRT
+SMCI
+MRVL
+AMAT
+KLAC
+LRCX
+
+# --- Gold / silver proxies ---
+GLD
+IAU
+GLDM
+SLV
+SIVR
+
+# --- EV battery / solid-state / lithium ---
+QS
+SLDP
+ENVX
+ALB
+SQM
+LTHM

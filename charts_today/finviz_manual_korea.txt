@@ -1,0 +1,262 @@
+# finviz_manual_korea_cycle_aggressive_20260318.txt
+# Tactical / profit-seeking / current-cycle manual watch
+# Bias:
+# HBM/GTC, MLCC/substrate, robotics/physical AI,
+# 조방원, selective biotech, cosmetics/consumer cyclicals
+# --- HBM / GTC / memory / substrate / MLCC direct chain ---
+000660.KS
+005930.KS
+005935.KS
+009150.KS
+011070.KS
+042700.KS
+039030.KQ
+058470.KQ
+089030.KQ
+222800.KQ
+240810.KQ
+403870.KQ
+066570.KS
+# --- Robotics / physical AI / factory automation ---
+277810.KQ
+455900.KQ
+058610.KQ
+117730.KQ
+005380.KS
+000270.KS
+# --- Semiconductor / AI beta ETFs & instruments ---
+091160.KS
+091230.KS
+396500.KS
+488080.KS
+494310.KS
+469150.KS
+395270.KS
+395160.KS
+471990.KS
+471760.KS
+390390.KS
+381180.KS
+# --- Shipbuilding / defense / nuclear / power high-priority swing list ---
+012450.KS
+042660.KS
+329180.KS
+010140.KS
+034020.KS
+267260.KS
+064350.KS
+079550.KS
+047810.KS
+015760.KS
+# --- Cosmetics / consumer cyclical / retail winners ---
+278470.KS
+090430.KS
+192820.KS
+161890.KS
+051900.KS
+003230.KS
+097950.KS
+271560.KS
+282330.KS
+008770.KS
+# --- Selective pharma / biotech / medical winners ---
+207940.KS
+068270.KS
+000100.KS
+326030.KS
+196170.KQ
+000250.KQ
+214150.KQ
+145720.KS
+# --- Internet / foreign-favored / policy names ---
+035420.KS
+105560.KS
+055550.KS
+086790.KS
+# korea_thematic_additions_20260318.txt
+# Additive KR thematic overlay: chemicals / renewables / robotics / autonomous / battery materials
+# --- Chemicals / materials / battery chain ---
+051910.KS
+006400.KS
+003670.KS
+086520.KQ
+247540.KQ
+011170.KS
+009830.KS
+010060.KS
+# --- Renewables / solar / wind / power transition ---
+112610.KS
+297090.KQ
+322000.KS
+# --- Robotics / automation / physical AI ---
+307950.KS
+# --- Autonomous driving / mobility / ADAS ---
+204320.KS
+# korea_thematic_additions_20260318_v2.txt
+# Additive KR thematic overlay v2
+# Themes: chemicals / renewables / robotics / autonomous / battery / gold proxies
+305720.KS
+305540.KS
+# --- Renewables / power transition / grid ---
+445290.KS
+# --- Gold proxies (KRX ETFs Yahoo-detectable) ---
+132030.KS
+411060.KS
+# korea_thematic_additions_20260318_v3.txt
+# Additive KR thematic overlay v3
+# Themes: securities / holdings / financials / power / construction / nuclear / renewables / MLCC / battery / robotics / autonomous
+# --- Securities / holdings / financials ---
+006800.KS
+016360.KS
+005940.KS
+071050.KS
+316140.KS
+024110.KS
+000810.KS
+003550.KS
+034730.KS
+000880.KS
+# --- Power / construction / nuclear / grid ---
+028260.KS
+000720.KS
+006360.KS
+047040.KS
+# --- Renewables / clean energy / wind / solar ---
+298040.KS
+357780.KS
+060280.KQ
+# --- MLCC / substrate / electronics components ---
+# --- Chemicals / battery / materials ---
+# --- Robotics / automation / autonomous / mobility ---
+# korea_travel_cyclical_additions_20260318.txt
+# KR additive tactical overlay: airlines / travel / retail / leisure / consumer cyclicals
+# --- Airlines / aviation ---
+003490.KS  # 대한항공
+020560.KS  # 아시아나항공
+272450.KS  # 진에어
+089590.KS  # 제주항공
+298690.KS  # 에어부산
+091810.KS  # 티웨이항공
+# --- Travel / tour / leisure / casino / hotel / duty free ---
+039130.KQ  # 하나투어
+080160.KQ  # 모두투어
+094850.KQ  # 참좋은여행
+114090.KS  # GKL
+034230.KQ  # 파라다이스
+008770.KS  # 호텔신라
+069960.KS  # 현대백화점
+023530.KS  # 롯데쇼핑
+004170.KS  # 신세계
+# --- Consumer cyclical / retail / discretionary ---
+383220.KS  # F&F
+259960.KS  # 크래프톤
+241560.KQ  # 두산밥캣
+005385.KS  # 현대차우 (optional proxy)
+005380.KS  # 현대차
+000270.KS  # 기아
+# korea_final_additions_20260318.txt
+# Final additive KR overlay
+# Themes: battery / secondary battery / MLCC / substrate / robotics / autonomous / power / renewables
+# --- 2차전지 / 배터리 / 소재 ---
+373220.KS
+# --- MLCC / 기판 / 패키징 ---
+353200.KQ
+195870.KS
+# --- 전력 / 원전 / 신재생 / 전환 ---
+# --- 로봇 / 자율주행 / 모빌리티 ---
+# korea_preferred_largecap_additions_20260318.txt
+# KR additive overlay: large-cap preferred shares
+# NOTE:
+# - This file intentionally uses Yahoo/KRX-compatible 6-digit preferred tickers only.
+# - Some KRX preferreds use letter-suffixed codes (e.g. ...K) and are NOT included here,
+#   because your current Korea pipeline regex mainly expects 6-digit .KS/.KQ symbols.
+# - Goal: do not miss large-cap preferreds that can breakout like common shares.
+# --- Samsung / Hyundai / LG / battery / finance / holdings preferreds ---
+005935.KS  # Samsung Electronics preferred
+005385.KS  # Hyundai Motor 1st preferred
+005387.KS  # Hyundai Motor 2nd preferred
+005389.KS  # Hyundai Motor 3rd preferred
+051915.KS  # LG Chem preferred
+006405.KS  # Samsung SDI preferred
+078935.KS  # GS Holdings preferred
+# --- Additional 6-digit preferreds often worth keeping in KR universe ---
+003555.KS  # LG preferred
+005945.KS  # NH Investment & Securities preferred
+071055.KS  # Korea Investment Holdings preferred
+000815.KS  # Samsung Fire & Marine Insurance preferred
+010955.KS  # S-Oil preferred
+000885.KS  # Hanwha preferred
+001045.KS  # CJ preferred
+087010.KS
+
+#한국경제tv뉴스보고 - 10일선, 40일선
+036010.KQ
+0167A0.KS
+005290.KQ
+# 카카오페이는 3월 24일날 뉴스보고
+377300.KS 
+353200.KS
+119850.KQ
+425040.KQ
+#제아이아이테크는 음봉일때 눌림일때
+417500.KQ
+003160.KS
+200710.KQ
+#에이디테크놀로지 -arm
+200710.KQ
+
+# kosdaq_top_robotics_additions_20260320
+# Current KOSDAQ top-cap / robot-heavy additive block
+# Added because several current top KOSDAQ and robot names were not in your KR universe.
+# --- KOSDAQ top-cap / growth leaders missing from current universe ---
+226950.KQ  # 올릭스
+347850.KQ  # 디앤디파마텍
+214450.KQ  # 파마리서치
+319400.KQ  # 현대무벡스
+083650.KQ  # 비에이치아이
+357780.KQ  # 솔브레인
+# --- KOSDAQ robotics / physical AI / factory automation additions ---
+108490.KQ  # 로보티즈
+090710.KQ  # 휴림로봇
+049950.KQ  # 미래컴퍼니
+348340.KQ  # 뉴로메카
+270660.KQ  # 에브리봇
+160190.KQ  # 하이젠알앤엠
+388720.KQ  # 유일로보틱스
+# sector_focus_kosdaq_biopharma_battery_robot_20260320
+# KOSDAQ-focused reinforcement: biotech/pharma, secondary battery, robotics/automation
+# curated to improve capture of strong KOSDAQ themes without going full KOSDAQ150-all
+028300.KQ  # HLB
+141080.KQ  # 리가켐바이오
+214450.KQ  # 파마리서치
+226950.KQ  # 올릭스
+298380.KQ  # 에이비엘바이오
+310210.KQ  # 보로노이
+347850.KQ  # 디앤디파마텍
+066970.KQ  # 엘앤에프
+078600.KQ  # 대주전자재료
+121600.KQ  # 나노신소재
+278280.KQ  # 천보
+365340.KQ  # 성일하이텍
+383310.KQ  # 에코프로에이치엔
+393890.KQ  # 더블유씨피
+049950.KQ  # 미래컴퍼니
+090710.KQ  # 휴림로봇
+108490.KQ  # 로보티즈
+160190.KQ  # 하이젠알앤엠
+270660.KQ  # 에브리봇
+319400.KQ  # 현대무벡스
+348340.KQ  # 뉴로메카
+388720.KQ  # 유일로보틱스
+
+
+#HD현대중공업 
+329180
+#한화에어로스페이스 
+012450
+#LS ELECTRIC 
+010120
+#효성중공업 
+298040
+#현대엘리베이터 
+017800

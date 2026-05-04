@@ -1,0 +1,29 @@
+ticker,name,market,asset_type,sector,industry
+000145.KS,하이트진로홀딩스우,KOSPI,STOCK,Consumer Staples,Beverages / Holding preferred
+230360.KQ,에코마케팅,KOSDAQ,STOCK,Communication Services,Advertising / Marketing
+051915.KS,LG화학우,KOSPI,PREFERRED,Materials,Chemicals / Battery materials preferred
+002840.KS,미원상사,KOSPI,STOCK,Materials,Specialty chemicals
+000157.KS,두산2우B,KOSPI,PREFERRED,Industrials,Holding company preferred
+033780.KS,KT&G,KOSPI,STOCK,Consumer Staples,Tobacco
+009150.KS,삼성전기,KOSPI,STOCK,Information Technology,Electronic components / MLCC
+298040.KS,효성중공업,KOSPI,STOCK,Industrials,Power equipment / Heavy industry
+010120.KS,LS ELECTRIC,KOSPI,STOCK,Industrials,Electrical equipment / Grid
+062040.KS,산일전기,KOSPI,STOCK,Industrials,Transformer / Power equipment
+103590.KS,일진전기,KOSPI,STOCK,Industrials,Electric wire / Power equipment
+227840.KS,현대코퍼레이션홀딩스,KOSPI,STOCK,Industrials,Trading / Holdings
+051910.KS,LG화학,KOSPI,STOCK,Materials,Chemicals / Battery materials
+005930.KS,삼성전자,KOSPI,STOCK,Information Technology,Semiconductors / Electronics
+036890.KQ,진성티이씨,KOSDAQ,STOCK,Industrials,Construction machinery parts
+092190.KQ,서울바이오시스,KOSDAQ,STOCK,Information Technology,LED / Optoelectronics
+006260.KS,LS,KOSPI,STOCK,Industrials,Holding / Electrical infrastructure
+000150.KS,두산,KOSPI,STOCK,Industrials,Holding company / Energy equipment
+409820.KS,KODEX 미국나스닥100레버리지(합성 H),KOSPI,ETF,ETF,US Nasdaq 100 leveraged ETF
+102110.KS,TIGER 200,KOSPI,ETF,ETF,KOSPI 200 ETF
+122630.KS,KODEX 레버리지,KOSPI,ETF,ETF,KOSPI 200 leveraged ETF
+251340.KS,KODEX 코스닥150선물인버스,KOSPI,ETF,ETF,KOSDAQ150 inverse ETF
+381180.KS,TIGER 미국필라델피아반도체나스닥,KOSPI,ETF,ETF,US semiconductor ETF
+390390.KS,KODEX 미국반도체MV,KOSPI,ETF,ETF,US semiconductor ETF
+097950.KS,CJ제일제당,KOSPI,STOCK,Consumer Staples,Food processing
+042700.KS,한미반도체,KOSPI,STOCK,Information Technology,Semiconductor equipment
+267770.KS,배럴,KOSDAQ,STOCK,Consumer Discretionary,Apparel / Leisure
+004370.KS,농심,KOSPI,STOCK,Consumer Staples,Food / Noodles

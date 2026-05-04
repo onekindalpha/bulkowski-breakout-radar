@@ -1,0 +1,49 @@
+Ticker cleanup report (no code changes; only input lists)
+
+1) Duplicates found in tickers.txt (count>1):
+ - MPC: 3x
+ - PSX: 3x
+ - BNO: 2x
+ - COP: 2x
+ - FCX: 2x
+ - IDYA: 2x
+ - IYE: 2x
+ - KTB: 2x
+ - LNG: 2x
+ - UCO: 2x
+ - USO: 2x
+ - VG: 2x
+ - VLO: 2x
+ - WDS: 2x
+ - XLE: 2x
+ - XOP: 2x
+
+2) Index-like symbols normalized (without ^ -> with ^):
+ - XOI -> ^XOI
+ - OSX -> ^OSX
+ - XNG -> ^XNG
+ - XAL -> ^XAL
+ - GOX -> ^GOX
+ - XAU -> ^XAU
+ - BTK -> ^BTK
+ - GHA -> ^GHA
+ - GSV -> ^GSV
+ - GSO -> ^GSO
+ - XCI -> ^XCI
+ - INDS -> ^INDS
+ - INX -> ^INX
+ - GIN -> ^GIN
+ - NWX -> ^NWX
+ - DRG -> ^DRG
+ - XBD -> ^XBD
+ - SOX -> ^SOX
+ - TXX -> ^TXX
+ - XTC -> ^XTC
+ - UTY -> ^UTY
+
+3) Removed placeholders / non-tickers:
+ - CORE_ETFS_1XXCO (dropped)
+ - VGSIX (dropped)
+
+4) finviz_manual: BNAL note
+ - BNAL is not a Yahoo Finance symbol; likely typo for BANL (verify).

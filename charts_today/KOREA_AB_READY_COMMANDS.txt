@@ -1,0 +1,23 @@
+# A = 강한 종목 리더
+python build_kr_strong_stocks_auto_v2.py
+
+# B = 업종/섹터 로테이션 참고
+python build_kr_sector_rotation_auto.py
+
+# A/B + 기존 국장 소스 자동 합치기
+python sync_tickers_txt_korea_v3.py
+
+# 자동 가격 수집
+python update_premarket_yf_auto_debug_korea_v3.py
+
+# bulkowski 후보 10개 + manual 입력
+python make_premarket_manual_direct_korea_v2.py
+
+# merge
+python merge_premarkets_v2_korea.py
+
+# safe scan
+python scan_candidates_v2_safe_v6.py --universe tickers_korea.txt --premarket premarket_korea.csv
+
+# 예전 채팅식 최종 해석
+python manual10_legacy_review_v3.py --manual premarket_manual_korea.csv --report report_v2.csv

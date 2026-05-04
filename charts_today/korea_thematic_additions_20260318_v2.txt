@@ -1,0 +1,42 @@
+# korea_thematic_additions_20260318_v2.txt
+# Additive KR thematic overlay v2
+# Themes: chemicals / renewables / robotics / autonomous / battery / gold proxies
+
+# --- Chemicals / materials / battery chain ---
+051910.KS
+006400.KS
+003670.KS
+086520.KQ
+247540.KQ
+011170.KS
+009830.KS
+010060.KS
+305720.KS
+305540.KS
+
+# --- Renewables / power transition / grid ---
+009830.KS
+112610.KS
+297090.KQ
+015760.KS
+034020.KS
+322000.KS
+
+# --- Robotics / automation / physical AI ---
+277810.KQ
+455900.KQ
+058610.KQ
+117730.KQ
+307950.KS
+445290.KS
+
+# --- Autonomous driving / mobility / ADAS ---
+005380.KS
+000270.KS
+204320.KS
+307950.KS
+011070.KS
+
+# --- Gold proxies (KRX ETFs Yahoo-detectable) ---
+132030.KS
+411060.KS

@@ -1,0 +1,98 @@
+{
+  "type": "equity",
+  "ticker": "COIN",
+  "company": "Coinbase Global, Inc.",
+  "currency": "USD",
+  "current_price": 165.13,
+  "years": {
+    "2025": {
+      "cash_equivalents": 5489100000.0,
+      "marketable_securities": 0.0,
+      "current_debt": 374268000.0,
+      "long_term_debt": 8468162000.0,
+      "shareholder_equity": 5454557000.0,
+      "operating_cash_flow": 673376000.0,
+      "capex_tangible": 0.0,
+      "capex_intangible": 0.0,
+      "shares_outstanding": 260088000.0,
+      "eps_basic": 4.85,
+      "dividend_per_share": 0.0
+    },
+    "2024": {
+      "cash_equivalents": 4425021000.0,
+      "marketable_securities": 0.0,
+      "current_debt": 0.0,
+      "long_term_debt": 5959914000.0,
+      "shareholder_equity": 6381689000.0,
+      "operating_cash_flow": -1585419000.0,
+      "capex_tangible": 0.0,
+      "capex_intangible": 0.0,
+      "shares_outstanding": 247374000.0,
+      "eps_basic": 10.42,
+      "dividend_per_share": 0.0
+    },
+    "2023": {
+      "cash_equivalents": 7123478000.0,
+      "marketable_securities": 0.0,
+      "current_debt": 20519000.0,
+      "long_term_debt": 6786896000.0,
+      "shareholder_equity": 963584000.0,
+      "operating_cash_flow": 4038172000.0,
+      "capex_tangible": 0.0,
+      "capex_intangible": 0.0,
+      "shares_outstanding": 235796000.0,
+      "eps_basic": 0.4,
+      "dividend_per_share": 0.0
+    },
+    "2022": {
+      "cash_equivalents": 1061850000.0,
+      "marketable_securities": 0.0,
+      "current_debt": 20060000.0,
+      "long_term_debt": 6769590000.0,
+      "shareholder_equity": 497086000.0,
+      "operating_cash_flow": 293548000.0,
+      "capex_tangible": 9913000.0,
+      "capex_intangible": 0.0,
+      "shares_outstanding": 222314000.0,
+      "eps_basic": -11.81,
+      "dividend_per_share": 0.0
+    },
+    "2021": {
+      "cash_equivalents": 548945000.0,
+      "marketable_securities": 0.0,
+      "current_debt": 0.0,
+      "long_term_debt": 0.0,
+      "shareholder_equity": 500071000.0,
+      "operating_cash_flow": -80594000.0,
+      "capex_tangible": 39043000.0,
+      "capex_intangible": 0.0,
+      "shares_outstanding": 177319000.0,
+      "eps_basic": 17.47,
+      "dividend_per_share": 0.0
+    }
+  },
+  "source_notes": {
+    "cash_equivalents": "10-K/10-Q balance sheet: cash and cash equivalents",
+    "marketable_securities": "short-term investments / marketable securities",
+    "current_debt": "current debt / current portion of long-term debt",
+    "long_term_debt": "long-term debt",
+    "shareholder_equity": "total stockholders' equity",
+    "operating_cash_flow": "cash flow from operating activities",
+    "capex_tangible": "capital expenditures / purchases of property & equipment",
+    "capex_intangible": "purchases of intangible assets (0 if immaterial)",
+    "shares_outstanding": "weighted average or year-end shares; keep basis consistent",
+    "eps_basic": "basic EPS",
+    "dividend_per_share": "annual dividend per share"
+  },
+  "metadata": {
+    "cik": "0001679788",
+    "autofilled_via": [
+      "SEC Company Facts",
+      "Manual correction layer"
+    ],
+    "autofilled_at_unix": 1774924530,
+    "override_notes": [
+      "Corrected COIN current price/basic EPS/WASO from current filing/quote sources."
+    ]
+  }
+}

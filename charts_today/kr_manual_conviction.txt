@@ -1,0 +1,5 @@
+# kr_manual_conviction.txt
+# Put only names you want to override by human conviction / event / thesis.
+# Examples:
+# 000660.KS  # SK하이닉스
+# 005930.KS  # 삼성전자

@@ -1,0 +1,4 @@
+ticker,entry_price,shares,break_level,custom_break_level,entry_date,break_level_src
+XOP,162.5,10,,160.99,,custom
+MPC,214.28,10,,210.42,,custom
+IYE,61.4,10, ,61.04,,custom

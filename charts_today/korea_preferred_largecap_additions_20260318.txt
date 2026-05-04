@@ -1,0 +1,25 @@
+# korea_preferred_largecap_additions_20260318.txt
+# KR additive overlay: large-cap preferred shares
+# NOTE:
+# - This file intentionally uses Yahoo/KRX-compatible 6-digit preferred tickers only.
+# - Some KRX preferreds use letter-suffixed codes (e.g. ...K) and are NOT included here,
+#   because your current Korea pipeline regex mainly expects 6-digit .KS/.KQ symbols.
+# - Goal: do not miss large-cap preferreds that can breakout like common shares.
+
+# --- Samsung / Hyundai / LG / battery / finance / holdings preferreds ---
+005935.KS  # Samsung Electronics preferred
+005385.KS  # Hyundai Motor 1st preferred
+005387.KS  # Hyundai Motor 2nd preferred
+005389.KS  # Hyundai Motor 3rd preferred
+051915.KS  # LG Chem preferred
+006405.KS  # Samsung SDI preferred
+078935.KS  # GS Holdings preferred
+
+# --- Additional 6-digit preferreds often worth keeping in KR universe ---
+003555.KS  # LG preferred
+005945.KS  # NH Investment & Securities preferred
+071055.KS  # Korea Investment Holdings preferred
+000815.KS  # Samsung Fire & Marine Insurance preferred
+010955.KS  # S-Oil preferred
+000885.KS  # Hanwha preferred
+001045.KS  # CJ preferred

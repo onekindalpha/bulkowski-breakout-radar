@@ -1,0 +1,5 @@
+ticker,entry_price,shares,break_level,custom_break_level,entry_date,break_level_src
+XOP,162.5,10,,160.99,,custom
+GTE, 7.50, 20,
+GTE, 7.4682, 52,
+MPC, 223.50, 16,

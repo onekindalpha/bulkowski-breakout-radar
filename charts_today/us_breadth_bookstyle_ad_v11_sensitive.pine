@@ -1,0 +1,106 @@
+//@version=6
+indicator("US Breadth Bookstyle A/D v11 Sensitive", overlay=false, max_labels_count=500)
+
+market = input.string("NYSE", "Market", options=["NYSE", "NASDAQ"])
+tfBreadth = input.timeframe("D", "Breadth timeframe")
+lookback = input.int(126, "Lookback", minval=20)
+baseValue = input.float(50000, "A/D Line Base Value")
+
+nearHighPct = input.float(2.0, "Near-high threshold %", step=0.1)
+warnGapPct = input.float(1.0, "Warn gap %", step=0.1)
+dangerGapPct = input.float(2.0, "Danger gap %", step=0.1)
+newHighTolPct = input.float(0.2, "New-high tolerance %", step=0.1)
+
+string advSym  = market == "NYSE" ? "USI:ADV"     : "USI:ADVQ"
+string declSym = market == "NYSE" ? "USI:DECL"    : "USI:DECL.NQ"
+
+adv  = request.security(advSym,  tfBreadth, close, gaps=barmerge.gaps_off, lookahead=barmerge.lookahead_off, ignore_invalid_symbol=true)
+decl = request.security(declSym, tfBreadth, close, gaps=barmerge.gaps_off, lookahead=barmerge.lookahead_off, ignore_invalid_symbol=true)
+
+adDiff = nz(adv, 0) - nz(decl, 0)
+adLine = baseValue + ta.cum(adDiff)
+
+priceHigh = ta.highest(close, lookback)
+adHigh    = ta.highest(adLine, lookback)
+
+priceOff = priceHigh > 0 ? (priceHigh - close) / priceHigh * 100.0 : na
+adOff    = adHigh > 0 ? (adHigh - adLine) / adHigh * 100.0 : na
+lagGap   = adOff - priceOff
+
+priceAtHigh = priceOff <= newHighTolPct
+adAtHigh    = adOff <= newHighTolPct
+priceNear   = priceOff <= nearHighPct
+
+string status = "Neutral"
+string note = "Price and breadth are roughly in sync"
+color statusColor = color.gray
+
+if na(priceOff) or na(adOff)
+    status := "No signal"
+    note := "Not enough history"
+    statusColor := color.gray
+else if priceAtHigh and adAtHigh
+    status := "Confirmed breakout"
+    note := "Price and A/D both confirm highs"
+    statusColor := color.green
+else if priceAtHigh and not adAtHigh and lagGap >= dangerGapPct
+    status := "Serious A/D non-confirmation"
+    note := "Price is at/new high, A/D is clearly lagging"
+    statusColor := color.red
+else if priceAtHigh and not adAtHigh and lagGap >= warnGapPct
+    status := "Early A/D warning"
+    note := "Price is at/new high, A/D is not confirming"
+    statusColor := color.orange
+else if priceNear and lagGap >= dangerGapPct
+    status := "Narrow advance warning"
+    note := "Price recovered faster than breadth"
+    statusColor := color.red
+else if priceNear and lagGap >= warnGapPct
+    status := "Breadth lag candidate"
+    note := "Breadth is lagging a near-high price move"
+    statusColor := color.orange
+else if lagGap <= -warnGapPct and adOff < priceOff
+    status := "Breadth-led recovery"
+    note := "A/D recovered faster than price"
+    statusColor := color.teal
+else if adOff <= nearHighPct and priceOff > nearHighPct
+    status := "Breadth stronger than price"
+    note := "Internal participation improved ahead of price"
+    statusColor := color.teal
+
+plot(adLine, "A/D Line", color=color.new(color.blue, 0), linewidth=2)
+hline(baseValue, "Base", color=color.new(color.gray, 80))
+
+var table t = table.new(position.top_right, 2, 10, border_width=1)
+if barstate.islast
+    table.cell(t, 0, 0, "Market")
+    table.cell(t, 1, 0, market)
+    table.cell(t, 0, 1, "AD Diff")
+    table.cell(t, 1, 1, str.tostring(adDiff, format.mintick))
+    table.cell(t, 0, 2, "A/D Line")
+    table.cell(t, 1, 2, str.tostring(adLine, format.mintick))
+    table.cell(t, 0, 3, "Price off high")
+    table.cell(t, 1, 3, str.tostring(priceOff, "#.##") + "%")
+    table.cell(t, 0, 4, "A/D off high")
+    table.cell(t, 1, 4, str.tostring(adOff, "#.##") + "%")
+    table.cell(t, 0, 5, "Lag gap")
+    table.cell(t, 1, 5, str.tostring(lagGap, "#.##") + "%")
+    table.cell(t, 0, 6, "Price @ high")
+    table.cell(t, 1, 6, priceAtHigh ? "YES" : "NO")
+    table.cell(t, 0, 7, "A/D @ high")
+    table.cell(t, 1, 7, adAtHigh ? "YES" : "NO")
+    table.cell(t, 0, 8, "Status")
+    table.cell(t, 1, 8, status)
+    table.cell(t, 0, 9, "Note")
+    table.cell(t, 1, 9, note)
+
+var label lbl = na
+if barstate.islast
+    if not na(lbl)
+        label.delete(lbl)
+    txt = status + "\n" + note + "\nPrice off high " + str.tostring(priceOff, "#.##") + "% / A/D off high " + str.tostring(adOff, "#.##") + "% / Gap " + str.tostring(lagGap, "#.##") + "%"
+    lbl := label.new(bar_index, adLine, txt, style=label.style_label_left, color=statusColor, textcolor=color.white)
+
+alertcondition(status == "Early A/D warning", title="Early A/D warning", message="Price at/near high but A/D is not confirming")
+alertcondition(status == "Serious A/D non-confirmation" or status == "Narrow advance warning", title="Serious breadth warning", message="Price strength is not confirmed by breadth")
+alertcondition(status == "Confirmed breakout", title="Confirmed breakout", message="Price and A/D confirm breakout")

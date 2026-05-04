@@ -1,0 +1,11 @@
+# generated_at_utc=2026-04-27T14:55:54+00:00
+# source=finviz_groups_mixed
+# groups=5
+# tickers=1
+# industry:1:Internet Content & Information | score=0.9486 | change=1.46% | perf_week=2.87% | perf_month=23.84% | rel_volume=0.98 | url=https://finviz.com/screener.ashx?f=ind_internetcontentinformation&v=141
+# industry:2:Healthcare Plans | score=0.8747 | change=0.72% | perf_week=7.19% | perf_month=22.41% | rel_volume=0.79 | url=https://finviz.com/screener.ashx?f=ind_healthcareplans&v=141
+# industry:3:Oil & Gas Drilling | score=0.8389 | change=3.59% | perf_week=11.41% | perf_month=-0.61% | rel_volume=1.02 | url=https://finviz.com/screener.ashx?f=ind_oilgasdrilling&v=141
+# industry:4:Uranium | score=0.8170 | change=1.29% | perf_week=-0.73% | perf_month=16.31% | rel_volume=0.89 | url=https://finviz.com/screener.ashx?f=ind_uranium&v=141
+# industry:5:Financial Conglomerates | score=0.8083 | change=3.30% | perf_week=-0.51% | perf_month=8.12% | rel_volume=0.63 | url=https://finviz.com/screener.ashx?f=ind_financialconglomerates&v=141
+
+CARS.COM

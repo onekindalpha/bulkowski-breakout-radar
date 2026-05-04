@@ -1,0 +1,62 @@
+# us_thematic_additions_20260318_v2.txt
+# Additive US thematic overlay
+# Themes: chemicals / renewables / robotics / autonomous driving / space / satellite / space-solar-adjacent
+
+# --- Chemicals / materials ---
+LIN
+APD
+ECL
+SHW
+LYB
+DD
+FCX
+NUE
+
+# --- Renewables / clean power / grid / transition ---
+FSLR
+NXT
+ENPH
+ARRY
+VST
+CEG
+NRG
+GEV
+AES
+NEE
+
+# --- Robotics / automation / physical AI ---
+ABB
+ROK
+IR
+CAT
+DE
+TER
+SYM
+
+# --- Autonomous driving / robotaxi / ADAS ---
+TSLA
+UBER
+LYFT
+GM
+MBLY
+AUR
+ON
+NXPI
+
+# --- Space / satellite / launch / communications / space-solar-adjacent ---
+RKLB
+ASTS
+LUNR
+RDW
+PL
+SPIR
+SATL
+GSAT
+VSAT
+VIASAT
+
+# --- Tactical aerospace / defense-space crossover ---
+LMT
+NOC
+RTX
+BA

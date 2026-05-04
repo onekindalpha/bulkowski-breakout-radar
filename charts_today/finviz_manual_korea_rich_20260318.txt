@@ -1,0 +1,36 @@
+# finviz_manual_korea_rich_20260318.txt
+# Tactical / momentum / near-breakout watchlist for Korea pipeline
+# Built to be richer than the previous temporary file.
+
+# --- Current strong-stock leaders from A overlay / recent momentum ---
+488080.KS  # TIGER 반도체TOP10레버리지
+494310.KS  # KODEX 반도체레버리지
+267770.KS  # TIGER 200선물레버리지
+122630.KS  # KODEX 레버리지
+471990.KS  # KODEX AI반도체핵심장비
+475310.KS  # SOL 반도체후공정
+000660.KS  # SK하이닉스
+005930.KS  # 삼성전자
+009150.KS  # 삼성전기
+091160.KS  # KODEX 반도체
+091230.KS  # TIGER 반도체
+396500.KS  # TIGER 반도체TOP10
+469150.KS  # ACE AI반도체TOP3+
+395270.KS  # HANARO Fn K-반도체
+395160.KS  # KODEX AI반도체
+471760.KS  # TIGER AI반도체핵심공정
+390390.KS  # KODEX 미국반도체
+278470.KS  # 에이피알
+207940.KS  # 삼성바이오로직스
+000250.KQ  # 삼천당제약
+
+# --- Foreign-favored / order-backlog / strategic theme names to keep close ---
+012450.KS  # 한화에어로스페이스
+042660.KS  # 한화오션
+034020.KS  # 두산에너빌리티
+329180.KS  # HD현대중공업
+035420.KS  # NAVER
+064350.KS  # 현대로템
+079550.KS  # LIG넥스원
+047810.KS  # 한국항공우주
+267260.KS  # HD현대일렉트릭

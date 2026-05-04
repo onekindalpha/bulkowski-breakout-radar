@@ -1,0 +1,98 @@
+{
+  "type": "equity",
+  "ticker": "O",
+  "company": "Realty Income Corporation",
+  "currency": "USD",
+  "current_price": 60.69,
+  "years": {
+    "2025": {
+      "cash_equivalents": 444962000.0,
+      "marketable_securities": 0.0,
+      "current_debt": 67300000.0,
+      "long_term_debt": 29048811000.0,
+      "shareholder_equity": 39438695000.0,
+      "operating_cash_flow": 3995000000.0,
+      "capex_tangible": 0.0,
+      "capex_intangible": 0.0,
+      "shares_outstanding": 907169000.0,
+      "eps_basic": 1.17,
+      "dividend_per_share": 3.217
+    },
+    "2024": {
+      "cash_equivalents": 232923000.0,
+      "marketable_securities": 0.0,
+      "current_debt": 764400000.0,
+      "long_term_debt": 25746398000.0,
+      "shareholder_equity": 38840738000.0,
+      "operating_cash_flow": 3573000000.0,
+      "capex_tangible": 0.0,
+      "capex_intangible": 0.0,
+      "shares_outstanding": 862959000.0,
+      "eps_basic": 0.98,
+      "dividend_per_share": 3.126
+    },
+    "2023": {
+      "cash_equivalents": 171102000.0,
+      "marketable_securities": 0.0,
+      "current_debt": 701800000.0,
+      "long_term_debt": 20779069000.0,
+      "shareholder_equity": 32941467000.0,
+      "operating_cash_flow": 2959000000.0,
+      "capex_tangible": 0.0,
+      "capex_intangible": 0.0,
+      "shares_outstanding": 692298000.0,
+      "eps_basic": 1.26,
+      "dividend_per_share": 3.051
+    },
+    "2022": {
+      "cash_equivalents": 258579000.0,
+      "marketable_securities": 0.0,
+      "current_debt": 901400000.0,
+      "long_term_debt": 17034139000.0,
+      "shareholder_equity": 28713149000.0,
+      "operating_cash_flow": 2564000000.0,
+      "capex_tangible": 0.0,
+      "capex_intangible": 0.0,
+      "shares_outstanding": 611770000.0,
+      "eps_basic": 1.42,
+      "dividend_per_share": 2.967
+    },
+    "2021": {
+      "cash_equivalents": 824476000.0,
+      "marketable_securities": 0.0,
+      "current_debt": 0.0,
+      "long_term_debt": 15172849000.0,
+      "shareholder_equity": 25052574000.0,
+      "operating_cash_flow": 1322000000.0,
+      "capex_tangible": 0.0,
+      "capex_intangible": 0.0,
+      "shares_outstanding": 414540000.0,
+      "eps_basic": 0.87,
+      "dividend_per_share": 2.833
+    }
+  },
+  "source_notes": {
+    "cash_equivalents": "10-K/10-Q balance sheet: cash and cash equivalents",
+    "marketable_securities": "short-term investments / marketable securities",
+    "current_debt": "current debt / current portion of long-term debt",
+    "long_term_debt": "long-term debt",
+    "shareholder_equity": "total stockholders' equity",
+    "operating_cash_flow": "cash flow from operating activities",
+    "capex_tangible": "capital expenditures / purchases of property & equipment",
+    "capex_intangible": "purchases of intangible assets (0 if immaterial)",
+    "shares_outstanding": "weighted average or year-end shares; keep basis consistent",
+    "eps_basic": "basic EPS",
+    "dividend_per_share": "annual dividend per share"
+  },
+  "metadata": {
+    "cik": "0000726728",
+    "autofilled_via": [
+      "SEC filings / company reports",
+      "Manual correction layer"
+    ],
+    "autofilled_at_unix": 1774924530,
+    "override_notes": [
+      "Corrected O current price/basic EPS/WASO/dividends/equity/operating cash flow/debt."
+    ]
+  }
+}

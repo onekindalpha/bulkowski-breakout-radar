@@ -1,0 +1,37 @@
+# macro_watch_yahoo_korea_rich_20260318.txt
+# Static macro / sector / benchmark proxies for Korea pipeline
+# NOTE: this file is NOT auto-filled by your current pipeline.
+# The scripts read it if present, but they do not populate it automatically.
+
+# --- Broad market / beta proxies ---
+069500.KS  # KODEX 200
+122630.KS  # KODEX 레버리지
+267770.KS  # TIGER 200선물레버리지
+233740.KS  # KODEX 코스닥150레버리지
+233160.KS  # TIGER 코스닥150 레버리지
+252670.KS  # KODEX 200선물인버스2X
+251340.KS  # KODEX 코스닥150선물인버스
+
+# --- Sector / style proxies ---
+091160.KS  # KODEX 반도체
+091170.KS  # KODEX 은행
+266370.KS  # KODEX IT
+488080.KS  # TIGER 반도체TOP10레버리지
+494310.KS  # KODEX 반도체레버리지
+091230.KS  # TIGER 반도체
+396500.KS  # TIGER 반도체TOP10
+469150.KS  # ACE AI반도체TOP3+
+395270.KS  # HANARO Fn K-반도체
+471990.KS  # KODEX AI반도체핵심장비
+390390.KS  # KODEX 미국반도체
+381180.KS  # TIGER 미국필라델피아반도체나스닥
+
+# --- Bellwethers / strategic themes ---
+005930.KS  # 삼성전자
+000660.KS  # SK하이닉스
+012450.KS  # 한화에어로스페이스
+042660.KS  # 한화오션
+034020.KS  # 두산에너빌리티
+329180.KS  # HD현대중공업
+035420.KS  # NAVER
+015760.KS  # 한국전력

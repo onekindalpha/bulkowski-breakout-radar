@@ -1,0 +1,42 @@
+# us_thematic_additions_20260318.txt
+# Additive US thematic overlay: chemicals / renewables / robotics / autonomous driving
+
+# --- Chemicals / materials ---
+LIN
+APD
+ECL
+SHW
+LYB
+DD
+FCX
+NUE
+
+# --- Renewables / clean power / grid / transition ---
+FSLR
+NXT
+ENPH
+VST
+CEG
+NRG
+GEV
+AES
+NEE
+
+# --- Robotics / automation / physical AI ---
+ABB
+ROK
+IR
+CAT
+DE
+TER
+SYM
+
+# --- Autonomous driving / robotaxi / ADAS ---
+TSLA
+UBER
+LYFT
+GM
+MBLY
+AUR
+ON
+NXPI

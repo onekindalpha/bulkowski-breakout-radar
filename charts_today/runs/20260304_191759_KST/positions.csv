@@ -1,0 +1,5 @@
+ticker,entry_price,shares,break_level,custom_break_level,entry_date,break_level_src
+XLE,58.05,10,,57.88,nan,custom
+XOP,162.5,10,,160.99,nan,custom
+MPC,214.28,10,,210.42,nan,custom
+IYE,61.4,10, ,61.04,nan,custom

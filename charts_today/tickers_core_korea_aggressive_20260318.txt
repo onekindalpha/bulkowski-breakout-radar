@@ -1,0 +1,55 @@
+# tickers_core_korea_aggressive_20260318.txt
+# Aggressive but still liquid Korea core universe
+# Focus: AI memory/HBM, shipbuilding/defense/nuclear, selective biotech, key internet/financial bellwethers
+
+# --- AI / Memory / Semiconductor Leaders ---
+005930.KS
+000660.KS
+009150.KS
+042700.KS
+058470.KQ
+039030.KQ
+240810.KQ
+089030.KQ
+403870.KQ
+222800.KQ
+000990.KS
+
+# --- Defense / Shipbuilding / Nuclear / Power ---
+012450.KS
+042660.KS
+329180.KS
+010140.KS
+034020.KS
+267260.KS
+064350.KS
+079550.KS
+047810.KS
+015760.KS
+
+# --- Selective Biotech / Healthcare ---
+207940.KS
+068270.KS
+000100.KS
+326030.KS
+196170.KQ
+000250.KQ
+
+# --- Internet / Auto / Financial bellwethers ---
+035420.KS
+035720.KS
+005380.KS
+000270.KS
+105560.KS
+055550.KS
+086790.KS
+316140.KS
+
+# --- Consumer / Cosmetics leaders ---
+003230.KS
+097950.KS
+271560.KS
+090430.KS
+192820.KS
+161890.KS
+278470.KS

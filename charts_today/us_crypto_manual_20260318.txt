@@ -1,0 +1,28 @@
+# us_crypto_manual_20260318.txt
+# Tactical crypto + ETH ETF watch
+
+# --- Spot ETH ETFs ---
+ETHA
+FETH
+ETH
+EZET
+ETHV
+ETHW
+TETH
+QETH
+ETHE
+ETHU
+
+# --- Spot BTC ETFs / crypto beta ---
+IBIT
+FBTC
+
+# --- Crypto-linked equities ---
+COIN
+HOOD
+MSTR
+CME
+MARA
+RIOT
+CLSK
+CRCL

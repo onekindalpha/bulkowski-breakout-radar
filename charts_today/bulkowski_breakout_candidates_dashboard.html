@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>불코우스키의 전고점 돌파후보 (책: 차트패턴)</title>
+  <style>
+    :root{--bg:#f6f7fb;--card:#fff;--line:#e5e7eb;--text:#0f172a;--muted:#64748b;--good:#ecfdf5;--good-t:#166534;--warn:#fffbeb;--warn-t:#92400e;--bad:#fff1f2;--bad-t:#be123c;--watch:#f5f3ff;--watch-t:#6d28d9}
+    *{box-sizing:border-box} body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text)}
+    .wrap{max-width:1400px;margin:0 auto;padding:24px}.hero,.card{background:var(--card);border:1px solid var(--line);border-radius:20px;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+    .hero{padding:20px 24px;margin-bottom:18px}.grid{display:grid;gap:16px}.stats{grid-template-columns:repeat(4,minmax(0,1fr));margin-bottom:18px}.stat{padding:18px}.stat .k{font-size:13px;color:var(--muted)}.stat .v{font-size:28px;font-weight:700;margin-top:8px}.main{grid-template-columns:1.2fr .8fr}
+    .controls{display:grid;grid-template-columns:1fr 180px 120px 140px;gap:10px;margin-bottom:14px}.controls input,.controls select,.controls button,.controls label{height:42px;border-radius:12px;border:1px solid var(--line);background:#fff;padding:0 12px;font-size:14px}
+    .controls button,.controls label{cursor:pointer}.controls input[type=file]{display:none}
+    .list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.item{padding:14px;border:1px solid var(--line);border-radius:16px;background:#fff;cursor:pointer}.item.active{outline:2px solid #cbd5e1}.row{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}.muted{color:var(--muted)} .tiny{font-size:12px}.small{font-size:13px}
+    .badge{padding:5px 9px;border-radius:999px;font-size:12px;font-weight:600;border:1px solid transparent;white-space:nowrap}.entry{background:var(--good);color:var(--good-t);border-color:#bbf7d0}.smallsize{background:var(--warn);color:var(--warn-t);border-color:#fde68a}.avoid{background:var(--bad);color:var(--bad-t);border-color:#fecdd3}.watch{background:var(--watch);color:var(--watch-t);border-color:#ddd6fe}.hold{background:#f8fafc;color:#334155;border-color:#cbd5e1}
+    .section{padding:18px}.detailGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px}.kv{background:#f8fafc;border-radius:14px;padding:12px}.kv .k{font-size:12px;color:var(--muted)}.kv .v{font-size:16px;font-weight:700;margin-top:4px}
+    table{width:100%;border-collapse:collapse;font-size:14px} th,td{text-align:left;padding:10px 8px;border-top:1px solid var(--line);vertical-align:top} th{font-size:12px;color:var(--muted);font-weight:700}
+    .toolbar{display:flex;gap:10px;align-items:center;justify-content:space-between;margin-top:18px;margin-bottom:10px}.chip{display:inline-block;padding:4px 8px;border-radius:999px;background:#eef2ff;color:#3730a3;font-size:12px}
+    .foot{margin-top:16px;color:var(--muted);font-size:12px;line-height:1.6}
+    @media (max-width:1100px){.main{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.controls{grid-template-columns:1fr 1fr}.list{grid-template-columns:1fr}}
+    @media (max-width:700px){.stats{grid-template-columns:1fr}.controls{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <div style="display:flex;justify-content:space-between;gap:16px;align-items:flex-start;flex-wrap:wrap">
+      <div>
+        <div class="tiny muted">Bulkowski Breakout Watchlist · KR Market</div>
+        <h1 style="margin:6px 0 8px;font-size:32px">불코우스키의 전고점 돌파후보 (책: 차트패턴)</h1>
+        <div class="small muted">전고점/브레이크 레벨 근처 후보를 티커·종목명·산업·상태별로 보는 로컬 HTML 대시보드. CSV 업로드만 하면 바로 확인 가능.</div>
+      </div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        <span class="chip">CSV 1장 업로드</span>
+        <span class="chip">티커명/산업 표시</span>
+        <span class="chip">설치 불필요</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid stats">
+    <div class="card stat"><div class="k">전체 후보</div><div class="v" id="statTotal">0</div></div>
+    <div class="card stat"><div class="k">실행 가능</div><div class="v" id="statEntry">0</div></div>
+    <div class="card stat"><div class="k">비중 축소</div><div class="v" id="statSmall">0</div></div>
+    <div class="card stat"><div class="k">신규 회피</div><div class="v" id="statAvoid">0</div></div>
+  </div>
+
+  <div class="grid main">
+    <div class="card section">
+      <div class="controls">
+        <input id="search" placeholder="ticker / 종목명 / 산업 / state 검색" />
+        <select id="stateFilter">
+          <option value="ALL">전체 상태</option>
+          <option>PREBREAK OK</option>
+          <option>ENTRY OK</option>
+          <option>SMALL SIZE</option>
+          <option>HOLD ONLY</option>
+          <option>AVOID NEW</option>
+          <option>WATCH</option>
+        </select>
+        <button id="safeOnlyBtn">SAFE만</button>
+        <label>CSV 업로드<input id="csvFile" type="file" accept=".csv" /></label>
+      </div>
+      <div id="fileInfo" class="tiny muted" style="margin-bottom:10px">샘플 데이터 로드됨</div>
+      <div id="list" class="list"></div>
+    </div>
+
+    <div class="card section">
+      <div class="row"><h2 style="margin:0;font-size:18px">선택 종목 상세</h2><span id="detailState" class="badge watch">WATCH</span></div>
+      <div style="margin-top:10px">
+        <div id="detailTicker" style="font-size:28px;font-weight:800">-</div>
+        <div id="detailName" class="small" style="margin-top:2px">-</div>
+        <div id="detailIndustry" class="tiny muted" style="margin-top:6px">-</div>
+      </div>
+      <div class="detailGrid">
+        <div class="kv"><div class="k">Price</div><div class="v" id="dPrice">-</div></div>
+        <div class="kv"><div class="k">Weekly R1</div><div class="v" id="dR1">-</div></div>
+        <div class="kv"><div class="k">Room %</div><div class="v" id="dRoom">-</div></div>
+        <div class="kv"><div class="k">RSI14</div><div class="v" id="dRsi">-</div></div>
+        <div class="kv"><div class="k">vs 10DMA</div><div class="v" id="d10">-</div></div>
+        <div class="kv"><div class="k">vs 40DMA</div><div class="v" id="d40">-</div></div>
+        <div class="kv"><div class="k">vs 50DMA</div><div class="v" id="d50">-</div></div>
+        <div class="kv"><div class="k">vs 200DMA</div><div class="v" id="d200">-</div></div>
+      </div>
+      <div id="detailNote" style="margin-top:14px;padding:12px 14px;background:#f8fafc;border-radius:14px" class="small muted">-</div>
+    </div>
+  </div>
+
+  <div class="card section" style="margin-top:18px">
+    <div class="toolbar">
+      <h2 style="margin:0;font-size:18px">전체 테이블</h2>
+      <div class="tiny muted">종목명/산업은 내장 샘플 매핑 + 네가 직접 올린 매핑으로 확장 가능</div>
+    </div>
+    <div style="overflow:auto">
+      <table>
+        <thead>
+          <tr>
+            <th>Ticker</th><th>종목명</th><th>산업</th><th>State</th><th>Grade</th><th>Score</th><th>Price</th><th>Room</th><th>RSI</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
+    <div class="foot">
+      팁: 기본 컬럼은 <code>ticker</code>, <code>state</code>/<code>entry</code>, <code>price</code>, <code>weekly_r1</code>, <code>room_pct</code>/<code>room_to_weekly_r1_pct</code>, <code>rsi14</code>, <code>px_vs_sma10/40/50/200</code>를 우선 인식한다.
+    </div>
+  </div>
+</div>
+<script>
+const tickerMeta = {
+  '000145.KS': { name: '하이트진로홀딩스우', industry: '음식료 / 지주 / 우선주' },
+  '230360.KQ': { name: '에코마케팅', industry: '광고 / 디지털 마케팅' },
+  '009150.KS': { name: '삼성전기', industry: '전자부품 / MLCC / 카메라모듈' },
+  '298040.KS': { name: '효성중공업', industry: '전력기기 / 중공업' },
+  '010120.KS': { name: 'LS ELECTRIC', industry: '전력기기 / 자동화' },
+  '356860.KQ': { name: '티엘비', industry: '반도체 PCB / 서버·메모리 기판' },
+  '051915.KS': { name: 'LG화학우', industry: '화학 / 2차전지 소재 / 우선주' },
+  '227840.KS': { name: '현대코퍼레이션홀딩스', industry: '지주 / 무역 계열' },
+  '051910.KS': { name: 'LG화학', industry: '화학 / 배터리 소재' },
+  '03473K.KS': { name: 'SK우', industry: '지주 / 우선주' },
+  '409820.KS': { name: 'KODEX 미국나스닥100 레버리지(합성 H)', industry: 'ETF / 미국 나스닥 레버리지' },
+  '102110.KS': { name: 'TIGER 200', industry: 'ETF / 코스피200' },
+  '033780.KS': { name: 'KT&G', industry: '소비재 / 담배 / 건강기능식품' },
+  '036890.KQ': { name: '진성티이씨', industry: '건설기계 부품 / 트랙롤러' },
+  '092190.KQ': { name: '서울바이오시스', industry: 'LED / 광반도체' },
+  '000150.KS': { name: '두산', industry: '지주 / 산업재' },
+  '006260.KS': { name: 'LS', industry: '지주 / 전선·전력 인프라' }
+};
+
+const sampleRows = [
+  { ticker:'000145.KS', grade:'A', score:6, price:12180, rsi14:68.83, room_pct:4.27, weekly_r1:12700, state:'ENTRY OK', px_vs_sma10:1.84, px_vs_sma40:4.96, px_vs_sma50:4.67, px_vs_sma200:0.27, safe:'Y', thesis:'NO OVERLAY' },
+  { ticker:'230360.KQ', grade:'C', score:6, price:16010, rsi14:60.00, room_pct:0.44, weekly_r1:16080, state:'SMALL SIZE', px_vs_sma10:0.04, px_vs_sma40:0.33, px_vs_sma50:0.46, px_vs_sma200:18.07, safe:'Y', thesis:'NO OVERLAY' },
+  { ticker:'051915.KS', grade:'A', score:3, price:196200, rsi14:78.65, room_pct:2.45, weekly_r1:201000, state:'AVOID NEW', px_vs_sma10:5.05, px_vs_sma40:19.31, px_vs_sma50:18.42, px_vs_sma200:19.66, safe:'Y', thesis:'NO OVERLAY' },
+  { ticker:'033780.KS', grade:'B', score:2, price:179300, rsi14:83.09, room_pct:1.23, weekly_r1:181500, state:'AVOID NEW', px_vs_sma10:2.31, px_vs_sma40:10.07, px_vs_sma50:9.59, px_vs_sma200:22.10, safe:'Y', thesis:'NO OVERLAY' },
+  { ticker:'009150.KS', grade:'C', score:0, price:918000, rsi14:72.2, room_pct:-46.79, weekly_r1:488500, state:'AVOID NEW', px_vs_sma10:14.24, px_vs_sma40:64.83, px_vs_sma50:73.31, px_vs_sma200:210.23, safe:'Y', thesis:'INSTITUTIONAL STORY' }
+];
+
+let rows = [...sampleRows];
+let selectedTicker = rows[0]?.ticker || null;
+let safeOnly = false;
+
+function num(v){ if(v===null||v===undefined||v==='') return null; const n=Number(String(v).replace(/,/g,'')); return Number.isFinite(n)?n:null; }
+function pct(v){ return v===null||v===undefined||Number.isNaN(v)?'-':`${v>0?'+':''}${Number(v).toFixed(2)}%`; }
+function won(v){ return v===null||v===undefined||Number.isNaN(v)?'-':new Intl.NumberFormat('ko-KR').format(v); }
+function cls(s){ if(s==='ENTRY OK'||s==='PREBREAK OK') return 'entry'; if(s==='SMALL SIZE') return 'smallsize'; if(s==='AVOID NEW') return 'avoid'; if(s==='HOLD ONLY') return 'hold'; return 'watch'; }
+function norm(r){
+  const x={...r};
+  x.ticker = x.ticker || x.Ticker || x.symbol || 'UNKNOWN';
+  x.state = x.state || x.entry || x.entry_state || 'WATCH';
+  x.grade = x.grade || '-';
+  x.score = num(x.score);
+  x.price = num(x.price);
+  x.rsi14 = num(x.rsi14);
+  x.weekly_r1 = num(x.weekly_r1);
+  x.room_pct = num(x.room_pct ?? x.room_to_weekly_r1_pct);
+  x.px_vs_sma10 = num(x.px_vs_sma10);
+  x.px_vs_sma40 = num(x.px_vs_sma40);
+  x.px_vs_sma50 = num(x.px_vs_sma50);
+  x.px_vs_sma200 = num(x.px_vs_sma200);
+  x.safe = x.safe || x.safe_flag || '';
+  return x;
+}
+function parseCSV(text){
+  const lines=text.trim().split(/\r?\n/); if(!lines.length) return [];
+  const headers=splitCSV(lines[0]);
+  return lines.slice(1).filter(Boolean).map(line=>{
+    const cells=splitCSV(line); const obj={};
+    headers.forEach((h,i)=>obj[h]=cells[i] ?? '');
+    return norm(obj);
+  });
+}
+function splitCSV(line){
+  const out=[]; let cur=''; let q=false;
+  for(let i=0;i<line.length;i++){
+    const c=line[i];
+    if(c==='"'){ if(q && line[i+1]==='"'){ cur+='"'; i++; } else q=!q; }
+    else if(c===',' && !q){ out.push(cur); cur=''; }
+    else cur+=c;
+  }
+  out.push(cur); return out;
+}
+function filteredRows(){
+  const q=document.getElementById('search').value.trim().toLowerCase();
+  const sf=document.getElementById('stateFilter').value;
+  return rows.filter(r=>{
+    const m=tickerMeta[r.ticker]||{};
+    const hay=[r.ticker,m.name||'',m.industry||'',r.state||'',r.thesis||''].join(' ').toLowerCase();
+    return (!q || hay.includes(q)) && (sf==='ALL' || r.state===sf) && (!safeOnly || r.safe==='Y');
+  });
+}
+function render(){
+  const fr=filteredRows();
+  document.getElementById('statTotal').textContent = rows.length;
+  document.getElementById('statEntry').textContent = rows.filter(r=>['ENTRY OK','PREBREAK OK'].includes(r.state)).length;
+  document.getElementById('statSmall').textContent = rows.filter(r=>r.state==='SMALL SIZE').length;
+  document.getElementById('statAvoid').textContent = rows.filter(r=>r.state==='AVOID NEW').length;
+  const list=document.getElementById('list'); list.innerHTML='';
+  const sorted=[...fr].sort((a,b)=>rank(a.state)-rank(b.state) || (b.score??-999)-(a.score??-999));
+  sorted.slice(0,30).forEach(r=>{
+    const m=tickerMeta[r.ticker]||{name:'(종목명 미매핑)',industry:'(산업 미매핑)'};
+    const div=document.createElement('div'); div.className='item'+(selectedTicker===r.ticker?' active':'');
+    div.innerHTML=`<div class="row"><div><div style="font-weight:800">${r.ticker}</div><div class="small" style="margin-top:2px">${m.name}</div><div class="tiny muted" style="margin-top:4px">${m.industry}</div></div><span class="badge ${cls(r.state)}">${r.state}</span></div><div class="row" style="margin-top:12px"><div><div class="tiny muted">grade / score</div><div class="small" style="font-weight:700">${r.grade} / ${r.score ?? '-'}</div></div><div><div class="tiny muted">price</div><div class="small" style="font-weight:700">${won(r.price)}</div></div><div><div class="tiny muted">room</div><div class="small" style="font-weight:700">${pct(r.room_pct)}</div></div></div>`;
+    div.onclick=()=>{selectedTicker=r.ticker; renderDetail(r); render();}; list.appendChild(div);
+  });
+  const tb=document.getElementById('tableBody'); tb.innerHTML='';
+  sorted.forEach(r=>{
+    const m=tickerMeta[r.ticker]||{name:'(종목명 미매핑)',industry:'(산업 미매핑)'};
+    const tr=document.createElement('tr');
+    tr.innerHTML=`<td>${r.ticker}</td><td>${m.name}</td><td>${m.industry}</td><td><span class="badge ${cls(r.state)}">${r.state}</span></td><td>${r.grade}</td><td>${r.score ?? '-'}</td><td>${won(r.price)}</td><td>${pct(r.room_pct)}</td><td>${r.rsi14 ?? '-'}</td>`;
+    tb.appendChild(tr);
+  });
+  const current = rows.find(r=>r.ticker===selectedTicker) || sorted[0] || rows[0];
+  if(current) renderDetail(current);
+}
+function renderDetail(r){
+  const m=tickerMeta[r.ticker]||{name:'(종목명 미매핑)',industry:'(산업 미매핑)'};
+  document.getElementById('detailTicker').textContent=r.ticker;
+  document.getElementById('detailName').textContent=m.name;
+  document.getElementById('detailIndustry').textContent=m.industry;
+  const st=document.getElementById('detailState'); st.textContent=r.state; st.className='badge '+cls(r.state);
+  document.getElementById('dPrice').textContent=won(r.price);
+  document.getElementById('dR1').textContent=won(r.weekly_r1);
+  document.getElementById('dRoom').textContent=pct(r.room_pct);
+  document.getElementById('dRsi').textContent=r.rsi14 ?? '-';
+  document.getElementById('d10').textContent=pct(r.px_vs_sma10);
+  document.getElementById('d40').textContent=pct(r.px_vs_sma40);
+  document.getElementById('d50').textContent=pct(r.px_vs_sma50);
+  document.getElementById('d200').textContent=pct(r.px_vs_sma200);
+  document.getElementById('detailNote').textContent = noteFor(r);
+}
+function noteFor(r){
+  if(r.state==='ENTRY OK'||r.state==='PREBREAK OK') return '브레이크 직전/직후 실행 후보. 거래량 확인 후 break level을 관리선으로 보는 타입.';
+  if(r.state==='SMALL SIZE') return '차트는 나쁘지 않지만 room이 좁은 편이라 비중 축소 또는 강한 거래량 확인이 필요.';
+  if(r.state==='AVOID NEW') return '이미 많이 달렸거나 room이 부족해서 신규 진입 효율이 낮음. 재베이스 전까지 관망 우선.';
+  if(r.state==='HOLD ONLY') return '보유자 관리용. 신규 진입은 보수적으로 보는 상태.';
+  return '아직 관찰 우선. SAFE 지표나 추가 확인이 더 필요.';
+}
+function rank(s){ return {'PREBREAK OK':0,'ENTRY OK':1,'SMALL SIZE':2,'HOLD ONLY':3,'AVOID NEW':4,'WATCH':5}[s] ?? 9; }
+
+document.getElementById('search').addEventListener('input', render);
+document.getElementById('stateFilter').addEventListener('change', render);
+document.getElementById('safeOnlyBtn').addEventListener('click', ()=>{ safeOnly=!safeOnly; document.getElementById('safeOnlyBtn').style.background = safeOnly ? '#e2e8f0' : '#fff'; render(); });
+document.getElementById('csvFile').addEventListener('change', async (e)=>{
+  const file=e.target.files[0]; if(!file) return;
+  const text=await file.text(); rows=parseCSV(text); selectedTicker=rows[0]?.ticker || null;
+  document.getElementById('fileInfo').textContent=`업로드됨: ${file.name} · ${rows.length} rows`;
+  render();
+});
+rows = rows.map(norm); render();
+</script>
+</body>
+</html>

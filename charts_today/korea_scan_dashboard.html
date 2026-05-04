@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KR Scan Dashboard</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted: #64748b;
+      --border: #e2e8f0;
+      --shadow: 0 8px 30px rgba(15, 23, 42, 0.06);
+      --ok-bg: #dcfce7; --ok-text:#166534;
+      --pre-bg:#dbeafe; --pre-text:#1d4ed8;
+      --small-bg:#fef3c7; --small-text:#b45309;
+      --hold-bg:#e2e8f0; --hold-text:#334155;
+      --avoid-bg:#ffe4e6; --avoid-text:#be123c;
+      --watch-bg:#ede9fe; --watch-text:#6d28d9;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+    .wrap { max-width: 1400px; margin: 0 auto; padding: 24px; }
+    .hero, .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+    }
+    .hero { padding: 24px; margin-bottom: 18px; }
+    .hero-top { display:flex; justify-content:space-between; gap:12px; align-items:flex-start; flex-wrap:wrap; }
+    h1 { margin: 6px 0 10px; font-size: 32px; }
+    .sub { color: var(--muted); line-height: 1.5; }
+    .badge {
+      display:inline-flex; align-items:center; padding:8px 12px; border-radius:999px;
+      border:1px solid var(--border); font-size:12px; color:#334155; background:#fff;
+      margin-left:8px; margin-top:4px;
+    }
+    .grid-4 { display:grid; grid-template-columns: repeat(4,1fr); gap:16px; margin-bottom:18px; }
+    .stat { padding: 18px; }
+    .stat .label { color: var(--muted); font-size: 14px; }
+    .stat .value { font-size: 32px; font-weight: 700; margin-top: 8px; }
+    .stat .hint { color: var(--muted); font-size: 12px; margin-top: 4px; }
+    .toolbar { padding:18px; margin-bottom:18px; }
+    .toolbar-row { display:grid; grid-template-columns: 1fr 180px 120px 160px 160px; gap:10px; }
+    input, select, button {
+      width:100%; border:1px solid var(--border); background:#fff; color:var(--text);
+      border-radius:14px; padding:12px 14px; font-size:14px;
+    }
+    button { cursor:pointer; font-weight:600; }
+    button.primary { background:#0f172a; color:#fff; border-color:#0f172a; }
+    .layout { display:grid; grid-template-columns: 1.2fr .8fr; gap:16px; }
+    .card-title { font-size:18px; font-weight:700; padding:20px 20px 0; }
+    .card-body { padding:20px; }
+    .candidate-grid { display:grid; grid-template-columns: repeat(2,1fr); gap:12px; }
+    .candidate {
+      border:1px solid var(--border); border-radius:18px; padding:16px; cursor:pointer; background:#fff;
+      transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+    }
+    .candidate:hover { transform: translateY(-1px); box-shadow: var(--shadow); }
+    .candidate.active { border-color:#94a3b8; box-shadow: 0 0 0 2px #cbd5e1 inset; }
+    .candidate-head { display:flex; justify-content:space-between; gap:12px; align-items:flex-start; }
+    .ticker { font-weight:700; font-size:15px; }
+    .meta { color: var(--muted); font-size:12px; margin-top:4px; }
+    .kv { display:grid; grid-template-columns: repeat(2,1fr); gap:10px; margin-top:14px; }
+    .kv .k { color: var(--muted); font-size:12px; }
+    .kv .v { font-weight:600; margin-top:3px; font-size:14px; }
+    .pill {
+      display:inline-flex; align-items:center; justify-content:center; white-space:nowrap;
+      padding:7px 10px; border-radius:999px; font-size:11px; font-weight:700;
+      border:1px solid transparent;
+    }
+    .ENTRY\ OK { background: var(--ok-bg); color: var(--ok-text); }
+    .PREBREAK\ OK { background: var(--pre-bg); color: var(--pre-text); }
+    .SMALL\ SIZE { background: var(--small-bg); color: var(--small-text); }
+    .HOLD\ ONLY { background: var(--hold-bg); color: var(--hold-text); }
+    .AVOID\ NEW { background: var(--avoid-bg); color: var(--avoid-text); }
+    .WATCH { background: var(--watch-bg); color: var(--watch-text); }
+    .detail-top { display:flex; justify-content:space-between; gap:12px; align-items:flex-start; }
+    .detail-name { font-size:30px; font-weight:700; }
+    .detail-sub { color: var(--muted); margin-top:4px; }
+    .detail-grid { display:grid; grid-template-columns: repeat(2,1fr); gap:10px; margin-top:16px; }
+    .mini { background:#f8fafc; border-radius:16px; padding:14px; border:1px solid var(--border); }
+    .mini .k { color: var(--muted); font-size:12px; }
+    .mini .v { font-size:18px; font-weight:700; margin-top:6px; }
+    .alert { margin-top:18px; border:1px solid var(--border); border-radius:18px; padding:14px 16px; background:#fcfcfd; color:#334155; line-height:1.5; }
+    .table-wrap { overflow:auto; }
+    table { width:100%; border-collapse: collapse; font-size:13px; }
+    th, td { text-align:left; padding:10px; border-bottom:1px solid var(--border); white-space:nowrap; }
+    th { color: var(--muted); font-weight:600; background:#fafafa; position:sticky; top:0; }
+    .section { margin-top:16px; }
+    .muted { color: var(--muted); }
+    .footer-note { margin-top:16px; color:var(--muted); font-size:13px; }
+    @media (max-width: 1100px) {
+      .grid-4, .layout, .toolbar-row, .candidate-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <div class="hero-top">
+        <div>
+          <div class="muted" style="font-weight:600;">KR Scan Dashboard</div>
+          <h1>한국장 자동 스캔 대시보드</h1>
+          <div class="sub">report_v2.csv / premarket_auto_korea.csv / thesis_overlay_master.csv 중 하나를 업로드해서 필터링, 상태 분류, 상세 지표를 로컬에서 바로 확인할 수 있는 단일 파일 버전.</div>
+        </div>
+        <div>
+          <span class="badge">Mode: korea_last_price</span>
+          <span class="badge">local standalone html</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-4">
+      <div class="card stat"><div class="label">전체 후보</div><div class="value" id="statTotal">0</div><div class="hint">현재 로드된 행 수</div></div>
+      <div class="card stat"><div class="label">실행 가능 후보</div><div class="value" id="statEntry">0</div><div class="hint">PREBREAK OK + ENTRY OK</div></div>
+      <div class="card stat"><div class="label">비중 축소</div><div class="value" id="statSmall">0</div><div class="hint">SMALL SIZE</div></div>
+      <div class="card stat"><div class="label">신규 회피</div><div class="value" id="statAvoid">0</div><div class="hint">AVOID NEW</div></div>
+    </div>
+
+    <div class="card toolbar">
+      <div class="toolbar-row">
+        <input id="searchInput" placeholder="ticker / state / thesis 검색" />
+        <select id="stateFilter">
+          <option value="ALL">전체 상태</option>
+          <option>PREBREAK OK</option>
+          <option>ENTRY OK</option>
+          <option>SMALL SIZE</option>
+          <option>HOLD ONLY</option>
+          <option>AVOID NEW</option>
+          <option>WATCH</option>
+        </select>
+        <button id="safeOnlyBtn">SAFE만</button>
+        <input id="csvFile" type="file" accept=".csv" />
+        <button class="primary" id="loadSampleBtn">샘플 데이터 복원</button>
+      </div>
+      <div class="footer-note" id="fileStatus">현재 샘플 데이터 로드됨. CSV 업로드하면 즉시 교체됨.</div>
+    </div>
+
+    <div class="layout">
+      <div class="card">
+        <div class="card-title">후보 리스트</div>
+        <div class="card-body">
+          <div class="candidate-grid" id="candidateGrid"></div>
+          <div class="section">
+            <div class="card-title" style="padding:0 0 12px; font-size:16px;">전체 테이블</div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>ticker</th><th>state</th><th>grade</th><th>score</th><th>price</th><th>room</th><th>dist</th><th>rsi14</th><th>thesis</th>
+                  </tr>
+                </thead>
+                <tbody id="tableBody"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">선택 종목 상세</div>
+        <div class="card-body" id="detailPanel"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const sampleRows = [
+      { ticker: '000145.KS', grade: 'A', score: 6, price: 12180, rsi14: 68.83, room_pct: 4.27, weekly_r1: 12700, state: 'ENTRY OK', dist_pct: 1.97, px_vs_sma10: 1.84, px_vs_sma40: 4.96, px_vs_sma50: 4.67, px_vs_sma200: 0.27, thesis: 'NO OVERLAY', safe: 'Y' },
+      { ticker: '230360.KQ', grade: 'C', score: 6, price: 16010, rsi14: 60.0, room_pct: 0.44, weekly_r1: 16080, state: 'SMALL SIZE', dist_pct: 1.19, px_vs_sma10: 0.04, px_vs_sma40: 0.33, px_vs_sma50: 0.46, px_vs_sma200: 18.07, thesis: 'NO OVERLAY', safe: 'Y' },
+      { ticker: '051915.KS', grade: 'A', score: 3, price: 196200, rsi14: 78.65, room_pct: 2.45, weekly_r1: 201000, state: 'AVOID NEW', dist_pct: 2.45, px_vs_sma10: 5.05, px_vs_sma40: 19.31, px_vs_sma50: 18.42, px_vs_sma200: 19.66, thesis: 'NO OVERLAY', safe: 'Y' },
+      { ticker: '033780.KS', grade: 'B', score: 2, price: 179300, rsi14: 83.09, room_pct: 1.23, weekly_r1: 181500, state: 'AVOID NEW', dist_pct: 1.39, px_vs_sma10: 2.31, px_vs_sma40: 10.07, px_vs_sma50: 9.59, px_vs_sma200: 22.10, thesis: 'NO OVERLAY', safe: 'Y' },
+      { ticker: '009150.KS', grade: 'C', score: 0, price: 918000, rsi14: 72.2, room_pct: -46.79, weekly_r1: 488500, state: 'AVOID NEW', dist_pct: 0.76, px_vs_sma10: 14.24, px_vs_sma40: 64.83, px_vs_sma50: 73.31, px_vs_sma200: 210.23, thesis: 'INSTITUTIONAL STORY', safe: 'Y' }
+    ];
+
+    let rows = [...sampleRows];
+    let filteredRows = [...rows];
+    let selectedTicker = rows[0]?.ticker || null;
+    let safeOnly = false;
+
+    const qs = (id) => document.getElementById(id);
+    const fmtPrice = (v) => isFinite(v) ? Number(v).toLocaleString('ko-KR') : '-';
+    const fmtPct = (v) => isFinite(v) ? `${v > 0 ? '+' : ''}${Number(v).toFixed(2)}%` : '-';
+    const statePriority = { 'PREBREAK OK': 0, 'ENTRY OK': 1, 'SMALL SIZE': 2, 'HOLD ONLY': 3, 'AVOID NEW': 4, 'WATCH': 5 };
+
+    function parseNum(v) {
+      if (v === undefined || v === null || v === '') return null;
+      const n = Number(String(v).replace(/,/g, '').trim());
+      return Number.isFinite(n) ? n : null;
+    }
+
+    function normalizeRow(row) {
+      const out = { ...row };
+      ['score','price','gap_pct','rsi14','room_pct','room_to_weekly_r1_pct','weekly_r1','dist_pct','px_vs_sma10','px_vs_sma40','px_vs_sma50','px_vs_sma200','overlay_score']
+        .forEach(k => { if (k in out) out[k] = parseNum(out[k]); });
+      out.ticker = out.ticker || out.Ticker || out.symbol || out.Symbol || 'UNKNOWN';
+      out.grade = out.grade || out.Grade || '-';
+      out.state = out.state || out.entry || out.entry_state || out.Entry || 'WATCH';
+      out.safe = out.safe || out.safe_flag || out.Safe || '';
+      out.thesis = out.thesis || out.thesis_label || out.thesis_overlay || 'NO OVERLAY';
+      out.room_pct = out.room_pct ?? out.room_to_weekly_r1_pct;
+      return out;
+    }
+
+    function splitCsvLine(line) {
+      const result = [];
+      let cur = '';
+      let inQuotes = false;
+      for (let i = 0; i < line.length; i++) {
+        const ch = line[i];
+        const next = line[i + 1];
+        if (ch === '"') {
+          if (inQuotes && next === '"') { cur += '"'; i++; }
+          else inQuotes = !inQuotes;
+        } else if (ch === ',' && !inQuotes) {
+          result.push(cur); cur = '';
+        } else {
+          cur += ch;
+        }
+      }
+      result.push(cur);
+      return result;
+    }
+
+    function parseCsv(text) {
+      const lines = text.replace(/^\uFEFF/, '').split(/\r?\n/).filter(Boolean);
+      if (!lines.length) return [];
+      const headers = splitCsvLine(lines[0]).map(h => h.trim());
+      return lines.slice(1).map(line => {
+        const cols = splitCsvLine(line);
+        const obj = {};
+        headers.forEach((h, i) => obj[h] = (cols[i] || '').trim());
+        return normalizeRow(obj);
+      });
+    }
+
+    function deriveComment(r) {
+      if (!r) return '왼쪽에서 종목을 선택해줘.';
+      if (r.state === 'ENTRY OK') return '브레이크 직전/직후 실행 후보. 거래량 확인 후 break level을 관리선으로 삼는 구조에 적합.';
+      if (r.state === 'SMALL SIZE') return '차트는 나쁘지 않지만 room이 좁은 편. 비중 축소 또는 강한 거래량 확인이 필요.';
+      if (r.state === 'AVOID NEW') return '이미 너무 달렸거나 room이 부족해 신규 진입 효율이 낮은 상태. 재베이스 형성 전까진 관망 우선.';
+      if (r.state === 'PREBREAK OK') return '스토리/흐름이 강해서 본 돌파 전 스타터를 고려할 수 있는 상태.';
+      if (r.state === 'HOLD ONLY') return '보유자 관리용으로는 볼 수 있으나 신규 진입은 보수적으로 접근.';
+      return '아직 실행보다 관찰 우선. SAFE 지표나 추가 확인이 더 필요.';
+    }
+
+    function computeFiltered() {
+      const q = qs('searchInput').value.trim().toLowerCase();
+      const state = qs('stateFilter').value;
+      filteredRows = rows.filter(r => {
+        const hay = [r.ticker, r.state, r.thesis, r.grade].join(' ').toLowerCase();
+        if (q && !hay.includes(q)) return false;
+        if (state !== 'ALL' && r.state !== state) return false;
+        if (safeOnly && r.safe !== 'Y') return false;
+        return true;
+      }).sort((a,b) => (statePriority[a.state] ?? 99) - (statePriority[b.state] ?? 99) || (b.score ?? -999) - (a.score ?? -999));
+
+      if (!filteredRows.some(r => r.ticker === selectedTicker)) selectedTicker = filteredRows[0]?.ticker || null;
+    }
+
+    function renderStats() {
+      qs('statTotal').textContent = rows.length;
+      qs('statEntry').textContent = rows.filter(r => r.state === 'ENTRY OK' || r.state === 'PREBREAK OK').length;
+      qs('statSmall').textContent = rows.filter(r => r.state === 'SMALL SIZE').length;
+      qs('statAvoid').textContent = rows.filter(r => r.state === 'AVOID NEW').length;
+    }
+
+    function renderCandidates() {
+      const root = qs('candidateGrid');
+      root.innerHTML = '';
+      filteredRows.slice(0, 12).forEach(r => {
+        const div = document.createElement('div');
+        div.className = 'candidate' + (r.ticker === selectedTicker ? ' active' : '');
+        div.innerHTML = `
+          <div class="candidate-head">
+            <div>
+              <div class="ticker">${r.ticker}</div>
+              <div class="meta">grade ${r.grade} · score ${r.score ?? '-'}</div>
+            </div>
+            <span class="pill ${r.state}">${r.state}</span>
+          </div>
+          <div class="kv">
+            <div><div class="k">Price</div><div class="v">${fmtPrice(r.price)}</div></div>
+            <div><div class="k">Room</div><div class="v">${fmtPct(r.room_pct)}</div></div>
+            <div><div class="k">RSI14</div><div class="v">${r.rsi14 ?? '-'}</div></div>
+            <div><div class="k">Dist</div><div class="v">${fmtPct(r.dist_pct)}</div></div>
+          </div>`;
+        div.onclick = () => { selectedTicker = r.ticker; render(); };
+        root.appendChild(div);
+      });
+      if (!filteredRows.length) root.innerHTML = '<div class="muted">조건에 맞는 데이터가 없음.</div>';
+    }
+
+    function renderTable() {
+      const body = qs('tableBody');
+      body.innerHTML = '';
+      filteredRows.forEach(r => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td>${r.ticker}</td>
+          <td><span class="pill ${r.state}">${r.state}</span></td>
+          <td>${r.grade}</td>
+          <td>${r.score ?? '-'}</td>
+          <td>${fmtPrice(r.price)}</td>
+          <td>${fmtPct(r.room_pct)}</td>
+          <td>${fmtPct(r.dist_pct)}</td>
+          <td>${r.rsi14 ?? '-'}</td>
+          <td>${r.thesis}</td>`;
+        tr.style.cursor = 'pointer';
+        tr.onclick = () => { selectedTicker = r.ticker; render(); };
+        body.appendChild(tr);
+      });
+    }
+
+    function renderDetail() {
+      const r = rows.find(x => x.ticker === selectedTicker) || filteredRows[0] || null;
+      const el = qs('detailPanel');
+      if (!r) { el.innerHTML = '<div class="muted">표시할 데이터가 없음.</div>'; return; }
+      el.innerHTML = `
+        <div class="detail-top">
+          <div>
+            <div class="detail-name">${r.ticker}</div>
+            <div class="detail-sub">${r.thesis} · safe=${r.safe || '-'}</div>
+          </div>
+          <span class="pill ${r.state}" style="font-size:12px; padding:8px 12px;">${r.state}</span>
+        </div>
+        <div class="detail-grid">
+          <div class="mini"><div class="k">Price</div><div class="v">${fmtPrice(r.price)}</div></div>
+          <div class="mini"><div class="k">Weekly R1</div><div class="v">${fmtPrice(r.weekly_r1)}</div></div>
+          <div class="mini"><div class="k">Room %</div><div class="v">${fmtPct(r.room_pct)}</div></div>
+          <div class="mini"><div class="k">RSI14</div><div class="v">${r.rsi14 ?? '-'}</div></div>
+          <div class="mini"><div class="k">vs 10DMA</div><div class="v">${fmtPct(r.px_vs_sma10)}</div></div>
+          <div class="mini"><div class="k">vs 40DMA</div><div class="v">${fmtPct(r.px_vs_sma40)}</div></div>
+          <div class="mini"><div class="k">vs 50DMA</div><div class="v">${fmtPct(r.px_vs_sma50)}</div></div>
+          <div class="mini"><div class="k">vs 200DMA</div><div class="v">${fmtPct(r.px_vs_sma200)}</div></div>
+        </div>
+        <div class="alert">${deriveComment(r)}</div>
+        <div class="section">
+          <div class="muted" style="font-size:13px; line-height:1.55;">
+            컬럼명은 <b>ticker</b>, <b>state</b> 또는 <b>entry</b>, <b>grade</b>, <b>score</b>, <b>price</b>, <b>room_pct</b> 또는 <b>room_to_weekly_r1_pct</b>, <b>weekly_r1</b>, <b>rsi14</b>, <b>dist_pct</b>, <b>px_vs_sma10/40/50/200</b>, <b>thesis</b> 계열을 우선 사용한다.
+          </div>
+        </div>`;
+    }
+
+    function render() {
+      computeFiltered();
+      renderStats();
+      renderCandidates();
+      renderTable();
+      renderDetail();
+    }
+
+    qs('searchInput').addEventListener('input', render);
+    qs('stateFilter').addEventListener('change', render);
+    qs('safeOnlyBtn').addEventListener('click', () => {
+      safeOnly = !safeOnly;
+      qs('safeOnlyBtn').classList.toggle('primary', safeOnly);
+      render();
+    });
+    qs('loadSampleBtn').addEventListener('click', () => {
+      rows = [...sampleRows];
+      selectedTicker = rows[0]?.ticker || null;
+      qs('fileStatus').textContent = '샘플 데이터 로드됨. CSV 업로드하면 즉시 교체됨.';
+      render();
+    });
+    qs('csvFile').addEventListener('change', async (e) => {
+      const file = e.target.files?.[0];
+      if (!file) return;
+      const text = await file.text();
+      const parsed = parseCsv(text);
+      if (!parsed.length) {
+        qs('fileStatus').textContent = `업로드 실패: ${file.name}에서 읽을 행이 없음.`;
+        return;
+      }
+      rows = parsed;
+      selectedTicker = rows[0]?.ticker || null;
+      qs('fileStatus').textContent = `${file.name} 로드 완료 · ${rows.length} rows`;
+      render();
+    });
+
+    render();
+  </script>
+</body>
+</html>

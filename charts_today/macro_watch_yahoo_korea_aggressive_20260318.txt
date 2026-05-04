@@ -1,0 +1,49 @@
+# macro_watch_yahoo_korea_aggressive_20260318.txt
+# Auto-style macro / proxy watchlist for Korea
+# Broad market + sector beta + strategic bellwethers
+
+# --- Broad market / beta ---
+069500.KS
+102110.KS
+122630.KS
+267770.KS
+252670.KS
+229200.KQ
+233740.KS
+233160.KS
+251340.KS
+
+# --- Semiconductor / AI / tech proxies ---
+091160.KS
+091230.KS
+396500.KS
+488080.KS
+494310.KS
+469150.KS
+395270.KS
+395160.KS
+471990.KS
+471760.KS
+390390.KS
+381180.KS
+266370.KS
+
+# --- Defense / shipbuilding / nuclear / industrial proxies ---
+471460.KS
+139230.KS
+139220.KS
+
+# --- Rates / banks / domestic demand proxies ---
+091170.KS
+
+# --- Strategic bellwethers ---
+005930.KS
+000660.KS
+012450.KS
+042660.KS
+034020.KS
+329180.KS
+035420.KS
+015760.KS
+207940.KS
+068270.KS

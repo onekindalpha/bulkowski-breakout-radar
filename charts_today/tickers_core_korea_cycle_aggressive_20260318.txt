@@ -1,0 +1,75 @@
+# tickers_core_korea_cycle_aggressive_20260318.txt
+# Cycle-aware aggressive Korea core universe
+# Focus:
+# 1) AI memory/HBM/GTC chain
+# 2) Shipbuilding/Defense/Nuclear/Power ("조방원")
+# 3) Consumer cyclical / cosmetics / retail
+# 4) Medical / pharma / biotech
+# 5) Key autos / internet / financial bellwethers
+
+# --- AI / HBM / Semiconductor leaders ---
+005930.KS
+000660.KS
+009150.KS
+011070.KS
+042700.KS
+000990.KS
+039030.KQ
+058470.KQ
+089030.KQ
+222800.KQ
+240810.KQ
+403870.KQ
+066570.KS
+
+# --- Robotics / physical AI / factory automation ---
+277810.KQ
+455900.KQ
+058610.KQ
+117730.KQ
+
+# --- Shipbuilding / defense / nuclear / power ("조방원") ---
+012450.KS
+042660.KS
+329180.KS
+010140.KS
+034020.KS
+267260.KS
+064350.KS
+079550.KS
+047810.KS
+015760.KS
+
+# --- Consumer cyclical / cosmetics / staples / retail ---
+278470.KS
+090430.KS
+192820.KS
+161890.KS
+051900.KS
+003230.KS
+097950.KS
+271560.KS
+004370.KS
+282330.KS
+008770.KS
+
+# --- Medical / pharma / biotech ---
+207940.KS
+068270.KS
+000100.KS
+326030.KS
+196170.KQ
+000250.KQ
+214150.KQ
+145720.KS
+
+# --- Auto / internet / financial bellwethers ---
+005380.KS
+000270.KS
+012330.KS
+035420.KS
+035720.KS
+105560.KS
+055550.KS
+086790.KS
+316140.KS

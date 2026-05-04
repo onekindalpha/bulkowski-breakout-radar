@@ -1,0 +1,110 @@
+# us_thematic_additions_20260318_v3.txt
+# Additive US thematic overlay v3
+# Themes: gold / silver / US megacaps / AI infra / EV / battery / solid-state / chemicals / renewables / robotics / autonomous / space
+
+# --- Gold / silver proxies ---
+GLD
+IAU
+GLDM
+SLV
+SIVR
+
+# --- US megacap / durable compounders ---
+AAPL
+MSFT
+GOOGL
+META
+AMZN
+BRK-B
+JPM
+V
+MA
+COST
+WMT
+
+# --- AI infra / semis / networking / datacenter ---
+NVDA
+AVGO
+AMD
+TSM
+ASML
+MU
+ANET
+VRT
+SMCI
+MRVL
+AMAT
+KLAC
+LRCX
+TER
+QCOM
+TXN
+
+# --- Power / electrification / AI power chain ---
+VST
+CEG
+NRG
+GEV
+ETN
+PWR
+EME
+PH
+HWM
+
+# --- EV / ADAS / mobility / charging ---
+TSLA
+RIVN
+GM
+F
+MBLY
+AUR
+ON
+NXPI
+CHPT
+BE
+
+# --- Battery / solid-state / lithium / materials ---
+QS
+SLDP
+ENVX
+ALB
+SQM
+LTHM
+
+# --- Chemicals / materials ---
+LIN
+APD
+ECL
+SHW
+LYB
+DD
+FCX
+NUE
+
+# --- Renewables / clean power / solar / grid ---
+FSLR
+NXT
+ENPH
+ARRY
+AES
+NEE
+
+# --- Robotics / automation / physical AI ---
+ABB
+ROK
+IR
+CAT
+DE
+SYM
+
+# --- Space / satellite / launch / space-solar-adjacent ---
+RKLB
+ASTS
+LUNR
+RDW
+PL
+SPIR
+SATL
+GSAT
+VSAT
+VIASAT

@@ -1,0 +1,2 @@
+RANK,ticker,price,daily_break_level,breakout_pct_vs_level,rsi14,room_to_weekly_r1_pct,px_vs_sma50,px_vs_sma200,grade,score,break_level_src
+1,PARR,49.68,47.76,4.020100502512558,67.59,-2.58,27.53,42.1,C,6.0,rolling60d_high

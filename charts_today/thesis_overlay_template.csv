@@ -1,0 +1,4 @@
+ticker,theme_strength,cycle_strength,news_strength,flow_strength,company_quality,prebreak_ok,must_wait_breakout,avoid_new,notes
+009150.KS,2,2,2,2,2,True,False,False,"AI server MLCC/FC-BGA, strong story"
+267260.KS,2,2,1,2,2,True,False,False,power infra / grid capex
+278470.KS,2,1,1,1,1,False,True,False,strong price but late feel

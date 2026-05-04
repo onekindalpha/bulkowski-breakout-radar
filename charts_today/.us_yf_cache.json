@@ -1,0 +1,26 @@
+{
+  "IDYA": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology"
+  },
+  "FANG": {
+    "sector": "Energy",
+    "industry": "Oil & Gas E&P"
+  },
+  "TTE": {
+    "sector": "Energy",
+    "industry": "Oil & Gas Integrated"
+  },
+  "INGM": {
+    "sector": "Technology",
+    "industry": "Information Technology Services"
+  },
+  "FLNG": {
+    "sector": "Energy",
+    "industry": "Oil & Gas Midstream"
+  },
+  "LWLG": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals"
+  }
+}

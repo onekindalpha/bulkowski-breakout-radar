@@ -1,0 +1,25 @@
+KOREA PIPELINE (same shape as US)
+
+# 0) optional/occasional: rebuild core (not every run)
+python build_kr_core_liquid_v3.py
+
+# 1) strong-group overlay
+python finviz_top_groups_auto_mixed_v2_korea_v2.py
+
+# 2) sync sources
+python sync_tickers_txt_korea_v2.py
+
+# 3) auto prices
+python update_premarket_yf_auto_debug_korea.py
+
+# 4) manual 10 from bulkowski
+python make_premarket_manual_direct_korea.py
+
+# 5) merge
+python merge_premarkets_v2_korea.py
+
+# 6) scan
+python scan_candidates_v2_safe_v6.py --core tickers_core_korea.txt --lev2 tickers_leverage2x_korea.txt --extra finviz_manual_korea.txt --premarket premarket_korea.csv
+
+# 7) legacy interpretation
+python manual10_legacy_review_v3.py --manual premarket_manual_korea.csv --report report_v2.csv

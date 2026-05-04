@@ -1,0 +1,2 @@
+# macro_watch_yahoo.txt (KRX starter)
+# (keep empty or put reference symbols later; leaving empty avoids scanning indices for now)

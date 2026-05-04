@@ -1,0 +1,8 @@
+Exception ignored from cffi callback <function buffer_callback at 0x1090de5f0>:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/battery-maml/lib/python3.10/site-packages/curl_cffi/curl.py", line 100, in buffer_callback
+    @ffi.def_extern()
+KeyboardInterrupt: 
+... 10/23 processed
+... 20/23 processed
+Saved premarket_auto.csv (23 tickers)

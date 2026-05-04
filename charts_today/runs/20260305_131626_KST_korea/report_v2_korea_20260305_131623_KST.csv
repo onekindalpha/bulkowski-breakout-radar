@@ -1,0 +1,19 @@
+# saved_at_kr,2026-03-05 13:16:23 KST
+# used_candidates_txt,True
+# used_candidates_meta,True
+# count_base,10
+# count_premarket,0
+# count_final_universe,10
+# count_scored,10
+# count_skipped,0
+ticker,price,gap_pct,rsi14,px_vs_sma50,px_vs_sma200,weekly_up,weekly_r1,weekly_s1,room_to_weekly_r1_pct,daily_break_level,break_level_src,daily_breakout,daily_retest,in_daily_box_middle,breakout_confirmed_close,breakout_volume_confirmed,breakout_confirmed_intraday,grade,score
+051910.KS,323500.0,0.0,52.43,-3.62,6.69,False,369000.0,294000.0,14.06,369000.0,pattern:DOUBLE_BOTTOM,True,False,False,True,True,False,A,9.0
+471990.KS,25055.0,0.0,63.89,34.41,85.84,True,21560.0,16100.0,-13.95,21560.0,pattern:DOUBLE_BOTTOM,True,False,False,True,True,True,C,8.0
+469150.KS,46125.0,0.0,63.26,32.77,105.54,True,40265.0,23670.0,-12.7,40265.0,pattern:DOUBLE_BOTTOM,True,False,False,True,True,True,C,8.0
+488080.KS,44075.0,0.0,58.35,51.14,210.5,True,39860.0,13605.0,-9.56,39860.0,pattern:DOUBLE_BOTTOM,True,False,False,True,True,True,C,8.0
+471760.KS,19760.0,0.0,62.02,35.1,79.28,True,17710.0,12655.0,-10.37,17710.0,pattern:DOUBLE_BOTTOM,True,False,False,True,True,True,C,8.0
+161890.KS,68800.0,0.0,42.91,2.46,-11.76,False,78700.0,60600.0,14.39,75200.0,pattern:DOUBLE_BOTTOM,True,False,True,True,True,False,C,6.0
+390390.KS,39855.0,0.0,49.1,2.34,25.92,True,37285.0,37270.0,-6.45,41110.0,pattern:DOUBLE_BOTTOM,True,False,False,True,True,False,C,5.0
+097950.KS,196000.0,0.0,30.64,-7.99,-14.67,False,235000.0,200000.0,19.9,214000.0,pattern:DOUBLE_BOTTOM,False,False,False,True,False,False,C,2.0
+004370.KS,396000.0,0.0,38.02,-6.51,-5.94,False,454000.0,401000.0,14.65,419500.0,pattern:DOUBLE_BOTTOM,False,False,False,True,False,False,C,2.0
+000100.KS,97800.0,0.0,36.91,-11.0,-13.54,False,129200.0,101500.0,32.11,111700.0,pattern:DOUBLE_BOTTOM,False,False,False,True,False,False,C,2.0

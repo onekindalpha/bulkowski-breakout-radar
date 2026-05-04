@@ -1,0 +1,320 @@
+AEM
+AUX
+BBH
+BDH
+BHH
+BIX
+BOIL
+CCJ
+CVE
+CWX
+DIG
+ERX
+FCX
+FPP
+GAX
+GIP
+GSM
+GUSH
+HAL
+HCX
+HHH
+IAH
+IDU
+IH
+IUX
+IXF
+IYD
+IYE
+IYG
+IYH
+IYM
+IYR
+IYV
+IYW
+IYZ
+LNG
+MPC
+OIH
+PPH
+PSX
+RLX
+RMS
+S&P
+SCCO
+SHEL
+SLB
+SMH
+SOURCE
+TRX
+TTH
+UCO
+UTH
+UYM
+XLB
+XLE
+XLK
+XLU
+XOP
+# tickers_core_us_cycle_aggressive_20260318.txt
+# Cycle-aware aggressive US core universe
+# Objective: profitable leaders, strong sectors, cycle beneficiaries, lower-volatility compounders
+# --- AI / semis / networking / infrastructure leaders ---
+NVDA
+AVGO
+AMD
+TSM
+ASML
+MU
+ANET
+VRT
+SMCI
+MRVL
+AMAT
+KLAC
+LRCX
+TER
+QCOM
+TXN
+# --- Big-cap compounding leaders / high earnings power ---
+MSFT
+GOOGL
+META
+AMZN
+BRK-B
+JPM
+V
+MA
+COST
+WMT
+# --- Power / electrification / AI power chain ---
+VST
+CEG
+NRG
+GEV
+ETN
+PWR
+HWM
+PH
+EME
+# --- Industrials / defense / reshoring / physical AI beneficiaries ---
+CAT
+DE
+RTX
+LMT
+NOC
+GE
+ABB
+URI
+ROK
+IR
+# --- Healthcare / pharma / medical device (cycle-resilient leaders) ---
+LLY
+ABBV
+JNJ
+ISRG
+ABT
+BSX
+SYK
+TMO
+DHR
+VRTX
+# --- Consumer defensive / staples / stable growers ---
+PG
+KO
+PM
+PEP
+CL
+MDLZ
+# --- Energy / materials strong sectors ---
+XOM
+CVX
+COP
+LIN
+NUE
+# --- Tactical crypto / exchange / proxies ---
+COIN
+HOOD
+MSTR
+CME
+# us_thematic_additions_20260318.txt
+# Additive US thematic overlay: chemicals / renewables / robotics / autonomous driving
+# --- Chemicals / materials ---
+APD
+ECL
+SHW
+LYB
+DD
+# --- Renewables / clean power / grid / transition ---
+FSLR
+NXT
+ENPH
+AES
+NEE
+# --- Robotics / automation / physical AI ---
+SYM
+# --- Autonomous driving / robotaxi / ADAS ---
+TSLA
+UBER
+LYFT
+GM
+MBLY
+AUR
+ON
+NXPI
+# us_thematic_additions_20260318_v2.txt
+# Additive US thematic overlay
+# Themes: chemicals / renewables / robotics / autonomous driving / space / satellite / space-solar-adjacent
+ARRY
+# --- Space / satellite / launch / communications / space-solar-adjacent ---
+RKLB
+ASTS
+LUNR
+RDW
+PL
+SPIR
+SATL
+GSAT
+VSAT
+VIASAT
+# --- Tactical aerospace / defense-space crossover ---
+BA
+# us_thematic_additions_20260318_v3.txt
+# Additive US thematic overlay v3
+# Themes: gold / silver / US megacaps / AI infra / EV / battery / solid-state / chemicals / renewables / robotics / autonomous / space
+# --- Gold / silver proxies ---
+GLD
+IAU
+GLDM
+SLV
+SIVR
+# --- US megacap / durable compounders ---
+AAPL
+# --- AI infra / semis / networking / datacenter ---
+# --- EV / ADAS / mobility / charging ---
+RIVN
+F
+CHPT
+BE
+# --- Battery / solid-state / lithium / materials ---
+QS
+SLDP
+ENVX
+ALB
+SQM
+LTHM
+# --- Renewables / clean power / solar / grid ---
+# --- Space / satellite / launch / space-solar-adjacent ---
+# us_thematic_additions_20260318_v4.txt
+# Additive US thematic overlay v4
+# Themes: financials / power / construction / nuclear / renewables / Tesla / SpaceX-adjacent / AI infra / gold/silver / EV-battery
+# --- Financials / brokers / alt managers / holdings ---
+GS
+MS
+BAC
+WFC
+SCHW
+KKR
+BX
+APO
+# --- Power / grid / construction / nuclear / infrastructure ---
+FLR
+MTZ
+ACM
+# --- Renewables / solar / wind / power transition ---
+# --- Tesla / EV / autonomous / ADAS ---
+# --- SpaceX-adjacent / space / satellite / launch ---
+IRDM
+# --- AI infra / semis / networking ---
+# --- EV battery / solid-state / lithium ---
+# us_travel_cyclical_additions_20260318.txt
+# US additive tactical overlay: airlines / cruise / travel / retail / leisure / consumer cyclicals
+# --- Airlines ---
+DAL
+UAL
+AAL
+LUV
+ALK
+JBLU
+ULCC
+# --- Cruise lines ---
+CCL
+RCL
+NCLH
+VIK
+# --- Travel / booking / hotels ---
+BKNG
+EXPE
+ABNB
+MAR
+HLT
+# --- Leisure / gaming / resorts ---
+MGM
+LVS
+WYNN
+CZR
+# --- Consumer cyclical / retail / restaurants / apparel ---
+HD
+LOW
+TJX
+ROST
+ULTA
+NKE
+LULU
+CMG
+MCD
+SBUX
+# --- Auto / mobility cyclical ---
+# us_final_additions_20260318.txt
+# Final additive US overlay
+# Themes: EV / battery / solid-state / MLCC-substrate-adjacent / SpaceX-adjacent / ETH-crypto proxies
+# --- EV / battery / solid-state / lithium ---
+# --- MLCC / substrate / packaging / electronics manufacturing ---
+AMKR
+JBL
+FLEX
+SANM
+APH
+TEL
+GLW
+# --- SpaceX-adjacent / space / satellite / launch / connectivity ---
+# --- ETH / crypto proxies / infrastructure ---
+ETHA
+FETH
+ETH
+EZET
+ETHV
+ETHW
+TETH
+QETH
+ETHE
+# --- Crypto miners / infrastructure beta (not direct ETH mining) ---
+MARA
+RIOT
+CLSK
+IREN
+CIFR
+HUT
+BTDR
+CORZ
+# us_btc_eth_expanded_additions_20260318.txt
+# Additive US overlay: Bitcoin / Ethereum / crypto-related names
+# Use as an additions file for finviz_manual.txt and/or tickers_core.txt
+# Notes:
+# - Ethereum is now proof-of-stake, so direct 'ETH mining' is not a modern theme.
+# - Keep ETH ETFs + exchanges/infrastructure + miners/hosting beta as tactical proxies.
+# --- Spot Bitcoin ETFs ---
+IBIT
+FBTC
+ARKB
+BITB
+HODL
+BRRR
+EZBC
+GBTC
+# --- Spot / spot-like Ethereum ETFs / ETPs ---
+# --- Core crypto beta / exchanges / brokerage / infrastructure ---
+# --- Bitcoin miners / infra beta ---
+# --- Additional crypto-adjacent beta ---
+SQ
+PYPL

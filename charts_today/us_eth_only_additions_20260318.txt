@@ -1,0 +1,20 @@
+# us_eth_only_additions_20260318.txt
+# ETH-only additive US overlay
+# No BTC ETFs, no BTC miners.
+# Intended for users who do not want direct Bitcoin exposure.
+
+# --- Ethereum ETFs / ETPs ---
+ETHA
+FETH
+ETH
+EZET
+ETHV
+ETHW
+ETHE
+
+# --- ETH / crypto-adjacent equities you said you can tolerate ---
+CRCL
+COIN
+
+# --- Optional flow / market-structure proxy ---
+CME

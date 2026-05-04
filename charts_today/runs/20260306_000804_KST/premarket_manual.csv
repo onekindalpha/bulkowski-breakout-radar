@@ -1,0 +1,13 @@
+# saved_at_kr,2026-03-06 00:07:51 KST
+# count_rows,9
+# note,overwrites each run; candidates.txt mode asks price only
+ticker,premarket,entered_at_kr,source
+FANG,178.02,2026-03-06 00:07:24,manual
+FCX,63.64,2026-03-06 00:07:10,manual
+HAL,34.255,2026-03-06 00:06:54,manual
+IYH,64.68,2026-03-06 00:07:35,manual
+IYR,100.15,2026-03-06 00:07:42,manual
+LWLG,4.67,2026-03-06 00:06:46,manual
+TGT,120.54,2026-03-06 00:07:03,manual
+UUP,27.48,2026-03-06 00:07:51,manual
+VG,11.92,2026-03-06 00:07:17,manual

@@ -1,0 +1,5 @@
+ticker,entry_price,shares,break_level,custom_break_level,entry_date,break_level_src
+XLE,58.05,10,,57.88,,report_daily_break_level
+XOP,162.5,10,,160.99,,report_daily_break_level
+MPC,214.28,10,,210.42,,report_daily_break_level
+IYE,61.4,10, ,61.04,,report_daily_break_level

@@ -1,0 +1,75 @@
+name: Korea Breakout Scan
+
+on:
+  workflow_dispatch:
+  schedule:
+    # KST weekday scans: 07:00, 12:00, 16:00
+    - cron: '0 7,12,16 * * 1-5'
+      timezone: 'Asia/Seoul'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: korea-breakout-scan
+  cancel-in-progress: false
+
+jobs:
+  scan-kr:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy yfinance requests beautifulsoup4 lxml pykrx streamlit plotly
+
+      - name: Run Korea scan pipeline
+        working-directory: charts_today
+        run: |
+          python build_macro_watch_yahoo_korea.py
+          python build_kr_foreign_naver_auto_v6_dateanchor_patched3.py --top 30
+          python build_kr_strong_stocks_auto_v5.py
+          python sync_tickers_txt_korea_v3.py
+          python update_premarket_yf_auto_debug_korea_v5_dedup.py
+          python scan_candidates_v2_safe_v6_sma1040.py --universe tickers_korea.txt --premarket premarket_auto_korea.csv
+          python manual10_legacy_review_korea_v12_3_dmaall_color_brightstates.py \
+            --manual premarket_auto_korea.csv \
+            --report report_v2.csv \
+            --overlay thesis_overlay_master.csv \
+            --detail-top 3
+
+      - name: Copy latest KR scan data into dashboard
+        run: |
+          mkdir -p bulkowski_breakout_radar/data/kr
+          cp charts_today/report_v2.csv bulkowski_breakout_radar/data/kr/report_v2.csv
+          cp charts_today/premarket_auto_korea.csv bulkowski_breakout_radar/data/kr/premarket_auto_korea.csv
+          cp charts_today/premarket_auto_debug_korea.csv bulkowski_breakout_radar/data/kr/premarket_auto_debug_korea.csv || true
+          cp charts_today/thesis_overlay_master.csv bulkowski_breakout_radar/data/kr/thesis_overlay_master.csv || true
+          cp charts_today/scan_skipped.log bulkowski_breakout_radar/data/kr/scan_skipped.log || true
+          cp charts_today/tickers_korea.txt bulkowski_breakout_radar/data/kr/tickers_korea.txt || true
+
+      - name: Build Korean ticker master
+        working-directory: bulkowski_breakout_radar
+        run: |
+          python build_ticker_master_korea.py \
+            --report data/kr/report_v2.csv \
+            --tickers data/kr/tickers_korea.txt \
+            --out data/kr/ticker_master_korea.csv \
+            --force-refresh
+
+      - name: Commit updated dashboard data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bulkowski_breakout_radar/data/kr
+          git commit -m "Update Korea breakout radar data" || echo "No changes to commit"
+          git push

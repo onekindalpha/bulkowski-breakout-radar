@@ -1,0 +1,63 @@
+# korea_thematic_additions_20260318_v3.txt
+# Additive KR thematic overlay v3
+# Themes: securities / holdings / financials / power / construction / nuclear / renewables / MLCC / battery / robotics / autonomous
+
+# --- Securities / holdings / financials ---
+006800.KS
+016360.KS
+005940.KS
+071050.KS
+105560.KS
+055550.KS
+086790.KS
+316140.KS
+024110.KS
+000810.KS
+003550.KS
+034730.KS
+000880.KS
+
+# --- Power / construction / nuclear / grid ---
+015760.KS
+034020.KS
+028260.KS
+000720.KS
+006360.KS
+267260.KS
+047040.KS
+322000.KS
+
+# --- Renewables / clean energy / wind / solar ---
+009830.KS
+112610.KS
+322000.KS
+298040.KS
+357780.KS
+060280.KQ
+
+# --- MLCC / substrate / electronics components ---
+009150.KS
+011070.KS
+009830.KS
+
+# --- Chemicals / battery / materials ---
+051910.KS
+006400.KS
+003670.KS
+086520.KQ
+247540.KQ
+011170.KS
+010060.KS
+305720.KS
+305540.KS
+
+# --- Robotics / automation / autonomous / mobility ---
+277810.KQ
+455900.KQ
+058610.KQ
+117730.KQ
+307950.KS
+445290.KS
+005380.KS
+000270.KS
+204320.KS

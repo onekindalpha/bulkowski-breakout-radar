@@ -1,0 +1,98 @@
+SOXL
+SOXS
+USD
+SOXX
+SMH
+TQQQ
+SQQQ
+QLD
+QID
+UPRO
+SPXU
+SPXL
+SPXS
+SSO
+SDS
+UDOW
+SDOW
+TNA
+TZA
+TECL
+TECS
+FNGU
+FNGD
+FAS
+FAZ
+LABU
+LABD
+CURE
+DRN
+DRV
+ERX
+ERY
+GUSH
+DRIP
+UCO
+SCO
+BOIL
+KOLD
+USO
+BNO
+NUGT
+DUST
+UGL
+GLL
+TMF
+TMV
+UBOT
+AIBU
+AIBD
+NVDL
+NVDU
+SOXL   # Direxion Daily Semiconductor Bull 3X
+SOXS   # Direxion Daily Semiconductor Bear 3X
+USD    # ProShares Ultra Semiconductors 2X
+SOXX   # 1x benchmark
+SMH    # 1x benchmark
+BULZ   # MicroSectors FANG+ 3X ETN
+BERZ   # MicroSectors FANG+ -3X ETN
+UBOT   # Direxion Daily Robotics & AI Bull 2X
+AIBU   # Direxion Daily AI & Big Data Bull 2X
+AIBD   # Direxion Daily AI & Big Data Bear 2X
+CURE   # Direxion Daily Healthcare Bull 3X
+SICK   # Direxion Daily Healthcare Bear 3X (may be inactive; will auto-skip if no data)
+LABU   # Direxion Daily S&P Biotech Bull 3X
+LABD   # Direxion Daily S&P Biotech Bear 3X
+PILL   # Direxion Daily Pharmaceutical & Medical Bull 3X
+WANT   # Direxion Daily Consumer Discretionary Bull 3X
+PASS   # Direxion Daily Consumer Discretionary Bear 3X
+DUSL   # Direxion Daily Industrials Bull 3X
+DFEN   # Direxion Daily Aerospace & Defense Bull 3X
+TPOR   # Direxion Daily Transportation Bull 3X
+LMTL   # Direxion Daily LMT Bull 2X
+BOEU   # Direxion Daily BA Bull 2X
+BNO   # Brent 1X benchmark
+USO   # WTI 1X benchmark
+EVAV   # Direxion Daily Electric & Autonomous Vehicles Bull 2X
+KLNE   # Direxion Daily Global Clean Energy Bull 2X
+NVDU   # Direxion Daily NVDA Bull 2X
+NVDD   # Direxion Daily NVDA Bear 1X
+NVDL   # GraniteShares 2x Long NVDA Daily
+# tickers_leverage_global.txt (v2)
+# Curated list of HIGH-VOLATILITY leveraged ETFs/ETNs + a few 1x benchmarks.
+# Lines starting with # are ignored.
+# NOTE: availability varies by broker; some may be inactive/illiquid.
+# Source sanity checks done against issuer/Yahoo where possible.
+# =========================
+# Semiconductors / AI Chips
+# Broad Index / Tech Leverage
+# AI / Robotics / Big Data
+# Healthcare / Pharma / Biotech
+# Consumer / Staples / Discretionary
+# Industrials / Transportation / Aerospace & Defense
+# Single-stock leverage (defense/aerospace theme; optional)
+# Energy / Oil / NatGas Leverage
+# EV / Clean Energy
+# Metals / Rates
+# Single-stock AI proxies (optional)
+# Crypto-linked (availability varies; high risk)

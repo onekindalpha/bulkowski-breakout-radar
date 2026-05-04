@@ -1,0 +1,64 @@
+# macro_watch_yahoo_us_cycle_aggressive_20260318.txt
+# US macro / sector / beta / benchmark proxies
+# Intended to be read by the pipeline and/or regenerated periodically
+
+# --- Broad beta / indexes ---
+SPY
+QQQ
+DIA
+IWM
+MDY
+
+# --- Leveraged / tactical beta ---
+TQQQ
+SQQQ
+SOXL
+SOXS
+TECL
+FNGU
+QLD
+QID
+
+# --- Semiconductor / AI infrastructure proxies ---
+SOXX
+SMH
+XSD
+IGV
+AIQ
+BOTZ
+
+# --- Power / utilities / energy / industrial proxies ---
+XLU
+VPU
+XLE
+OIH
+XLI
+PAVE
+GRID
+
+# --- Healthcare / staples / consumer proxies ---
+XLV
+IBB
+XLP
+XLY
+
+# --- Crypto / BTC / ETH proxies ---
+IBIT
+FBTC
+ETHA
+FETH
+ETH
+EZET
+ETHV
+ETHW
+TETH
+QETH
+ETHE
+
+# --- Rates / dollar / volatility / credit context ---
+TLT
+IEF
+UUP
+VIXY
+HYG
+LQD

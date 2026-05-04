@@ -1,0 +1,41 @@
+{
+  "type": "etf",
+  "ticker": "FIAT",
+  "fund_name": "YieldMax Short COIN Option Income Strategy ETF",
+  "currency": "USD",
+  "current_price": 27.75,
+  "nav": 27.85,
+  "premium_discount_pct": -0.34,
+  "distribution_rate_pct": 71.75,
+  "sec_yield_30d_pct": 1.63,
+  "roc_pct": 69.32,
+  "expense_ratio_pct": 0.99,
+  "aum": 44410000.0,
+  "underlying": "COIN",
+  "strategy": "inverse option income",
+  "total_return_1y_pct": -17.99,
+  "nav_return_1y_pct": -18.34,
+  "source_notes": {
+    "current_price": "market price",
+    "nav": "fund NAV",
+    "distribution_rate_pct": "sponsor page",
+    "sec_yield_30d_pct": "30-day SEC yield",
+    "roc_pct": "return of capital share of recent distribution",
+    "expense_ratio_pct": "sponsor page or prospectus",
+    "aum": "assets under management",
+    "underlying": "main referenced equity or asset",
+    "total_return_1y_pct": "market-price total return",
+    "nav_return_1y_pct": "NAV total return"
+  },
+  "metadata": {
+    "autofilled_via": [
+      "YieldMax official FIAT page (manual patch values)"
+    ],
+    "autofilled_at_unix": 1774922047,
+    "value_dates": {
+      "distribution_metrics_as_of": "2026-03-25",
+      "fund_details_as_of": "2026-03-27",
+      "performance_as_of": "2026-02-28"
+    }
+  }
+}

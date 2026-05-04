@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+.env
+.env.*
+.ipynb_checkpoints/
+
+# raw/debug html
+charts_today/foreign_naver_raw.html
+charts_today/*_raw.html
+
+# local streamlit secrets
+.streamlit/secrets.toml
+bulkowski_breakout_radar/.streamlit/secrets.toml

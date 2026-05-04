@@ -1,0 +1,18 @@
+# saved_at_kr,2026-03-04 20:25:15 KST
+# used_candidates_txt,True
+# used_candidates_meta,True
+# count_base,10
+# count_premarket,27
+# count_final_universe,10
+# count_scored,9
+# count_skipped,1
+ticker,price,gap_pct,rsi14,px_vs_sma50,px_vs_sma200,weekly_up,weekly_r1,weekly_s1,room_to_weekly_r1_pct,daily_break_level,break_level_src,daily_breakout,daily_retest,in_daily_box_middle,breakout_confirmed_close,breakout_volume_confirmed,breakout_confirmed_intraday,grade,score
+IDYA,34.53,0.64,55.44,1.58,22.9,True,39.28,29.47,13.76,33.31,pattern:DOUBLE_BOTTOM,True,False,True,True,True,True,C,12.0
+IYR,101.1,0.14,61.23,4.41,5.39,True,98.46,94.41,-2.61,98.46,pattern:DOUBLE_BOTTOM,True,True,False,True,True,True,C,9.0
+TTE,78.09,-0.32,63.13,10.01,21.8,True,66.92,62.16,-14.3,66.69,pattern:DOUBLE_BOTTOM,True,False,False,True,True,True,C,8.0
+FANG,176.46,-0.6,66.7,11.12,19.44,True,164.44,139.41,-6.81,177.25,pattern:DOUBLE_BOTTOM,True,True,False,True,True,False,C,7.0
+INGM,24.4,-0.04,66.43,13.91,16.92,True,22.27,20.24,-8.73,22.12,pattern:DOUBLE_BOTTOM,True,False,False,True,True,True,C,6.0
+XLU,47.12,0.11,72.67,7.21,9.41,True,43.82,41.74,-7.0,43.82,pattern:DOUBLE_BOTTOM,True,False,False,True,True,True,C,2.0
+FLNG,29.34,0.27,72.79,11.7,16.19,True,27.46,25.41,-6.41,26.9,pattern:DOUBLE_BOTTOM,True,False,False,True,True,True,C,2.0
+UUP,27.4,-0.22,89.29,1.16,-0.3,False,27.45,26.4,0.18,27.09,pattern:DOUBLE_BOTTOM,True,True,True,True,True,True,C,0.0
+LWLG,5.49,4.57,85.0,46.09,70.33,True,4.95,3.0,-9.84,3.71,pattern:DOUBLE_BOTTOM,True,False,False,True,True,True,C,0.0

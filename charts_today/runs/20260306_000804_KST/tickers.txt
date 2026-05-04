@@ -1,0 +1,150 @@
+APA CNQ COP EQNR FANG LNG TTE VG CRAK MPC VLO PSX USO BNO UCO VLO BATL RCAT VG TGT ZD NPT KTB SEM SRRK LWLG TDW GTE IDYA IDYA ASTS CNR DEC INGM CF CHRD WDS COP FLNG SU CVX EOG HAFN KOS KTB BNAL FBF PARR IYE XLE XOP MPC PSX FCX GLNG WDS
+CL=F      # WTI Crude Oil
+BZ=F      # Brent Crude Oil
+RB=F      # Gasoline (RBOB)  -> 정유(PSX/MPC) 체감에 더 직접적
+NG=F      # Natural Gas
+ES=F      # S&P 500 futures
+NQ=F      # Nasdaq 100 futures
+^VIX      # VIX (공포지수)
+^TNX      # US 10Y yield (수익률 지수)
+GC=F      # Gold futures
+UUP       # Dollar ETF (달러강세 온도계)
+JETS      # Airline ETF (유가 급등과 역상관 체크)
+PSX
+MPC
+SLB
+HAL
+CVE
+SHEL
+LNG
+XLE
+IYE
+XOP
+OIH
+XLB
+IYM
+XOI
+OSX
+XNG
+XAL
+GOX
+XAU
+FCX
+SCCO
+AEM
+CCJ
+TRX
+ERX
+DIG
+GUSH
+UYM
+BOIL
+UCO
+AUX
+BIX
+BTK
+CORE_ETFS_1XXCO
+GHA
+GSV
+CWX
+GSO
+XCI
+IXF
+FPP
+GAX
+HCX
+INDS
+IUX
+INX
+GIN
+NWX
+GIP
+DRG
+RLX
+XBD
+SOX
+GSM
+TXX
+XTC
+UTY
+BBH
+IYD
+IYG
+IYH
+HHH
+IYV
+IAH
+BHH
+IH
+PPH
+IYR
+RMS
+VGSIX
+SMH
+XLK
+IYW
+IYZ
+TTH
+BDH
+XLU
+IDU
+UTH
+SOXL   # Direxion Daily Semiconductor Bull 3X
+SOXS   # Direxion Daily Semiconductor Bear 3X
+USD    # ProShares Ultra Semiconductors 2X
+SOXX   # 1x benchmark
+SMH    # 1x benchmark
+TQQQ
+SQQQ
+QLD
+QID
+UPRO
+SPXU
+SPXL
+SPXS
+SSO
+SDS
+UDOW
+SDOW
+TNA
+TZA
+TECL
+TECS
+FNGU
+FNGD
+BULZ   # MicroSectors FANG+ 3X ETN
+BERZ   # MicroSectors FANG+ -3X ETN
+UBOT   # Direxion Daily Robotics & AI Bull 2X
+AIBU   # Direxion Daily AI & Big Data Bull 2X
+AIBD   # Direxion Daily AI & Big Data Bear 2X
+CURE   # Direxion Daily Healthcare Bull 3X
+SICK   # Direxion Daily Healthcare Bear 3X (may be inactive; will auto-skip if no data)
+LABU   # Direxion Daily S&P Biotech Bull 3X
+LABD   # Direxion Daily S&P Biotech Bear 3X
+PILL   # Direxion Daily Pharmaceutical & Medical Bull 3X
+WANT   # Direxion Daily Consumer Discretionary Bull 3X
+PASS   # Direxion Daily Consumer Discretionary Bear 3X
+DUSL   # Direxion Daily Industrials Bull 3X
+DFEN   # Direxion Daily Aerospace & Defense Bull 3X
+TPOR   # Direxion Daily Transportation Bull 3X
+LMTL   # Direxion Daily LMT Bull 2X
+BOEU   # Direxion Daily BA Bull 2X
+ERY
+DRIP
+SCO
+KOLD
+BNO   # Brent 1X benchmark
+USO   # WTI 1X benchmark
+EVAV   # Direxion Daily Electric & Autonomous Vehicles Bull 2X
+KLNE   # Direxion Daily Global Clean Energy Bull 2X
+NUGT
+DUST
+UGL
+GLL
+TMF
+TMV
+NVDU   # Direxion Daily NVDA Bull 2X
+NVDD   # Direxion Daily NVDA Bear 1X
+NVDL   # GraniteShares 2x Long NVDA Daily
+BITX
+BITI

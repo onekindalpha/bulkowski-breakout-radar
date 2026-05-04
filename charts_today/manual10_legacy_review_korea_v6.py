@@ -1,0 +1,249 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+from __future__ import annotations
+
+import argparse
+from typing import Optional
+import pandas as pd
+
+TRUE_SET = {"true", "1", "y", "yes", "t"}
+
+GREEN = "\033[1;92m"
+RESET = "\033[0m"
+
+
+def is_true(v) -> bool:
+    return str(v).strip().lower() in TRUE_SET
+
+
+def to_float(v, default=None):
+    try:
+        if pd.isna(v):
+            return default
+        return float(v)
+    except Exception:
+        return default
+
+
+def find_col(df: pd.DataFrame, candidates: list[str]) -> Optional[str]:
+    lower_map = {str(c).strip().lower(): c for c in df.columns}
+    for cand in candidates:
+        if cand.lower() in lower_map:
+            return lower_map[cand.lower()]
+    return None
+
+
+def robust_read_csv(path: str) -> pd.DataFrame:
+    try:
+        return pd.read_csv(path, comment="#")
+    except Exception:
+        return pd.read_csv(path, comment="#", engine="python")
+
+
+def fmt_num(v):
+    return "" if v is None else f"{v:.2f}"
+
+
+def fmt_pct(v):
+    return "" if v is None else f"{v:+.2f}%"
+
+
+def color_label(label: str) -> str:
+    if label in {"BUY NOW", "NEAR BREAKOUT"}:
+        return f"{GREEN}{label}{RESET}"
+    return label
+
+
+def load_manual_tickers(path: str) -> pd.DataFrame:
+    df = robust_read_csv(path)
+    df = df.dropna(axis=1, how="all").dropna(axis=0, how="all")
+    if df.empty:
+        raise SystemExit(f"manual file empty after cleaning: {path}")
+
+    tcol = find_col(df, ["ticker", "symbol"])
+    if tcol is None:
+        tcol = df.columns[0]
+
+    out = df.copy()
+    out[tcol] = out[tcol].astype(str).str.strip().str.upper()
+    out = out[out[tcol] != ""].copy()
+    out = out.rename(columns={tcol: "ticker"})
+    return out[["ticker"]].drop_duplicates().reset_index(drop=True)
+
+
+def load_report(path: str) -> pd.DataFrame:
+    df = robust_read_csv(path)
+    tcol = find_col(df, ["ticker", "symbol"])
+    if tcol is None:
+        raise SystemExit("report file missing ticker/symbol column")
+    df[tcol] = df[tcol].astype(str).str.strip().str.upper()
+    return df.rename(columns={tcol: "ticker"})
+
+
+def classify_row(r: pd.Series, near_max_dist: float, chase_ext_max: float):
+    price = to_float(r.get("price"), 0.0)
+    brk = to_float(r.get("daily_break_level"), 0.0)
+    room_pct = to_float(r.get("room_to_weekly_r1_pct"), None)
+    weekly_r1 = to_float(r.get("weekly_r1"), None)
+    rsi = to_float(r.get("rsi14"), None)
+    px50 = to_float(r.get("px_vs_sma50"), None)
+    px200 = to_float(r.get("px_vs_sma200"), None)
+    ext = to_float(r.get("ext_pct"), None)
+
+    if ext is None and brk and price:
+        ext = (price / brk - 1.0) * 100.0
+
+    if weekly_r1 is None and room_pct is not None and price:
+        weekly_r1 = price * (1.0 + room_pct / 100.0)
+
+    room_left = None
+    if weekly_r1 is not None and price:
+        room_left = weekly_r1 - price
+
+    breakout = is_true(r.get("daily_breakout"))
+    retest = is_true(r.get("daily_retest"))
+    sma50_ok = (px50 is not None and px50 > 0)
+    sma200_ok = (px200 is not None and px200 > 0)
+
+    dist = None
+    if brk and price:
+        dist = (brk / price - 1.0) * 100.0
+
+    grade = str(r.get("grade", ""))
+    score = r.get("score", r.get("score_total", ""))
+
+    warnings = []
+    if room_pct is not None and room_pct < 0:
+        warnings.append(f"weekly_r1 already below current price ({room_pct:.2f}%)")
+    elif room_pct is not None and room_pct < 2:
+        warnings.append(f"weekly room small ({room_pct:.2f}%)")
+    if rsi is not None and rsi > 70:
+        warnings.append(f"RSI>70 ({rsi:.2f})")
+    if rsi is not None and rsi < 40:
+        warnings.append(f"RSI low ({rsi:.2f})")
+    if not sma50_ok:
+        warnings.append("below or near SMA50")
+    if not sma200_ok:
+        warnings.append("below or near SMA200")
+
+    # Reverted logic: BUY NOW allowed again if breakout+retest+SMA structure is good and not too extended.
+    if breakout and retest and sma50_ok and sma200_ok:
+        if ext is not None and ext > chase_ext_max:
+            label = "WATCH / CHASE"
+            why = f"already extended ({ext:+.2f}%)"
+        else:
+            label = "BUY NOW"
+            why = "breakout confirmed and retest present; still close to break_level"
+    elif retest and dist is not None and dist <= near_max_dist and sma50_ok and sma200_ok:
+        label = "NEAR BREAKOUT"
+        why = "just below break_level; retest/trigger setup looks clean"
+    elif retest and sma50_ok and sma200_ok:
+        label = "WATCH"
+        why = "retest present, but still not close enough to break"
+    else:
+        label = "REJECT"
+        if not sma50_ok or not sma200_ok:
+            why = "structure below key moving averages"
+        elif dist is not None:
+            why = f"{dist:.2f}% below break"
+        else:
+            why = "not close enough to break / trigger"
+
+    return {
+        "label": label,
+        "grade": grade,
+        "score": score,
+        "price": price,
+        "break": brk,
+        "ext": ext,
+        "dist": dist,
+        "rsi": rsi,
+        "room_pct": room_pct,
+        "weekly_r1": weekly_r1,
+        "room_left": room_left,
+        "sma50_ok": sma50_ok,
+        "sma200_ok": sma200_ok,
+        "why": why,
+        "warnings": "; ".join(warnings),
+        "breakout": breakout,
+        "retest": retest,
+    }
+
+
+def print_row(ticker: str, info: dict, safe_text: str):
+    room_text = fmt_pct(info["room_pct"])
+    room_left_text = "" if info["room_left"] is None else f"{info['room_left']:.2f}"
+    weekly_r1_text = fmt_num(info["weekly_r1"])
+    label_text = color_label(info["label"])
+
+    print(
+        f"{ticker} | {label_text} | safe={safe_text} | grade={info['grade']} score={info['score']} | "
+        f"breakout={'Y' if info['breakout'] else 'N'} retest={'Y' if info['retest'] else 'N'} | "
+        f"price={fmt_num(info['price'])} break={fmt_num(info['break'])} | "
+        f"ext={fmt_pct(info['ext'])} | dist={fmt_pct(info['dist'])} | "
+        f"rsi={fmt_num(info['rsi'])} | room_pct={room_text} | "
+        f"weekly_r1={weekly_r1_text} | room_left={room_left_text} | "
+        f"sma50={'Y' if info['sma50_ok'] else 'N'} sma200={'Y' if info['sma200_ok'] else 'N'}"
+    )
+    print(f"    why: {info['why']}")
+    if info["warnings"]:
+        print(f"    safe warning: {info['warnings']}")
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--manual", default="premarket_manual_korea.csv")
+    ap.add_argument("--report", default="report_v2.csv")
+    ap.add_argument("--near-max-dist", type=float, default=2.5)
+    ap.add_argument("--chase-ext-max", type=float, default=1.5)
+    args = ap.parse_args()
+
+    manual = load_manual_tickers(args.manual)
+    report = load_report(args.report)
+
+    manual_set = set(manual["ticker"].tolist())
+    safe_set = set(report["ticker"].astype(str).str.upper().tolist())
+    report_by_ticker = {r["ticker"]: r for _, r in report.iterrows()}
+
+    print("=== LEGACY REVIEW WITH ROOM PRICE HINTS ===")
+    print(f"manual tickers in report: {len(manual_set & safe_set)} | safe top: {len(safe_set)}")
+    print("BUY_NOW rule: breakout + retest + SMA50/200 above, regardless of room")
+    print("Room is shown as both percent and actual price space to weekly_r1.")
+
+    print("\n--- MANUAL ∩ SAFE ---")
+    inter = sorted(manual_set & safe_set)
+    if not inter:
+        print("(none)")
+    else:
+        for t in inter:
+            info = classify_row(report_by_ticker[t], args.near_max_dist, args.chase_ext_max)
+            print_row(t, info, "Y")
+
+    print("\n--- MANUAL ONLY ---")
+    monly = sorted(manual_set - safe_set)
+    if not monly:
+        print("(none)")
+    else:
+        print("(manual-only tickers are shown as WATCH because SAFE metrics are unavailable in report_v2)")
+        for t in monly:
+            print(f"{t} | WATCH | safe=N | why: manual-only ticker present, but not in SAFE report")
+
+    print("\n--- SAFE ONLY ---")
+    sonly = sorted(safe_set - manual_set)
+    if not sonly:
+        print("(none)")
+    else:
+        for t in sonly:
+            info = classify_row(report_by_ticker[t], args.near_max_dist, args.chase_ext_max)
+            print_row(t, info, "Y")
+
+    print("\nLegend:")
+    print("- BUY NOW = breakout + retest + SMA50/200 above, and not too extended")
+    print("- NEAR BREAKOUT = just below break_level with retest/trigger setup")
+    print("- WATCH / CHASE = breakout happened, but already too extended")
+    print("- room_left = actual price space remaining to weekly_r1")
+
+
+if __name__ == "__main__":
+    main()

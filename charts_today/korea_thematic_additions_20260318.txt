@@ -1,0 +1,34 @@
+# korea_thematic_additions_20260318.txt
+# Additive KR thematic overlay: chemicals / renewables / robotics / autonomous / battery materials
+
+# --- Chemicals / materials / battery chain ---
+051910.KS
+006400.KS
+003670.KS
+086520.KQ
+247540.KQ
+011170.KS
+009830.KS
+010060.KS
+
+# --- Renewables / solar / wind / power transition ---
+009830.KS
+112610.KS
+297090.KQ
+015760.KS
+034020.KS
+322000.KS
+
+# --- Robotics / automation / physical AI ---
+277810.KQ
+455900.KQ
+058610.KQ
+117730.KQ
+307950.KS
+
+# --- Autonomous driving / mobility / ADAS ---
+005380.KS
+000270.KS
+204320.KS
+307950.KS
+011070.KS

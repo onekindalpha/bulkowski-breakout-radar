@@ -1,0 +1,65 @@
+# generated_at_utc=2026-03-17T06:39:11+00:00
+# source=finviz_groups
+# groups=5
+# tickers=55
+# industry:1:Aluminum | change=3.63% | stocks=4 | url=https://finviz.com/screener.ashx?f=ind_aluminum&v=151
+# industry:2:Computer Hardware | change=3.26% | stocks=40 | url=https://finviz.com/screener.ashx?f=ind_computerhardware&v=151
+# industry:3:Confectioners | change=3.22% | stocks=5 | url=https://finviz.com/screener.ashx?f=ind_confectioners&v=151
+# industry:4:Copper | change=3.17% | stocks=6 | url=https://finviz.com/screener.ashx?f=ind_copper&v=151
+# industry:5:Utilities - Renewable | change=3.08% | stocks=23 | url=https://finviz.com/screener.ashx?f=ind_utilitiesrenewable&v=151
+
+AA
+CSTM
+CENX
+KALU
+AMCI
+AGMH
+DELL
+BRAI
+ALOT
+LOGI
+BTCT
+ANET
+DPRO
+IONQ
+DDD
+CRCT
+CRSR
+CAN
+HPQ
+KTCC
+BGIN
+EBON
+MCRP
+NNDM
+RMCF
+MDLZ
+HSY
+TR
+SOWG
+SCCO
+ERO
+TGB
+FCX
+HBM
+IE
+ENLT
+NRGV
+ELLO
+STEM
+CWEN-A
+CWEN
+BEPC
+AXIA
+FLNC
+RNW
+BEP
+ORA
+SUUN
+BESS
+HTOO
+CREG
+BNRG
+NXXT
+AGIG
+SAFX

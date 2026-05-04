@@ -1,0 +1,7 @@
+# us_btc_eth_expanded_notes_20260318.txt
+# What this file is doing:
+# 1) Bitcoin ETFs: direct listed spot-BTC exposure.
+# 2) Ethereum ETFs/ETPs: direct listed ETH exposure.
+# 3) COIN/HOOD/CME/MSTR: crypto flow / trading / treasury beta.
+# 4) Miners: mostly Bitcoin mining / hosting / infra beta.
+# 5) Ethereum 'mining' is outdated after proof-of-stake; use ETH ETFs + exchange/infra names instead.

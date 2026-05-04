@@ -1,0 +1,28 @@
+{
+  "GTE": {
+    "last_ts": 1772722692,
+    "status": "OK"
+  },
+  "IYE": {
+    "last_ts": 1772704808,
+    "status": "SELL_SIGNAL"
+  },
+  "MPC": {
+    "last_ts": 1772664945,
+    "status": "OK"
+  },
+  "UYM": {
+    "armed": false,
+    "last_ts": 1772550237,
+    "level": 34.54,
+    "status": "SELL_SIGNAL"
+  },
+  "XLE": {
+    "last_ts": 1772621693,
+    "status": "SELL_SIGNAL"
+  },
+  "XOP": {
+    "last_ts": 1772726813,
+    "status": "OK"
+  }
+}

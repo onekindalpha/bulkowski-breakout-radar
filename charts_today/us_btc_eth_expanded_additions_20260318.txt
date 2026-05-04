@@ -1,0 +1,45 @@
+# us_btc_eth_expanded_additions_20260318.txt
+# Additive US overlay: Bitcoin / Ethereum / crypto-related names
+# Use as an additions file for finviz_manual.txt and/or tickers_core.txt
+# Notes:
+# - Ethereum is now proof-of-stake, so direct 'ETH mining' is not a modern theme.
+# - Keep ETH ETFs + exchanges/infrastructure + miners/hosting beta as tactical proxies.
+
+# --- Spot Bitcoin ETFs ---
+IBIT
+FBTC
+ARKB
+BITB
+HODL
+BRRR
+EZBC
+GBTC
+
+# --- Spot / spot-like Ethereum ETFs / ETPs ---
+ETHA
+FETH
+ETH
+EZET
+ETHV
+ETHW
+ETHE
+
+# --- Core crypto beta / exchanges / brokerage / infrastructure ---
+COIN
+HOOD
+CME
+MSTR
+
+# --- Bitcoin miners / infra beta ---
+MARA
+RIOT
+CLSK
+IREN
+CIFR
+HUT
+BTDR
+CORZ
+
+# --- Additional crypto-adjacent beta ---
+SQ
+PYPL

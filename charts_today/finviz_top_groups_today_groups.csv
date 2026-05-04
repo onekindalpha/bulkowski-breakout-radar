@@ -1,0 +1,6 @@
+kind,rank,name,change_pct,stocks,url
+industry,1,Aluminum,3.63,4,https://finviz.com/screener.ashx?f=ind_aluminum&v=151
+industry,2,Computer Hardware,3.26,40,https://finviz.com/screener.ashx?f=ind_computerhardware&v=151
+industry,3,Confectioners,3.22,5,https://finviz.com/screener.ashx?f=ind_confectioners&v=151
+industry,4,Copper,3.17,6,https://finviz.com/screener.ashx?f=ind_copper&v=151
+industry,5,Utilities - Renewable,3.08,23,https://finviz.com/screener.ashx?f=ind_utilitiesrenewable&v=151

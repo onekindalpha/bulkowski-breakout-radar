@@ -1,0 +1,12 @@
+symbol,is_2x,status,break_level,breakout_date,vol_confirmed,vol_ratio,hold_confirmed,breakout_pct,last_close
+ZD,False,ENTRY_READY,41.07,2026-03-03,True,11.211,True,4.651,42.98
+BATL,False,ENTRY_READY,13.61,2026-03-03,True,5.3,True,36.444,18.57
+UCO,True,ENTRY_READY,28.52,2026-03-03,True,4.817,True,2.174,29.14
+USO,False,ENTRY_READY,88.64,2026-03-03,True,4.585,True,3.294,91.56
+BNO,False,ENTRY_READY,37.87,2026-03-03,True,4.248,True,2.72,38.9
+PARR,False,BREAKOUT(vol_ok)_WAIT_HOLD,47.76,2026-03-04,True,1.916,False,4.02,49.68
+TTE,False,BREAKOUT(vol_ok)_WAIT_HOLD,80.36,2026-03-02,True,1.594,False,-4.281,76.92
+SOXX,False,BREAKOUT_WAIT_VOL,365.38,2026-02-25,False,0.61,False,-6.525,341.54
+BITI,False,NO_BREAKOUT,,,False,,False,,24.88
+RCAT,False,NO_BREAKOUT,,,False,,False,,14.73
+SRRK,False,NO_BREAKOUT,,,False,,False,,47.43

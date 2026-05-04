@@ -1,0 +1,56 @@
+Ticker,Company,Sector,Industry,Price,Change,group_kind,group_name,group_rank,Price_num,Change_num
+AA,Alcoa Corp,Basic Materials,Aluminum,66.60,4.73%,industry,Aluminum,1,66.6,4.73
+CSTM,Constellium SE,Basic Materials,Aluminum,25.32,2.89%,industry,Aluminum,1,25.32,2.89
+CENX,Century Aluminum Co,Basic Materials,Aluminum,55.65,1.67%,industry,Aluminum,1,55.65,1.67
+KALU,Kaiser Aluminum Corp,Basic Materials,Aluminum,118.60,0.88%,industry,Aluminum,1,118.6,0.88
+AMCI,AMC Robotics Corp,Technology,Computer Hardware,8.33,4.78%,industry,Computer Hardware,2,8.33,4.78
+AGMH,AGM Group Holdings Inc,Technology,Computer Hardware,1.21,4.33%,industry,Computer Hardware,2,1.21,4.33
+DELL,Dell Technologies Inc,Technology,Computer Hardware,156.54,3.24%,industry,Computer Hardware,2,156.54,3.24
+BRAI,Braiin Ltd,Technology,Computer Hardware,20.64,2.48%,industry,Computer Hardware,2,20.64,2.48
+ALOT,AstroNova Inc,Technology,Computer Hardware,8.80,2.09%,industry,Computer Hardware,2,8.8,2.09
+LOGI,Logitech International S.A,Technology,Computer Hardware,94.68,2.08%,industry,Computer Hardware,2,94.68,2.08
+BTCT,BTC Digital Ltd,Technology,Computer Hardware,1.35,1.89%,industry,Computer Hardware,2,1.35,1.89
+ANET,Arista Networks Inc,Technology,Computer Hardware,135.35,1.33%,industry,Computer Hardware,2,135.35,1.33
+DPRO,Draganfly Inc,Technology,Computer Hardware,6.41,1.10%,industry,Computer Hardware,2,6.41,1.1
+IONQ,IonQ Inc,Technology,Computer Hardware,33.29,0.94%,industry,Computer Hardware,2,33.29,0.94
+DDD,3D Systems Corp,Technology,Computer Hardware,2.43,0.41%,industry,Computer Hardware,2,2.43,0.41
+CRCT,Cricut Inc,Technology,Computer Hardware,4.08,0.25%,industry,Computer Hardware,2,4.08,0.25
+CRSR,Corsair Gaming Inc,Technology,Computer Hardware,5.28,-0.75%,industry,Computer Hardware,2,5.28,-0.75
+CAN,Canaan Inc ADR,Technology,Computer Hardware,0.48,-0.81%,industry,Computer Hardware,2,0.48,-0.81
+HPQ,HP Inc,Technology,Computer Hardware,18.68,-1.32%,industry,Computer Hardware,2,18.68,-1.32
+KTCC,Key Tronic Corp,Technology,Computer Hardware,2.75,-1.43%,industry,Computer Hardware,2,2.75,-1.43
+BGIN,Bgin Blockchain Ltd,Technology,Computer Hardware,2.88,-2.37%,industry,Computer Hardware,2,2.88,-2.37
+EBON,Ebang International Holdings Inc,Technology,Computer Hardware,2.41,-3.41%,industry,Computer Hardware,2,2.41,-3.41
+MCRP,Micropolis AI Robotics,Technology,Computer Hardware,3.58,-3.50%,industry,Computer Hardware,2,3.58,-3.5
+NNDM,Nano Dimension Ltd ADR,Technology,Computer Hardware,1.64,-5.75%,industry,Computer Hardware,2,1.64,-5.75
+RMCF,Rocky Mountain Chocolate Factory Inc,Consumer Defensive,Confectioners,2.50,5.93%,industry,Confectioners,3,2.5,5.93
+MDLZ,Mondelez International Inc,Consumer Defensive,Confectioners,57.16,4.14%,industry,Confectioners,3,57.16,4.14
+HSY,Hershey Company,Consumer Defensive,Confectioners,220.11,1.39%,industry,Confectioners,3,220.11,1.39
+TR,"Tootsie Roll Industries, Inc",Consumer Defensive,Confectioners,42.40,0.02%,industry,Confectioners,3,42.4,0.02
+SOWG,Sow Good Inc,Consumer Defensive,Confectioners,0.42,-10.08%,industry,Confectioners,3,0.42,-10.08
+SCCO,Southern Copper Corporation,Basic Materials,Copper,176.80,3.49%,industry,Copper,4,176.8,3.49
+ERO,Ero Copper Corp,Basic Materials,Copper,27.00,3.37%,industry,Copper,4,27.0,3.37
+TGB,Taseko Mines Ltd,Basic Materials,Copper,6.79,2.88%,industry,Copper,4,6.79,2.88
+FCX,Freeport-McMoRan Inc,Basic Materials,Copper,57.93,2.75%,industry,Copper,4,57.93,2.75
+HBM,Hudbay Minerals Inc,Basic Materials,Copper,21.14,1.98%,industry,Copper,4,21.14,1.98
+IE,Ivanhoe Electric Inc,Basic Materials,Copper,12.58,1.94%,industry,Copper,4,12.58,1.94
+ENLT,Enlight Renewable Energy Ltd,Utilities,Utilities - Renewable,75.25,7.22%,industry,Utilities - Renewable,5,75.25,7.22
+NRGV,Energy Vault Holdings Inc,Utilities,Utilities - Renewable,3.46,4.85%,industry,Utilities - Renewable,5,3.46,4.85
+ELLO,Ellomay Capital Ltd,Utilities,Utilities - Renewable,25.57,4.15%,industry,Utilities - Renewable,5,25.57,4.15
+STEM,Stem Inc,Utilities,Utilities - Renewable,10.89,4.11%,industry,Utilities - Renewable,5,10.89,4.11
+CWEN-A,Clearway Energy Inc,Utilities,Utilities - Renewable,39.30,3.45%,industry,Utilities - Renewable,5,39.3,3.45
+CWEN,Clearway Energy Inc,Utilities,Utilities - Renewable,39.51,3.40%,industry,Utilities - Renewable,5,39.51,3.4
+BEPC,Brookfield Renewable Corp,Utilities,Utilities - Renewable,40.50,3.26%,industry,Utilities - Renewable,5,40.5,3.26
+AXIA,Axia Energia ADR,Utilities,Utilities - Renewable,11.27,3.02%,industry,Utilities - Renewable,5,11.27,3.02
+FLNC,Fluence Energy Inc,Utilities,Utilities - Renewable,16.78,2.44%,industry,Utilities - Renewable,5,16.78,2.44
+RNW,ReNew Energy Global plc,Utilities,Utilities - Renewable,5.31,1.72%,industry,Utilities - Renewable,5,5.31,1.72
+BEP,Brookfield Renewable Partners LP,Utilities,Utilities - Renewable,30.65,1.59%,industry,Utilities - Renewable,5,30.65,1.59
+ORA,Ormat Technologies Inc,Utilities,Utilities - Renewable,109.69,-0.63%,industry,Utilities - Renewable,5,109.69,-0.63
+SUUN,PowerBank Corporation,Utilities,Utilities - Renewable,0.68,-1.00%,industry,Utilities - Renewable,5,0.68,-1.0
+BESS,Bimergen Energy Corp,Utilities,Utilities - Renewable,2.75,-1.08%,industry,Utilities - Renewable,5,2.75,-1.08
+HTOO,Fusion Fuel Green Ltd,Utilities,Utilities - Renewable,3.05,-1.61%,industry,Utilities - Renewable,5,3.05,-1.61
+CREG,Smart Powerr Corp,Utilities,Utilities - Renewable,1.24,-3.12%,industry,Utilities - Renewable,5,1.24,-3.12
+BNRG,Brenmiller Energy Ltd,Utilities,Utilities - Renewable,0.70,-3.66%,industry,Utilities - Renewable,5,0.7,-3.66
+NXXT,NextNRG Inc,Utilities,Utilities - Renewable,0.50,-4.02%,industry,Utilities - Renewable,5,0.5,-4.02
+AGIG,Abundia Global Impact Group Inc,Utilities,Utilities - Renewable,1.75,-5.41%,industry,Utilities - Renewable,5,1.75,-5.41
+SAFX,XCF Global Inc,Utilities,Utilities - Renewable,0.35,-11.58%,industry,Utilities - Renewable,5,0.35,-11.58

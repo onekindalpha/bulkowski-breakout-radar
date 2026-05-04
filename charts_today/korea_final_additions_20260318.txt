@@ -1,0 +1,44 @@
+# korea_final_additions_20260318.txt
+# Final additive KR overlay
+# Themes: battery / secondary battery / MLCC / substrate / robotics / autonomous / power / renewables
+
+# --- 2차전지 / 배터리 / 소재 ---
+051910.KS
+006400.KS
+373220.KS
+003670.KS
+086520.KQ
+247540.KQ
+011170.KS
+010060.KS
+305720.KS
+305540.KS
+
+# --- MLCC / 기판 / 패키징 ---
+009150.KS
+011070.KS
+222800.KQ
+353200.KQ
+195870.KS
+
+# --- 전력 / 원전 / 신재생 / 전환 ---
+015760.KS
+034020.KS
+267260.KS
+322000.KS
+009830.KS
+112610.KS
+298040.KS
+357780.KS
+060280.KQ
+
+# --- 로봇 / 자율주행 / 모빌리티 ---
+277810.KQ
+455900.KQ
+058610.KQ
+117730.KQ
+307950.KS
+445290.KS
+005380.KS
+000270.KS
+204320.KS

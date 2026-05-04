@@ -1,0 +1,65 @@
+# tickers_core_korea_rich_20260318.txt
+# Rich core universe for Korea pipeline (balanced / liquid / current-theme aware)
+
+# --- AI / Semiconductors / Equipment ---
+005930.KS  # 삼성전자
+000660.KS  # SK하이닉스
+009150.KS  # 삼성전기
+000990.KS  # DB하이텍
+042700.KS  # 한미반도체
+058470.KQ  # 리노공업
+039030.KQ  # 이오테크닉스
+240810.KQ  # 원익IPS
+089030.KQ  # 테크윙
+403870.KQ  # HPSP
+222800.KQ  # 심텍
+
+# --- Biopharma / Healthcare ---
+207940.KS  # 삼성바이오로직스
+068270.KS  # 셀트리온
+000100.KS  # 유한양행
+326030.KS  # SK바이오팜
+196170.KQ  # 알테오젠
+000250.KQ  # 삼천당제약
+
+# --- Defense / Shipbuilding / Nuclear / Power Equipment ---
+012450.KS  # 한화에어로스페이스
+042660.KS  # 한화오션
+329180.KS  # HD현대중공업
+034020.KS  # 두산에너빌리티
+064350.KS  # 현대로템
+079550.KS  # LIG넥스원
+047810.KS  # 한국항공우주
+267260.KS  # HD현대일렉트릭
+010140.KS  # 삼성중공업
+
+# --- Internet / Platform / Telecom / Utilities / Autos / Financials ---
+035420.KS  # NAVER
+035720.KS  # 카카오
+017670.KS  # SK텔레콤
+015760.KS  # 한국전력
+005380.KS  # 현대차
+000270.KS  # 기아
+012330.KS  # 현대모비스
+105560.KS  # KB금융
+055550.KS  # 신한지주
+086790.KS  # 하나금융지주
+316140.KS  # 우리금융지주
+024110.KS  # 기업은행
+
+# --- Consumer / Staples / Cosmetics / Materials ---
+097950.KS  # CJ제일제당
+271560.KS  # 오리온
+004370.KS  # 농심
+003230.KS  # 삼양식품
+282330.KS  # BGF리테일
+090430.KS  # 아모레퍼시픽
+051900.KS  # LG생활건강
+192820.KS  # 코스맥스
+161890.KS  # 한국콜마
+278470.KS  # 에이피알
+051910.KS  # LG화학
+373220.KS  # LG에너지솔루션
+006400.KS  # 삼성SDI
+247540.KQ  # 에코프로비엠
+086520.KQ  # 에코프로

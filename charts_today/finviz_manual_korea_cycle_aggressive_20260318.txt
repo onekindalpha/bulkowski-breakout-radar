@@ -1,0 +1,81 @@
+# finviz_manual_korea_cycle_aggressive_20260318.txt
+# Tactical / profit-seeking / current-cycle manual watch
+# Bias:
+# HBM/GTC, MLCC/substrate, robotics/physical AI,
+# 조방원, selective biotech, cosmetics/consumer cyclicals
+
+# --- HBM / GTC / memory / substrate / MLCC direct chain ---
+000660.KS
+005930.KS
+009150.KS
+011070.KS
+042700.KS
+039030.KQ
+058470.KQ
+089030.KQ
+222800.KQ
+240810.KQ
+403870.KQ
+066570.KS
+
+# --- Robotics / physical AI / factory automation ---
+277810.KQ
+455900.KQ
+058610.KQ
+117730.KQ
+005380.KS
+000270.KS
+
+# --- Semiconductor / AI beta ETFs & instruments ---
+091160.KS
+091230.KS
+396500.KS
+488080.KS
+494310.KS
+469150.KS
+395270.KS
+395160.KS
+471990.KS
+471760.KS
+390390.KS
+381180.KS
+
+# --- Shipbuilding / defense / nuclear / power high-priority swing list ---
+012450.KS
+042660.KS
+329180.KS
+010140.KS
+034020.KS
+267260.KS
+064350.KS
+079550.KS
+047810.KS
+015760.KS
+
+# --- Cosmetics / consumer cyclical / retail winners ---
+278470.KS
+090430.KS
+192820.KS
+161890.KS
+051900.KS
+003230.KS
+097950.KS
+271560.KS
+282330.KS
+008770.KS
+
+# --- Selective pharma / biotech / medical winners ---
+207940.KS
+068270.KS
+000100.KS
+326030.KS
+196170.KQ
+000250.KQ
+214150.KQ
+145720.KS
+
+# --- Internet / foreign-favored / policy names ---
+035420.KS
+105560.KS
+055550.KS
+086790.KS

@@ -1,0 +1,29 @@
+# korea_travel_cyclical_additions_20260318.txt
+# KR additive tactical overlay: airlines / travel / retail / leisure / consumer cyclicals
+
+# --- Airlines / aviation ---
+003490.KS  # 대한항공
+020560.KS  # 아시아나항공
+272450.KS  # 진에어
+089590.KS  # 제주항공
+298690.KS  # 에어부산
+091810.KS  # 티웨이항공
+
+# --- Travel / tour / leisure / casino / hotel / duty free ---
+039130.KQ  # 하나투어
+080160.KQ  # 모두투어
+094850.KQ  # 참좋은여행
+114090.KS  # GKL
+034230.KQ  # 파라다이스
+008770.KS  # 호텔신라
+069960.KS  # 현대백화점
+023530.KS  # 롯데쇼핑
+004170.KS  # 신세계
+
+# --- Consumer cyclical / retail / discretionary ---
+383220.KS  # F&F
+259960.KS  # 크래프톤
+241560.KQ  # 두산밥캣
+005385.KS  # 현대차우 (optional proxy)
+005380.KS  # 현대차
+000270.KS  # 기아

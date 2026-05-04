@@ -1,0 +1,61 @@
+# us_final_additions_20260318.txt
+# Final additive US overlay
+# Themes: EV / battery / solid-state / MLCC-substrate-adjacent / SpaceX-adjacent / ETH-crypto proxies
+
+# --- EV / battery / solid-state / lithium ---
+TSLA
+RIVN
+GM
+F
+QS
+SLDP
+ENVX
+ALB
+SQM
+LTHM
+
+# --- MLCC / substrate / packaging / electronics manufacturing ---
+AMKR
+JBL
+FLEX
+SANM
+APH
+TEL
+GLW
+
+# --- SpaceX-adjacent / space / satellite / launch / connectivity ---
+RKLB
+ASTS
+LUNR
+RDW
+PL
+SPIR
+SATL
+GSAT
+VSAT
+IRDM
+BA
+
+# --- ETH / crypto proxies / infrastructure ---
+ETHA
+FETH
+ETH
+EZET
+ETHV
+ETHW
+TETH
+QETH
+ETHE
+COIN
+HOOD
+CME
+
+# --- Crypto miners / infrastructure beta (not direct ETH mining) ---
+MARA
+RIOT
+CLSK
+IREN
+CIFR
+HUT
+BTDR
+CORZ
