@@ -306,7 +306,7 @@ https://bulkowski-breakout-radar-dfb5nsywarnwlaetmhdsts.streamlit.app/
 | Market | Status |
 |---|---|
 | Korea | Supported |
-| US | Planned |
+| US | Supported |
 
 ---
 
