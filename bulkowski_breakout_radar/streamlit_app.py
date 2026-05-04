@@ -44,7 +44,8 @@ except Exception:  # optional runtime dependency
 
 APP_TITLE = "Bulkowski Breakout Radar"
 APP_SUBTITLE = "Prior-High Breakout Candidates from Chart Pattern Logic"
-KR_DIR = Path("data/kr")
+APP_DIR = Path(__file__).resolve().parent
+KR_DIR = APP_DIR / "data" / "kr"
 
 TRUE_SET = {"true", "1", "y", "yes", "t", "on"}
 ENTRY_ORDER = {
