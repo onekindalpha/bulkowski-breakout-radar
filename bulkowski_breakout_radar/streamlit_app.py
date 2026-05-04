@@ -898,42 +898,59 @@ with tab1:
 
     st.subheader("Breakout Candidates")
     st.caption(
-        "표를 넓게 보기 위해 상세 패널은 아래쪽으로 이동했다. "
-        "아래 Select ticker에서 종목을 고르면 상세/차트/리포트 카드가 아래에 표시된다."
+        "왼쪽 detail 체크박스를 누르면 아래 Selected Ticker Detail 영역에 해당 종목의 상세/차트/리포트 카드가 표시된다."
     )
-
-    st.dataframe(
-        filtered[display_cols],
-        use_container_width=True,
-        hide_index=True,
-        height=560,
-        column_config={
-            "name": st.column_config.TextColumn("name"),
-            "price": st.column_config.NumberColumn("price", format="%.2f"),
-            "daily_break_level": st.column_config.NumberColumn("break", format="%.2f"),
-            "dist_pct": st.column_config.NumberColumn("dist %", format="%.2f"),
-            "room_to_weekly_r1_pct": st.column_config.NumberColumn("room %", format="%.2f"),
-            "px_vs_sma10": st.column_config.NumberColumn("10DMA %", format="%.2f"),
-            "px_vs_sma40": st.column_config.NumberColumn("40DMA %", format="%.2f"),
-            "px_vs_sma50": st.column_config.NumberColumn("50DMA %", format="%.2f"),
-            "px_vs_sma200": st.column_config.NumberColumn("200DMA %", format="%.2f"),
-        },
-    )
-
-    st.divider()
-    st.subheader("Selected Ticker Detail")
 
     if filtered.empty:
         st.info("No rows after filters.")
     else:
-        choices = (filtered["ticker"] + " · " + filtered["name"].fillna("")).tolist()
-        idx = st.selectbox(
-            "Select ticker",
-            range(len(choices)),
-            format_func=lambda i: choices[i],
-            key="radar_selected_ticker",
+        table_df = filtered[display_cols].copy()
+        table_df.insert(0, "detail", False)
+
+        edited = st.data_editor(
+            table_df,
+            use_container_width=True,
+            hide_index=True,
+            height=600,
+            disabled=[c for c in table_df.columns if c != "detail"],
+            column_config={
+                "detail": st.column_config.CheckboxColumn(
+                    "detail",
+                    help="체크하면 아래 상세 패널에 표시",
+                    default=False,
+                ),
+                "name": st.column_config.TextColumn("name"),
+                "price": st.column_config.NumberColumn("price", format="%.2f"),
+                "daily_break_level": st.column_config.NumberColumn("break", format="%.2f"),
+                "dist_pct": st.column_config.NumberColumn("dist %", format="%.2f"),
+                "room_to_weekly_r1_pct": st.column_config.NumberColumn("room %", format="%.2f"),
+                "px_vs_sma10": st.column_config.NumberColumn("10DMA %", format="%.2f"),
+                "px_vs_sma40": st.column_config.NumberColumn("40DMA %", format="%.2f"),
+                "px_vs_sma50": st.column_config.NumberColumn("50DMA %", format="%.2f"),
+                "px_vs_sma200": st.column_config.NumberColumn("200DMA %", format="%.2f"),
+            },
+            key="radar_candidate_picker",
         )
-        selected_row = filtered.iloc[idx]
+
+        picked = edited[edited["detail"] == True].copy()
+
+        if not picked.empty:
+            picked_ticker = str(picked.iloc[0]["ticker"])
+            selected_row = filtered[filtered["ticker"].astype(str) == picked_ticker].iloc[0]
+            st.session_state["selected_ticker_from_table"] = picked_ticker
+        elif "selected_ticker_from_table" in st.session_state and st.session_state["selected_ticker_from_table"] in set(filtered["ticker"].astype(str)):
+            picked_ticker = st.session_state["selected_ticker_from_table"]
+            selected_row = filtered[filtered["ticker"].astype(str) == picked_ticker].iloc[0]
+        else:
+            selected_row = filtered.iloc[0]
+            st.session_state["selected_ticker_from_table"] = str(selected_row["ticker"])
+
+        st.divider()
+        st.subheader("Selected Ticker Detail")
+
+        st.caption(
+            f"Selected: {selected_row.get('ticker', '')} · {selected_row.get('name', '')}"
+        )
 
         render_detail(selected_row)
         render_external_links(selected_row)
