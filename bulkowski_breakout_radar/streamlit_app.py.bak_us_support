@@ -45,9 +45,7 @@ except Exception:  # optional runtime dependency
 APP_TITLE = "Bulkowski Breakout Radar"
 APP_SUBTITLE = "Prior-High Breakout Candidates from Chart Pattern Logic"
 APP_DIR = Path(__file__).resolve().parent
-DATA_DIRS = {"Korea": APP_DIR / "data" / "kr", "US": APP_DIR / "data" / "us"}
-KR_DIR = DATA_DIRS["Korea"]
-US_DIR = DATA_DIRS["US"]
+KR_DIR = APP_DIR / "data" / "kr"
 
 TRUE_SET = {"true", "1", "y", "yes", "t", "on"}
 ENTRY_ORDER = {
@@ -327,10 +325,10 @@ def infer_asset_type(ticker: str, name: str = "") -> str:
 
 def load_metadata(path_or_file=None) -> pd.DataFrame:
     frames = []
-    seed = DATA_DIR / ("ticker_master_korea_seed.csv" if market == "Korea" else "ticker_master_us_seed.csv")
+    seed = KR_DIR / "ticker_master_korea_seed.csv"
     if seed.exists():
         frames.append(pd.read_csv(seed))
-    full_master = DATA_DIR / meta_default
+    full_master = KR_DIR / "ticker_master_korea.csv"
     if full_master.exists():
         frames.append(pd.read_csv(full_master))
     if path_or_file is not None:
@@ -773,7 +771,7 @@ def render_detail(row: pd.Series):
 
 
 def default_path(filename: str) -> Optional[Path]:
-    p = DATA_DIR / filename
+    p = KR_DIR / filename
     return p if p.exists() else None
 
 
@@ -790,45 +788,23 @@ st.markdown(
 
 with st.sidebar:
     st.header("Data Source")
-    market = st.radio("Market", ["Korea", "US"], horizontal=True)
-    DATA_DIR = DATA_DIRS[market]
+    market = st.radio("Market", ["Korea"], horizontal=True)
+    st.caption("기본값은 data/kr 폴더의 최신 CSV를 읽는다. 다른 결과를 보려면 아래에서 업로드하면 된다.")
 
-    if market == "Korea":
-        data_label = "data/kr"
-        premarket_default = "premarket_auto_korea.csv"
-        meta_default = "ticker_master_korea.csv"
-        ticker_list_default = "tickers_korea.txt"
-        metadata_script = "build_ticker_master_korea.py"
-        metadata_button = "Build / refresh Korean names"
-        live_fill_default = True
-    else:
-        data_label = "data/us"
-        premarket_default = "premarket_auto.csv"
-        meta_default = "ticker_master_us.csv"
-        ticker_list_default = "tickers.txt"
-        metadata_script = "build_ticker_master_us.py"
-        metadata_button = "Build / refresh US names"
-        live_fill_default = False
-
-    st.caption(f"기본값은 {data_label} 폴더의 최신 CSV를 읽는다. 다른 결과를 보려면 아래에서 업로드하면 된다.")
-
-    report_file = st.file_uploader("report_v2.csv", type=["csv"], key=f"report_{market}")
-    premarket_file = st.file_uploader(premarket_default, type=["csv"], key=f"premarket_{market}")
-    overlay_file = st.file_uploader("thesis_overlay_master.csv", type=["csv"], key=f"overlay_{market}")
-    meta_file = st.file_uploader(f"{meta_default} (optional)", type=["csv"], key=f"meta_{market}")
+    report_file = st.file_uploader("report_v2.csv", type=["csv"])
+    premarket_file = st.file_uploader("premarket_auto_korea.csv", type=["csv"])
+    overlay_file = st.file_uploader("thesis_overlay_master.csv", type=["csv"])
+    meta_file = st.file_uploader("ticker_master_korea.csv (optional)", type=["csv"])
 
     near_max_dist = st.slider("Near breakout max distance %", 0.5, 5.0, 2.5, 0.1)
     show_rejects = st.checkbox("Show REJECT rows", value=False)
     st.divider()
     chart_period = st.selectbox("Chart period", ["3mo", "6mo", "1y", "2y", "5y"], index=1)
     chart_interval = st.selectbox("Chart interval", ["1d", "1wk"], index=0)
-    if market == "Korea":
-        live_fill_names = st.checkbox("Auto-fill visible Korean names", value=live_fill_default, help="표에 보이는 일부 숫자 이름을 Naver에서 즉시 조회한다. 많으면 약간 느릴 수 있다.")
-    else:
-        live_fill_names = False
+    live_fill_names = st.checkbox("Auto-fill visible Korean names", value=True, help="표에 보이는 일부 숫자 이름을 Naver에서 즉시 조회한다. 많으면 약간 느릴 수 있다.")
 
 report_source = report_file if report_file is not None else default_path("report_v2.csv")
-premarket_source = premarket_file if premarket_file is not None else default_path(premarket_default)
+premarket_source = premarket_file if premarket_file is not None else default_path("premarket_auto_korea.csv")
 overlay_source = overlay_file if overlay_file is not None else default_path("thesis_overlay_master.csv")
 
 report = read_csv_flexible(report_source)
@@ -842,27 +818,20 @@ if report.empty or "ticker" not in report.columns:
 with st.sidebar:
     st.divider()
     st.subheader("Metadata")
-    st.caption("종목명/업종명이 약하면 아래 버튼으로 현재 마켓의 ticker master를 재생성한다.")
-    if st.button(metadata_button, use_container_width=True):
+    st.caption("종목명이 숫자로 보이면 아래 버튼을 누른다. v5는 pykrx 기본 종목명 → ETF명 → Naver Finance 순서로 강제 재조회한다.")
+    if st.button("Build / refresh Korean names", use_container_width=True):
         if report_file is not None:
-            st.warning("업로드 파일 모드에서는 먼저 CSV를 data 폴더에 저장한 뒤 실행하는 편이 안전하다.")
+            st.warning("업로드 파일 모드에서는 먼저 CSV를 data/kr에 저장한 뒤 실행하는 편이 안전하다.")
         else:
-            script = Path(__file__).with_name(metadata_script)
-            out_path = DATA_DIR / meta_default
-            tickers_path = default_path(ticker_list_default)
+            script = Path(__file__).with_name("build_ticker_master_korea.py")
+            out_path = KR_DIR / "ticker_master_korea.csv"
+            tickers_path = default_path("tickers_korea.txt")
             cmd = [sys.executable, str(script), "--report", str(report_source), "--out", str(out_path), "--force-refresh"]
             if tickers_path is not None:
                 cmd += ["--tickers", str(tickers_path)]
-            if market == "US":
-                pm = default_path(premarket_default)
-                if pm is not None:
-                    cmd += ["--premarket", str(pm)]
-                fm = default_path("finviz_top_groups_members.csv")
-                if fm is not None:
-                    cmd += ["--finviz-members", str(fm)]
-            with st.spinner(f"{market} ticker master 생성 중..."):
+            with st.spinner("종목명/업종명 마스터 생성 중... pykrx가 실패하면 Naver 이름 fallback으로 진행한다."):
                 try:
-                    cp = subprocess.run(cmd, capture_output=True, text=True, timeout=900)
+                    cp = subprocess.run(cmd, capture_output=True, text=True, timeout=600)
                     if cp.returncode == 0:
                         st.success(cp.stdout or f"Saved {out_path}")
                         st.cache_data.clear()
@@ -1027,9 +996,9 @@ with tab3:
     template["sector"] = ""
     template["industry"] = ""
     st.download_button(
-        "Download ticker master template",
+        "Download ticker_master_korea template",
         template.to_csv(index=False).encode("utf-8-sig"),
-        file_name=f"{meta_default.replace('.csv', '_template.csv')}",
+        file_name="ticker_master_korea_template.csv",
         mime="text/csv",
     )
 
@@ -1039,6 +1008,6 @@ with tab4:
     st.download_button(
         "Download processed CSV",
         processed.to_csv(index=False).encode("utf-8-sig"),
-        file_name=f"bulkowski_breakout_radar_{market.lower()}_processed.csv",
+        file_name="bulkowski_breakout_radar_korea_processed.csv",
         mime="text/csv",
     )
