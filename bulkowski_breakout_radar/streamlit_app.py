@@ -479,59 +479,70 @@ def krx_kind_url(row: pd.Series) -> str:
     return f"https://www.google.com/search?q={query}"
 
 
-def render_external_links(row: pd.Series):
-    from urllib.parse import quote_plus
 
-    st.markdown("#### Research Links")
-    ticker = str(row.get("ticker", "") or "").strip().upper()
-    name = str(row.get("name", "") or ticker).strip()
-    asset = str(row.get("asset_type", "") or "").upper()
-    current_market = globals().get("market", "Korea")
+def render_external_links(row):
+    import urllib.parse
 
-    if current_market == "US":
-        q = quote_plus(f"{ticker} {name}")
-        pdf_q = quote_plus(f"{ticker} {name} investor presentation annual report pdf")
-        sec_q = quote_plus(ticker)
+    ticker = str(row.get("ticker", "")).strip().upper()
+    name = str(row.get("name", "")).strip()
+    asset_type = str(row.get("asset_type", "")).strip().upper()
+    sector = str(row.get("sector", "")).strip()
+    industry = str(row.get("industry", "")).strip()
+
+    if not ticker:
+        return
+
+    st.subheader("Research Links")
+
+    is_kr = ticker.endswith(".KS") or ticker.endswith(".KQ")
+    is_etf = asset_type == "ETF" or sector.upper() == "ETF" or "ETF" in industry.upper()
+
+    if is_kr:
+        code = ticker.split(".")[0]
+        q_name = urllib.parse.quote_plus(name or code)
+
+        links = [
+            ("네이버 종목", f"https://finance.naver.com/item/main.naver?code={code}"),
+            ("네이버 리서치", f"https://finance.naver.com/research/company_list.naver?searchType=itemCode&itemCode={code}"),
+            ("FnGuide Snapshot", f"https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A{code}"),
+            ("FnGuide Consensus", f"https://comp.fnguide.com/SVO2/ASP/SVD_Consensus.asp?pGB=1&gicode=A{code}"),
+            ("DART 공시", f"https://dart.fss.or.kr/dsab007/main.do?textCrpNm={q_name}"),
+            ("한경컨센서스", f"https://consensus.hankyung.com/apps.analysis/analysis.list?skinType=business&sdate=&edate=&search_value={q_name}"),
+            ("Google PDF 리포트", f"https://www.google.com/search?q={q_name}+{code}+%EB%A6%AC%ED%8F%AC%ED%8A%B8+PDF"),
+            ("KRX KIND 검색", f"https://kind.krx.co.kr/disclosure/searchtotalinfo.do?searchText={q_name}"),
+        ]
+    else:
+        t = ticker.replace(".", "-")
+        q = urllib.parse.quote_plus(ticker)
+        q_name = urllib.parse.quote_plus(name or ticker)
+
         links = [
             ("Yahoo Finance", f"https://finance.yahoo.com/quote/{ticker}"),
             ("Finviz", f"https://finviz.com/quote.ashx?t={ticker}"),
             ("TradingView", f"https://www.tradingview.com/symbols/{ticker}/"),
-            ("SEC EDGAR", f"https://www.sec.gov/edgar/search/#/q={sec_q}"),
+            ("SEC EDGAR", f"https://www.sec.gov/edgar/search/#/q={q}"),
             ("Nasdaq", f"https://www.nasdaq.com/market-activity/stocks/{ticker.lower()}"),
-            ("Google PDF Report", f"https://www.google.com/search?q={pdf_q}"),
+            ("Google PDF Report", f"https://www.google.com/search?q={q_name}+{q}+investor+presentation+annual+report+pdf"),
         ]
-        if asset == "ETF":
+
+        if is_etf:
             links += [
                 ("ETF.com", f"https://www.etf.com/{ticker}"),
-                ("ETF Holdings Search", f"https://www.google.com/search?q={quote_plus(ticker + ' ETF holdings')}")
+                ("ETF Holdings Search", f"https://www.google.com/search?q={q}+ETF+holdings"),
             ]
-            if ticker in {"XLB","XLC","XLE","XLF","XLI","XLK","XLP","XLRE","XLU","XLV","XLY"}:
+            if ticker in {"XLB", "XLC", "XLE", "XLF", "XLI", "XLK", "XLP", "XLRE", "XLU", "XLV", "XLY"}:
                 links.append(("Sector SPDR", f"https://www.sectorspdrs.com/mainfund/{ticker}"))
         else:
             links += [
                 ("StockAnalysis", f"https://stockanalysis.com/stocks/{ticker.lower()}/"),
-                ("StockRow Snapshot", f"https://stockrow.com/{ticker}"),
+                ("StockRow Snapshot", f"https://stockrow.com/{ticker}/snapshot"),
                 ("TipRanks", f"https://www.tipranks.com/stocks/{ticker.lower()}"),
             ]
-        cols = st.columns(4)
-        for i, (label, url) in enumerate(links):
-            cols[i % 4].link_button(label, url, use_container_width=True)
-        return
 
-    links = [
-        ("네이버 종목", naver_url(row.get("ticker", ""))),
-        ("네이버 리서치", naver_research_url(row.get("ticker", ""))),
-        ("FnGuide Snapshot", fnguide_url(row.get("ticker", ""), "main")),
-        ("FnGuide Consensus", fnguide_url(row.get("ticker", ""), "consensus")),
-        ("DART 공시", dart_url(row)),
-        ("한경컨센서스", hankyung_url(row.get("ticker", ""))),
-        ("Google PDF 리포트", google_pdf_url(row)),
-        ("KRX KIND 검색", krx_kind_url(row)),
-    ]
-    cols = st.columns(4)
+    cols = st.columns(3)
     for i, (label, url) in enumerate(links):
-        if url:
-            cols[i % 4].link_button(label, url, use_container_width=True)
+        with cols[i % 3]:
+            st.link_button(label, url, use_container_width=True)
 
 def render_chart(row: pd.Series, period: str, interval: str):
     st.markdown("### Chart")
