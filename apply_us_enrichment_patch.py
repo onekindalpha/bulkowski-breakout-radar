@@ -1,5 +1,27 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+"""US enrichment patch for Bulkowski Breakout Radar.
+
+Run from repo root:
+  python apply_us_enrichment_patch.py
+
+What it does:
+- Replaces build_ticker_master_us.py with a richer metadata builder.
+- Makes US workflow build ticker metadata with a larger yfinance lookup budget.
+- Replaces US/KR research links so US uses Yahoo/Finviz/TradingView/SEC/Nasdaq/ETF.com etc.
+- Adds a Company Snapshot block to the selected ticker detail when US metadata exists.
+"""
+from __future__ import annotations
+from pathlib import Path
+import re
+
+ROOT = Path.cwd()
+APP = ROOT / "bulkowski_breakout_radar" / "streamlit_app.py"
+US_BUILDER = ROOT / "bulkowski_breakout_radar" / "build_ticker_master_us.py"
+US_WORKFLOW = ROOT / ".github" / "workflows" / "us-breakout-scan.yml"
+
+US_BUILDER_CODE = r'''#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """Build ticker_master_us.csv for Bulkowski Breakout Radar.
 
 Metadata priority:
@@ -370,6 +392,205 @@ def main():
     print(f"unresolved names: {bad}")
     if bad:
         print("unresolved sample:", ", ".join(df.loc[df["name"].eq("종목명 조회 필요"), "ticker"].head(30).tolist()))
+
+
+if __name__ == "__main__":
+    main()
+'''
+
+NEW_EXTERNAL_LINKS = r'''def render_external_links(row: pd.Series):
+    from urllib.parse import quote_plus
+
+    st.markdown("#### Research Links")
+    ticker = str(row.get("ticker", "") or "").strip().upper()
+    name = str(row.get("name", "") or ticker).strip()
+    asset = str(row.get("asset_type", "") or "").upper()
+    current_market = globals().get("market", "Korea")
+
+    if current_market == "US":
+        q = quote_plus(f"{ticker} {name}")
+        pdf_q = quote_plus(f"{ticker} {name} investor presentation annual report pdf")
+        sec_q = quote_plus(ticker)
+        links = [
+            ("Yahoo Finance", f"https://finance.yahoo.com/quote/{ticker}"),
+            ("Finviz", f"https://finviz.com/quote.ashx?t={ticker}"),
+            ("TradingView", f"https://www.tradingview.com/symbols/{ticker}/"),
+            ("SEC EDGAR", f"https://www.sec.gov/edgar/search/#/q={sec_q}"),
+            ("Nasdaq", f"https://www.nasdaq.com/market-activity/stocks/{ticker.lower()}"),
+            ("Google PDF Report", f"https://www.google.com/search?q={pdf_q}"),
+        ]
+        if asset == "ETF":
+            links += [
+                ("ETF.com", f"https://www.etf.com/{ticker}"),
+                ("ETF Holdings Search", f"https://www.google.com/search?q={quote_plus(ticker + ' ETF holdings')}")
+            ]
+            if ticker in {"XLB","XLC","XLE","XLF","XLI","XLK","XLP","XLRE","XLU","XLV","XLY"}:
+                links.append(("Sector SPDR", f"https://www.sectorspdrs.com/mainfund/{ticker}"))
+        else:
+            links += [
+                ("StockAnalysis", f"https://stockanalysis.com/stocks/{ticker.lower()}/"),
+                ("StockRow Snapshot", f"https://stockrow.com/{ticker}"),
+                ("TipRanks", f"https://www.tipranks.com/stocks/{ticker.lower()}"),
+            ]
+        cols = st.columns(4)
+        for i, (label, url) in enumerate(links):
+            cols[i % 4].link_button(label, url, use_container_width=True)
+        return
+
+    links = [
+        ("네이버 종목", naver_url(row.get("ticker", ""))),
+        ("네이버 리서치", naver_research_url(row.get("ticker", ""))),
+        ("FnGuide Snapshot", fnguide_url(row.get("ticker", ""), "main")),
+        ("FnGuide Consensus", fnguide_url(row.get("ticker", ""), "consensus")),
+        ("DART 공시", dart_url(row)),
+        ("한경컨센서스", hankyung_url(row.get("ticker", ""))),
+        ("Google PDF 리포트", google_pdf_url(row)),
+        ("KRX KIND 검색", krx_kind_url(row)),
+    ]
+    cols = st.columns(4)
+    for i, (label, url) in enumerate(links):
+        if url:
+            cols[i % 4].link_button(label, url, use_container_width=True)
+'''
+
+NEW_RENDER_DETAIL = r'''def _fmt_large_number(v):
+    x = to_float(v, None)
+    if x is None:
+        return "-"
+    try:
+        if abs(x) >= 1_000_000_000_000:
+            return f"${x/1_000_000_000_000:.2f}T"
+        if abs(x) >= 1_000_000_000:
+            return f"${x/1_000_000_000:.2f}B"
+        if abs(x) >= 1_000_000:
+            return f"${x/1_000_000:.2f}M"
+        return f"${x:,.0f}"
+    except Exception:
+        return "-"
+
+
+def _fmt_ratio(v):
+    x = to_float(v, None)
+    return "-" if x is None else f"{x:.2f}"
+
+
+def _fmt_growth(v):
+    x = to_float(v, None)
+    if x is None:
+        return "-"
+    # yfinance usually returns 0.1234 for 12.34%.
+    if abs(x) <= 3:
+        x *= 100
+    return f"{x:+.1f}%"
+
+
+def render_company_snapshot(row: pd.Series):
+    current_market = globals().get("market", "Korea")
+    if current_market != "US":
+        return
+    st.markdown("#### Company Snapshot")
+    c1, c2, c3, c4 = st.columns(4)
+    c1.metric("Market Cap", _fmt_large_number(row.get("market_cap")))
+    c2.metric("Beta", _fmt_ratio(row.get("beta")))
+    c3.metric("Trailing P/E", _fmt_ratio(row.get("trailing_pe")))
+    c4.metric("Forward P/E", _fmt_ratio(row.get("forward_pe")))
+    c5, c6, c7, c8 = st.columns(4)
+    c5.metric("Revenue Growth", _fmt_growth(row.get("revenue_growth")))
+    c6.metric("Earnings Growth", _fmt_growth(row.get("earnings_growth")))
+    c7.metric("Target Mean", fmt_num(row.get("target_mean_price")))
+    c8.metric("Recommendation", str(row.get("recommendation", "") or "-"))
+    website = str(row.get("website", "") or "").strip()
+    exchange = str(row.get("exchange", "") or "").strip()
+    quote_type = str(row.get("quote_type", "") or "").strip()
+    meta = " · ".join([x for x in [exchange, quote_type, website] if x])
+    if meta:
+        st.caption(meta)
+
+
+def render_detail(row: pd.Series):
+    ticker = str(row.get("ticker", ""))
+    name = str(row.get("name", "") or "").strip()
+    current_market = globals().get("market", "Korea")
+    if current_market == "Korea" and (name == ticker or not name):
+        live_name = fetch_naver_name(ticker)
+        if live_name:
+            name = live_name
+    st.markdown(f"### {ticker} · {name}")
+    st.markdown(state_html(row["entry_state"]), unsafe_allow_html=True)
+    st.caption(f"{row.get('sector','')} · {row.get('industry','')} · {row.get('asset_type','')} · {row.get('bucket','')}")
+    c1, c2, c3, c4 = st.columns(4)
+    c1.metric("Price", fmt_num(row.get("price")))
+    c2.metric("Break Level", fmt_num(row.get("daily_break_level")))
+    c3.metric("Distance", fmt_pct(row.get("dist_pct")))
+    c4.metric("Room", fmt_pct(row.get("room_to_weekly_r1_pct")))
+    c5, c6, c7, c8 = st.columns(4)
+    c5.metric("RSI14", fmt_num(row.get("rsi14")))
+    c6.metric("10DMA", fmt_pct(row.get("px_vs_sma10")))
+    c7.metric("40DMA", fmt_pct(row.get("px_vs_sma40")))
+    c8.metric("200DMA", fmt_pct(row.get("px_vs_sma200")))
+    st.write("**Why:**", row.get("why", ""))
+    st.write("**Manage:**", row.get("manage", ""))
+    if str(row.get("warnings", "")).strip():
+        st.warning(row.get("warnings"))
+    if str(row.get("notes", "")).strip():
+        st.info(f"Overlay notes: {row.get('notes')}")
+    render_company_snapshot(row)
+'''
+
+
+def replace_function(s: str, fn_name: str, new_code: str, next_fn_names: list[str]) -> str:
+    start = s.find(f"def {fn_name}(")
+    if start == -1:
+        raise RuntimeError(f"Could not find function {fn_name}")
+    candidates = []
+    for n in next_fn_names:
+        pos = s.find(f"\ndef {n}", start + 1)
+        if pos != -1:
+            candidates.append(pos)
+    if not candidates:
+        raise RuntimeError(f"Could not find boundary after {fn_name}")
+    end = min(candidates)
+    return s[:start] + new_code.rstrip() + "\n\n" + s[end+1:]
+
+
+def patch_app():
+    if not APP.exists():
+        raise SystemExit(f"Missing {APP}. Run from repo root.")
+    s = APP.read_text(encoding="utf-8")
+    APP.with_suffix(".py.bak_us_enrichment").write_text(s, encoding="utf-8")
+    s = replace_function(s, "render_external_links", NEW_EXTERNAL_LINKS, ["render_chart"])
+    s = replace_function(s, "render_detail", NEW_RENDER_DETAIL, ["default_path"])
+    APP.write_text(s, encoding="utf-8")
+    print(f"patched {APP}")
+
+
+def patch_workflow():
+    if not US_WORKFLOW.exists():
+        print(f"WARNING: missing {US_WORKFLOW}; skipping workflow patch")
+        return
+    s = US_WORKFLOW.read_text(encoding="utf-8")
+    # Finviz group scan should be non-fatal.
+    s = s.replace(
+        "          python finviz_top_groups_auto_mixed_v2.py\n",
+        """          if ! python finviz_top_groups_auto_mixed_v2.py --top-industries 10 --top-sectors 3 --max-per-group 30; then\n            echo \"Finviz group scan failed or selected no groups. Continuing with existing/manual ticker universe.\"\n            if [ ! -f finviz_top_groups_auto_mixed.txt ]; then touch finviz_top_groups_auto_mixed.txt; fi\n          fi\n"""
+    )
+    # Larger lookup budget for US names; do not force-refresh every run because existing good rows are reused.
+    s = re.sub(
+        r'(python bulkowski_breakout_radar/build_ticker_master_us\.py \\\n(?:\s+--.*\n)+?)',
+        lambda m: m.group(1) if "--max-yf" in m.group(1) else m.group(1).rstrip() + " \\\n            --max-yf 2000\n",
+        s,
+        count=1,
+    )
+    US_WORKFLOW.write_text(s, encoding="utf-8")
+    print(f"patched {US_WORKFLOW}")
+
+
+def main():
+    US_BUILDER.write_text(US_BUILDER_CODE, encoding="utf-8")
+    print(f"wrote {US_BUILDER}")
+    patch_app()
+    patch_workflow()
+    print("Done. Run: python -m py_compile bulkowski_breakout_radar/streamlit_app.py bulkowski_breakout_radar/build_ticker_master_us.py")
 
 
 if __name__ == "__main__":

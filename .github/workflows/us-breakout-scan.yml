@@ -65,7 +65,8 @@ jobs:
       - name: Build US ticker master
         run: |
           python bulkowski_breakout_radar/build_ticker_master_us.py \
-            --report bulkowski_breakout_radar/data/us/report_v2.csv \
+            --report bulkowski_breakout_radar/data/us/report_v2.csv \ \
+            --max-yf 2000
             --tickers bulkowski_breakout_radar/data/us/tickers.txt \
             --premarket bulkowski_breakout_radar/data/us/premarket_auto.csv \
             --finviz-members bulkowski_breakout_radar/data/us/finviz_top_groups_members.csv \
