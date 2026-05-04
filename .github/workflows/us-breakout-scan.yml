@@ -3,9 +3,9 @@ name: US Breakout Scan
 on:
   workflow_dispatch:
   schedule:
-    # US premarket / market checks, UTC 기준.
-    # 대략 KST 21:00, 23:00, 01:00 / ET premarket-open 이후 대응용.
-    - cron: "0 12,14,16 * * 1-5"
+    # US scan after regular US market close / premarket context
+    # UTC 기준. 필요하면 나중에 조정.
+    - cron: "30 21 * * 1-5"
 
 permissions:
   contents: write
@@ -42,7 +42,13 @@ jobs:
               touch finviz_top_groups_auto_mixed.txt
             fi
           fi
+
           python sync_tickers_txt_v4.py --coin etc
+
+          if [ -f clean_us_tickers.py ]; then
+            python clean_us_tickers.py --path tickers.txt
+          fi
+
           python update_premarket_yf_auto_debug_v2.py
           python scan_candidates_v2_safe_v6_us_sma1040.py --premarket premarket_auto.csv
           python manual10_legacy_review_v3_dmaall_color.py \
@@ -53,26 +59,35 @@ jobs:
       - name: Copy generated US data to dashboard
         run: |
           mkdir -p bulkowski_breakout_radar/data/us
+
           cp charts_today/report_v2.csv bulkowski_breakout_radar/data/us/report_v2.csv
           cp charts_today/premarket_auto.csv bulkowski_breakout_radar/data/us/premarket_auto.csv
           cp charts_today/premarket_auto_debug.csv bulkowski_breakout_radar/data/us/premarket_auto_debug.csv
           cp charts_today/scan_skipped.log bulkowski_breakout_radar/data/us/scan_skipped.log
           cp charts_today/tickers.txt bulkowski_breakout_radar/data/us/tickers.txt
           cp charts_today/manual_review_us_latest.txt bulkowski_breakout_radar/data/us/manual_review_us_latest.txt
-          if [ -f charts_today/thesis_overlay_master.csv ]; then cp charts_today/thesis_overlay_master.csv bulkowski_breakout_radar/data/us/thesis_overlay_master.csv; fi
-          if [ -f charts_today/finviz_top_groups_members.csv ]; then cp charts_today/finviz_top_groups_members.csv bulkowski_breakout_radar/data/us/finviz_top_groups_members.csv; fi
+
+          if [ -f charts_today/thesis_overlay_master.csv ]; then
+            cp charts_today/thesis_overlay_master.csv bulkowski_breakout_radar/data/us/thesis_overlay_master.csv
+          fi
+
+          if [ -f charts_today/finviz_top_groups_members.csv ]; then
+            cp charts_today/finviz_top_groups_members.csv bulkowski_breakout_radar/data/us/finviz_top_groups_members.csv
+          fi
 
       - name: Build US ticker master
         run: |
-          python bulkowski_breakout_radar/build_ticker_master_us.py --report bulkowski_breakout_radar/data/us/report_v2.csv --tickers bulkowski_breakout_radar/data/us/tickers.txt --premarket bulkowski_breakout_radar/data/us/premarket_auto.csv --finviz-members charts_today/finviz_top_groups_members.csv --out bulkowski_breakout_radar/data/us/ticker_master_us.csv --max-yf 2000
+          python bulkowski_breakout_radar/build_ticker_master_us.py --report bulkowski_breakout_radar/data/us/report_v2.csv --tickers bulkowski_breakout_radar/data/us/tickers.txt --premarket bulkowski_breakout_radar/data/us/premarket_auto.csv --finviz-members bulkowski_breakout_radar/data/us/finviz_top_groups_members.csv --out bulkowski_breakout_radar/data/us/ticker_master_us.csv --max-yf 2000
           python bulkowski_breakout_radar/repair_us_master.py --path bulkowski_breakout_radar/data/us/ticker_master_us.csv
 
       - name: Commit updated US data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add bulkowski_breakout_radar/data/us/
           git add charts_today/report_v2.csv charts_today/premarket_auto.csv charts_today/premarket_auto_debug.csv charts_today/scan_skipped.log charts_today/manual_review_us_latest.txt charts_today/tickers.txt || true
+
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
