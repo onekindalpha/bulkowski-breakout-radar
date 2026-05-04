@@ -36,7 +36,12 @@ jobs:
       - name: Run US scan pipeline
         working-directory: charts_today
         run: |
-          python finviz_top_groups_auto_mixed_v2.py
+          if ! python finviz_top_groups_auto_mixed_v2.py --top-industries 10 --top-sectors 3 --max-per-group 30; then
+            echo "Finviz group scan failed or selected no groups. Continuing with existing/manual ticker universe."
+            if [ ! -f finviz_top_groups_auto_mixed.txt ]; then
+              touch finviz_top_groups_auto_mixed.txt
+            fi
+          fi
           python sync_tickers_txt_v4.py --coin etc
           python update_premarket_yf_auto_debug_v2.py
           python scan_candidates_v2_safe_v6_us_sma1040.py --premarket premarket_auto.csv
