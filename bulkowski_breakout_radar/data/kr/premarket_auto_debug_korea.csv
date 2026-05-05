@@ -1,4 +1,4 @@
-# saved_at_kr,2026-05-05 14:34:31 KST
+# saved_at_kr,2026-05-05 18:04:10 KST
 # provider,yahoo(yfinance)
 group,ticker,premarket,src,ts_kst,error
 kr_foreign_naver_auto,000660.KS,1447000.0,yf_close(5m),2026-05-04T15:30:00+09:00,
@@ -101,7 +101,7 @@ tickers_core_korea,000990.KS,161700.0,yf_close(5m),2026-05-04T15:30:00+09:00,
 tickers_core_korea,039030.KQ,475000.0,yf_close(5m),2026-05-04T15:30:00+09:00,
 tickers_core_korea,058470.KQ,120800.0,yf_close(5m),2026-05-04T15:30:00+09:00,
 tickers_core_korea,089030.KQ,61300.0,yf_close(5m),2026-05-04T15:30:00+09:00,
-tickers_core_korea,222800.KQ,87500.0,yf_close(5m),2026-05-04T15:15:00+09:00,
+tickers_core_korea,222800.KQ,88200.0,yf_close(5m),2026-05-04T15:30:00+09:00,
 tickers_core_korea,240810.KQ,122500.0,yf_close(5m),2026-05-04T15:30:00+09:00,
 tickers_core_korea,403870.KQ,54300.0,yf_close(5m),2026-05-04T15:15:00+09:00,
 tickers_core_korea,066570.KS,143200.0,yf_close(5m),2026-05-04T15:30:00+09:00,
@@ -282,7 +282,7 @@ tickers_core_korea,950160.KQ,104800.0,yf_close(5m),2026-05-04T15:30:00+09:00,
 tickers_core_korea,214370.KQ,105400.0,yf_close(5m),2026-05-04T15:30:00+09:00,
 tickers_core_korea,011780.KS,144400.0,yf_close(5m),2026-05-04T15:30:00+09:00,
 tickers_core_korea,006650.KS,179900.0,yf_close(5m),2026-05-04T15:30:00+09:00,
-tickers_core_korea,120110.KS,93600.0,yf_close(5m),2026-05-04T15:15:00+09:00,
+tickers_core_korea,120110.KS,93800.0,yf_close(5m),2026-05-04T15:30:00+09:00,
 tickers_core_korea,298000.KS,,,,no_data
 tickers_core_korea,004000.KS,66600.0,yf_close(5m),2026-05-04T15:30:00+09:00,
 tickers_core_korea,010130.KS,1629000.0,yf_close(5m),2026-05-04T15:30:00+09:00,
@@ -578,7 +578,7 @@ finviz_manual_korea,042700.KS,378000.0,yf_close(5m),2026-05-04T15:30:00+09:00,
 finviz_manual_korea,039030.KQ,475000.0,yf_close(5m),2026-05-04T15:30:00+09:00,
 finviz_manual_korea,058470.KQ,120800.0,yf_close(5m),2026-05-04T15:30:00+09:00,
 finviz_manual_korea,089030.KQ,61300.0,yf_close(5m),2026-05-04T15:30:00+09:00,
-finviz_manual_korea,222800.KQ,87500.0,yf_close(5m),2026-05-04T15:15:00+09:00,
+finviz_manual_korea,222800.KQ,88200.0,yf_close(5m),2026-05-04T15:30:00+09:00,
 finviz_manual_korea,240810.KQ,122500.0,yf_close(5m),2026-05-04T15:30:00+09:00,
 finviz_manual_korea,403870.KQ,54300.0,yf_close(5m),2026-05-04T15:15:00+09:00,
 finviz_manual_korea,066570.KS,143200.0,yf_close(5m),2026-05-04T15:30:00+09:00,
