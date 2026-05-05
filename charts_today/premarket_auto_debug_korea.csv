@@ -1,4 +1,4 @@
-# saved_at_kr,2026-05-05 18:04:10 KST
+# saved_at_kr,2026-05-06 07:43:37 KST
 # provider,yahoo(yfinance)
 group,ticker,premarket,src,ts_kst,error
 kr_foreign_naver_auto,000660.KS,1447000.0,yf_close(5m),2026-05-04T15:30:00+09:00,
@@ -462,7 +462,7 @@ tickers_indices_fill_korea,067630.KQ,4240.0,yf_close(5m),2026-05-04T15:30:00+09:
 tickers_indices_fill_korea,068240.KQ,,,,no_data
 tickers_indices_fill_korea,068760.KQ,55600.0,yf_close(5m),2026-05-04T15:30:00+09:00,
 tickers_indices_fill_korea,069080.KQ,12160.0,yf_close(5m),2026-05-04T15:30:00+09:00,
-tickers_indices_fill_korea,078130.KQ,436.0,yf_close(5m),2026-04-27T15:30:00+09:00,
+tickers_indices_fill_korea,078130.KQ,,,,no_data
 tickers_indices_fill_korea,081580.KQ,3210.0,yf_close(5m),2026-05-04T15:30:00+09:00,
 tickers_indices_fill_korea,082270.KQ,23300.0,yf_close(5m),2026-05-04T15:30:00+09:00,
 tickers_indices_fill_korea,083450.KQ,50100.0,yf_close(5m),2026-05-04T15:30:00+09:00,

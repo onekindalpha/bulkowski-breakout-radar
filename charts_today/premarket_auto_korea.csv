@@ -1,4 +1,4 @@
-# saved_at_kr,2026-05-05 18:04:10 KST
+# saved_at_kr,2026-05-06 07:43:37 KST
 # provider,yahoo(yfinance)
 # group: kr_foreign_naver_auto
 ticker,premarket
@@ -475,7 +475,7 @@ ticker,premarket
 068240.KQ,
 068760.KQ,55600.0
 069080.KQ,12160.0
-078130.KQ,436.0
+078130.KQ,
 081580.KQ,3210.0
 082270.KQ,23300.0
 083450.KQ,50100.0
