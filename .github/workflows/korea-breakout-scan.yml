@@ -74,12 +74,17 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+          # Only commit dashboard Korea data.
+          # Do not commit charts_today/report_v2.csv because Korea and US share that filename.
           git add bulkowski_breakout_radar/data/kr/
-          git add charts_today/report_v2.csv charts_today/premarket_auto_korea.csv charts_today/premarket_auto_debug_korea.csv charts_today/scan_skipped.log charts_today/manual_review_korea_latest.txt || true
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
             git commit -m "Update Korea breakout scan data"
-            git push
+
+            # Another workflow may have pushed while this job was running.
+            # Rebase before pushing to avoid non-fast-forward rejection.
+            git pull --rebase origin main
+            git push origin main
           fi
