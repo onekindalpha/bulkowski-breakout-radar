@@ -39,8 +39,7 @@ def main():
             for k, v in vals.items():
                 df.loc[mask, k] = v
         else:
-            row = {"ticker": ticker, **vals}
-            df = pd.concat([df, pd.DataFrame([row])], ignore_index=True)
+            df = pd.concat([df, pd.DataFrame([{"ticker": ticker, **vals}])], ignore_index=True)
 
     df.to_csv(p, index=False)
     print(f"repaired: {p}")

@@ -1109,7 +1109,7 @@ try:
 except Exception as _e:
     st.caption(f"Last update unavailable: {_e}")
 
-tab1, tab2, tab3, tab4 = st.tabs(["Radar", "Avoid Board", "Metadata Gaps", "Raw Data"])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(['Radar', 'Avoid Board', 'Metadata Gaps', 'Raw Data', 'Market Brief'])
 
 with tab1:
     selected_row = None
@@ -1281,3 +1281,236 @@ def _render_last_update_sidebar():
 
 
 _render_last_update_sidebar()
+
+
+
+# --- Market Brief tab ---
+def _mb_num(df, col):
+    import pandas as pd
+    if col not in df.columns:
+        return 0
+    return pd.to_numeric(df[col], errors="coerce")
+
+
+def _mb_prepare(df):
+    import pandas as pd
+
+    d = df.copy()
+    for col in ["score", "dist_pct", "room_to_weekly_r1_pct", "rsi14", "px_vs_sma10", "px_vs_sma40", "px_vs_sma50", "px_vs_sma200"]:
+        if col in d.columns:
+            d[col] = pd.to_numeric(d[col], errors="coerce")
+
+    if "entry_state" not in d.columns:
+        d["entry_state"] = ""
+    if "label" not in d.columns:
+        d["label"] = ""
+    if "sector" not in d.columns:
+        d["sector"] = "분류 미확인"
+    if "industry" not in d.columns:
+        d["industry"] = "업종 미확인"
+    if "manage" not in d.columns:
+        d["manage"] = ""
+    if "why" not in d.columns:
+        d["why"] = ""
+
+    d["entry_norm"] = d["entry_state"].astype(str).str.upper().str.strip()
+    d["label_norm"] = d["label"].astype(str).str.upper().str.strip()
+
+    d["is_actionable"] = d["entry_norm"].isin(["PREBREAK OK", "ENTRY OK", "SMALL SIZE"])
+    d["is_entry_ok"] = d["entry_norm"].isin(["PREBREAK OK", "ENTRY OK"])
+    d["is_small_size"] = d["entry_norm"].eq("SMALL SIZE")
+    d["is_watch"] = d["entry_norm"].eq("WATCH")
+    d["is_hold"] = d["entry_norm"].eq("HOLD ONLY")
+    d["is_avoid"] = d["entry_norm"].eq("AVOID NEW")
+
+    dist = d["dist_pct"] if "dist_pct" in d.columns else 999
+    room = d["room_to_weekly_r1_pct"] if "room_to_weekly_r1_pct" in d.columns else -999
+    rsi = d["rsi14"] if "rsi14" in d.columns else 999
+
+    d["is_priority_watch"] = (
+        d["is_watch"]
+        & (
+            d["label_norm"].eq("NEAR BREAKOUT")
+            | (dist <= 3)
+        )
+        & (room > 0)
+        & (rsi < 75)
+    )
+
+    d["watch_quality"] = "N/A"
+    d.loc[d["is_priority_watch"], "watch_quality"] = "PRIORITY WATCH"
+    d.loc[d["is_watch"] & ~d["is_priority_watch"] & (dist <= 5) & (room > 0), "watch_quality"] = "NORMAL WATCH"
+    d.loc[d["is_watch"] & d["watch_quality"].eq("N/A"), "watch_quality"] = "LOW PRIORITY WATCH"
+
+    txt = (d["manage"].astype(str) + " " + d["why"].astype(str)).str.lower()
+    d["avoid_reason"] = "other"
+    d.loc[txt.str.contains("too hot") & txt.str.contains("weak score"), "avoid_reason"] = "too hot + weak score"
+    d.loc[txt.str.contains("too hot") & ~txt.str.contains("weak score"), "avoid_reason"] = "too hot"
+    d.loc[txt.str.contains("room"), "avoid_reason"] = "room / upside tight"
+    d.loc[txt.str.contains("not a priority"), "avoid_reason"] = "not a priority"
+    d.loc[txt.str.contains("weak score") & ~txt.str.contains("too hot"), "avoid_reason"] = "weak score"
+
+    return d
+
+
+def _mb_group_strength(d, col):
+    import pandas as pd
+
+    if col not in d.columns:
+        return pd.DataFrame()
+
+    x = d.copy()
+    x[col] = x[col].fillna("미분류").astype(str)
+    x = x[~x[col].isin(["", "nan", "None"])]
+
+    if x.empty:
+        return pd.DataFrame()
+
+    g = x.groupby(col).agg(
+        candidates=("ticker", "count"),
+        actionable=("is_actionable", "sum"),
+        entry_ok=("is_entry_ok", "sum"),
+        small_size=("is_small_size", "sum"),
+        priority_watch=("is_priority_watch", "sum"),
+        watch=("is_watch", "sum"),
+        avoid_new=("is_avoid", "sum"),
+        avg_score=("score", "mean"),
+        avg_room=("room_to_weekly_r1_pct", "mean"),
+        avg_dist=("dist_pct", "mean"),
+        avg_rsi=("rsi14", "mean"),
+    ).reset_index()
+
+    g["strength_score"] = (
+        g["entry_ok"] * 5
+        + g["small_size"] * 3
+        + g["priority_watch"] * 2
+        + g["watch"] * 0.5
+        + g["avg_score"].fillna(0) * 0.3
+        + g["avg_room"].fillna(0).clip(lower=0) * 0.15
+        - g["avoid_new"] * 0.7
+        - g["avg_rsi"].fillna(50).sub(70).clip(lower=0) * 0.08
+    )
+
+    return g.sort_values(["strength_score", "actionable", "priority_watch", "candidates"], ascending=False)
+
+
+def _mb_cols(d):
+    cols = [
+        "ticker", "name", "sector", "industry", "entry_state", "label",
+        "grade", "score", "price", "daily_break_level",
+        "dist_pct", "room_to_weekly_r1_pct", "rsi14",
+        "watch_quality", "manage"
+    ]
+    return [c for c in cols if c in d.columns]
+
+
+def render_market_brief(df):
+    import pandas as pd
+
+    st.subheader("Market Brief")
+    st.caption("현재 스캔 결과를 섹터/업종/진입가능/와치/어보이드 관점으로 요약한다. 투자 추천이 아니라 돌파 후보군의 구조를 읽기 위한 요약이다.")
+
+    if df is None or len(df) == 0:
+        st.info("현재 필터 조건에서 요약할 데이터가 없습니다.")
+        return
+
+    d = _mb_prepare(df)
+
+    total = len(d)
+    entry_ok = int(d["is_entry_ok"].sum())
+    small = int(d["is_small_size"].sum())
+    actionable = int(d["is_actionable"].sum())
+    priority_watch = int(d["is_priority_watch"].sum())
+    watch = int(d["is_watch"].sum())
+    hold = int(d["is_hold"].sum())
+    avoid = int(d["is_avoid"].sum())
+
+    c1, c2, c3, c4, c5, c6 = st.columns(6)
+    c1.metric("Total", f"{total:,}")
+    c2.metric("Entry OK", f"{entry_ok:,}")
+    c3.metric("Small Size", f"{small:,}")
+    c4.metric("Priority Watch", f"{priority_watch:,}")
+    c5.metric("Hold Only", f"{hold:,}")
+    c6.metric("Avoid New", f"{avoid:,}")
+
+    st.markdown("### 1. Market Pulse")
+
+    if actionable > 0:
+        st.success(f"신규 진입 후보는 ENTRY OK/SMALL SIZE 기준으로 {actionable}개다. 우선은 이 그룹이 오늘의 실행 후보군이다.")
+    elif priority_watch > 0:
+        st.warning(f"즉시 진입 후보는 약하지만, PRIORITY WATCH가 {priority_watch}개 있어 돌파 감시장은 유지된다.")
+    else:
+        st.info("현재 필터 기준에서는 명확한 신규 진입 후보가 약하다. WATCH/AVOID 비중을 확인하는 장이다.")
+
+    if total > 0 and avoid / total >= 0.35:
+        st.warning(f"AVOID NEW 비율이 {avoid / total:.1%}로 높다. 전고점 근처 종목은 많지만 과열, room 부족, weak score가 섞인 장일 가능성이 있다.")
+
+    st.markdown("### 2. Strong Sectors")
+    sector_rank = _mb_group_strength(d, "sector")
+    if not sector_rank.empty:
+        st.dataframe(
+            sector_rank.head(10),
+            use_container_width=True,
+            hide_index=True,
+        )
+    else:
+        st.info("섹터 데이터가 부족합니다.")
+
+    st.markdown("### 3. Strong Industries / Themes")
+    industry_rank = _mb_group_strength(d, "industry")
+    if not industry_rank.empty:
+        st.dataframe(
+            industry_rank.head(15),
+            use_container_width=True,
+            hide_index=True,
+        )
+    else:
+        st.info("업종 데이터가 부족합니다.")
+
+    st.markdown("### 4. Actionable Candidates")
+    action = d[d["is_actionable"]].copy()
+    if not action.empty:
+        priority_map = {"PREBREAK OK": 0, "ENTRY OK": 1, "SMALL SIZE": 2}
+        action["entry_rank"] = action["entry_norm"].map(priority_map).fillna(9)
+        sort_cols = [c for c in ["entry_rank", "dist_pct", "room_to_weekly_r1_pct", "score"] if c in action.columns]
+        ascending = [True, True, False, False][:len(sort_cols)]
+        action = action.sort_values(sort_cols, ascending=ascending)
+        st.dataframe(action[_mb_cols(action)].head(30), use_container_width=True, hide_index=True)
+    else:
+        st.info("현재 필터 기준에서는 ENTRY OK / SMALL SIZE 후보가 없습니다.")
+
+    st.markdown("### 5. Watch Quality")
+    st.caption("WATCH는 '지금 매수'가 아니라 조건 개선 시 돌파 후보가 될 수 있어 감시하는 그룹이다.")
+
+    w = d[d["is_watch"]].copy()
+    if not w.empty:
+        q_count = w["watch_quality"].value_counts().rename_axis("watch_quality").reset_index(name="count")
+        st.dataframe(q_count, use_container_width=True, hide_index=True)
+
+        pw = w[w["watch_quality"].eq("PRIORITY WATCH")].copy()
+        if not pw.empty:
+            st.markdown("#### Priority Watch")
+            pw = pw.sort_values(
+                [c for c in ["dist_pct", "room_to_weekly_r1_pct", "score"] if c in pw.columns],
+                ascending=[True, False, False][:len([c for c in ["dist_pct", "room_to_weekly_r1_pct", "score"] if c in pw.columns])]
+            )
+            st.dataframe(pw[_mb_cols(pw)].head(30), use_container_width=True, hide_index=True)
+        else:
+            st.info("WATCH 중에서도 우선 감시 조건을 만족하는 종목은 없습니다.")
+    else:
+        st.info("WATCH 종목이 없습니다.")
+
+    st.markdown("### 6. Avoid New Map")
+    a = d[d["is_avoid"]].copy()
+    if not a.empty:
+        reason = a["avoid_reason"].value_counts().rename_axis("avoid_reason").reset_index(name="count")
+        st.dataframe(reason, use_container_width=True, hide_index=True)
+
+        st.caption("AVOID NEW는 종목이 나쁘다는 뜻이 아니라, 현재 위치에서 신규 진입은 비효율적이거나 리스크가 크다는 뜻이다.")
+    else:
+        st.info("AVOID NEW 종목이 없습니다.")
+
+
+with tab5:
+    render_market_brief(filtered)
+
