@@ -74,8 +74,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Only commit dashboard Korea data.
-          # Do not commit charts_today/report_v2.csv because Korea and US can share that filename.
           mkdir -p bulkowski_breakout_radar/data/kr
           TZ=Asia/Seoul date '+%Y-%m-%d %H:%M:%S KST' > bulkowski_breakout_radar/data/kr/last_updated_kst.txt
           date -u '+%Y-%m-%d %H:%M:%S UTC' > bulkowski_breakout_radar/data/kr/last_updated_utc.txt
@@ -83,6 +81,8 @@ jobs:
           echo "run_id=${{ github.run_id }}" >> bulkowski_breakout_radar/data/kr/last_updated_meta.txt
           echo "sha=${{ github.sha }}" >> bulkowski_breakout_radar/data/kr/last_updated_meta.txt
 
+          # Only commit dashboard Korea data.
+          # charts_today files are generated intermediates and can block rebase.
           git add bulkowski_breakout_radar/data/kr/
 
           if git diff --cached --quiet; then
@@ -90,8 +90,11 @@ jobs:
           else
             git commit -m "Update Korea breakout scan data"
 
+            # Remove unstaged generated files before rebase.
+            git reset --hard HEAD
+            git clean -fd
+
             # Another workflow may have pushed while this job was running.
-            # Rebase before pushing to avoid non-fast-forward rejection.
             git pull --rebase origin main
             git push origin main
           fi
