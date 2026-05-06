@@ -155,6 +155,34 @@ BUILTIN_META = {
     "000087.KS": ("하이트진로2우B", "Consumer Staples", "Beverages preferred"),
 }
 
+def read_last_update_for_market(market_key: str) -> str:
+    from pathlib import Path
+    from datetime import datetime
+    from zoneinfo import ZoneInfo
+
+    app_dir = Path(__file__).resolve().parent
+    data_dir = app_dir / "data" / market_key
+
+    kst_path = data_dir / "last_updated_kst.txt"
+    if kst_path.exists():
+        txt = kst_path.read_text(encoding="utf-8", errors="ignore").strip()
+        if txt:
+            return txt
+
+    report_path = data_dir / "report_v2.csv"
+    if report_path.exists():
+        ts = datetime.fromtimestamp(report_path.stat().st_mtime, ZoneInfo("Asia/Seoul"))
+        return ts.strftime("%Y-%m-%d %H:%M:%S KST") + " · file mtime fallback"
+
+    return "not available"
+
+
+def render_last_update_panel(market_key: str, market_label: str):
+    updated = read_last_update_for_market(market_key)
+    st.info(f"🕒 Last updated · {market_label}: **{updated}**")
+
+
+
 
 st.set_page_config(
     page_title=APP_TITLE,
@@ -1071,7 +1099,17 @@ m3.metric("Small Size", int((processed["entry_state"] == "SMALL SIZE").sum()))
 m4.metric("Avoid New", int((processed["entry_state"] == "AVOID NEW").sum()))
 m5.metric("Manual ∩ SAFE", int((processed["bucket"] == "MANUAL ∩ SAFE").sum()))
 
-tab1, tab2, tab3, tab4 = st.tabs(["Radar", "Avoid Board", "Metadata Gaps", "Raw Data"])
+tab1, tab2, tab3, tab4 = 
+
+# --- visible last update panel ---
+try:
+    _market_key_for_update = "kr" if str(market).lower().startswith("korea") else "us"
+    _market_label_for_update = "Korea" if _market_key_for_update == "kr" else "US"
+    render_last_update_panel(_market_key_for_update, _market_label_for_update)
+except Exception as _e:
+    st.caption(f"Last update unavailable: {_e}")
+
+st.tabs(["Radar", "Avoid Board", "Metadata Gaps", "Raw Data"])
 
 with tab1:
     selected_row = None
