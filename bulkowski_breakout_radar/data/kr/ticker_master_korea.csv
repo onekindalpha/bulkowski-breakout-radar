@@ -1,30 +1,25 @@
 ﻿ticker,name,market,asset_type,sector,industry,source
 000145.KS,하이트진로홀딩스우,KOSPI,PREFERRED,Consumer Staples,Beverages / Holding preferred,builtin
-033780.KS,KT&G,KOSPI,STOCK,Consumer Staples,Tobacco,builtin
 089970.KQ,브이엠,,STOCK,분류 미확인,업종 미확인,existing
-000880.KS,한화,,STOCK,분류 미확인,업종 미확인,existing
+373220.KS,LG에너지솔루션,,STOCK,분류 미확인,업종 미확인,existing
 000050.KS,경방,,STOCK,분류 미확인,업종 미확인,existing
 001120.KS,LX인터내셔널,,STOCK,분류 미확인,업종 미확인,existing
 001430.KS,세아베스틸지주,,STOCK,분류 미확인,업종 미확인,existing
-001450.KS,현대해상,,STOCK,분류 미확인,업종 미확인,existing
 003620.KS,KG모빌리티,,STOCK,분류 미확인,업종 미확인,existing
 004020.KS,현대제철,,STOCK,분류 미확인,업종 미확인,existing
 005090.KS,SGC에너지,,STOCK,분류 미확인,업종 미확인,existing
 005290.KQ,동진쎄미켐,,STOCK,분류 미확인,업종 미확인,existing
 005380.KS,현대차,,STOCK,분류 미확인,업종 미확인,existing
-007070.KS,GS리테일,,STOCK,분류 미확인,업종 미확인,existing
-009830.KS,한화솔루션,,STOCK,분류 미확인,업종 미확인,existing
 010820.KS,퍼스텍,,STOCK,분류 미확인,업종 미확인,existing
 010950.KS,S-Oil,,STOCK,분류 미확인,업종 미확인,existing
 010955.KS,S-Oil우,,PREFERRED,분류 미확인,업종 미확인,existing
 011780.KS,금호석유화학,,STOCK,분류 미확인,업종 미확인,existing
 012330.KS,현대모비스,,STOCK,분류 미확인,업종 미확인,existing
 017800.KS,현대엘리베이터,,STOCK,분류 미확인,업종 미확인,existing
-017940.KS,E1,,STOCK,분류 미확인,업종 미확인,existing
 018260.KS,삼성에스디에스,,STOCK,분류 미확인,업종 미확인,existing
 022100.KS,포스코DX,,STOCK,분류 미확인,업종 미확인,existing
 025900.KQ,동화기업,,STOCK,분류 미확인,업종 미확인,existing
-028050.KS,삼성E&A,,STOCK,분류 미확인,업종 미확인,existing
+028670.KS,팬오션,,STOCK,분류 미확인,업종 미확인,existing
 031430.KS,신세계인터내셔날,,STOCK,분류 미확인,업종 미확인,existing
 032500.KQ,케이엠더블유,,STOCK,분류 미확인,업종 미확인,existing
 035600.KQ,KG이니시스,,STOCK,분류 미확인,업종 미확인,existing
@@ -32,28 +27,24 @@
 051600.KS,한전KPS,,STOCK,분류 미확인,업종 미확인,existing
 052690.KS,한전기술,,STOCK,분류 미확인,업종 미확인,existing
 058470.KQ,리노공업,,STOCK,분류 미확인,업종 미확인,existing
-060280.KQ,큐렉소,,STOCK,분류 미확인,업종 미확인,existing
-071050.KS,한국금융지주,,STOCK,분류 미확인,업종 미확인,existing
 078930.KS,GS,,STOCK,분류 미확인,업종 미확인,existing
 078935.KS,GS우,,PREFERRED,분류 미확인,업종 미확인,existing
 079550.KS,LIG디펜스앤에어로스페이스,,STOCK,분류 미확인,업종 미확인,existing
 083650.KQ,비에이치아이,,STOCK,분류 미확인,업종 미확인,existing
 084370.KQ,유진테크,,STOCK,분류 미확인,업종 미확인,existing
-086520.KQ,에코프로,,STOCK,분류 미확인,업종 미확인,existing
-089030.KQ,테크윙,,STOCK,분류 미확인,업종 미확인,existing
 095610.KQ,테스,,STOCK,분류 미확인,업종 미확인,existing
 097230.KS,HJ중공업,,STOCK,분류 미확인,업종 미확인,existing
 105560.KS,KB금융,,STOCK,분류 미확인,업종 미확인,existing
 112610.KS,씨에스윈드,,STOCK,분류 미확인,업종 미확인,existing
+119850.KQ,지엔씨에너지,,STOCK,분류 미확인,업종 미확인,existing
 121600.KQ,나노신소재,,STOCK,분류 미확인,업종 미확인,existing
-139480.KS,이마트,,STOCK,분류 미확인,업종 미확인,existing
+139130.KS,iM금융지주,,STOCK,분류 미확인,업종 미확인,existing
 181710.KQ,NHN,,STOCK,분류 미확인,업종 미확인,existing
 181710.KS,NHN,,STOCK,분류 미확인,업종 미확인,existing
 195940.KQ,HK이노엔,,STOCK,분류 미확인,업종 미확인,existing
 200710.KQ,에이디테크놀로지,,STOCK,분류 미확인,업종 미확인,existing
 211270.KQ,AP위성,,STOCK,분류 미확인,업종 미확인,existing
 225190.KS,LK삼양,,STOCK,분류 미확인,업종 미확인,existing
-237690.KQ,에스티팜,,STOCK,분류 미확인,업종 미확인,existing
 272290.KQ,이녹스첨단소재,,STOCK,분류 미확인,업종 미확인,existing
 278280.KQ,천보,,STOCK,분류 미확인,업종 미확인,existing
 282330.KS,BGF리테일,,STOCK,분류 미확인,업종 미확인,existing
@@ -61,96 +52,96 @@
 298020.KS,효성티앤씨,,STOCK,분류 미확인,업종 미확인,existing
 307950.KS,현대오토에버,,STOCK,분류 미확인,업종 미확인,existing
 319400.KQ,현대무벡스,,STOCK,분류 미확인,업종 미확인,existing
+357780.KQ,솔브레인,,STOCK,분류 미확인,업종 미확인,existing
 383310.KQ,에코프로에이치엔,,STOCK,분류 미확인,업종 미확인,existing
 417500.KQ,제이아이테크,,STOCK,분류 미확인,업종 미확인,existing
 489790.KS,한화비전,,STOCK,분류 미확인,업종 미확인,existing
-010130.KS,고려아연,,STOCK,분류 미확인,업종 미확인,existing
+950160.KQ,코오롱티슈진,,STOCK,분류 미확인,업종 미확인,existing
+001450.KS,현대해상,,STOCK,분류 미확인,업종 미확인,existing
+028050.KS,삼성E&A,,STOCK,분류 미확인,업종 미확인,existing
 031980.KQ,피에스케이홀딩스,,STOCK,분류 미확인,업종 미확인,existing
 032820.KQ,우리기술,,PREFERRED,분류 미확인,업종 미확인,existing
 048410.KQ,현대바이오,,STOCK,분류 미확인,업종 미확인,existing
-055550.KS,신한지주,,STOCK,분류 미확인,업종 미확인,existing
 090710.KQ,휴림로봇,,STOCK,분류 미확인,업종 미확인,existing
 099320.KQ,쎄트렉아이,,STOCK,분류 미확인,업종 미확인,existing
 226950.KQ,올릭스,,STOCK,분류 미확인,업종 미확인,existing
-240810.KQ,원익IPS,,STOCK,분류 미확인,업종 미확인,existing
-950160.KQ,코오롱티슈진,,STOCK,분류 미확인,업종 미확인,existing
+237690.KQ,에스티팜,,STOCK,분류 미확인,업종 미확인,existing
 001230.KS,동국홀딩스,,STOCK,분류 미확인,업종 미확인,existing
-002020.KS,코오롱,,STOCK,분류 미확인,업종 미확인,existing
-003160.KS,디아이,,STOCK,분류 미확인,업종 미확인,existing
-003545.KS,대신증권우,,PREFERRED,분류 미확인,업종 미확인,existing
 003547.KS,대신증권2우B,,PREFERRED,분류 미확인,업종 미확인,existing
 003570.KS,SNT다이내믹스,,STOCK,분류 미확인,업종 미확인,existing
 005070.KS,코스모신소재,,STOCK,분류 미확인,업종 미확인,existing
 007660.KS,이수페타시스,,STOCK,분류 미확인,업종 미확인,existing
-009540.KS,HD한국조선해양,,STOCK,분류 미확인,업종 미확인,existing
+009830.KS,한화솔루션,,STOCK,분류 미확인,업종 미확인,existing
 009835.KS,한화솔루션우,,PREFERRED,분류 미확인,업종 미확인,existing
-010140.KS,삼성중공업,,STOCK,분류 미확인,업종 미확인,existing
+017940.KS,E1,,STOCK,분류 미확인,업종 미확인,existing
 018670.KS,SK가스,,STOCK,분류 미확인,업종 미확인,existing
-028670.KS,팬오션,,STOCK,분류 미확인,업종 미확인,existing
 033500.KQ,동성화인텍,,STOCK,분류 미확인,업종 미확인,existing
+039490.KS,키움증권,,STOCK,분류 미확인,업종 미확인,existing
 042660.KS,한화오션,,STOCK,분류 미확인,업종 미확인,existing
 056190.KQ,에스에프에이,,STOCK,분류 미확인,업종 미확인,existing
+058610.KQ,에스피지,,STOCK,분류 미확인,업종 미확인,existing
+060250.KQ,NHN KCP,,STOCK,분류 미확인,업종 미확인,existing
+060280.KQ,큐렉소,,STOCK,분류 미확인,업종 미확인,existing
+064400.KS,LG씨엔에스,,STOCK,분류 미확인,업종 미확인,existing
+071050.KS,한국금융지주,,STOCK,분류 미확인,업종 미확인,existing
 078600.KQ,대주전자재료,,STOCK,분류 미확인,업종 미확인,existing
 084850.KQ,아이티엠반도체,,STOCK,분류 미확인,업종 미확인,existing
 086390.KQ,유니테스트,,STOCK,분류 미확인,업종 미확인,existing
+086520.KQ,에코프로,,STOCK,분류 미확인,업종 미확인,existing
 086790.KS,하나금융지주,,STOCK,분류 미확인,업종 미확인,existing
 088350.KS,한화생명,,STOCK,분류 미확인,업종 미확인,existing
 088390.KQ,이녹스,,STOCK,분류 미확인,업종 미확인,existing
+089030.KQ,테크윙,,STOCK,분류 미확인,업종 미확인,existing
 093370.KS,후성,,STOCK,분류 미확인,업종 미확인,existing
 095700.KQ,제넥신,,STOCK,분류 미확인,업종 미확인,existing
 102710.KQ,이엔에프테크놀로지,,STOCK,분류 미확인,업종 미확인,existing
 117730.KQ,티로보틱스,,STOCK,분류 미확인,업종 미확인,existing
-119850.KQ,지엔씨에너지,,STOCK,분류 미확인,업종 미확인,existing
 137400.KQ,피엔티,,STOCK,분류 미확인,업종 미확인,existing
-139130.KS,iM금융지주,,STOCK,분류 미확인,업종 미확인,existing
+139480.KS,이마트,,STOCK,분류 미확인,업종 미확인,existing
 183300.KQ,코미코,,STOCK,분류 미확인,업종 미확인,existing
 190510.KQ,나무가,,STOCK,분류 미확인,업종 미확인,existing
-192440.KQ,슈피겐코리아,,STOCK,분류 미확인,업종 미확인,existing
 233160.KS,TIGER 코스닥150 레버리지,,ETF,ETF,TIGER 코스닥150 레버리지,existing
 233740.KS,KODEX 코스닥150레버리지,,ETF,ETF,KODEX 코스닥150레버리지,existing
-247540.KQ,에코프로비엠,,STOCK,분류 미확인,업종 미확인,existing
+240810.KQ,원익IPS,,STOCK,분류 미확인,업종 미확인,existing
 267250.KS,HD현대,,STOCK,분류 미확인,업종 미확인,existing
-357780.KQ,솔브레인,,STOCK,분류 미확인,업종 미확인,existing
 357780.KS,솔브레인,,STOCK,분류 미확인,업종 미확인,existing
+388720.KQ,유일로보틱스,,STOCK,분류 미확인,업종 미확인,existing
+455900.KQ,엔젤로보틱스,,STOCK,분류 미확인,업종 미확인,existing
 000215.KS,DL우,,PREFERRED,분류 미확인,업종 미확인,existing
 000270.KS,기아,,STOCK,분류 미확인,업종 미확인,existing
 000720.KS,현대건설,,STOCK,분류 미확인,업종 미확인,existing
 000725.KS,현대건설우,,PREFERRED,분류 미확인,업종 미확인,existing
 001800.KS,오리온홀딩스,,STOCK,분류 미확인,업종 미확인,existing
+002020.KS,코오롱,,STOCK,분류 미확인,업종 미확인,existing
 002150.KS,도화엔지니어링,,STOCK,분류 미확인,업종 미확인,existing
 002840.KS,미원상사,KOSPI,STOCK,Materials,Specialty chemicals,builtin
 003230.KS,삼양식품,,STOCK,분류 미확인,업종 미확인,existing
-003300.KS,한일홀딩스,,STOCK,분류 미확인,업종 미확인,existing
 003850.KS,보령,,STOCK,분류 미확인,업종 미확인,existing
 005385.KS,현대차우,,PREFERRED,분류 미확인,업종 미확인,existing
 005387.KS,현대차2우B,,PREFERRED,분류 미확인,업종 미확인,existing
 005389.KS,현대차3우B,,PREFERRED,분류 미확인,업종 미확인,existing
 006120.KS,SK디스커버리,,STOCK,분류 미확인,업종 미확인,existing
+007070.KS,GS리테일,,STOCK,분류 미확인,업종 미확인,existing
 011210.KS,현대위아,,STOCK,분류 미확인,업종 미확인,existing
 012450.KS,한화에어로스페이스,KOSPI,STOCK,Industrials,Defense / Aerospace,builtin
 017960.KS,한국카본,,STOCK,분류 미확인,업종 미확인,existing
 021240.KS,코웨이,,STOCK,분류 미확인,업종 미확인,existing
 023160.KQ,태광,,STOCK,분류 미확인,업종 미확인,existing
 028300.KQ,HLB,,STOCK,분류 미확인,업종 미확인,existing
+033780.KS,KT&G,KOSPI,STOCK,Consumer Staples,Tobacco,builtin
 039030.KQ,이오테크닉스,,STOCK,분류 미확인,업종 미확인,existing
 041190.KQ,우리기술투자,,PREFERRED,분류 미확인,업종 미확인,existing
 053690.KS,한미글로벌,,STOCK,분류 미확인,업종 미확인,existing
-060250.KQ,NHN KCP,,STOCK,분류 미확인,업종 미확인,existing
-081580.KQ,성우전자,,PREFERRED,분류 미확인,업종 미확인,existing
+055550.KS,신한지주,,STOCK,분류 미확인,업종 미확인,existing
 086280.KS,현대글로비스,,STOCK,분류 미확인,업종 미확인,existing
 090430.KS,아모레퍼시픽,,STOCK,분류 미확인,업종 미확인,existing
 093050.KS,LF,,STOCK,분류 미확인,업종 미확인,existing
-096530.KQ,씨젠,,STOCK,분류 미확인,업종 미확인,existing
-097955.KS,CJ제일제당 우,,PREFERRED,분류 미확인,업종 미확인,existing
 100590.KS,머큐리,,STOCK,분류 미확인,업종 미확인,existing
 101490.KQ,에스앤에스텍,,STOCK,분류 미확인,업종 미확인,existing
 112040.KQ,위메이드,,STOCK,분류 미확인,업종 미확인,existing
-114090.KS,GKL,,STOCK,분류 미확인,업종 미확인,existing
 142280.KQ,녹십자엠에스,,STOCK,분류 미확인,업종 미확인,existing
 143240.KQ,사람인,,STOCK,분류 미확인,업종 미확인,existing
-145020.KQ,휴젤,,STOCK,분류 미확인,업종 미확인,existing
 214370.KQ,케어젠,,STOCK,분류 미확인,업종 미확인,existing
-215200.KQ,메가스터디교육,,STOCK,분류 미확인,업종 미확인,existing
 218410.KQ,RFHIC,,STOCK,분류 미확인,업종 미확인,existing
 230360.KQ,에코마케팅,KOSDAQ,STOCK,Communication Services,Advertising / Marketing,builtin
 253840.KQ,수젠텍,,STOCK,분류 미확인,업종 미확인,existing
@@ -161,37 +152,37 @@
 451760.KQ,컨텍,,STOCK,분류 미확인,업종 미확인,existing
 475150.KS,SK이터닉스,,STOCK,분류 미확인,업종 미확인,existing
 000020.KS,동화약품,,STOCK,분류 미확인,업종 미확인,existing
-000070.KS,삼양홀딩스,,STOCK,분류 미확인,업종 미확인,existing
 000210.KS,DL,,STOCK,분류 미확인,업종 미확인,existing
+001045.KS,CJ우,,PREFERRED,분류 미확인,업종 미확인,existing
 002240.KS,고려제강,,STOCK,분류 미확인,업종 미확인,existing
 002790.KS,아모레퍼시픽홀딩스,,STOCK,분류 미확인,업종 미확인,existing
 002960.KS,한국쉘석유,,STOCK,분류 미확인,업종 미확인,existing
 003000.KS,부광약품,,STOCK,분류 미확인,업종 미확인,existing
 003240.KS,태광산업,,STOCK,분류 미확인,업종 미확인,existing
 003490.KS,대한항공,,STOCK,분류 미확인,업종 미확인,existing
+003545.KS,대신증권우,,PREFERRED,분류 미확인,업종 미확인,existing
 004150.KS,한솔홀딩스,,STOCK,분류 미확인,업종 미확인,existing
 004710.KS,한솔테크닉스,,STOCK,분류 미확인,업종 미확인,existing
 004990.KS,롯데지주,,STOCK,분류 미확인,업종 미확인,existing
 005830.KS,DB손해보험,,STOCK,분류 미확인,업종 미확인,existing
 005870.KS,휴니드,,STOCK,분류 미확인,업종 미확인,existing
-006650.KS,대한유화,,STOCK,분류 미확인,업종 미확인,existing
 007810.KS,코리아써키트,,STOCK,분류 미확인,업종 미확인,existing
 009240.KS,한샘,,STOCK,분류 미확인,업종 미확인,existing
+010130.KS,고려아연,,STOCK,분류 미확인,업종 미확인,existing
 011170.KS,롯데케미칼,,STOCK,분류 미확인,업종 미확인,existing
 011560.KQ,세보엠이씨,,STOCK,분류 미확인,업종 미확인,existing
 015760.KS,한국전력,,STOCK,분류 미확인,업종 미확인,existing
-030200.KS,KT,,STOCK,분류 미확인,업종 미확인,existing
 035420.KS,NAVER,,STOCK,분류 미확인,업종 미확인,existing
 035900.KQ,JYP Ent.,,STOCK,분류 미확인,업종 미확인,existing
 038500.KQ,삼표시멘트,,STOCK,분류 미확인,업종 미확인,existing
 039130.KQ,하나투어,,STOCK,분류 미확인,업종 미확인,existing
-039490.KS,키움증권,,STOCK,분류 미확인,업종 미확인,existing
 041510.KQ,에스엠,,STOCK,분류 미확인,업종 미확인,existing
 047810.KS,한국항공우주,,PREFERRED,분류 미확인,업종 미확인,existing
-064400.KS,LG씨엔에스,,STOCK,분류 미확인,업종 미확인,existing
+049950.KQ,미래컴퍼니,,STOCK,분류 미확인,업종 미확인,existing
 065350.KQ,신성델타테크,,STOCK,분류 미확인,업종 미확인,existing
 069260.KS,TKG휴켐스,,STOCK,분류 미확인,업종 미확인,existing
 078130.KQ,국일제지,,STOCK,분류 미확인,업종 미확인,existing
+081580.KQ,성우전자,,PREFERRED,분류 미확인,업종 미확인,existing
 086900.KQ,메디톡스,,STOCK,분류 미확인,업종 미확인,existing
 087010.KQ,펩트론,,STOCK,분류 미확인,업종 미확인,existing
 087010.KS,펩트론,,STOCK,분류 미확인,업종 미확인,existing
@@ -202,16 +193,18 @@
 110790.KQ,크리스에프앤씨,,STOCK,분류 미확인,업종 미확인,existing
 119610.KQ,인터로조,,STOCK,분류 미확인,업종 미확인,existing
 120110.KS,코오롱인더,,STOCK,분류 미확인,업종 미확인,existing
-122870.KQ,와이지엔터테인먼트,,STOCK,분류 미확인,업종 미확인,existing
 138930.KS,BNK금융지주,,ETF,ETF,BNK금융지주,existing
+145020.KQ,휴젤,,STOCK,분류 미확인,업종 미확인,existing
+160190.KQ,하이젠알앤엠,,STOCK,분류 미확인,업종 미확인,existing
 187660.KQ,페니트리움바이오,,STOCK,분류 미확인,업종 미확인,existing
 196170.KQ,알테오젠,,STOCK,분류 미확인,업종 미확인,existing
+204320.KS,HL만도,,STOCK,분류 미확인,업종 미확인,existing
 205470.KQ,휴마시스,,STOCK,분류 미확인,업종 미확인,existing
 214150.KQ,클래시스,,STOCK,분류 미확인,업종 미확인,existing
+215200.KQ,메가스터디교육,,STOCK,분류 미확인,업종 미확인,existing
 225190.KQ,LK삼양,,STOCK,분류 미확인,업종 미확인,existing
 241560.KS,두산밥캣,,STOCK,분류 미확인,업종 미확인,existing
 263750.KQ,펄어비스,,STOCK,분류 미확인,업종 미확인,existing
-267270.KS,HD건설기계,,STOCK,분류 미확인,업종 미확인,existing
 271560.KS,오리온,,STOCK,분류 미확인,업종 미확인,existing
 272210.KQ,한화시스템,,STOCK,분류 미확인,업종 미확인,existing
 272210.KS,한화시스템,,STOCK,분류 미확인,업종 미확인,existing
@@ -222,49 +215,55 @@
 310210.KQ,보로노이,,STOCK,분류 미확인,업종 미확인,existing
 348370.KQ,엔켐,,STOCK,분류 미확인,업종 미확인,existing
 352820.KS,하이브,,STOCK,분류 미확인,업종 미확인,existing
-388720.KQ,유일로보틱스,,STOCK,분류 미확인,업종 미확인,existing
-450080.KS,에코프로머티,,STOCK,분류 미확인,업종 미확인,existing
-455900.KQ,엔젤로보틱스,,STOCK,분류 미확인,업종 미확인,existing
+377300.KS,카카오페이,,STOCK,분류 미확인,업종 미확인,existing
 000670.KS,영풍,,STOCK,분류 미확인,업종 미확인,existing
 000810.KS,삼성화재,,STOCK,분류 미확인,업종 미확인,existing
-001045.KS,CJ우,,PREFERRED,분류 미확인,업종 미확인,existing
 001940.KS,KISCO홀딩스,,STOCK,분류 미확인,업종 미확인,existing
 004370.KS,농심,KOSPI,STOCK,Consumer Staples,Food / Noodles,builtin
 004540.KQ,깨끗한나라,,STOCK,분류 미확인,업종 미확인,existing
 004650.KQ,창해에탄올,,STOCK,분류 미확인,업종 미확인,existing
-006800.KS,미래에셋증권,,STOCK,분류 미확인,업종 미확인,existing
 009410.KS,태영건설,,STOCK,분류 미확인,업종 미확인,existing
+036460.KS,한국가스공사,,STOCK,분류 미확인,업종 미확인,existing
 067630.KQ,HLB생명과학,,STOCK,분류 미확인,업종 미확인,existing
 122450.KQ,KX,,STOCK,분류 미확인,업종 미확인,existing
+192440.KQ,슈피겐코리아,,STOCK,분류 미확인,업종 미확인,existing
 214450.KQ,파마리서치,,STOCK,분류 미확인,업종 미확인,existing
 298690.KS,에어부산,,STOCK,분류 미확인,업종 미확인,existing
 000040.KS,KR모터스,,STOCK,분류 미확인,업종 미확인,existing
 000120.KS,CJ대한통운,,STOCK,분류 미확인,업종 미확인,existing
 000250.KQ,삼천당제약,,STOCK,분류 미확인,업종 미확인,existing
 000815.KS,삼성화재우,,PREFERRED,분류 미확인,업종 미확인,existing
+000880.KS,한화,,STOCK,분류 미확인,업종 미확인,existing
+001040.KS,CJ,,STOCK,분류 미확인,업종 미확인,existing
 001060.KS,JW중외제약,,STOCK,분류 미확인,업종 미확인,existing
 002350.KS,넥센타이어,,STOCK,분류 미확인,업종 미확인,existing
 002380.KS,KCC,,STOCK,분류 미확인,업종 미확인,existing
+003160.KS,디아이,,STOCK,분류 미확인,업종 미확인,existing
 003380.KQ,하림지주,,STOCK,분류 미확인,업종 미확인,existing
 003540.KS,대신증권,,STOCK,분류 미확인,업종 미확인,existing
 003550.KS,LG,,STOCK,분류 미확인,업종 미확인,existing
 003555.KS,LG우,,PREFERRED,분류 미확인,업종 미확인,existing
+004490.KS,세방전지,,STOCK,분류 미확인,업종 미확인,existing
 005940.KS,NH투자증권,,STOCK,분류 미확인,업종 미확인,existing
+006650.KS,대한유화,,STOCK,분류 미확인,업종 미확인,existing
+006800.KS,미래에셋증권,,STOCK,분류 미확인,업종 미확인,existing
 006805.KS,미래에셋증권우,,PREFERRED,분류 미확인,업종 미확인,existing
 007390.KQ,네이처셀,,STOCK,분류 미확인,업종 미확인,existing
 009420.KS,한올바이오파마,,STOCK,분류 미확인,업종 미확인,existing
+009540.KS,HD한국조선해양,,STOCK,분류 미확인,업종 미확인,existing
 010060.KS,OCI홀딩스,,STOCK,분류 미확인,업종 미확인,existing
+010140.KS,삼성중공업,,STOCK,분류 미확인,업종 미확인,existing
 010780.KS,아이에스동서,,STOCK,분류 미확인,업종 미확인,existing
-014620.KQ,성광벤드,,STOCK,분류 미확인,업종 미확인,existing
 018880.KS,한온시스템,,STOCK,분류 미확인,업종 미확인,existing
 024110.KS,기업은행,,STOCK,분류 미확인,업종 미확인,existing
+030200.KS,KT,,STOCK,분류 미확인,업종 미확인,existing
 032640.KS,LG유플러스,,STOCK,분류 미확인,업종 미확인,existing
 036830.KQ,솔브레인홀딩스,,STOCK,분류 미확인,업종 미확인,existing
+036890.KQ,진성티이씨,KOSDAQ,STOCK,Industrials,Construction machinery parts,builtin
 036930.KQ,주성엔지니어링,,STOCK,분류 미확인,업종 미확인,existing
 039200.KQ,오스코텍,,STOCK,분류 미확인,업종 미확인,existing
 047050.KS,포스코인터내셔널,,STOCK,분류 미확인,업종 미확인,existing
 051915.KS,LG화학우,KOSPI,PREFERRED,Materials,Chemicals / Battery materials preferred,builtin
-058610.KQ,에스피지,,STOCK,분류 미확인,업종 미확인,existing
 064350.KS,현대로템,,STOCK,분류 미확인,업종 미확인,existing
 065660.KQ,안트로젠,,STOCK,분류 미확인,업종 미확인,existing
 066575.KS,LG전자우,,PREFERRED,분류 미확인,업종 미확인,existing
@@ -272,6 +271,9 @@
 069960.KS,현대백화점,,STOCK,분류 미확인,업종 미확인,existing
 073240.KS,금호타이어,,STOCK,분류 미확인,업종 미확인,existing
 091700.KQ,파트론,,STOCK,분류 미확인,업종 미확인,existing
+096530.KQ,씨젠,,STOCK,분류 미확인,업종 미확인,existing
+097950.KS,CJ제일제당,KOSPI,STOCK,Consumer Staples,Food processing,builtin
+097955.KS,CJ제일제당 우,,PREFERRED,분류 미확인,업종 미확인,existing
 105840.KS,우진,,PREFERRED,분류 미확인,업종 미확인,existing
 108490.KQ,로보티즈,,STOCK,분류 미확인,업종 미확인,existing
 111770.KS,영원무역,,STOCK,분류 미확인,업종 미확인,existing
@@ -281,25 +283,27 @@
 141080.KQ,리가켐바이오,,STOCK,분류 미확인,업종 미확인,existing
 144510.KQ,지씨셀,,STOCK,분류 미확인,업종 미확인,existing
 145990.KS,삼양사,,STOCK,분류 미확인,업종 미확인,existing
-160190.KQ,하이젠알앤엠,,STOCK,분류 미확인,업종 미확인,existing
 161390.KS,한국타이어앤테크놀로지,,STOCK,분류 미확인,업종 미확인,existing
 174900.KQ,앱클론,,STOCK,분류 미확인,업종 미확인,existing
 175330.KS,JB금융지주,,STOCK,분류 미확인,업종 미확인,existing
 178320.KQ,서진시스템,,STOCK,분류 미확인,업종 미확인,existing
 192820.KS,코스맥스,,STOCK,분류 미확인,업종 미확인,existing
 195870.KS,해성디에스,,STOCK,분류 미확인,업종 미확인,existing
-204320.KS,HL만도,,STOCK,분류 미확인,업종 미확인,existing
+227840.KS,현대코퍼레이션홀딩스,KOSPI,STOCK,Industrials,Trading / Holdings,builtin
 241560.KQ,두산밥캣,,STOCK,분류 미확인,업종 미확인,existing
+247540.KQ,에코프로비엠,,STOCK,분류 미확인,업종 미확인,existing
+256150.KQ,한독크린텍,,STOCK,분류 미확인,업종 미확인,existing
+267270.KS,HD건설기계,,STOCK,분류 미확인,업종 미확인,existing
 274090.KQ,켄코아에어로스페이스,,STOCK,분류 미확인,업종 미확인,existing
 277810.KQ,레인보우로보틱스,,PREFERRED,분류 미확인,업종 미확인,existing
 290650.KQ,엘앤씨바이오,,STOCK,분류 미확인,업종 미확인,existing
 298050.KS,HS효성첨단소재,,STOCK,분류 미확인,업종 미확인,existing
 316140.KS,우리금융지주,,PREFERRED,분류 미확인,업종 미확인,existing
-373220.KS,LG에너지솔루션,,STOCK,분류 미확인,업종 미확인,existing
-377300.KS,카카오페이,,STOCK,분류 미확인,업종 미확인,existing
 393890.KQ,더블유씨피,,STOCK,분류 미확인,업종 미확인,existing
 411060.KS,ACE KRX금현물,,ETF,ETF,ACE KRX금현물,existing
 445290.KS,KODEX 로봇액티브,,ETF,ETF,KODEX 로봇액티브,existing
+450080.KS,에코프로머티,,STOCK,분류 미확인,업종 미확인,existing
+000070.KS,삼양홀딩스,,STOCK,분류 미확인,업종 미확인,existing
 000080.KS,하이트진로,,STOCK,분류 미확인,업종 미확인,existing
 000100.KS,유한양행,,STOCK,분류 미확인,업종 미확인,existing
 000105.KS,유한양행우,,PREFERRED,분류 미확인,업종 미확인,existing
@@ -308,6 +312,7 @@
 001680.KS,대상,,STOCK,분류 미확인,업종 미확인,existing
 002320.KS,한진,,STOCK,분류 미확인,업종 미확인,existing
 003090.KS,대웅,,STOCK,분류 미확인,업종 미확인,existing
+003300.KS,한일홀딩스,,STOCK,분류 미확인,업종 미확인,existing
 003520.KS,영진약품,,STOCK,분류 미확인,업종 미확인,existing
 003920.KS,남양유업,,STOCK,분류 미확인,업종 미확인,existing
 004270.KS,남성,,STOCK,분류 미확인,업종 미확인,existing
@@ -343,10 +348,11 @@
 083790.KQ,CG인바이츠,,STOCK,분류 미확인,업종 미확인,existing
 091810.KS,트리니티항공,,STOCK,분류 미확인,업종 미확인,existing
 095660.KQ,네오위즈,,STOCK,분류 미확인,업종 미확인,existing
-097950.KS,CJ제일제당,KOSPI,STOCK,Consumer Staples,Food processing,builtin
 099430.KQ,바이오플러스,,STOCK,분류 미확인,업종 미확인,existing
 103140.KS,풍산,,STOCK,분류 미확인,업종 미확인,existing
 108230.KQ,톱텍,,STOCK,분류 미확인,업종 미확인,existing
+114090.KS,GKL,,STOCK,분류 미확인,업종 미확인,existing
+122870.KQ,와이지엔터테인먼트,,STOCK,분류 미확인,업종 미확인,existing
 137310.KS,에스디바이오센서,,STOCK,분류 미확인,업종 미확인,existing
 138040.KS,메리츠금융지주,,STOCK,분류 미확인,업종 미확인,existing
 145720.KS,덴티움,,STOCK,분류 미확인,업종 미확인,existing
@@ -359,7 +365,6 @@
 207940.KS,삼성바이오로직스,,STOCK,분류 미확인,업종 미확인,existing
 215000.KQ,골프존,,STOCK,분류 미확인,업종 미확인,existing
 222810.KQ,주요뉴스,,STOCK,분류 미확인,업종 미확인,existing
-227840.KS,현대코퍼레이션홀딩스,KOSPI,STOCK,Industrials,Trading / Holdings,builtin
 235980.KQ,메드팩토,,STOCK,분류 미확인,업종 미확인,existing
 251270.KQ,넷마블,,STOCK,분류 미확인,업종 미확인,existing
 251340.KS,KODEX 코스닥150선물인버스,KOSPI,ETF,ETF,KOSDAQ150 inverse ETF,existing
@@ -374,12 +379,9 @@
 347850.KQ,디앤디파마텍,,STOCK,분류 미확인,업종 미확인,existing
 000087.KS,하이트진로2우B,,PREFERRED,분류 미확인,업종 미확인,existing
 000140.KS,하이트진로홀딩스,,STOCK,분류 미확인,업종 미확인,existing
-004490.KS,세방전지,,STOCK,분류 미확인,업종 미확인,existing
-049950.KQ,미래컴퍼니,,STOCK,분류 미확인,업종 미확인,existing
+161890.KS,한국콜마,,STOCK,분류 미확인,업종 미확인,existing
 204270.KQ,제이앤티씨,,STOCK,분류 미확인,업종 미확인,existing
-256150.KQ,한독크린텍,,STOCK,분류 미확인,업종 미확인,existing
 267320.KQ,나인테크,,STOCK,분류 미확인,업종 미확인,existing
-000500.KS,가온전선,,STOCK,분류 미확인,업종 미확인,existing
 000660.KS,SK하이닉스,KOSPI,STOCK,Information Technology,Semiconductors / Memory,builtin
 003470.KS,유안타증권,,STOCK,분류 미확인,업종 미확인,existing
 003670.KS,포스코퓨처엠,KOSPI,STOCK,Materials,Battery materials / Cathode,builtin
@@ -389,11 +391,11 @@
 011070.KS,LG이노텍,KOSPI,STOCK,Information Technology,Electronic components / Camera module,builtin
 011790.KS,SKC,,STOCK,분류 미확인,업종 미확인,existing
 017510.KS,세명전기,,STOCK,분류 미확인,업종 미확인,existing
-024800.KQ,유성티엔에스,,STOCK,분류 미확인,업종 미확인,existing
 028260.KS,삼성물산,,STOCK,분류 미확인,업종 미확인,existing
 036010.KQ,아비코전자,,STOCK,분류 미확인,업종 미확인,existing
-036460.KS,한국가스공사,,STOCK,분류 미확인,업종 미확인,existing
 051900.KS,LG생활건강,,STOCK,분류 미확인,업종 미확인,existing
+051910.KS,LG화학,KOSPI,STOCK,Materials,Chemicals / Battery materials,builtin
+060370.KQ,레고켐바이오,KOSDAQ,STOCK,Health Care,Biotech / ADC,builtin
 066570.KS,LG전자,,STOCK,분류 미확인,업종 미확인,existing
 069500.KS,KODEX 200,KOSPI,ETF,ETF,KOSPI 200 ETF,builtin
 071055.KS,한국금융지주우,,PREFERRED,분류 미확인,업종 미확인,existing
@@ -403,8 +405,8 @@
 122630.KS,KODEX 레버리지,KOSPI,ETF,ETF,KOSPI 200 leveraged ETF,builtin
 189300.KQ,인텔리안테크,,STOCK,분류 미확인,업종 미확인,existing
 222800.KQ,심텍,,STOCK,분류 미확인,업종 미확인,existing
-229640.KS,LS에코에너지,,STOCK,분류 미확인,업종 미확인,existing
 266370.KS,KODEX IT,KOSPI,ETF,ETF,Korea IT sector ETF,builtin
+267260.KS,HD현대일렉트릭,,STOCK,분류 미확인,업종 미확인,existing
 267770.KS,배럴,KOSPI,STOCK,Consumer Discretionary,Apparel / Leisure,builtin
 270660.KQ,에브리봇,,STOCK,분류 미확인,업종 미확인,existing
 298040.KS,효성중공업,KOSPI,STOCK,Industrials,Power equipment / Heavy industry,builtin
@@ -422,6 +424,7 @@
 409820.KS,KODEX 미국나스닥100레버리지(합성 H),KOSPI,ETF,ETF,US Nasdaq 100 leveraged ETF,builtin
 454320.KS,HANARO CAPEX설비투자iSelect,KOSPI,ETF,ETF,Korea capex/equipment ETF,builtin
 469150.KS,ACE AI반도체TOP3+,KOSPI,ETF,ETF,Korea AI semiconductor ETF,builtin
+471760.KS,TIGER AI반도체핵심공정,KOSPI,ETF,ETF,Korea AI semiconductor process ETF,builtin
 471990.KS,KODEX AI반도체핵심장비,KOSPI,ETF,ETF,Korea semiconductor equipment ETF,builtin
 475310.KS,SOL 반도체후공정,KOSPI,ETF,ETF,Korea semiconductor back-end ETF,builtin
 488080.KS,TIGER 반도체TOP10레버리지,KOSPI,ETF,ETF,Korea semiconductor leveraged ETF,builtin
@@ -429,8 +432,8 @@
 000150.KS,두산,KOSPI,STOCK,Industrials,Holding company / Energy equipment,builtin
 000155.KS,두산우,KOSPI,PREFERRED,Industrials,Holding company preferred,builtin
 000157.KS,두산2우B,KOSPI,PREFERRED,Industrials,Holding company preferred,builtin
+000500.KS,가온전선,,STOCK,분류 미확인,업종 미확인,existing
 000990.KS,DB하이텍,,STOCK,분류 미확인,업종 미확인,existing
-001040.KS,CJ,,STOCK,분류 미확인,업종 미확인,existing
 001250.KS,GS글로벌,,STOCK,분류 미확인,업종 미확인,existing
 001440.KS,대한전선,,STOCK,분류 미확인,업종 미확인,existing
 001470.KS,삼부토건,,STOCK,분류 미확인,업종 미확인,existing
@@ -447,20 +450,19 @@
 009150.KS,삼성전기,KOSPI,STOCK,Information Technology,Electronic components / MLCC,builtin
 009155.KS,삼성전기우,KOSPI,PREFERRED,Information Technology,Electronic components preferred,builtin
 010120.KS,LS ELECTRIC,KOSPI,STOCK,Industrials,Electrical equipment / Grid,builtin
+014620.KQ,성광벤드,,STOCK,분류 미확인,업종 미확인,existing
 016360.KS,삼성증권,,STOCK,분류 미확인,업종 미확인,existing
 020150.KS,롯데에너지머티리얼즈,,STOCK,분류 미확인,업종 미확인,existing
 023530.KS,롯데쇼핑,,STOCK,분류 미확인,업종 미확인,existing
+024800.KQ,유성티엔에스,,STOCK,분류 미확인,업종 미확인,existing
 033100.KQ,제룡전기,,STOCK,분류 미확인,업종 미확인,existing
 033640.KQ,네패스,,STOCK,분류 미확인,업종 미확인,existing
 034020.KS,두산에너빌리티,KOSPI,STOCK,Industrials,Power equipment / Nuclear,builtin
 034730.KS,SK,,STOCK,분류 미확인,업종 미확인,existing
-036890.KQ,진성티이씨,KOSDAQ,STOCK,Industrials,Construction machinery parts,builtin
 040420.KQ,정상제이엘에스,,STOCK,분류 미확인,업종 미확인,existing
 042700.KS,한미반도체,KOSPI,STOCK,Information Technology,Semiconductor equipment,builtin
 046890.KQ,서울반도체,,STOCK,분류 미확인,업종 미확인,existing
 047040.KS,대우건설,,PREFERRED,분류 미확인,업종 미확인,existing
-051910.KS,LG화학,KOSPI,STOCK,Materials,Chemicals / Battery materials,builtin
-060370.KQ,레고켐바이오,KOSDAQ,STOCK,Health Care,Biotech / ADC,builtin
 062040.KS,산일전기,KOSPI,STOCK,Industrials,Transformer / Power equipment,builtin
 064290.KQ,인텍플러스,,STOCK,분류 미확인,업종 미확인,existing
 066970.KS,엘앤에프,,STOCK,분류 미확인,업종 미확인,existing
@@ -477,8 +479,8 @@
 178920.KQ,PI첨단소재,,STOCK,분류 미확인,업종 미확인,existing
 192080.KS,더블유게임즈,,STOCK,분류 미확인,업종 미확인,existing
 199820.KQ,제일일렉트릭,,STOCK,분류 미확인,업종 미확인,existing
+229640.KS,LS에코에너지,,STOCK,분류 미확인,업종 미확인,existing
 263050.KQ,유틸렉스,,STOCK,분류 미확인,업종 미확인,existing
-267260.KS,HD현대일렉트릭,,STOCK,분류 미확인,업종 미확인,existing
 298000.KS,효성화학,,STOCK,분류 미확인,업종 미확인,existing
 322000.KS,HD현대에너지솔루션,,STOCK,분류 미확인,업종 미확인,existing
 329180.KS,HD현대중공업,,STOCK,분류 미확인,업종 미확인,existing
@@ -486,14 +488,12 @@
 365340.KQ,성일하이텍,,STOCK,분류 미확인,업종 미확인,existing
 403870.KQ,HPSP,,STOCK,분류 미확인,업종 미확인,existing
 425040.KQ,티이엠씨,,STOCK,분류 미확인,업종 미확인,existing
-471760.KS,TIGER AI반도체핵심공정,KOSPI,ETF,ETF,Korea AI semiconductor process ETF,builtin
 068240.KQ,다원시스,,STOCK,분류 미확인,업종 미확인,existing
+383220.KS,F&F,,STOCK,분류 미확인,업종 미확인,existing
 004430.KS,송원산업,,STOCK,분류 미확인,업종 미확인,existing
 051900.KQ,LG생활건강,,STOCK,분류 미확인,업종 미확인,existing
-161890.KS,한국콜마,,STOCK,분류 미확인,업종 미확인,existing
 259960.KS,크래프톤,,STOCK,분류 미확인,업종 미확인,existing
 306200.KS,세아제강,,STOCK,분류 미확인,업종 미확인,existing
-383220.KS,F&F,,STOCK,분류 미확인,업종 미확인,existing
 443060.KS,HD현대마린솔루션,,STOCK,분류 미확인,업종 미확인,existing
 000030.KS,주요뉴스,,STOCK,분류 미확인,업종 미확인,existing
 000060.KS,주요뉴스,,STOCK,분류 미확인,업종 미확인,existing
