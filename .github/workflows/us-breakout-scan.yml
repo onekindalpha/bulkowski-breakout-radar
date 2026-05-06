@@ -85,19 +85,22 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          mkdir -p bulkowski_breakout_radar/data/us
-          TZ=Asia/Seoul date '+%Y-%m-%d %H:%M:%S KST' > bulkowski_breakout_radar/data/us/last_updated_kst.txt
-          date -u '+%Y-%m-%d %H:%M:%S UTC' > bulkowski_breakout_radar/data/us/last_updated_utc.txt
-          echo "workflow=${{ github.workflow }}" > bulkowski_breakout_radar/data/us/last_updated_meta.txt
-          echo "run_id=${{ github.run_id }}" >> bulkowski_breakout_radar/data/us/last_updated_meta.txt
-          echo "sha=${{ github.sha }}" >> bulkowski_breakout_radar/data/us/last_updated_meta.txt
-
+          # Only commit dashboard US data.
+          # Do not commit charts_today files because Korea and US share filenames there.
           git add bulkowski_breakout_radar/data/us/
-          git add charts_today/report_v2.csv charts_today/premarket_auto.csv charts_today/premarket_auto_debug.csv charts_today/scan_skipped.log charts_today/manual_review_us_latest.txt charts_today/tickers.txt || true
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
             git commit -m "Update US breakout scan data"
-            git push
+
+            # Remove unstaged generated files before rebase.
+            # This prevents: cannot pull with rebase: You have unstaged changes.
+            git reset --hard HEAD
+            git clean -fd
+
+            # Another workflow may have pushed while this job was running.
+            # Rebase before pushing to avoid non-fast-forward rejection.
+            git pull --rebase origin main
+            git push origin main
           fi
