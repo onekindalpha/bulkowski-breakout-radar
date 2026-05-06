@@ -76,6 +76,13 @@ jobs:
 
           # Only commit dashboard Korea data.
           # Do not commit charts_today/report_v2.csv because Korea and US can share that filename.
+          mkdir -p bulkowski_breakout_radar/data/kr
+          TZ=Asia/Seoul date '+%Y-%m-%d %H:%M:%S KST' > bulkowski_breakout_radar/data/kr/last_updated_kst.txt
+          date -u '+%Y-%m-%d %H:%M:%S UTC' > bulkowski_breakout_radar/data/kr/last_updated_utc.txt
+          echo "workflow=${{ github.workflow }}" > bulkowski_breakout_radar/data/kr/last_updated_meta.txt
+          echo "run_id=${{ github.run_id }}" >> bulkowski_breakout_radar/data/kr/last_updated_meta.txt
+          echo "sha=${{ github.sha }}" >> bulkowski_breakout_radar/data/kr/last_updated_meta.txt
+
           git add bulkowski_breakout_radar/data/kr/
 
           if git diff --cached --quiet; then

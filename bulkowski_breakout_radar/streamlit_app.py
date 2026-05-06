@@ -1198,3 +1198,48 @@ with tab4:
         file_name=f"bulkowski_breakout_radar_{market.lower()}_processed.csv",
         mime="text/csv",
     )
+
+
+# --- Last update sidebar block ---
+def _read_market_last_update(_market_key: str) -> str:
+    from pathlib import Path
+    from datetime import datetime
+    from zoneinfo import ZoneInfo
+
+    _app_dir = Path(__file__).resolve().parent
+    _data_dir = _app_dir / "data" / _market_key
+
+    _stamp = _data_dir / "last_updated_kst.txt"
+    if _stamp.exists():
+        txt = _stamp.read_text(encoding="utf-8", errors="ignore").strip()
+        if txt:
+            return txt
+
+    # fallback: report_v2.csv modified time
+    _report = _data_dir / "report_v2.csv"
+    if _report.exists():
+        ts = datetime.fromtimestamp(_report.stat().st_mtime, ZoneInfo("Asia/Seoul"))
+        return ts.strftime("%Y-%m-%d %H:%M:%S KST") + " (file mtime)"
+
+    return "not available"
+
+
+def _render_last_update_sidebar():
+    try:
+        st.sidebar.markdown("---")
+        st.sidebar.markdown("### Last update")
+        st.sidebar.caption("Latest successful GitHub Actions data refresh")
+
+        kr_updated = _read_market_last_update("kr")
+        us_updated = _read_market_last_update("us")
+
+        st.sidebar.write(f"🇰🇷 **Korea**: {kr_updated}")
+        st.sidebar.write(f"🇺🇸 **US**: {us_updated}")
+    except Exception as e:
+        try:
+            st.sidebar.caption(f"Last update unavailable: {e}")
+        except Exception:
+            pass
+
+
+_render_last_update_sidebar()
