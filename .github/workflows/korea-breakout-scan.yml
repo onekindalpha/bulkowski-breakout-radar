@@ -71,7 +71,11 @@ jobs:
 
       - name: Repair Korea ticker metadata
         run: |
-          python bulkowski_breakout_radar/repair_korea_master.py --path bulkowski_breakout_radar/data/kr/ticker_master_korea.csv
+          python bulkowski_breakout_radar/repair_korea_master.py --path bulkowski_breakout_radar/data/kr/ticker_master_korea.csv --report bulkowski_breakout_radar/data/kr/report_v2.csv --tickers bulkowski_breakout_radar/data/kr/tickers_korea.txt --premarket bulkowski_breakout_radar/data/kr/premarket_auto_korea.csv --max-naver 500
+
+      - name: Repair Korea report metadata
+        run: |
+          python bulkowski_breakout_radar/repair_korea_report_metadata.py --report bulkowski_breakout_radar/data/kr/report_v2.csv --master bulkowski_breakout_radar/data/kr/ticker_master_korea.csv
 
       - name: Commit updated data
         run: |

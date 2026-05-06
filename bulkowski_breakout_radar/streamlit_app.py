@@ -1209,23 +1209,103 @@ with tab2:
     avoid_cols = [c for c in avoid_cols if c in avoid.columns]
     st.dataframe(avoid[avoid_cols], use_container_width=True, hide_index=True)
 
+
+def _metadata_gap_view(_df):
+    d = _df.copy()
+    for col, default in [('ticker',''),('name',''),('sector',''),('industry',''),('asset_type',''),('entry_state',''),('label',''),('grade',''),('score',None),('price',None),('daily_break_level',None),('dist_pct',None),('room_to_weekly_r1_pct',None),('rsi14',None),('source','')]:
+        if col not in d.columns:
+            d[col] = default
+
+    def missing_name(x):
+        import re
+        s = str(x).strip()
+        return (not s) or s.lower() == 'nan' or s in ['None','종목명 조회 필요'] or bool(re.match(r'^[0-9A-Z]{5,6}\.(KS|KQ)$', s.upper()))
+
+    def missing_sector(x):
+        s = str(x).strip()
+        return (not s) or s.lower() == 'nan' or s in ['None','분류 미확인','Unmapped']
+
+    def missing_industry(x):
+        s = str(x).strip()
+        return (not s) or s.lower() == 'nan' or s in ['None','업종 미확인','Unmapped']
+
+    d['missing_name'] = d['name'].map(missing_name)
+    d['missing_sector'] = d['sector'].map(missing_sector)
+    d['missing_industry'] = d['industry'].map(missing_industry)
+
+    def reason(row):
+        r = []
+        if row['missing_name']:
+            r.append('name')
+        if row['missing_sector']:
+            r.append('sector')
+        if row['missing_industry']:
+            r.append('industry')
+        return ' + '.join(r)
+
+    d['gap_reason'] = d.apply(reason, axis=1)
+    gaps = d[d['gap_reason'].astype(str).ne('')].copy()
+    cols = ['gap_reason','ticker','name','sector','industry','asset_type','entry_state','label','grade','score','price','daily_break_level','dist_pct','room_to_weekly_r1_pct','rsi14','source']
+    return gaps[[c for c in cols if c in gaps.columns]]
+
+
+def _metadata_gap_view(_df):
+    d = _df.copy()
+    for col, default in [('ticker',''),('name',''),('sector',''),('industry',''),('asset_type',''),('entry_state',''),('label',''),('grade',''),('score',None),('price',None),('daily_break_level',None),('dist_pct',None),('room_to_weekly_r1_pct',None),('rsi14',None),('source','')]:
+        if col not in d.columns:
+            d[col] = default
+
+    def missing_name(x):
+        import re
+        s = str(x).strip()
+        return (not s) or s.lower() == 'nan' or s in ['None','종목명 조회 필요'] or bool(re.match(r'^[0-9A-Z]{5,6}\.(KS|KQ)$', s.upper()))
+
+    def missing_sector(x):
+        s = str(x).strip()
+        return (not s) or s.lower() == 'nan' or s in ['None','분류 미확인','Unmapped']
+
+    def missing_industry(x):
+        s = str(x).strip()
+        return (not s) or s.lower() == 'nan' or s in ['None','업종 미확인','Unmapped']
+
+    d['missing_name'] = d['name'].map(missing_name)
+    d['missing_sector'] = d['sector'].map(missing_sector)
+    d['missing_industry'] = d['industry'].map(missing_industry)
+
+    def reason(row):
+        r = []
+        if row['missing_name']:
+            r.append('name')
+        if row['missing_sector']:
+            r.append('sector')
+        if row['missing_industry']:
+            r.append('industry')
+        return ' + '.join(r)
+
+    d['gap_reason'] = d.apply(reason, axis=1)
+    gaps = d[d['gap_reason'].astype(str).ne('')].copy()
+    cols = ['gap_reason','ticker','name','sector','industry','asset_type','entry_state','label','grade','score','price','daily_break_level','dist_pct','room_to_weekly_r1_pct','rsi14','source']
+    return gaps[[c for c in cols if c in gaps.columns]]
+
 with tab3:
-    st.subheader("Missing Name / Industry")
-    gaps = processed[processed.get("metadata_missing", False)].copy()
-    st.caption('여기에 뜨는 행은 종목명/산업 매핑이 아직 약한 행이다. 숫자 이름을 한글명으로 강제 재조회하고, 산업이 안 나오면 "업종 미확인"으로 표시한다.')
-    st.dataframe(gaps[["ticker", "entry_state", "grade", "score", "price"]], use_container_width=True, hide_index=True)
-    template = processed[["ticker"]].drop_duplicates().copy()
-    template["name"] = ""
-    template["market"] = ""
-    template["asset_type"] = ""
-    template["sector"] = ""
-    template["industry"] = ""
-    st.download_button(
-        "Download ticker master template",
-        template.to_csv(index=False).encode("utf-8-sig"),
-        file_name=f"{meta_default.replace('.csv', '_template.csv')}",
-        mime="text/csv",
-    )
+    st.subheader('Metadata Gaps')
+    st.caption('name / sector / industry 중 무엇이 비어 있는지 gap_reason으로 표시한다. 이름이 해결되어도 sector/industry가 비면 여기에 남는다.')
+    _gaps = _metadata_gap_view(filtered)
+    if _gaps.empty:
+        st.success('현재 필터 기준에서는 메타데이터 갭이 없습니다.')
+    else:
+        c1, c2, c3, c4 = st.columns(4)
+        c1.metric('Total gaps', f'{len(_gaps):,}')
+        c2.metric('Missing name', f"{int(_gaps['gap_reason'].astype(str).str.contains('name').sum()):,}")
+        c3.metric('Missing sector', f"{int(_gaps['gap_reason'].astype(str).str.contains('sector').sum()):,}")
+        c4.metric('Missing industry', f"{int(_gaps['gap_reason'].astype(str).str.contains('industry').sum()):,}")
+        st.dataframe(_gaps, use_container_width=True, hide_index=True)
+        template_cols = ['ticker','name','asset_type','sector','industry']
+        template = _gaps.copy()
+        for c in template_cols:
+            if c not in template.columns:
+                template[c] = ''
+        st.download_button('Download metadata gap template', data=template[template_cols].drop_duplicates('ticker').to_csv(index=False).encode('utf-8-sig'), file_name='ticker_master_korea_gap_template.csv', mime='text/csv')
 
 with tab4:
     st.subheader("Processed")
@@ -1284,231 +1364,564 @@ _render_last_update_sidebar()
 
 
 
+
+
+
+
+
+
+
+
 # --- Market Brief tab ---
-def _mb_num(df, col):
-    import pandas as pd
-    if col not in df.columns:
-        return 0
-    return pd.to_numeric(df[col], errors="coerce")
-
-
 def _mb_prepare(df):
     import pandas as pd
 
     d = df.copy()
-    for col in ["score", "dist_pct", "room_to_weekly_r1_pct", "rsi14", "px_vs_sma10", "px_vs_sma40", "px_vs_sma50", "px_vs_sma200"]:
-        if col in d.columns:
-            d[col] = pd.to_numeric(d[col], errors="coerce")
 
-    if "entry_state" not in d.columns:
-        d["entry_state"] = ""
-    if "label" not in d.columns:
-        d["label"] = ""
-    if "sector" not in d.columns:
-        d["sector"] = "분류 미확인"
-    if "industry" not in d.columns:
-        d["industry"] = "업종 미확인"
-    if "manage" not in d.columns:
-        d["manage"] = ""
-    if "why" not in d.columns:
-        d["why"] = ""
+    numeric_defaults = {
+        "score": 0,
+        "dist_pct": None,
+        "room_to_weekly_r1_pct": None,
+        "rsi14": None,
+        "price": None,
+        "daily_break_level": None,
+        "weekly_r1": None,
+    }
+    text_defaults = {
+        "ticker": "",
+        "name": "",
+        "sector": "",
+        "industry": "",
+        "asset_type": "",
+        "entry_state": "",
+        "label": "",
+        "grade": "",
+        "why": "",
+        "manage": "",
+    }
+
+    for col, default in numeric_defaults.items():
+        if col not in d.columns:
+            d[col] = default
+        d[col] = pd.to_numeric(d[col], errors="coerce")
+
+    for col, default in text_defaults.items():
+        if col not in d.columns:
+            d[col] = default
+        d[col] = d[col].fillna(default)
 
     d["entry_norm"] = d["entry_state"].astype(str).str.upper().str.strip()
     d["label_norm"] = d["label"].astype(str).str.upper().str.strip()
+    d["is_near_breakout"] = d["label_norm"].str.contains("NEAR BREAKOUT", na=False)
 
-    d["is_actionable"] = d["entry_norm"].isin(["PREBREAK OK", "ENTRY OK", "SMALL SIZE"])
-    d["is_entry_ok"] = d["entry_norm"].isin(["PREBREAK OK", "ENTRY OK"])
+    d["is_entry_ok"] = d["entry_norm"].isin(["ENTRY OK", "PREBREAK OK"])
     d["is_small_size"] = d["entry_norm"].eq("SMALL SIZE")
+    d["is_actionable"] = d["is_entry_ok"] | d["is_small_size"]
     d["is_watch"] = d["entry_norm"].eq("WATCH")
     d["is_hold"] = d["entry_norm"].eq("HOLD ONLY")
     d["is_avoid"] = d["entry_norm"].eq("AVOID NEW")
 
-    dist = d["dist_pct"] if "dist_pct" in d.columns else 999
-    room = d["room_to_weekly_r1_pct"] if "room_to_weekly_r1_pct" in d.columns else -999
-    rsi = d["rsi14"] if "rsi14" in d.columns else 999
+    def _state_group(s):
+        s = str(s).upper().strip()
+        if s in ["ENTRY OK", "PREBREAK OK", "SMALL SIZE"]:
+            return "ENTRY"
+        if s == "WATCH":
+            return "WATCH"
+        if s == "HOLD ONLY":
+            return "HOLD ONLY"
+        if s == "AVOID NEW":
+            return "AVOID NEW"
+        if s == "REJECT":
+            return "REJECT"
+        return "OTHER"
+
+    d["state_group"] = d["entry_norm"].map(_state_group)
+
+    dist = d["dist_pct"].fillna(999)
+    room = d["room_to_weekly_r1_pct"].fillna(-999)
+    rsi = d["rsi14"].fillna(999)
+    score = d["score"].fillna(0)
 
     d["is_priority_watch"] = (
         d["is_watch"]
-        & (
-            d["label_norm"].eq("NEAR BREAKOUT")
-            | (dist <= 3)
-        )
+        & (d["is_near_breakout"] | (dist <= 3.0))
         & (room > 0)
         & (rsi < 75)
+        & (score >= 1)
     )
 
-    d["watch_quality"] = "N/A"
-    d.loc[d["is_priority_watch"], "watch_quality"] = "PRIORITY WATCH"
-    d.loc[d["is_watch"] & ~d["is_priority_watch"] & (dist <= 5) & (room > 0), "watch_quality"] = "NORMAL WATCH"
-    d.loc[d["is_watch"] & d["watch_quality"].eq("N/A"), "watch_quality"] = "LOW PRIORITY WATCH"
+    d["pullback_to_break_pct"] = (d["daily_break_level"] / d["price"] - 1.0) * 100.0
+    d.loc[d["price"].isna() | d["daily_break_level"].isna() | (d["price"] == 0), "pullback_to_break_pct"] = None
+    d["pullback_low"] = d["daily_break_level"] * 0.98
+    d["pullback_high"] = d["daily_break_level"] * 1.01
 
-    txt = (d["manage"].astype(str) + " " + d["why"].astype(str)).str.lower()
-    d["avoid_reason"] = "other"
-    d.loc[txt.str.contains("too hot") & txt.str.contains("weak score"), "avoid_reason"] = "too hot + weak score"
-    d.loc[txt.str.contains("too hot") & ~txt.str.contains("weak score"), "avoid_reason"] = "too hot"
-    d.loc[txt.str.contains("room"), "avoid_reason"] = "room / upside tight"
-    d.loc[txt.str.contains("not a priority"), "avoid_reason"] = "not a priority"
-    d.loc[txt.str.contains("weak score") & ~txt.str.contains("too hot"), "avoid_reason"] = "weak score"
+    def _zone(row):
+        low = row.get("pullback_low")
+        high = row.get("pullback_high")
+        if pd.isna(low) or pd.isna(high):
+            return ""
+        return f"{low:,.2f} ~ {high:,.2f}"
 
+    d["suggested_pullback_zone"] = d.apply(_zone, axis=1)
     return d
 
 
-def _mb_group_strength(d, col):
+def _mb_missing_name(x):
+    import re
+
+    s = str(x).strip()
+    return (
+        (not s)
+        or s.lower() in ["nan", "none"]
+        or s == "종목명 조회 필요"
+        or bool(re.match(r"^[0-9A-Z]{5,6}\.(KS|KQ)$", s.upper()))
+    )
+
+
+def _mb_missing_sector(x):
+    s = str(x).strip()
+    return (not s) or s.lower() in ["nan", "none"] or s in ["분류 미확인", "Unmapped"]
+
+
+def _mb_missing_industry(x):
+    s = str(x).strip()
+    return (not s) or s.lower() in ["nan", "none"] or s in ["업종 미확인", "Unmapped"]
+
+
+def _mb_metadata_gaps(d):
+    return d[
+        d["name"].map(_mb_missing_name)
+        | d["sector"].map(_mb_missing_sector)
+        | d["industry"].map(_mb_missing_industry)
+    ].copy()
+
+
+def _mb_cols(d, extra=None):
+    base = [
+        "ticker", "name", "sector", "industry", "asset_type",
+        "entry_state", "label", "grade", "score",
+        "price", "daily_break_level", "dist_pct",
+        "room_to_weekly_r1_pct", "rsi14", "manage"
+    ]
+    if extra:
+        base += extra
+    return [c for c in base if c in d.columns]
+
+
+def _near_summary(d, group_col):
     import pandas as pd
 
-    if col not in d.columns:
+    nb = d[d["is_near_breakout"]].copy()
+    if nb.empty or group_col not in nb.columns:
         return pd.DataFrame()
 
-    x = d.copy()
-    x[col] = x[col].fillna("미분류").astype(str)
-    x = x[~x[col].isin(["", "nan", "None"])]
-
-    if x.empty:
-        return pd.DataFrame()
-
-    g = x.groupby(col).agg(
-        candidates=("ticker", "count"),
-        actionable=("is_actionable", "sum"),
-        entry_ok=("is_entry_ok", "sum"),
-        small_size=("is_small_size", "sum"),
-        priority_watch=("is_priority_watch", "sum"),
-        watch=("is_watch", "sum"),
-        avoid_new=("is_avoid", "sum"),
+    base = nb.groupby(group_col, dropna=False).agg(
+        near_breakout=("ticker", "count"),
         avg_score=("score", "mean"),
-        avg_room=("room_to_weekly_r1_pct", "mean"),
         avg_dist=("dist_pct", "mean"),
+        avg_room=("room_to_weekly_r1_pct", "mean"),
         avg_rsi=("rsi14", "mean"),
     ).reset_index()
 
-    g["strength_score"] = (
-        g["entry_ok"] * 5
-        + g["small_size"] * 3
-        + g["priority_watch"] * 2
-        + g["watch"] * 0.5
-        + g["avg_score"].fillna(0) * 0.3
-        + g["avg_room"].fillna(0).clip(lower=0) * 0.15
-        - g["avoid_new"] * 0.7
-        - g["avg_rsi"].fillna(50).sub(70).clip(lower=0) * 0.08
+    pivot = nb.pivot_table(
+        index=group_col,
+        columns="state_group",
+        values="ticker",
+        aggfunc="count",
+        fill_value=0,
+    ).reset_index()
+
+    out = base.merge(pivot, on=group_col, how="left")
+
+    for c in ["ENTRY", "WATCH", "HOLD ONLY", "AVOID NEW", "REJECT", "OTHER"]:
+        if c not in out.columns:
+            out[c] = 0
+
+    for c in ["avg_score", "avg_dist", "avg_room", "avg_rsi"]:
+        out[c] = out[c].round(2)
+
+    out["AVOID/HOLD"] = out["AVOID NEW"] + out["HOLD ONLY"]
+    return out.sort_values(
+        ["near_breakout", "ENTRY", "WATCH", "AVOID/HOLD", "AVOID NEW"],
+        ascending=[False, False, False, False, True],
     )
 
-    return g.sort_values(["strength_score", "actionable", "priority_watch", "candidates"], ascending=False)
+
+def _render_market_map(d, group_col, title):
+    import pandas as pd
+
+    nb = d[d["is_near_breakout"]].copy()
+    if nb.empty:
+        st.info("NEAR BREAKOUT 종목이 없습니다.")
+        return
+
+    if group_col not in nb.columns:
+        st.info(f"{group_col} 컬럼이 없습니다.")
+        return
+
+    g = (
+        nb.groupby([group_col, "state_group"], dropna=False)
+        .agg(count=("ticker", "count"), avg_score=("score", "mean"), avg_dist=("dist_pct", "mean"))
+        .reset_index()
+    )
+    g[group_col] = g[group_col].astype(str).replace({"": "Unknown"})
+    g["state_group"] = g["state_group"].astype(str)
+
+    st.markdown(f"### {title}")
+    st.caption("면적은 NEAR BREAKOUT 개수, 색은 ENTRY/WATCH/HOLD/AVOID 상태입니다.")
+
+    try:
+        import plotly.express as px
+
+        color_map = {
+            "ENTRY": "#2ecc71",
+            "WATCH": "#f1c40f",
+            "HOLD ONLY": "#3498db",
+            "AVOID NEW": "#e74c3c",
+            "REJECT": "#7f8c8d",
+            "OTHER": "#9b59b6",
+        }
+        fig = px.treemap(
+            g,
+            path=[group_col, "state_group"],
+            values="count",
+            color="state_group",
+            color_discrete_map=color_map,
+            hover_data=["count", "avg_score", "avg_dist"],
+        )
+        fig.update_traces(textinfo="label+value")
+        fig.update_layout(
+            margin=dict(t=8, l=8, r=8, b=8),
+            height=430,
+            paper_bgcolor="rgba(0,0,0,0)",
+            plot_bgcolor="rgba(0,0,0,0)",
+            font=dict(size=14),
+        )
+        st.plotly_chart(fig, use_container_width=True)
+    except Exception as e:
+        st.warning(f"트리맵 렌더링 실패: {e}")
+        st.dataframe(_near_summary(d, group_col).head(25), use_container_width=True, hide_index=True)
 
 
-def _mb_cols(d):
-    cols = [
-        "ticker", "name", "sector", "industry", "entry_state", "label",
-        "grade", "score", "price", "daily_break_level",
-        "dist_pct", "room_to_weekly_r1_pct", "rsi14",
-        "watch_quality", "manage"
+def _status_metrics(d):
+    nb = d[d["is_near_breakout"]].copy()
+    counts = nb["state_group"].value_counts().to_dict() if not nb.empty else {}
+
+    c1, c2, c3, c4, c5 = st.columns(5)
+    c1.metric("ENTRY", f"{counts.get('ENTRY', 0):,}")
+    c2.metric("WATCH", f"{counts.get('WATCH', 0):,}")
+    c3.metric("HOLD ONLY", f"{counts.get('HOLD ONLY', 0):,}")
+    c4.metric("AVOID NEW", f"{counts.get('AVOID NEW', 0):,}")
+    c5.metric("REJECT", f"{counts.get('REJECT', 0):,}")
+
+
+
+
+
+
+
+def _answer_text(q, d):
+    q = (q or "").strip()
+    nb = d[d["is_near_breakout"]].copy()
+
+    def _names(df, n=8):
+        if df is None or df.empty:
+            return "없음"
+        parts = []
+        for _, r in df.head(n).iterrows():
+            ticker = str(r.get("ticker", "")).strip()
+            name = str(r.get("name", "")).strip()
+            state = str(r.get("entry_state", "")).strip()
+            score = r.get("score", "")
+            dist = r.get("dist_pct", "")
+            room = r.get("room_to_weekly_r1_pct", "")
+            rsi = r.get("rsi14", "")
+            zone = str(r.get("watch_pullback_zone", "") or r.get("suggested_pullback_zone", "")).strip()
+            tail = f", 재평가구간 {zone}" if zone else ""
+            parts.append(f"{name}({ticker}, {state}, score {score}, dist {dist}, room {room}, RSI {rsi}{tail})")
+        return ", ".join(parts)
+
+    def _watch_candidates():
+        # WATCH는 '매수'가 아니라 '염두/관찰' 상태다. NEAR BREAKOUT에만 제한하지 않고 현재 필터의 전체 WATCH를 본다.
+        w = d[d["is_watch"]].copy()
+        if w.empty:
+            return w
+
+        cand = w[
+            (w["room_to_weekly_r1_pct"].fillna(-999) > 0)
+            & (w["score"].fillna(0) >= 1)
+            & (w["rsi14"].fillna(999) < 78)
+        ].copy()
+
+        # 조건 통과가 없으면 전체 WATCH라도 보여주되, 답변에서 '우선 조건 통과 없음'이라고 말한다.
+        if cand.empty:
+            cand = w.copy()
+
+        cand["watch_pullback_pct_low"] = -3.0
+        cand["watch_pullback_pct_high"] = -1.0
+        cand["watch_pullback_zone"] = cand.apply(
+            lambda r: "" if pd.isna(r.get("price")) else f"{r.get('price')*0.97:,.2f} ~ {r.get('price')*0.99:,.2f}",
+            axis=1,
+        )
+
+        sort_cols = [c for c in ["score", "room_to_weekly_r1_pct", "dist_pct", "rsi14"] if c in cand.columns]
+        if sort_cols:
+            cand = cand.sort_values(sort_cols, ascending=[False, False, True, True][:len(sort_cols)])
+        return cand
+
+    if not q:
+        return "질문을 입력하세요."
+
+    if any(k in q for k in ["메타", "metadata", "갭", "gap", "Other"]):
+        gap = _mb_metadata_gaps(d)
+        other = d[d["industry"].astype(str).eq("Other / Needs review")]
+        return f"Metadata Gap은 {len(gap)}개입니다. Other / Needs review는 {len(other)}개이며, 이것은 gap이 아니라 임시 분류입니다."
+
+    # WATCH/감시 질문. '재평가할' 대신 '염두/재평가'로 표현한다.
+    if any(k in q for k in ["watch", "WATCH", "와치", "감시", "염두", "관찰"]):
+        all_w = d[d["is_watch"]].copy()
+        nb_w = nb[nb["is_watch"]].copy()
+        cand = _watch_candidates()
+
+        if all_w.empty:
+            return "현재 필터 기준 WATCH 상태 종목은 없습니다."
+
+        passed = all_w[
+            (all_w["room_to_weekly_r1_pct"].fillna(-999) > 0)
+            & (all_w["score"].fillna(0) >= 1)
+            & (all_w["rsi14"].fillna(999) < 78)
+        ].copy()
+
+        if passed.empty:
+            return (
+                f"전체 WATCH는 {len(all_w)}개이고, NEAR BREAKOUT WATCH는 {len(nb_w)}개입니다. "
+                f"다만 room>0, score>=1, RSI<78을 모두 통과한 우선 염두 후보는 없습니다. "
+                f"그래도 관찰 목록은 {_names(cand, 5)}입니다."
+            )
+
+        return (
+            f"전체 WATCH는 {len(all_w)}개, NEAR BREAKOUT WATCH는 {len(nb_w)}개입니다. "
+            f"우선 염두할 WATCH는 {len(passed)}개입니다. "
+            f"근거는 room>0, score>=1, RSI<78이며, 매수 신호가 아니라 눌림/재돌파 때 다시 볼 목록입니다. "
+            f"대상은 {_names(passed, 6)}입니다."
+        )
+
+    # AVOID/HOLD 재평가 질문.
+    if any(k in q for k in ["눌림", "재진입", "재평가", "avoid", "AVOID", "hold", "HOLD", "홀드", "어보이드"]):
+        pb = nb[nb["is_avoid"] | nb["is_hold"]].copy()
+        candidate = pb[
+            (pb["room_to_weekly_r1_pct"].fillna(-999) > 0)
+            & (pb["score"].fillna(0) >= 3)
+        ].copy()
+        if candidate.empty:
+            return f"NEAR BREAKOUT 중 AVOID/HOLD는 {len(pb)}개입니다. 현재 room>0, score>=3을 동시에 만족하는 눌림 후 재평가 후보는 없습니다."
+        return (
+            f"NEAR BREAKOUT 중 AVOID/HOLD는 {len(pb)}개입니다. "
+            f"눌림 후 재평가 후보는 {len(candidate)}개이며, 이것도 즉시 매수 신호는 아닙니다. "
+            f"대상은 {_names(candidate)}입니다."
+        )
+
+    if any(k in q for k in ["신규", "진입", "entry", "ENTRY"]):
+        a = nb[nb["is_actionable"]].copy()
+        if a.empty:
+            return "NEAR BREAKOUT 중 신규 진입 후보(ENTRY OK/PREBREAK OK/SMALL SIZE)는 없습니다."
+        return f"NEAR BREAKOUT 중 신규 진입 후보는 {len(a)}개이며, 대상은 {_names(a)}입니다."
+
+    if any(k in q for k in ["후보", "누구", "종목"]):
+        a = nb[nb["is_actionable"]].copy()
+        w = d[d["is_watch"]].copy()
+        pb = nb[
+            (nb["is_avoid"] | nb["is_hold"])
+            & (nb["room_to_weekly_r1_pct"].fillna(-999) > 0)
+            & (nb["score"].fillna(0) >= 3)
+        ].copy()
+        return (
+            f"후보 요약입니다. "
+            f"NEAR 신규진입 {len(a)}개: {_names(a, 5)}. "
+            f"WATCH 염두 {len(w)}개: {_names(w, 5)}. "
+            f"NEAR 눌림 재평가 {len(pb)}개: {_names(pb, 5)}."
+        )
+
+    sector = _near_summary(d, "sector")
+    industry = _near_summary(d, "industry")
+    top_sector = ", ".join(sector["sector"].astype(str).head(3).tolist()) if not sector.empty else "없음"
+    top_industry = ", ".join(industry["industry"].astype(str).head(3).tolist()) if not industry.empty else "없음"
+    return f"NEAR BREAKOUT이 많이 몰린 상위 섹터는 {top_sector}입니다. 상위 업종은 {top_industry}입니다."
+
+
+
+def _related_table(q, d):
+    q = (q or "").strip()
+    nb = d[d["is_near_breakout"]].copy()
+
+    def _watch_view():
+        view = d[d["is_watch"]].copy()
+        if view.empty:
+            return view
+
+        cand = view[
+            (view["room_to_weekly_r1_pct"].fillna(-999) > 0)
+            & (view["score"].fillna(0) >= 1)
+            & (view["rsi14"].fillna(999) < 78)
+        ].copy()
+
+        if cand.empty:
+            cand = view.copy()
+
+        cand["watch_pullback_pct_low"] = -3.0
+        cand["watch_pullback_pct_high"] = -1.0
+        cand["watch_pullback_zone"] = cand.apply(
+            lambda r: "" if pd.isna(r.get("price")) else f"{r.get('price')*0.97:,.2f} ~ {r.get('price')*0.99:,.2f}",
+            axis=1,
+        )
+
+        sort_cols = [c for c in ["score", "room_to_weekly_r1_pct", "dist_pct", "rsi14"] if c in cand.columns]
+        if sort_cols:
+            cand = cand.sort_values(sort_cols, ascending=[False, False, True, True][:len(sort_cols)])
+        return cand
+
+    # WATCH 질문은 WATCH 표만 띄운다. ENTRY/AVOID와 섞지 않는다.
+    if any(k in q for k in ["watch", "WATCH", "와치", "감시", "염두", "관찰"]):
+        view = _watch_view()
+        if not view.empty:
+            cols = _mb_cols(view, extra=["watch_pullback_zone", "watch_pullback_pct_low", "watch_pullback_pct_high"])
+            return view[cols].head(40)
+        return None
+
+    if any(k in q for k in ["눌림", "재진입", "재평가", "avoid", "AVOID", "hold", "HOLD", "홀드", "어보이드"]):
+        view = nb[
+            (nb["is_avoid"] | nb["is_hold"])
+            & (nb["room_to_weekly_r1_pct"].fillna(-999) > 0)
+            & (nb["score"].fillna(0) >= 3)
+        ].copy()
+
+        if view.empty:
+            view = nb[nb["is_avoid"] | nb["is_hold"]].copy()
+
+        if not view.empty:
+            sort_cols = [c for c in ["score", "pullback_to_break_pct", "room_to_weekly_r1_pct", "rsi14"] if c in view.columns]
+            if sort_cols:
+                view = view.sort_values(sort_cols, ascending=[False, True, False, True][:len(sort_cols)])
+            cols = _mb_cols(view, extra=["suggested_pullback_zone", "pullback_to_break_pct"])
+            return view[cols].head(40)
+
+    if any(k in q for k in ["신규", "진입", "entry", "ENTRY"]):
+        view = nb[nb["is_actionable"]].copy()
+        if not view.empty:
+            sort_cols = [c for c in ["dist_pct", "room_to_weekly_r1_pct", "score"] if c in view.columns]
+            if sort_cols:
+                view = view.sort_values(sort_cols, ascending=[True, False, False][:len(sort_cols)])
+            return view[_mb_cols(view)].head(40)
+
+    if any(k in q for k in ["메타", "metadata", "갭", "gap", "Other"]):
+        gap = _mb_metadata_gaps(d)
+        if not gap.empty:
+            return gap[_mb_cols(gap)].head(40)
+        other = d[d["industry"].astype(str).eq("Other / Needs review")].copy()
+        if not other.empty:
+            return other[_mb_cols(other)].head(40)
+
+    if any(k in q for k in ["후보", "누구", "종목"]):
+        near_entry = nb[nb["is_actionable"]].copy()
+        watch = _watch_view()
+        near_recheck = nb[
+            (nb["is_avoid"] | nb["is_hold"])
+            & (nb["room_to_weekly_r1_pct"].fillna(-999) > 0)
+            & (nb["score"].fillna(0) >= 3)
+        ].copy()
+
+        frames = [x for x in [near_entry, watch, near_recheck] if x is not None and not x.empty]
+        if frames:
+            view = pd.concat(frames, ignore_index=True)
+            return view[_mb_cols(view, extra=["watch_pullback_zone", "suggested_pullback_zone", "pullback_to_break_pct"])].head(40)
+
+    return None
+
+
+def _render_analysis_panel(d):
+    st.markdown("### 결과 해석")
+    st.caption("현재 화면의 필터 결과 기준으로 답합니다. 직접 질문은 예시 질문보다 우선 적용됩니다.")
+
+    examples = [
+        "오늘 NEAR BREAKOUT이 몰린 섹터/업종은?",
+        "NEAR BREAKOUT 중 신규 진입 후보는?",
+        "WATCH 중 염두할 종목은?",
+        "AVOID/HOLD 눌림 재평가 후보는?",
+        "메타데이터 갭 상태는?",
     ]
-    return [c for c in cols if c in d.columns]
+
+    selected = st.selectbox("예시 질문", examples, key="mb_example_question")
+    custom = st.text_input("직접 질문", value="", key="mb_custom_question", placeholder="직접 입력하면 예시 질문 대신 적용")
+    active_q = custom.strip() or selected
+
+    if hasattr(st, "chat_message"):
+        with st.chat_message("user"):
+            st.write(active_q)
+        with st.chat_message("assistant"):
+            st.write(_answer_text(active_q, d))
+    else:
+        st.markdown(f"**질문:** {active_q}")
+        st.markdown(f"**답변:** {_answer_text(active_q, d)}")
+
+    table = _related_table(active_q, d)
+    if table is not None and not table.empty:
+        st.markdown("#### 관련 종목")
+        st.dataframe(table, use_container_width=True, hide_index=True)
 
 
 def render_market_brief(df):
-    import pandas as pd
+    st.subheader("Near Breakout Market Map")
+    st.caption("NEAR BREAKOUT 종목을 섹터/업종별로 묶고, ENTRY/WATCH/HOLD/AVOID 상태를 같이 보여준다.")
 
-    st.subheader("Market Brief")
-    st.caption("현재 스캔 결과를 섹터/업종/진입가능/와치/어보이드 관점으로 요약한다. 투자 추천이 아니라 돌파 후보군의 구조를 읽기 위한 요약이다.")
+    for old_key in [
+        "mb_chat_history",
+        "near_breakout_question",
+        "near_breakout_question_input",
+        "market_brief_question",
+        "market_brief_question_input",
+    ]:
+        if old_key in st.session_state:
+            del st.session_state[old_key]
 
     if df is None or len(df) == 0:
         st.info("현재 필터 조건에서 요약할 데이터가 없습니다.")
         return
 
     d = _mb_prepare(df)
-
-    total = len(d)
-    entry_ok = int(d["is_entry_ok"].sum())
-    small = int(d["is_small_size"].sum())
-    actionable = int(d["is_actionable"].sum())
-    priority_watch = int(d["is_priority_watch"].sum())
-    watch = int(d["is_watch"].sum())
-    hold = int(d["is_hold"].sum())
-    avoid = int(d["is_avoid"].sum())
+    nb = d[d["is_near_breakout"]].copy()
+    gap = _mb_metadata_gaps(d)
+    other = d[d["industry"].astype(str).eq("Other / Needs review")].copy()
 
     c1, c2, c3, c4, c5, c6 = st.columns(6)
-    c1.metric("Total", f"{total:,}")
-    c2.metric("Entry OK", f"{entry_ok:,}")
-    c3.metric("Small Size", f"{small:,}")
-    c4.metric("Priority Watch", f"{priority_watch:,}")
-    c5.metric("Hold Only", f"{hold:,}")
-    c6.metric("Avoid New", f"{avoid:,}")
+    c1.metric("Total", f"{len(d):,}")
+    c2.metric("Near Breakout", f"{len(nb):,}")
+    c3.metric("Entry", f"{int((nb['state_group'] == 'ENTRY').sum()):,}")
+    c4.metric("Watch", f"{int((nb['state_group'] == 'WATCH').sum()):,}")
+    c5.metric("Avoid/Hold", f"{int(((nb['state_group'] == 'AVOID NEW') | (nb['state_group'] == 'HOLD ONLY')).sum()):,}")
+    c6.metric("Metadata Gaps", f"{len(gap):,}")
 
-    st.markdown("### 1. Market Pulse")
+    if len(other):
+        st.caption(f"Other / Needs review: {len(other):,}개. 갭은 아니지만 분류 개선 대상이다.")
 
-    if actionable > 0:
-        st.success(f"신규 진입 후보는 ENTRY OK/SMALL SIZE 기준으로 {actionable}개다. 우선은 이 그룹이 오늘의 실행 후보군이다.")
-    elif priority_watch > 0:
-        st.warning(f"즉시 진입 후보는 약하지만, PRIORITY WATCH가 {priority_watch}개 있어 돌파 감시장은 유지된다.")
-    else:
-        st.info("현재 필터 기준에서는 명확한 신규 진입 후보가 약하다. WATCH/AVOID 비중을 확인하는 장이다.")
+    _status_metrics(d)
 
-    if total > 0 and avoid / total >= 0.35:
-        st.warning(f"AVOID NEW 비율이 {avoid / total:.1%}로 높다. 전고점 근처 종목은 많지만 과열, room 부족, weak score가 섞인 장일 가능성이 있다.")
+    left, right = st.columns([2.2, 1.05], gap="large")
 
-    st.markdown("### 2. Strong Sectors")
-    sector_rank = _mb_group_strength(d, "sector")
-    if not sector_rank.empty:
-        st.dataframe(
-            sector_rank.head(10),
-            use_container_width=True,
-            hide_index=True,
-        )
-    else:
-        st.info("섹터 데이터가 부족합니다.")
-
-    st.markdown("### 3. Strong Industries / Themes")
-    industry_rank = _mb_group_strength(d, "industry")
-    if not industry_rank.empty:
-        st.dataframe(
-            industry_rank.head(15),
-            use_container_width=True,
-            hide_index=True,
-        )
-    else:
-        st.info("업종 데이터가 부족합니다.")
-
-    st.markdown("### 4. Actionable Candidates")
-    action = d[d["is_actionable"]].copy()
-    if not action.empty:
-        priority_map = {"PREBREAK OK": 0, "ENTRY OK": 1, "SMALL SIZE": 2}
-        action["entry_rank"] = action["entry_norm"].map(priority_map).fillna(9)
-        sort_cols = [c for c in ["entry_rank", "dist_pct", "room_to_weekly_r1_pct", "score"] if c in action.columns]
-        ascending = [True, True, False, False][:len(sort_cols)]
-        action = action.sort_values(sort_cols, ascending=ascending)
-        st.dataframe(action[_mb_cols(action)].head(30), use_container_width=True, hide_index=True)
-    else:
-        st.info("현재 필터 기준에서는 ENTRY OK / SMALL SIZE 후보가 없습니다.")
-
-    st.markdown("### 5. Watch Quality")
-    st.caption("WATCH는 '지금 매수'가 아니라 조건 개선 시 돌파 후보가 될 수 있어 감시하는 그룹이다.")
-
-    w = d[d["is_watch"]].copy()
-    if not w.empty:
-        q_count = w["watch_quality"].value_counts().rename_axis("watch_quality").reset_index(name="count")
-        st.dataframe(q_count, use_container_width=True, hide_index=True)
-
-        pw = w[w["watch_quality"].eq("PRIORITY WATCH")].copy()
-        if not pw.empty:
-            st.markdown("#### Priority Watch")
-            pw = pw.sort_values(
-                [c for c in ["dist_pct", "room_to_weekly_r1_pct", "score"] if c in pw.columns],
-                ascending=[True, False, False][:len([c for c in ["dist_pct", "room_to_weekly_r1_pct", "score"] if c in pw.columns])]
-            )
-            st.dataframe(pw[_mb_cols(pw)].head(30), use_container_width=True, hide_index=True)
+    with left:
+        view_mode = st.radio("지도 기준", ["Sector", "Industry"], horizontal=True, key="mb_map_mode")
+        if view_mode == "Sector":
+            _render_market_map(d, "sector", "섹터별 NEAR BREAKOUT 지도")
         else:
-            st.info("WATCH 중에서도 우선 감시 조건을 만족하는 종목은 없습니다.")
-    else:
-        st.info("WATCH 종목이 없습니다.")
+            _render_market_map(d, "industry", "업종별 NEAR BREAKOUT 지도")
 
-    st.markdown("### 6. Avoid New Map")
-    a = d[d["is_avoid"]].copy()
-    if not a.empty:
-        reason = a["avoid_reason"].value_counts().rename_axis("avoid_reason").reset_index(name="count")
-        st.dataframe(reason, use_container_width=True, hide_index=True)
+        with st.expander("상세 집계 보기"):
+            if view_mode == "Sector":
+                st.dataframe(_near_summary(d, "sector").head(30), use_container_width=True, hide_index=True)
+            else:
+                st.dataframe(_near_summary(d, "industry").head(40), use_container_width=True, hide_index=True)
 
-        st.caption("AVOID NEW는 종목이 나쁘다는 뜻이 아니라, 현재 위치에서 신규 진입은 비효율적이거나 리스크가 크다는 뜻이다.")
-    else:
-        st.info("AVOID NEW 종목이 없습니다.")
+    with right:
+        _render_analysis_panel(d)
 
 
 with tab5:
