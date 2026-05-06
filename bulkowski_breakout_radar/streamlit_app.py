@@ -1099,7 +1099,7 @@ m3.metric("Small Size", int((processed["entry_state"] == "SMALL SIZE").sum()))
 m4.metric("Avoid New", int((processed["entry_state"] == "AVOID NEW").sum()))
 m5.metric("Manual ∩ SAFE", int((processed["bucket"] == "MANUAL ∩ SAFE").sum()))
 
-tab1, tab2, tab3, tab4 = 
+
 
 # --- visible last update panel ---
 try:
@@ -1109,7 +1109,7 @@ try:
 except Exception as _e:
     st.caption(f"Last update unavailable: {_e}")
 
-st.tabs(["Radar", "Avoid Board", "Metadata Gaps", "Raw Data"])
+tab1, tab2, tab3, tab4 = st.tabs(["Radar", "Avoid Board", "Metadata Gaps", "Raw Data"])
 
 with tab1:
     selected_row = None
