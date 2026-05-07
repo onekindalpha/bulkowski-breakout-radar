@@ -1,500 +1,499 @@
-ticker,price,gap_pct,rsi14,sma10,sma40,sma50,sma200,px_vs_sma10,px_vs_sma40,px_vs_sma50,px_vs_sma200,sma10_slope,sma40_slope,weekly_up,weekly_r1,weekly_s1,room_to_weekly_r1_pct,daily_break_level,daily_breakout,daily_retest,in_daily_box_middle,grade,score,name,asset_type,sector,industry,source
-089970.KQ,56800.0,0.0,73.12,55830.0,47231.25,45682.0,27348.05,1.74,20.26,24.34,107.69,UP,UP,True,58300.0,38000.0,2.64,58300.0,False,True,False,A,3.0,브이엠,STOCK,Industrials,Semiconductor / Display equipment,fallback_other
-373220.KS,482000.0,0.0,73.16,473350.0,414200.0,410110.0,398662.5,1.83,16.37,17.53,20.9,UP,UP,True,493000.0,346000.0,2.28,493000.0,False,True,False,A,3.0,LG에너지솔루션,STOCK,Energy,Energy,keyword_rule
-000050.KS,10130.0,0.0,64.02,10060.0,9551.5,9602.2,8333.6,0.7,6.06,5.5,21.56,UP,UP,True,15210.0,8810.0,50.15,15210.0,False,False,False,C,9.0,경방,STOCK,Consumer Discretionary,Textiles / Apparel,fallback_other
-001120.KS,49850.0,0.0,52.73,53345.0,48858.75,47774.0,36437.5,-6.55,2.03,4.35,36.81,UP,UP,True,54500.0,37600.0,9.33,57700.0,False,False,False,C,9.0,LX인터내셔널,STOCK,Industrials,Trading / Holding,keyword
-001430.KS,71000.0,0.0,56.54,71920.0,68825.0,68186.0,46458.75,-1.28,3.16,4.13,52.82,UP,UP,True,74000.0,62000.0,4.23,92500.0,False,False,False,C,9.0,세아베스틸지주,STOCK,Holding Company,Holding company,keyword_rule
-003620.KS,4330.0,0.0,61.51,4265.5,3786.88,3791.6,3594.08,1.51,14.34,14.2,20.48,UP,UP,True,4565.0,3300.0,5.43,4635.0,False,False,False,C,9.0,KG모빌리티,STOCK,Consumer Discretionary,Automobile,keyword_rule
-004020.KS,41900.0,0.0,58.08,42510.0,38075.0,38159.0,34182.5,-1.43,10.05,9.8,22.58,UP,UP,True,50400.0,33050.0,20.29,50400.0,False,False,False,C,9.0,현대제철,STOCK,Materials,Steel,fallback_other
-005090.KS,56300.0,0.0,54.39,60720.0,57720.0,55510.0,31865.0,-7.28,-2.46,1.42,76.68,UP,UP,True,70700.0,49100.0,25.58,70700.0,False,False,False,C,9.0,SGC에너지,STOCK,Energy,Energy,keyword_rule
-005290.KQ,59100.0,0.0,62.98,59120.0,51715.0,51842.0,41449.5,-0.03,14.28,14.0,42.58,UP,UP,True,64400.0,41850.0,8.97,64400.0,False,False,False,C,9.0,동진쎄미켐,STOCK,Materials,Semiconductor materials,fallback_other
-005380.KS,550000.0,0.0,64.89,538700.0,510000.0,520120.0,346677.5,2.1,7.84,5.74,58.65,UP,UP,True,687000.0,445000.0,24.91,687000.0,False,False,True,C,9.0,현대차,STOCK,Consumer Discretionary,Automobile,keyword
-006120.KS,62900.0,0.0,50.32,58330.0,57650.0,57680.0,57461.75,7.83,9.11,9.05,9.46,DN,UP,True,68200.0,47500.0,8.43,68200.0,False,False,False,C,9.0,SK디스커버리,STOCK,Holding Company,Holding company,fallback_other
-010130.KS,1747000.0,0.0,62.44,1651200.0,1597150.0,1648040.0,1278130.0,5.8,9.38,6.0,36.68,DN,DN,True,2188000.0,1395000.0,25.24,2188000.0,False,False,True,C,9.0,고려아연,STOCK,Materials,Non-ferrous metals,keyword
-010820.KS,13440.0,0.0,55.97,14424.0,10164.25,9644.0,5676.98,-6.82,32.23,39.36,136.75,UP,UP,True,18730.0,6570.0,39.36,18730.0,False,False,False,C,9.0,퍼스텍,STOCK,Industrials,Defense / Aerospace equipment,fallback_other
-010950.KS,122000.0,0.0,52.91,122150.0,115415.0,116848.0,85786.75,-0.12,5.71,4.41,42.21,UP,DN,True,177100.0,103600.0,45.16,177100.0,False,False,False,C,9.0,S-Oil,STOCK,Energy,Oil refining,keyword
-010955.KS,58700.0,0.0,56.39,58420.0,55967.5,56446.0,47939.5,0.48,4.88,3.99,22.45,UP,UP,True,75200.0,51300.0,28.11,75200.0,False,False,False,C,9.0,S-Oil우,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-011780.KS,140100.0,0.0,57.14,139490.0,130105.0,131596.0,123164.75,0.44,7.68,6.46,13.75,UP,UP,True,162300.0,110000.0,15.85,162300.0,False,False,True,C,9.0,금호석유화학,STOCK,Materials,Chemicals,keyword_rule
-012330.KS,432500.0,0.0,58.96,437600.0,412675.0,421470.0,359597.5,-1.17,4.8,2.62,20.27,UP,UP,True,472000.0,372000.0,9.13,531000.0,False,False,False,C,9.0,현대모비스,STOCK,Consumer Discretionary,Auto parts,fallback_other
-017800.KS,97000.0,0.0,55.86,98380.0,91830.0,92792.0,87029.5,-1.4,5.63,4.53,11.46,DN,UP,True,104100.0,82800.0,7.32,113400.0,False,False,True,C,9.0,현대엘리베이터,STOCK,Industrials,Elevators / Machinery,fallback_other
-018260.KS,170000.0,0.0,62.45,172410.0,162907.5,165096.0,167138.5,-1.4,4.35,2.97,1.71,DN,UP,True,194000.0,146100.0,14.12,196900.0,False,False,True,C,9.0,삼성에스디에스,STOCK,Information Technology,IT services,fallback_other
-022100.KS,34550.0,0.0,63.08,35300.0,32470.0,33069.0,28835.25,-2.12,6.41,4.48,19.82,UP,UP,True,45600.0,28900.0,31.98,41950.0,False,False,True,C,9.0,포스코DX,STOCK,Information Technology,IT services / Smart factory,keyword
-025900.KQ,12200.0,0.0,62.21,12114.0,10879.0,10676.2,9707.75,0.71,12.14,14.27,25.67,UP,UP,True,12980.0,7850.0,6.39,12980.0,False,False,False,C,9.0,동화기업,STOCK,Materials,Battery materials / Wood materials,fallback_other
-028670.KS,5620.0,0.0,64.35,5620.0,5283.38,5303.5,4387.68,0.0,6.37,5.97,28.09,FLAT,UP,True,6600.0,4650.0,17.44,6600.0,False,False,True,C,9.0,팬오션,STOCK,Industrials,Shipping / Marine transportation,keyword
-031430.KS,14300.0,0.0,64.02,14760.0,13052.75,12935.8,11428.45,-3.12,9.56,10.55,25.13,UP,UP,True,14750.0,11700.0,3.15,15620.0,False,False,False,C,9.0,신세계인터내셔날,STOCK,Consumer Discretionary,Fashion / Retail,fallback_other
-032500.KQ,30750.0,0.0,55.96,30265.0,28627.0,26516.6,17621.1,1.6,7.42,15.97,74.51,UP,UP,True,35150.0,24300.0,14.31,35150.0,False,False,False,C,9.0,케이엠더블유,STOCK,Information Technology,Telecom equipment,fallback_other
-035600.KQ,11330.0,0.0,63.41,11412.0,10760.75,10829.6,10689.8,-0.72,5.29,4.62,5.99,DN,UP,True,11970.0,10000.0,5.65,12280.0,False,False,True,C,9.0,KG이니시스,STOCK,Information Technology,Payment / Fintech,fallback_other
-041960.KQ,9320.0,0.0,58.99,9672.0,8809.0,8778.2,7070.05,-3.64,5.8,6.17,31.82,DN,UP,True,10790.0,7630.0,15.77,10790.0,False,False,False,C,9.0,코미팜,STOCK,Healthcare,Biotech / Pharmaceuticals,fallback_other
-051600.KS,59900.0,0.0,56.88,62240.0,59862.5,59592.0,54233.25,-3.76,0.06,0.52,10.45,UP,UP,True,69000.0,54800.0,15.19,69000.0,False,False,True,C,9.0,한전KPS,STOCK,Industrials,Power plant maintenance,fallback_other
-052690.KS,182000.0,0.0,57.81,187770.0,172427.5,169488.0,118202.75,-3.07,5.55,7.38,53.97,UP,UP,True,198000.0,145600.0,8.79,198000.0,False,False,False,C,9.0,한전기술,STOCK,Industrials,Electrical equipment,keyword_rule
-058470.KQ,116700.0,0.0,56.0,117650.0,112147.5,111368.0,72604.0,-0.81,4.06,4.79,60.73,UP,DN,True,129000.0,94200.0,10.54,129000.0,False,False,False,C,9.0,리노공업,STOCK,Information Technology,Semiconductor equipment / Components,keyword
-078930.KS,76900.0,0.0,58.22,76920.0,69785.0,69578.0,57545.5,-0.03,10.2,10.52,33.63,UP,UP,True,81000.0,60700.0,5.33,84000.0,False,False,False,C,9.0,GS,STOCK,Holding Company,Holding company,fallback_other
-078935.KS,57500.0,0.0,61.9,57050.0,54867.5,55234.0,48902.5,0.79,4.8,4.1,17.58,UP,UP,True,63500.0,51500.0,10.43,63500.0,False,False,True,C,9.0,GS우,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-079550.KS,979000.0,0.0,54.82,963800.0,826200.0,785050.0,561400.0,1.58,18.49,24.71,74.39,UP,UP,True,1118000.0,604000.0,14.2,1118000.0,False,False,False,C,9.0,LIG디펜스앤에어로스페이스,STOCK,Industrials,Defense / Aerospace,keyword
-084370.KQ,138700.0,0.0,61.63,135100.0,127767.5,128648.0,87003.25,2.66,8.56,7.81,59.42,UP,DN,True,153200.0,105600.0,10.45,153200.0,False,False,False,C,9.0,유진테크,STOCK,Information Technology,Semiconductor equipment,keyword_rule
-086790.KS,125500.0,0.0,62.98,124480.0,116092.5,116532.0,98603.0,0.82,8.1,7.7,27.28,UP,UP,True,133700.0,103200.0,6.53,133700.0,False,False,False,C,9.0,하나금융지주,STOCK,Financial Services,Financial services,keyword_rule
-095610.KQ,89700.0,0.0,59.13,88330.0,74077.5,73426.0,49728.75,1.55,21.09,22.16,80.38,DN,UP,True,95000.0,53700.0,5.91,95000.0,False,False,False,C,9.0,테스,STOCK,Information Technology,Semiconductor equipment,fallback_other
-097230.KS,27850.0,0.0,50.56,30110.0,26792.5,26212.8,22665.7,-7.51,3.95,6.25,22.87,UP,UP,True,33800.0,21500.0,21.36,33800.0,False,False,False,C,9.0,HJ중공업,STOCK,Industrials,Heavy industry,fallback_other
-105560.KS,158900.0,0.0,57.65,158720.0,153575.0,154012.0,130459.5,0.11,3.47,3.17,21.8,DN,UP,True,166500.0,141400.0,4.78,172500.0,False,False,False,C,9.0,KB금융,STOCK,Financial Services,Financial services,keyword_rule
-112610.KS,66900.0,0.0,58.08,70250.0,64635.0,61696.0,48151.75,-4.77,3.5,8.43,38.94,UP,UP,True,79400.0,41800.0,18.68,79400.0,False,False,False,C,9.0,씨에스윈드,STOCK,Energy,Wind power equipment,fallback_other
-119850.KQ,36750.0,0.0,64.49,35740.0,34140.0,34747.0,34215.25,2.83,7.64,5.76,7.41,UP,UP,True,43450.0,28800.0,18.23,43450.0,False,False,True,C,9.0,지엔씨에너지,STOCK,Energy,Energy,keyword_rule
-139130.KS,18980.0,0.0,63.32,19083.0,17706.75,17860.6,15391.0,-0.54,7.19,6.27,23.32,UP,UP,True,22000.0,16110.0,15.91,22000.0,False,False,True,C,9.0,iM금융지주,STOCK,Financial Services,Financial services,keyword_rule
-139480.KS,103300.0,0.0,63.9,104990.0,98110.0,98618.0,87174.5,-1.61,5.29,4.75,18.5,UP,UP,True,136400.0,88800.0,32.04,136400.0,False,False,False,C,9.0,이마트,STOCK,Consumer Staples,Retail / Hypermarket,fallback_other
-181710.KQ,40600.0,0.0,56.31,41590.0,39076.25,38853.0,31849.25,-2.38,3.9,4.5,27.48,UP,UP,True,43700.0,35000.0,7.64,44150.0,False,False,False,C,9.0,NHN,STOCK,Communication Services,Gaming / Internet services,fallback_other
-181710.KS,40900.0,0.0,54.05,41310.0,39173.75,38823.0,31912.25,-0.99,4.41,5.35,28.16,DN,UP,True,43700.0,35000.0,6.85,44150.0,False,False,False,C,9.0,NHN,STOCK,Communication Services,Gaming / Internet services,fallback_other
-195940.KQ,52100.0,0.0,62.96,52590.0,50846.25,51223.0,49289.75,-0.93,2.47,1.71,5.7,DN,UP,True,58600.0,46650.0,12.48,58600.0,False,False,True,C,9.0,HK이노엔,STOCK,Healthcare,Pharmaceuticals,fallback_other
-200710.KQ,55100.0,0.0,53.63,56050.0,52513.75,50614.0,33185.75,-1.69,4.92,8.86,66.04,DN,UP,True,62000.0,34600.0,12.52,62000.0,False,False,False,C,9.0,에이디테크놀로지,STOCK,Information Technology,Semiconductor design services,keyword_rule
-211270.KQ,17550.0,0.0,54.33,17217.0,16875.0,16782.8,14141.75,1.93,4.0,4.57,24.1,DN,UP,True,18900.0,14980.0,7.69,21650.0,False,False,True,C,9.0,AP위성,STOCK,Industrials,Satellite / Aerospace,fallback_other
-218410.KQ,96400.0,0.0,50.72,96650.0,88095.0,82682.0,44833.5,-0.26,9.43,16.59,115.02,UP,UP,True,108600.0,32700.0,12.66,108600.0,False,False,False,C,9.0,RFHIC,STOCK,Information Technology,Telecom equipment / RF components,fallback_other
-225190.KS,2190.0,0.0,63.06,2255.5,2089.32,2121.26,1774.01,-2.9,4.82,3.24,23.45,UP,UP,True,2545.0,1785.0,16.21,3155.0,False,False,False,C,9.0,LK삼양,STOCK,Consumer Discretionary,Optics / Camera components,fallback_other
-237690.KQ,150000.0,0.0,54.47,152960.0,149700.0,149808.0,118596.5,-1.94,0.2,0.13,26.48,UP,DN,True,171500.0,135100.0,14.33,172100.0,False,False,True,C,9.0,에스티팜,STOCK,Healthcare,Pharmaceuticals / CDMO,fallback_other
-272290.KQ,36000.0,0.0,64.58,35500.0,32860.0,33057.0,27609.75,1.41,9.56,8.9,30.39,DN,UP,True,37250.0,28200.0,3.47,44400.0,False,False,True,C,9.0,이녹스첨단소재,STOCK,Materials,Materials,keyword_rule
-278280.KQ,63900.0,0.0,52.85,66480.0,55911.25,54703.0,52454.75,-3.88,14.29,16.81,21.82,DN,UP,True,70700.0,40000.0,10.64,70700.0,False,False,False,C,9.0,천보,STOCK,Materials,Battery materials / Chemicals,keyword
-297090.KQ,8360.0,0.0,59.2,8632.0,8026.5,7746.8,6855.95,-3.15,4.15,7.92,21.94,UP,UP,True,9600.0,5540.0,14.83,9600.0,False,False,False,C,9.0,씨에스베어링,STOCK,Energy,Wind power components,fallback_other
-298020.KS,505000.0,0.0,53.69,523800.0,435975.0,422750.0,292085.0,-3.59,15.83,19.46,72.89,UP,UP,True,557000.0,290000.0,10.3,557000.0,False,False,False,C,9.0,효성티앤씨,STOCK,Materials,Textiles / Chemicals,fallback_other
-307950.KS,441000.0,0.0,61.63,448700.0,413925.0,418780.0,286734.5,-1.72,6.54,5.31,53.8,UP,UP,True,543000.0,357000.0,23.13,543000.0,False,False,True,C,9.0,현대오토에버,STOCK,Information Technology,Mobility software / IT services,fallback_other
-319400.KQ,32150.0,0.0,59.55,31100.0,29488.75,29888.0,17268.05,3.38,9.02,7.57,86.18,UP,UP,True,34450.0,23700.0,7.15,37700.0,False,False,False,C,9.0,현대무벡스,STOCK,Industrials,Logistics automation,fallback_other
-383310.KQ,32650.0,0.0,64.04,32820.0,31001.25,31806.0,28117.25,-0.52,5.32,2.65,16.12,UP,DN,True,41300.0,27700.0,26.49,41300.0,False,False,False,C,9.0,에코프로에이치엔,STOCK,Industrials,Environmental services,keyword_rule
-417500.KQ,5040.0,0.0,54.59,4747.5,4877.75,4737.8,3617.98,6.16,3.33,6.38,39.3,DN,UP,True,6160.0,4200.0,22.22,6160.0,False,False,False,C,9.0,제이아이테크,STOCK,Information Technology,Semiconductor materials,keyword_rule
-950160.KQ,103600.0,0.0,59.67,102980.0,102997.5,102702.0,69826.25,0.6,0.58,0.87,48.37,DN,DN,True,130700.0,89600.0,26.16,130700.0,False,False,False,C,9.0,코오롱티슈진,STOCK,Healthcare,Biotech,fallback_other
-001450.KS,30800.0,0.0,54.46,30690.0,30478.75,31007.0,29166.5,0.36,1.05,-0.67,5.6,UP,UP,True,32600.0,29450.0,5.84,44250.0,False,False,False,C,8.0,현대해상,STOCK,Financial Services,Insurance,keyword
-028050.KS,53000.0,0.0,52.91,53110.0,43110.0,41503.0,30733.25,-0.21,22.94,27.7,72.45,UP,UP,True,54500.0,30650.0,2.83,57800.0,False,False,False,C,8.0,삼성E&A,STOCK,Industrials,Engineering / Construction,fallback_other
-032820.KQ,21250.0,0.0,51.68,22300.0,22992.5,21712.8,9045.08,-4.71,-7.58,-2.13,134.93,DN,UP,True,25300.0,19300.0,19.06,30200.0,False,False,False,C,8.0,우리기술,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-048410.KQ,13740.0,0.0,53.21,14233.0,14350.5,14748.2,8260.75,-3.46,-4.25,-6.84,66.33,DN,DN,True,16450.0,12670.0,19.72,21500.0,False,False,False,C,8.0,현대바이오,STOCK,Healthcare,Biotech / Healthcare,keyword_rule
-099320.KQ,173000.0,0.0,51.98,176910.0,177795.0,177608.0,102111.5,-2.21,-2.7,-2.59,69.42,DN,DN,True,210000.0,149300.0,21.39,222000.0,False,False,False,C,8.0,쎄트렉아이,STOCK,Industrials,Satellite / Aerospace,fallback_other
-226950.KQ,167400.0,0.0,54.84,176650.0,178055.0,177380.0,121042.25,-5.24,-5.98,-5.63,38.3,DN,DN,True,217000.0,147500.0,29.63,217000.0,False,False,True,C,8.0,올릭스,STOCK,Healthcare,Biotech,fallback_other
-310210.KQ,283000.0,0.0,51.0,298900.0,306637.5,306700.0,211871.5,-5.32,-7.71,-7.73,33.57,DN,DN,True,371500.0,262500.0,31.27,375500.0,False,False,True,C,8.0,보로노이,STOCK,Healthcare,Biotech,fallback_other
-00088K.KS,50900.0,0.0,64.36,49920.0,47846.25,48604.0,41952.25,1.96,6.38,4.72,21.33,UP,UP,True,51300.0,41100.0,0.79,58800.0,False,False,True,C,7.0,한화3우B : Npay 증권,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-001230.KS,39229.18,0.0,68.97,39105.3,36400.55,35572.61,28611.32,0.32,7.77,10.28,37.11,UP,UP,True,41121.82,32037.16,4.82,41121.82,False,False,False,C,7.0,동국홀딩스,STOCK,Industrials,Holding company,keyword_rule
-003547.KS,23400.0,0.0,52.17,23160.0,23721.25,24133.0,21196.25,1.04,-1.35,-3.04,10.4,DN,DN,True,24100.0,21650.0,2.99,29750.0,False,False,False,C,7.0,대신증권2우B,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-003570.KS,55800.0,0.0,51.09,57060.0,52756.25,52974.0,54226.0,-2.21,5.77,5.33,2.9,UP,UP,False,61100.0,44700.0,9.5,62800.0,False,False,False,C,7.0,SNT다이내믹스,STOCK,Industrials,Defense / Automotive components,fallback_other
-005070.KS,64000.0,0.0,69.64,62710.0,54506.25,54434.0,48652.25,2.06,17.42,17.57,31.55,UP,UP,True,66400.0,46600.0,3.75,66400.0,False,False,False,C,7.0,코스모신소재,STOCK,Materials,Materials,keyword_rule
-007660.KS,151600.0,0.0,67.0,150120.0,123780.0,121602.0,102134.25,0.99,22.48,24.67,48.43,UP,UP,True,164400.0,96300.0,8.44,164400.0,False,False,False,C,7.0,이수페타시스,STOCK,Information Technology,PCB / electronic components,keyword
-009540.KS,452500.0,0.0,68.79,463050.0,409462.5,414140.0,408325.0,-2.28,10.51,9.26,10.82,UP,UP,True,474000.0,340500.0,4.75,486000.0,False,False,False,C,7.0,HD한국조선해양,STOCK,Industrials,Shipbuilding,keyword_rule
-009830.KS,48100.0,0.0,65.06,48540.0,44619.38,45551.5,34357.75,-0.91,7.8,5.59,40.0,UP,UP,True,56800.0,33600.0,18.09,59300.0,False,False,False,C,7.0,한화솔루션,STOCK,Materials,Chemicals / Solar materials,keyword_rule
-009835.KS,28000.0,0.0,67.39,27830.0,26312.5,26828.0,24172.5,0.61,6.41,4.37,15.83,UP,DN,True,35100.0,21550.0,25.36,35100.0,False,False,True,C,7.0,한화솔루션우,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-010140.KS,31850.0,0.0,69.65,32665.0,29006.25,28799.0,25168.7,-2.5,9.8,10.59,26.55,UP,UP,True,35350.0,24200.0,10.99,35350.0,False,False,False,C,7.0,삼성중공업,STOCK,Industrials,Heavy industry,fallback_other
-018670.KS,262000.0,0.0,61.93,262400.0,249900.0,247790.0,245562.5,-0.15,4.84,5.73,6.69,UP,UP,False,285000.0,235500.0,8.78,300000.0,False,False,True,C,7.0,SK가스,STOCK,Utilities,Gas / Utilities,keyword_rule
-031980.KQ,127600.0,0.0,62.53,121410.0,109327.5,106254.0,61888.5,5.1,16.71,20.09,106.18,UP,UP,True,129200.0,89600.0,1.25,139100.0,False,False,False,C,7.0,피에스케이홀딩스,STOCK,Industrials,Holding company,keyword_rule
-033500.KQ,28100.0,0.0,61.59,29105.0,26608.75,26933.0,27624.75,-3.45,5.6,4.33,1.72,UP,UP,False,32150.0,21650.0,14.41,32150.0,False,False,False,C,7.0,동성화인텍,STOCK,Materials,LNG insulation / Materials,keyword_rule
-033780.KS,175400.0,0.0,66.08,175680.0,163442.5,163578.0,147055.0,-0.16,7.32,7.23,19.28,UP,UP,True,181500.0,148000.0,3.48,181800.0,False,False,False,C,7.0,KT&G,STOCK,Consumer Staples,Tobacco,keyword
-039490.KS,484500.0,0.0,51.11,441850.0,438775.0,439490.0,320192.0,9.65,10.42,10.24,51.32,DN,UP,True,489000.0,366500.0,0.93,517000.0,False,False,False,C,7.0,키움증권,STOCK,Financial Services,Securities,keyword_rule
-042660.KS,130200.0,0.0,61.6,133020.0,128155.0,129122.0,120160.25,-2.12,1.6,0.83,8.36,UP,UP,False,154800.0,115100.0,18.89,154800.0,False,False,True,C,7.0,한화오션,STOCK,Industrials,Shipbuilding / Defense,keyword_rule
-056190.KQ,32100.0,0.0,69.18,31995.0,29235.0,29825.0,26047.25,0.33,9.8,7.63,23.24,UP,UP,True,36500.0,26000.0,13.71,36500.0,False,False,True,C,7.0,에스에프에이,STOCK,Industrials,Factory automation equipment,keyword_rule
-060280.KQ,15970.0,0.0,60.71,16368.0,15598.75,15743.6,12591.6,-2.43,2.38,1.44,26.83,UP,UP,False,19400.0,14220.0,21.48,21100.0,False,False,False,C,7.0,큐렉소,STOCK,Healthcare,Medical robots,keyword_rule
-064400.KS,67000.0,0.0,64.88,66870.0,63860.0,64620.0,65920.0,0.19,4.92,3.68,1.64,DN,UP,False,78300.0,55400.0,16.87,78300.0,False,False,True,C,7.0,LG씨엔에스,STOCK,Information Technology,IT services,keyword_rule
-071050.KS,291500.0,0.0,69.32,259950.0,236787.5,238790.0,182606.0,12.14,23.11,22.07,59.63,UP,UP,True,300500.0,200500.0,3.09,300500.0,False,False,False,C,7.0,한국금융지주,STOCK,Financial Services,Financial services,keyword_rule
-078600.KQ,158600.0,0.0,67.07,159580.0,130860.0,124482.0,85450.0,-0.61,21.2,27.41,85.61,UP,UP,True,183300.0,76100.0,15.57,183300.0,False,False,False,C,7.0,대주전자재료,STOCK,Information Technology,Electronics,keyword_rule
-083650.KQ,98800.0,0.0,66.1,98700.0,98152.5,96274.0,62980.25,0.1,0.66,2.62,56.87,UP,UP,True,103800.0,87500.0,5.06,114200.0,False,False,False,C,7.0,비에이치아이,STOCK,Industrials,Power plant equipment,keyword_rule
-084850.KQ,18480.0,0.0,52.69,17910.0,14146.25,13307.4,12009.15,3.18,30.64,38.87,53.88,DN,UP,False,19620.0,8620.0,6.17,19620.0,False,False,False,C,7.0,아이티엠반도체,STOCK,Information Technology,Semiconductors / Electronics,keyword_rule
-086390.KQ,19160.0,0.0,69.04,19022.0,17976.25,18169.0,16056.05,0.73,6.59,5.45,19.33,UP,DN,True,23700.0,14740.0,23.7,23700.0,False,False,True,C,7.0,유니테스트,STOCK,Information Technology,Semiconductor equipment,keyword_rule
-088350.KS,5250.0,0.0,67.45,4967.0,4829.12,4858.9,3716.78,5.7,8.72,8.05,41.25,UP,UP,True,5470.0,4375.0,4.19,7560.0,False,False,False,C,7.0,한화생명,STOCK,Financial Services,Life insurance,keyword_rule
-088390.KQ,13620.0,0.0,65.36,13985.0,12551.0,12618.2,11122.65,-2.61,8.52,7.94,22.45,UP,UP,True,14950.0,11100.0,9.77,17300.0,False,False,True,C,7.0,이녹스,STOCK,Materials,Electronic materials / Holding,keyword_rule
-089030.KQ,62100.0,0.0,65.02,59360.0,56016.25,55531.0,47795.25,4.62,10.86,11.83,29.93,UP,DN,True,74000.0,44850.0,19.16,74000.0,False,False,False,C,7.0,테크윙,STOCK,Information Technology,Semiconductor equipment,keyword_rule
-093370.KS,14130.0,0.0,67.52,13725.0,9894.0,9433.2,7604.92,2.95,42.81,49.79,85.8,UP,UP,True,15420.0,6450.0,9.13,15420.0,False,False,False,C,7.0,후성,STOCK,Materials,Specialty chemicals,keyword_rule
-095700.KQ,5120.0,0.0,51.34,5628.0,5159.75,5050.4,5060.73,-9.03,-0.77,1.38,1.17,DN,UP,False,7490.0,4365.0,46.29,7490.0,False,False,False,C,7.0,제넥신,STOCK,Healthcare,Biotech,keyword_rule
-102710.KQ,57600.0,0.0,66.49,59500.0,54335.0,54982.0,49096.25,-3.19,6.01,4.76,17.32,UP,UP,True,62000.0,44700.0,7.64,65000.0,False,False,False,C,7.0,이엔에프테크놀로지,STOCK,Materials,Semiconductor chemicals,keyword_rule
-117730.KQ,21300.0,0.0,67.12,21099.0,19504.75,20064.0,17119.8,0.95,9.2,6.16,24.42,UP,UP,True,30900.0,16780.0,45.07,26250.0,False,False,True,C,7.0,티로보틱스,STOCK,Industrials,Robotics,keyword_rule
-121600.KQ,82700.0,0.0,65.71,85180.0,70590.0,69834.0,59868.25,-2.91,17.16,18.42,38.14,UP,UP,True,95300.0,58500.0,15.24,95300.0,False,False,False,C,7.0,나노신소재,STOCK,Materials,Materials,keyword_rule
-137400.KQ,57900.0,0.0,67.87,58060.0,51356.25,51222.0,42915.0,-0.28,12.74,13.04,34.92,UP,UP,True,62000.0,45350.0,7.08,62000.0,False,False,False,C,7.0,피엔티,STOCK,Industrials,Battery equipment,keyword_rule
-183300.KQ,147400.0,0.0,67.21,147630.0,127027.5,122834.0,100020.0,-0.16,16.04,20.0,47.37,DN,UP,True,162200.0,98000.0,10.04,162200.0,False,False,False,C,7.0,코미코,STOCK,Information Technology,Semiconductor cleaning / coating,keyword_rule
-190510.KQ,19000.0,0.0,59.51,19127.0,18185.25,18744.6,18304.6,-0.66,4.48,1.36,3.8,UP,UP,False,26500.0,15500.0,39.47,26350.0,False,False,False,C,7.0,나무가,STOCK,Information Technology,Camera modules,keyword_rule
-233740.KS,17195.0,0.0,69.72,17099.0,16127.12,16506.1,12631.12,0.56,6.62,4.17,36.13,UP,DN,True,21750.0,13100.0,26.49,21750.0,False,False,True,C,7.0,KODEX 코스닥150레버리지,ETF,ETF,KODEX 코스닥150레버리지,etf_rule
-267250.KS,285500.0,0.0,66.21,285400.0,263387.5,267590.0,204654.5,0.04,8.4,6.69,39.5,UP,UP,True,317000.0,233500.0,11.03,333000.0,False,False,True,C,7.0,HD현대,STOCK,Holding Company,Holding company,keyword_rule
-357780.KS,458500.0,0.0,68.78,463200.0,426837.5,427720.0,310658.5,-1.01,7.42,7.2,47.59,UP,UP,True,522000.0,360000.0,13.85,522000.0,False,False,False,C,7.0,솔브레인,STOCK,Materials,Semiconductor materials,keyword_rule
-455900.KQ,29150.0,0.0,63.39,29545.0,27818.75,28509.0,28291.5,-1.34,4.79,2.25,3.03,UP,UP,False,43950.0,24800.0,50.77,37300.0,False,False,False,C,7.0,엔젤로보틱스,STOCK,Healthcare,Wearable robots,keyword_rule
-489790.KS,89700.0,0.0,65.76,85110.0,80135.0,79606.0,59283.25,5.39,11.94,12.68,51.31,UP,UP,True,97900.0,70000.0,9.14,97900.0,False,False,False,C,7.0,한화비전,STOCK,Information Technology,Video security equipment,keyword_rule
-000215.KS,28750.0,0.0,46.91,29980.0,27791.25,27221.0,25124.0,-4.1,3.45,5.62,14.43,UP,UP,True,29850.0,21550.0,3.83,32550.0,False,False,False,C,6.0,DL우,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-000270.KS,154600.0,0.0,57.94,155730.0,156987.5,161192.0,129205.5,-0.73,-1.52,-4.09,19.65,DN,DN,False,164800.0,143800.0,6.6,212500.0,False,False,False,C,6.0,기아,STOCK,Consumer Discretionary,Automobile,keyword_rule
-000720.KS,163700.0,0.0,35.43,168410.0,164205.0,160972.0,94768.5,-2.8,-0.31,1.69,72.74,DN,UP,True,198400.0,139600.0,21.2,198400.0,False,False,False,C,6.0,현대건설,STOCK,Industrials,Construction,keyword_rule
-000725.KS,72800.0,0.0,35.57,76050.0,73252.5,72676.0,60779.5,-4.27,-0.62,0.17,19.78,DN,UP,True,85000.0,62200.0,16.76,85000.0,False,False,True,C,6.0,현대건설우,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-002150.KS,6760.0,0.0,28.07,7036.0,6728.0,6672.4,6460.8,-3.92,0.48,1.31,4.63,DN,UP,True,7650.0,6120.0,13.17,7650.0,False,False,True,C,6.0,도화엔지니어링,STOCK,Industrials,Engineering,fallback_other
-002840.KS,143300.0,0.0,61.63,145360.0,138860.0,139798.0,149170.0,-1.42,3.2,2.51,-3.94,UP,UP,False,156000.0,130000.0,8.86,156000.0,False,False,True,C,6.0,미원상사,STOCK,Materials,Specialty chemicals,fallback_other
-003230.KS,1294000.0,0.0,55.88,1323900.0,1226800.0,1211760.0,1316930.0,-2.26,5.48,6.79,-1.74,DN,UP,False,1409000.0,981000.0,8.89,1409000.0,False,False,False,C,6.0,삼양식품,STOCK,Consumer Staples,Food,keyword_rule
-003850.KS,9760.0,0.0,43.1,9950.0,9617.25,9642.2,8998.85,-1.91,1.48,1.22,8.46,DN,UP,True,10420.0,8720.0,6.76,10800.0,False,False,True,C,6.0,보령,STOCK,Healthcare,Pharmaceuticals,keyword_rule
-005385.KS,252500.0,0.0,57.66,253850.0,252062.5,258150.0,212154.5,-0.53,0.17,-2.19,19.02,DN,DN,False,329000.0,229000.0,30.3,329000.0,False,False,False,C,6.0,현대차우,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-005387.KS,250500.0,0.0,58.87,252600.0,251362.5,257960.0,214954.5,-0.83,-0.34,-2.89,16.54,DN,DN,False,330000.0,231000.0,31.74,330000.0,False,False,False,C,6.0,현대차2우B,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-005389.KS,242500.0,0.0,59.38,244450.0,241787.5,247260.0,208057.0,-0.8,0.29,-1.93,16.55,DN,DN,False,310500.0,222500.0,28.04,310500.0,False,False,False,C,6.0,현대차3우B,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-007070.KS,22450.0,0.0,47.27,23320.0,21752.0,21590.6,19680.35,-3.73,3.21,3.98,14.07,DN,UP,True,24100.0,17800.0,7.35,24200.0,False,False,False,C,6.0,GS리테일,STOCK,Consumer Staples,Retail / Convenience stores,keyword_rule
-011210.KS,81700.0,0.0,55.1,84440.0,82107.5,83674.0,67373.75,-3.24,-0.5,-2.36,21.26,DN,DN,False,112600.0,74300.0,37.82,112600.0,False,False,False,C,6.0,현대위아,STOCK,Consumer Discretionary,Auto parts / Machinery,keyword_rule
-012450.KS,1433000.0,0.0,38.86,1427900.0,1422925.0,1400920.0,1096820.0,0.36,0.71,2.29,30.65,DN,UP,True,1570000.0,1217000.0,9.56,1655000.0,False,False,False,C,6.0,한화에어로스페이스,STOCK,Industrials,Defense / Aerospace,keyword
-017960.KS,47750.0,0.0,40.17,50530.0,47050.0,45795.0,35385.75,-5.5,1.49,4.27,34.94,DN,UP,True,50800.0,37550.0,6.39,54100.0,False,False,False,C,6.0,한국카본,STOCK,Materials,Composite materials / LNG materials,keyword_rule
-021240.KS,83200.0,0.0,54.5,84270.0,77605.0,78056.0,89811.0,-1.27,7.21,6.59,-7.36,UP,UP,False,90500.0,68800.0,8.77,90500.0,False,False,False,C,6.0,코웨이,STOCK,Consumer Discretionary,Home appliances / Rental,keyword_rule
-023160.KQ,44700.0,0.0,48.76,45780.0,39361.25,37010.0,27889.45,-2.36,13.56,20.78,60.28,UP,UP,True,51300.0,23150.0,14.77,51300.0,False,False,False,C,6.0,태광,STOCK,Industrials,Industrial fittings,keyword_rule
-028300.KQ,61700.0,0.0,47.62,61430.0,55641.25,54742.0,48844.5,0.44,10.89,12.71,26.32,DN,UP,True,68500.0,45550.0,11.02,68500.0,False,False,False,C,6.0,HLB,STOCK,Healthcare,Biotech,keyword_rule
-041190.KQ,6980.0,0.0,59.73,6774.0,6623.75,6772.8,8550.85,3.04,5.38,3.06,-18.37,DN,DN,False,8600.0,6050.0,23.21,8600.0,False,False,False,C,6.0,우리기술투자,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-053690.KS,27050.0,0.0,22.22,28215.0,27456.75,25822.6,21111.05,-4.13,-1.48,4.75,28.13,DN,UP,True,34750.0,16300.0,28.47,34750.0,False,False,False,C,6.0,한미글로벌,STOCK,Industrials,Construction management,keyword_rule
-055550.KS,97300.0,0.0,44.05,99310.0,95307.5,95400.0,80337.5,-2.02,2.09,1.99,21.11,DN,UP,True,101400.0,87300.0,4.21,107200.0,False,False,True,C,6.0,신한지주,STOCK,Holding Company,Holding company,keyword_rule
-086280.KS,220000.0,0.0,50.36,229650.0,224012.5,231320.0,196259.5,-4.2,-1.79,-4.89,12.1,DN,DN,False,295000.0,204000.0,34.09,295000.0,False,False,False,C,6.0,현대글로비스,STOCK,Industrials,Logistics,keyword_rule
-086520.KQ,162800.0,0.0,68.02,159110.0,151492.5,154714.0,100354.5,2.32,7.46,5.23,62.22,UP,DN,True,166700.0,138500.0,2.4,190000.0,False,False,True,C,6.0,에코프로,STOCK,Materials,Battery materials / Holding,keyword_rule
-090430.KS,130000.0,0.0,50.84,137590.0,134535.0,136292.0,129250.5,-5.52,-3.37,-4.62,0.58,UP,UP,False,145200.0,127100.0,11.69,169000.0,False,False,False,C,6.0,아모레퍼시픽,STOCK,Consumer Staples,Cosmetics,keyword_rule
-090710.KQ,12460.0,0.0,65.93,12335.0,12185.25,12464.6,7622.92,1.01,2.25,-0.04,63.45,UP,DN,True,15450.0,10180.0,24.0,15800.0,False,False,False,C,6.0,휴림로봇,STOCK,Industrials,Robotics,fallback_other
-093050.KS,24700.0,0.0,43.96,25380.0,23993.75,23555.0,19879.35,-2.68,2.94,4.86,24.25,DN,UP,True,26450.0,19750.0,7.09,26450.0,False,False,False,C,6.0,LF,STOCK,Consumer Discretionary,Apparel / Fashion,keyword_rule
-097955.KS,136700.0,0.0,51.08,138040.0,133617.5,134034.0,138630.0,-0.97,2.31,1.99,-1.39,DN,UP,False,144200.0,128000.0,5.49,144200.0,False,False,True,C,6.0,CJ제일제당 우,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-100590.KS,7410.0,0.0,23.33,6725.0,6293.5,5749.3,3888.7,10.19,17.74,28.89,90.55,DN,UP,True,12750.0,3100.0,72.06,12750.0,False,False,False,C,6.0,머큐리,STOCK,Information Technology,Telecom equipment,keyword_rule
-101490.KQ,93800.0,0.0,33.09,101400.0,91845.0,91566.0,65295.25,-7.5,2.13,2.44,43.66,DN,UP,True,108400.0,75400.0,15.57,108400.0,False,False,True,C,6.0,에스앤에스텍,STOCK,Information Technology,Semiconductor materials / Blank mask,keyword_rule
-112040.KQ,23700.0,0.0,60.24,23920.0,22150.0,22684.0,26948.25,-0.92,7.0,4.48,-12.05,UP,UP,False,26550.0,19320.0,12.03,30300.0,False,False,False,C,6.0,위메이드,STOCK,Communication Services,Gaming,keyword_rule
-142280.KQ,3870.0,0.0,57.67,3898.5,3736.75,3728.4,3948.2,-0.73,3.57,3.8,-1.98,DN,UP,False,4500.0,3200.0,16.28,4500.0,False,False,True,C,6.0,녹십자엠에스,STOCK,Healthcare,Diagnostics,keyword_rule
-143240.KQ,16620.0,0.0,42.93,16990.0,16265.25,15798.6,14346.9,-2.18,2.18,5.2,15.84,DN,UP,True,17675.0,15490.0,6.35,18400.0,False,False,False,C,6.0,사람인,STOCK,Communication Services,HR platform,keyword_rule
-214370.KQ,101000.0,0.0,56.03,103830.0,102535.0,108226.0,78520.25,-2.73,-1.5,-6.68,28.63,UP,DN,False,153800.0,75200.0,52.28,153800.0,False,False,False,C,6.0,케어젠,STOCK,Healthcare,Biotech / Cosmetics materials,keyword_rule
-230360.KQ,16000.0,0.0,50.0,16002.0,15960.5,15938.4,13594.15,-0.01,0.25,0.39,17.7,DN,UP,True,16080.0,16000.0,0.5,16200.0,False,True,True,C,6.0,에코마케팅,STOCK,Communication Services,Advertising / Marketing,keyword_rule
-253840.KQ,5420.0,0.0,59.6,5795.0,5145.0,5166.9,6328.78,-6.47,5.34,4.9,-14.36,DN,UP,False,8170.0,4310.0,50.74,8170.0,False,False,False,C,6.0,수젠텍,STOCK,Healthcare,Diagnostics,keyword_rule
-273060.KQ,1063.0,0.0,57.08,1086.5,1060.95,1081.16,1056.54,-2.16,0.19,-1.68,0.61,DN,DN,False,1280.0,962.0,20.41,1409.0,False,False,False,C,6.0,와이즈버즈,STOCK,Communication Services,Advertising / Marketing,keyword_rule
-282330.KS,129100.0,0.0,47.8,133130.0,130057.5,128916.0,117109.0,-3.03,-0.74,0.14,10.24,DN,UP,True,147800.0,125300.0,14.48,147800.0,False,False,True,C,6.0,BGF리테일,STOCK,Consumer Staples,Retail / Convenience stores,keyword_rule
-285130.KS,58200.0,0.0,54.09,58820.0,56680.0,57888.0,64490.0,-1.05,2.68,0.54,-9.75,UP,UP,False,72700.0,50700.0,24.91,72700.0,False,False,False,C,6.0,SK케미칼,STOCK,Materials,Chemicals,keyword_rule
-302440.KS,44100.0,0.0,59.13,43780.0,42968.75,43708.0,48163.75,0.73,2.63,0.9,-8.44,DN,UP,False,47400.0,40100.0,7.48,51200.0,False,False,False,C,6.0,SK바이오사이언스,STOCK,Healthcare,Biotech / Healthcare,keyword_rule
-348340.KQ,65100.0,0.0,51.25,67080.0,65245.0,67398.0,44193.5,-2.95,-0.22,-3.41,47.31,DN,DN,False,71100.0,55000.0,9.22,104500.0,False,False,False,C,6.0,뉴로메카,STOCK,Industrials,Robotics,keyword_rule
-375500.KS,93100.0,0.0,41.6,97790.0,78520.0,72484.0,50601.25,-4.8,18.57,28.44,83.99,DN,UP,True,106600.0,41000.0,14.5,106600.0,False,False,False,C,6.0,DL이앤씨,STOCK,Industrials,Construction,keyword_rule
-451760.KQ,21900.0,0.0,45.68,21790.0,19684.5,19160.6,12921.45,0.5,11.26,14.3,69.49,UP,UP,True,26350.0,13800.0,20.32,26350.0,False,False,False,C,6.0,컨텍,STOCK,Industrials,Satellite / Ground station,keyword_rule
-475150.KS,54700.0,0.0,44.39,55220.0,52771.25,47732.0,28223.35,-0.94,3.65,14.6,93.81,UP,UP,True,69300.0,52000.0,26.69,69300.0,False,False,False,C,6.0,SK이터닉스,STOCK,Energy,Renewable energy,keyword_rule
-000020.KS,5940.0,0.0,52.73,6016.0,5971.25,6028.8,6258.85,-1.26,-0.52,-1.47,-5.09,DN,DN,False,6150.0,5740.0,3.54,6730.0,False,False,False,C,5.0,동화약품,STOCK,Healthcare,Pharmaceuticals,fallback_other
-000210.KS,65500.0,0.0,50.0,68120.0,60811.25,58118.0,45173.75,-3.85,7.71,12.7,45.0,UP,UP,True,53300.0,40050.0,-18.63,77700.0,False,False,False,C,5.0,DL,STOCK,Holding Company,Holding company,keyword_rule
-001045.KS,88600.0,0.0,64.03,89770.0,87655.0,88876.0,90911.0,-1.3,1.08,-0.31,-2.54,UP,UP,False,104400.0,80500.0,17.83,104400.0,False,False,False,C,5.0,CJ우,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-001800.KS,24200.0,0.0,47.15,24830.0,24331.25,24221.0,21713.2,-2.54,-0.54,-0.09,11.45,UP,UP,True,25700.0,22600.0,6.2,26600.0,False,False,True,C,5.0,오리온홀딩스,STOCK,Industrials,Holding company,keyword_rule
-002240.KS,25000.0,0.0,60.59,25150.0,22678.75,22605.0,19916.38,-0.6,10.24,10.6,25.52,UP,UP,True,24950.0,20450.0,-0.2,28300.0,False,False,False,C,5.0,고려제강,STOCK,Materials,Steel wire,keyword_rule
-002790.KS,27400.0,0.0,50.56,28600.0,27798.75,28193.0,28185.5,-4.2,-1.43,-2.81,-2.79,UP,UP,False,29450.0,26550.0,7.48,35950.0,False,False,False,C,5.0,아모레퍼시픽홀딩스,STOCK,Industrials,Holding company,keyword_rule
-002960.KS,482500.0,0.0,37.75,496600.0,497687.5,497860.0,456805.0,-2.84,-3.05,-3.09,5.62,DN,DN,True,604000.0,460000.0,25.18,604000.0,False,False,False,C,5.0,한국쉘석유,STOCK,Energy,Oil / Refining,fallback_other
-003000.KS,6170.0,0.0,20.35,6885.0,7225.12,6820.9,4497.3,-10.38,-14.6,-9.54,37.19,DN,UP,True,9890.0,3600.0,60.29,9890.0,False,False,False,C,5.0,부광약품,STOCK,Healthcare,Pharmaceuticals,fallback_other
-003240.KS,1162000.0,0.0,34.39,1207200.0,1182050.0,1202260.0,959095.0,-3.74,-1.7,-3.35,21.16,DN,DN,True,1320000.0,1067000.0,13.6,1634000.0,False,False,False,C,5.0,태광산업,STOCK,Industrials,Industrial products,keyword_rule
-003490.KS,24550.0,0.0,48.1,24805.0,24596.25,24835.0,23653.25,-1.03,-0.19,-1.15,3.79,DN,UP,True,25775.0,22800.0,4.99,29750.0,False,False,False,C,5.0,대한항공,STOCK,Industrials,Aerospace / Airline,keyword_rule
-003545.KS,24400.0,0.0,47.46,24210.0,24875.0,25269.0,22244.7,0.78,-1.91,-3.44,9.69,DN,DN,True,25225.0,22800.0,3.38,30550.0,False,False,False,C,5.0,대신증권우,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-004150.KS,3400.0,0.0,42.86,3360.5,3335.0,3349.0,3227.88,1.18,1.95,1.52,5.33,DN,UP,True,3495.0,3090.0,2.79,3845.0,False,False,True,C,5.0,한솔홀딩스,STOCK,Industrials,Holding company,keyword_rule
-004710.KS,7900.0,0.0,55.43,7895.0,6037.62,6013.3,5955.58,0.06,30.85,31.38,32.65,UP,UP,True,6790.0,4480.0,-14.05,8940.0,False,False,False,C,5.0,한솔테크닉스,STOCK,Information Technology,Electronics manufacturing,keyword_rule
-004990.KS,29350.0,0.0,57.14,29370.0,29400.0,30341.0,29668.0,-0.07,-0.17,-3.27,-1.07,UP,DN,False,39600.0,26850.0,34.92,39600.0,False,False,False,C,5.0,롯데지주,STOCK,Holding Company,Holding company,keyword_rule
-005830.KS,162000.0,0.0,37.97,170470.0,172750.0,176260.0,144760.0,-4.97,-6.22,-8.09,11.91,DN,DN,True,177400.0,158700.0,9.51,214000.0,False,False,False,C,5.0,DB손해보험,STOCK,Financial Services,Insurance,keyword_rule
-005870.KS,8790.0,0.0,48.68,9704.0,8978.5,8900.6,8488.3,-9.42,-2.1,-1.24,3.55,DN,UP,True,11850.0,7900.0,34.81,11850.0,False,False,False,C,5.0,휴니드,STOCK,Industrials,Defense electronics,keyword_rule
-006650.KS,170700.0,0.0,63.89,166440.0,146580.0,149408.0,134436.0,2.56,16.46,14.25,26.97,UP,UP,True,170000.0,121500.0,-0.41,202500.0,False,False,False,C,5.0,대한유화,STOCK,Materials,Petrochemicals,keyword_rule
-007810.KS,94900.0,0.0,57.51,94270.0,76985.0,72618.0,39900.15,0.67,23.27,30.68,137.84,UP,UP,True,87400.0,44800.0,-7.9,101800.0,False,False,False,C,5.0,코리아써키트,STOCK,Information Technology,PCB,keyword_rule
-009240.KS,39950.0,0.0,54.09,40815.0,41083.75,42156.0,44491.75,-2.12,-2.76,-5.23,-10.21,UP,UP,False,52500.0,38150.0,31.41,52500.0,False,False,False,C,5.0,한샘,STOCK,Consumer Discretionary,Furniture / Interior,keyword_rule
-011170.KS,100800.0,0.0,60.63,99730.0,86862.5,86082.0,74772.0,1.07,16.05,17.1,34.81,UP,UP,True,100400.0,68800.0,-0.4,119500.0,False,False,False,C,5.0,롯데케미칼,STOCK,Materials,Chemicals,keyword_rule
-011560.KQ,21950.0,0.0,57.53,21765.0,19502.75,19088.0,14997.9,0.85,12.55,14.99,46.35,UP,UP,True,19850.0,17120.0,-9.57,24000.0,False,False,False,C,5.0,세보엠이씨,STOCK,Industrials,Mechanical construction,keyword_rule
-015760.KS,45050.0,0.0,55.38,45290.0,45105.0,47081.0,45955.25,-0.53,-0.12,-4.31,-1.97,DN,DN,False,47650.0,39650.0,5.77,65300.0,False,False,False,C,5.0,한국전력,STOCK,Industrials,Power equipment,fallback_other
-035420.KS,208000.0,0.0,56.84,214200.0,211775.0,217090.0,238908.75,-2.89,-1.78,-4.19,-12.94,DN,DN,False,267000.0,194200.0,28.37,267000.0,False,False,False,C,5.0,NAVER,STOCK,Communication Services,Internet platform,keyword_rule
-035900.KQ,60700.0,0.0,53.68,62860.0,62852.5,63532.0,70581.0,-3.44,-3.42,-4.46,-14.0,DN,DN,False,76700.0,58300.0,26.36,72900.0,False,False,False,C,5.0,JYP Ent.,STOCK,Communication Services,Entertainment,keyword_rule
-038500.KQ,15630.0,0.0,38.18,16246.0,16428.75,16211.8,7452.38,-3.79,-4.86,-3.59,109.73,UP,UP,True,19690.0,14050.0,25.98,23500.0,False,False,False,C,5.0,삼표시멘트,STOCK,Materials,Cement,fallback_other
-039130.KQ,41800.0,0.0,60.27,42315.0,41621.25,42583.0,48038.75,-1.22,0.43,-1.84,-12.99,DN,UP,False,43450.0,39800.0,3.95,51500.0,False,False,False,C,5.0,하나투어,STOCK,Consumer Discretionary,Travel agency,keyword_rule
-041510.KQ,92200.0,0.0,58.14,94270.0,92760.0,95862.0,116211.0,-2.2,-0.6,-3.82,-20.66,UP,DN,False,124300.0,82000.0,34.82,124300.0,False,False,False,C,5.0,에스엠,STOCK,Communication Services,Entertainment,keyword_rule
-047810.KS,176600.0,0.0,33.72,175380.0,183227.5,182774.0,130884.0,0.7,-3.62,-3.38,34.93,DN,DN,True,205500.0,164200.0,16.36,215500.0,False,False,True,C,5.0,한국항공우주,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-065350.KQ,56700.0,0.0,50.82,59060.0,59230.0,60712.0,61286.0,-4.0,-4.27,-6.61,-7.48,DN,DN,False,64200.0,52900.0,13.23,77500.0,False,False,False,C,5.0,신성델타테크,STOCK,Industrials,Electronics / Components,keyword_rule
-069260.KS,18020.0,0.0,54.3,18327.0,18201.0,18324.0,18327.2,-1.68,-0.99,-1.66,-1.68,UP,UP,False,20000.0,17150.0,10.99,21550.0,False,False,False,C,5.0,TKG휴켐스,STOCK,Materials,Chemicals,keyword_rule
-078130.KQ,436.0,0.0,66.99,436.7,348.88,341.36,423.99,-0.16,24.97,27.72,2.83,UP,UP,False,597.0,261.0,36.93,597.0,False,False,True,C,5.0,국일제지,STOCK,Materials,Paper,fallback_other
-081580.KQ,3070.0,0.0,40.11,3316.5,3143.5,3117.1,2691.48,-7.43,-2.34,-1.51,14.06,DN,UP,True,3695.0,2755.0,20.36,3695.0,False,False,True,C,5.0,성우전자,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-086900.KQ,102500.0,0.0,53.67,106380.0,106307.5,110144.0,123050.0,-3.65,-3.58,-6.94,-16.7,DN,DN,False,141100.0,96400.0,37.66,135500.0,False,False,False,C,5.0,메디톡스,STOCK,Healthcare,Medical / Biotech,keyword_rule
-087010.KQ,269500.0,0.0,55.62,266000.0,286212.5,282640.0,281631.0,1.32,-5.84,-4.65,-4.31,UP,DN,False,359000.0,248500.0,33.21,359000.0,False,False,False,C,5.0,펩트론,STOCK,Healthcare,Biotech,keyword_rule
-087010.KS,267500.0,0.0,54.55,265200.0,286675.0,282820.0,280747.5,0.87,-6.69,-5.42,-4.72,UP,UP,False,359000.0,248500.0,34.21,359000.0,False,False,False,C,5.0,펩트론,STOCK,Healthcare,Biotech,keyword_rule
-089590.KS,5180.0,0.0,50.0,5359.0,5228.75,5345.1,5884.38,-3.34,-0.93,-3.09,-11.97,DN,UP,False,5640.0,4865.0,8.88,6790.0,False,False,False,C,5.0,제주항공,STOCK,Industrials,Aerospace / Airline,keyword_rule
-094850.KQ,5310.0,0.0,53.91,5580.0,5309.88,5349.2,6142.15,-4.84,0.0,-0.73,-13.55,UP,UP,False,5910.0,4945.0,11.3,6700.0,False,False,False,C,5.0,참좋은여행,STOCK,Consumer Discretionary,Travel agency,keyword_rule
-096240.KQ,10460.0,0.0,51.05,10789.0,10908.25,10992.0,12294.4,-3.05,-4.11,-4.84,-14.92,UP,DN,False,11940.0,10250.0,14.15,12210.0,False,False,False,C,5.0,크레버스,STOCK,Consumer Discretionary,Education,keyword_rule
-108320.KS,61600.0,0.0,68.97,61030.0,53621.25,53881.0,54406.5,0.93,14.88,14.33,13.22,UP,UP,False,65600.0,48250.0,6.49,67300.0,False,False,False,C,5.0,LX세미콘,STOCK,Information Technology,Semiconductors,keyword_rule
-119610.KQ,20900.0,0.0,56.98,21430.0,19855.75,19447.4,18194.7,-2.47,5.26,7.47,14.87,UP,UP,True,19390.0,16000.0,-7.22,23100.0,False,False,False,C,5.0,인터로조,STOCK,Healthcare,Medical devices / Contact lens,keyword_rule
-120110.KS,95600.0,0.0,57.23,92720.0,82142.5,78250.0,51246.25,3.11,16.38,22.17,86.55,UP,UP,True,48200.0,54500.0,-49.58,104900.0,False,False,False,C,5.0,코오롱인더,STOCK,Materials,Chemicals / Industrial materials,keyword_rule
-145020.KQ,255000.0,0.0,51.3,261750.0,255237.5,255950.0,271432.5,-2.58,-0.09,-0.37,-6.05,DN,FLAT,False,276500.0,236500.0,8.43,291000.0,False,False,True,C,5.0,휴젤,STOCK,Healthcare,Biotech / Aesthetics,keyword_rule
-160190.KQ,42800.0,0.0,61.61,43200.0,42896.25,46881.0,49447.5,-0.93,-0.22,-8.71,-13.44,UP,DN,False,72900.0,32250.0,70.33,75800.0,False,False,False,C,5.0,하이젠알앤엠,STOCK,Industrials,Motors / Robotics components,keyword_rule
-187660.KQ,9850.0,0.0,28.43,11631.0,13599.75,13642.2,5340.24,-15.31,-27.57,-27.8,84.45,DN,DN,True,18440.0,9870.0,87.21,21500.0,False,False,False,C,5.0,페니트리움바이오,STOCK,Healthcare,Biotech / Healthcare,keyword_rule
-196170.KQ,363500.0,0.0,55.28,369550.0,363287.5,367690.0,437920.0,-1.64,0.06,-1.14,-16.99,DN,DN,False,399500.0,329000.0,9.9,419000.0,False,False,True,C,5.0,알테오젠,STOCK,Healthcare,Biotech,keyword_rule
-205470.KQ,4005.0,0.0,58.69,3866.0,3928.62,4149.7,5807.5,3.6,1.94,-3.49,-31.04,UP,DN,False,4570.0,3315.0,14.11,5325.0,False,False,False,C,5.0,휴마시스,STOCK,Healthcare,Diagnostics,keyword_rule
-214150.KQ,55100.0,0.0,52.29,57410.0,54557.5,55285.0,55942.75,-4.02,0.99,-0.33,-1.51,DN,UP,False,77600.0,50200.0,40.83,76700.0,False,False,False,C,5.0,클래시스,STOCK,Healthcare,Medical aesthetics equipment,keyword_rule
-215200.KQ,44850.0,0.0,50.6,45995.0,45925.0,46068.0,45378.5,-2.49,-2.34,-2.64,-1.16,UP,UP,False,49950.0,43750.0,11.37,50800.0,False,False,False,C,5.0,메가스터디교육,STOCK,Utilities,Gas / Utilities,keyword_rule
-225190.KQ,2100.0,0.0,48.03,2246.5,2091.32,2115.18,1776.01,-6.52,0.41,-0.72,18.24,DN,UP,True,2545.0,1785.0,21.19,3155.0,False,False,False,C,5.0,LK삼양,STOCK,Consumer Discretionary,Optics / Camera components,exact
-240810.KQ,129000.0,0.0,58.62,120430.0,120157.5,120590.0,74695.5,7.12,7.36,6.97,72.7,UP,DN,True,126300.0,107800.0,-2.09,143000.0,False,False,False,C,5.0,원익IPS,STOCK,Information Technology,Semiconductor equipment,keyword_rule
-241560.KS,72600.0,0.0,61.59,74060.0,65732.5,64908.0,59639.5,-1.97,10.45,11.85,21.73,UP,UP,True,68400.0,56100.0,-5.79,79700.0,False,False,False,C,5.0,두산밥캣,STOCK,Industrials,Construction equipment,keyword_rule
-263750.KQ,54700.0,0.0,42.23,57750.0,57898.75,57326.0,43182.75,-5.28,-5.52,-4.58,26.67,UP,DN,True,77400.0,52600.0,41.5,77400.0,False,False,False,C,5.0,펄어비스,STOCK,Communication Services,Gaming,keyword_rule
-271560.KS,139200.0,0.0,60.83,141400.0,134197.5,133658.0,115155.0,-1.56,3.73,4.15,20.88,UP,UP,True,137800.0,121500.0,-1.01,150100.0,False,False,False,C,5.0,오리온,STOCK,Consumer Staples,Food,keyword_rule
-272210.KQ,119700.0,0.0,29.53,125760.0,132617.5,131026.0,78934.25,-4.82,-9.74,-8.64,51.65,DN,DN,True,184000.0,113500.0,53.72,184000.0,False,False,False,C,5.0,한화시스템,STOCK,Information Technology,IT Systems,keyword_rule
-272210.KS,122200.0,0.0,32.48,124930.0,131605.0,131140.0,79280.25,-2.19,-7.15,-6.82,54.14,DN,DN,True,184000.0,113500.0,50.57,184000.0,False,False,False,C,5.0,한화시스템,STOCK,Information Technology,IT Systems,keyword_rule
-278470.KS,422000.0,0.0,62.95,436400.0,372700.0,357400.0,263150.0,-3.3,13.23,18.07,60.36,UP,UP,True,377000.0,263000.0,-10.66,469500.0,False,False,False,C,5.0,에이피알,STOCK,Consumer Staples,Beauty / Consumer goods,keyword_rule
-295310.KQ,87100.0,0.0,43.58,88780.0,91955.0,88932.0,52386.5,-1.89,-5.28,-2.06,66.26,DN,UP,True,102000.0,72000.0,17.11,116600.0,False,False,False,C,5.0,에이치브이엠,STOCK,Industrials,Semiconductor / Display equipment,fallback_other
-348370.KQ,44700.0,0.0,60.3,47930.0,44962.5,49766.0,67315.5,-6.74,-0.58,-10.18,-33.6,UP,DN,False,55500.0,29950.0,24.16,87700.0,False,False,False,C,5.0,엔켐,STOCK,Materials,Battery electrolyte,exact
-352820.KS,246500.0,0.0,50.58,251550.0,287000.0,303680.0,304265.0,-2.01,-14.11,-18.83,-18.99,DN,DN,False,405500.0,243500.0,64.5,405500.0,False,False,False,C,5.0,하이브,STOCK,Communication Services,Entertainment / Music platform,exact
-388720.KQ,101200.0,0.0,65.33,100800.0,96362.5,99830.0,87936.0,0.4,5.02,1.37,15.08,UP,DN,False,135200.0,79900.0,33.6,141800.0,False,False,False,C,5.0,유일로보틱스,STOCK,Industrials,Robotics,keyword_rule
-000810.KS,480500.0,0.0,46.02,467150.0,468675.0,478870.0,475860.0,2.86,2.52,0.34,0.98,DN,DN,False,515000.0,419000.0,7.18,646000.0,False,False,False,C,4.0,삼성화재,STOCK,Financial Services,Insurance,exact
-004370.KS,376500.0,0.0,51.76,379400.0,375475.0,384520.0,414165.0,-0.76,0.27,-2.09,-9.09,DN,DN,False,385000.0,361000.0,2.26,459500.0,False,False,False,C,4.0,농심,STOCK,Consumer Staples,Food / Noodles,fallback_other
-004540.KQ,1999.0,0.0,35.28,2016.5,2005.92,1994.64,1995.16,-0.87,-0.35,0.22,0.19,DN,UP,False,2405.0,1780.0,20.31,2405.0,False,False,False,C,4.0,깨끗한나라,STOCK,Consumer Staples,Paper / Household goods,exact
-004650.KQ,10270.0,0.0,16.3,10536.0,10234.5,10131.8,10085.15,-2.52,0.35,1.36,1.83,DN,UP,False,13460.0,9370.0,31.06,13460.0,False,False,False,C,4.0,창해에탄올,STOCK,Consumer Staples,Alcohol / Ethanol,exact
-00680K.KS,23800.0,0.0,68.23,20681.0,20499.37,20575.13,13097.56,15.08,16.1,15.67,81.71,UP,UP,True,21500.0,18640.0,-9.66,24250.0,False,True,False,C,4.0,미래에셋증권2우B,PREFERRED,Financial Services,Securities / Preferred,override
-009410.KS,1897.0,0.0,44.44,2012.9,1918.05,1896.8,1831.38,-5.76,-1.1,0.01,3.58,DN,UP,False,2275.0,1734.0,19.93,2275.0,False,False,True,C,4.0,태영건설,STOCK,Industrials,Construction,keyword_rule
-014820.KS,26600.0,0.0,58.11,27720.0,25916.25,25894.0,27668.0,-4.04,2.64,2.73,-3.86,UP,UP,False,26850.0,24000.0,0.94,30150.0,False,False,True,C,4.0,동원시스템즈,STOCK,Information Technology,IT Systems,keyword_rule
-036460.KS,37850.0,0.0,66.04,38190.0,36403.75,37221.0,40129.5,-0.89,3.97,1.69,-5.68,UP,UP,False,45700.0,34050.0,20.74,45700.0,False,False,False,C,4.0,한국가스공사,STOCK,Utilities,Gas / Utilities,keyword_rule
-067630.KQ,4180.0,0.0,35.62,4273.0,4085.75,4031.6,4059.05,-2.18,2.31,3.68,2.98,DN,UP,False,4830.0,3250.0,15.55,4830.0,False,False,False,C,4.0,HLB생명과학,STOCK,Healthcare,Biotech,keyword_rule
-145990.KS,46750.0,0.0,51.91,47675.0,46585.0,47196.0,49808.25,-1.94,0.35,-0.94,-6.14,DN,UP,False,47650.0,44000.0,1.93,53900.0,False,False,False,C,4.0,삼양사,STOCK,Materials,Food ingredients / Chemicals,exact
-192440.KQ,26700.0,0.0,49.35,27085.0,25720.0,25447.0,24221.25,-1.42,3.81,4.92,10.23,DN,UP,False,28250.0,21800.0,5.81,28250.0,False,False,False,C,4.0,슈피겐코리아,STOCK,Consumer Discretionary,Mobile accessories,exact
-214450.KQ,336000.0,0.0,68.66,320650.0,310437.5,315160.0,464835.0,4.79,8.23,6.61,-27.72,UP,UP,False,363500.0,278500.0,8.18,457000.0,False,False,False,C,4.0,파마리서치,STOCK,Healthcare,Medical aesthetics / Regenerative medicine,exact
-298690.KS,1970.0,0.0,42.19,2054.5,1941.72,1924.48,1905.9,-4.11,1.46,2.37,3.36,DN,UP,False,2205.0,1633.0,11.93,2205.0,False,False,True,C,4.0,에어부산,STOCK,Industrials,Airline,exact
-000040.KS,426.0,0.0,41.46,446.4,419.48,412.7,473.54,-4.57,1.56,3.22,-10.04,DN,UP,False,515.0,351.0,20.89,515.0,False,False,True,C,3.0,KR모터스,STOCK,Consumer Discretionary,Motorcycles / Automobile,exact
-000120.KS,99700.0,0.0,35.1,102350.0,106760.0,110618.0,96919.0,-2.59,-6.61,-9.87,2.87,DN,DN,False,154000.0,101000.0,54.46,154000.0,False,False,False,C,3.0,CJ대한통운,STOCK,Industrials,Logistics,exact
-000250.KQ,406000.0,0.0,33.04,422100.0,656750.0,667800.0,353950.0,-3.81,-38.18,-39.2,14.71,DN,DN,False,1233000.0,349500.0,203.69,1233000.0,False,False,False,C,3.0,삼천당제약,STOCK,Healthcare,Pharmaceuticals,keyword_rule
-000815.KS,375000.0,0.0,41.56,371800.0,378037.5,383350.0,363965.0,0.86,-0.8,-2.18,3.03,DN,DN,False,388000.0,356500.0,3.47,472500.0,False,False,False,C,3.0,삼성화재우,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-000880.KS,140600.0,0.0,74.06,132510.0,123295.0,124788.0,100620.5,6.11,14.04,12.67,39.73,UP,UP,True,148500.0,103400.0,5.62,148500.0,False,False,False,C,3.0,한화,STOCK,Holding Company,Holding company / Conglomerate,exact
-001040.KS,215500.0,0.0,67.56,218700.0,202112.5,202428.0,183257.0,-1.46,6.62,6.46,17.59,UP,UP,True,213000.0,181100.0,-1.16,235000.0,False,False,False,C,3.0,CJ,STOCK,Holding Company,Holding company / Conglomerate,exact
-001060.KS,30100.0,0.0,43.54,31255.0,30980.0,31669.0,26716.5,-3.7,-2.84,-4.95,12.66,DN,DN,False,33500.0,28450.0,11.3,39250.0,False,False,False,C,3.0,JW중외제약,STOCK,Healthcare,Pharmaceuticals,keyword_rule
-002020.KS,71000.0,0.0,68.81,65240.0,61382.5,61600.0,51803.5,8.83,15.67,15.26,37.06,UP,UP,True,71400.0,57500.0,0.56,75000.0,False,False,False,C,3.0,코오롱,STOCK,Holding Company,Holding company / Chemicals,exact
-002350.KS,7140.0,0.0,37.32,7556.0,7391.0,7609.4,7089.3,-5.51,-3.4,-6.17,0.72,DN,DN,False,10110.0,6890.0,41.6,10110.0,False,False,False,C,3.0,넥센타이어,STOCK,Consumer Discretionary,Auto parts,fallback_other
-002380.KS,623000.0,0.0,71.66,565700.0,529962.5,541260.0,446582.5,10.13,17.56,15.1,39.5,UP,UP,True,692000.0,452000.0,11.08,692000.0,False,False,False,C,3.0,KCC,STOCK,Materials,Building materials / Chemicals,exact
-003160.KS,35450.0,0.0,71.13,33765.0,32846.25,33083.0,24132.9,4.99,7.93,7.15,46.89,UP,UP,True,39000.0,26850.0,10.01,39000.0,False,False,False,C,3.0,디아이,STOCK,Information Technology,Semiconductor equipment,exact
-003380.KQ,13430.0,0.0,46.32,13421.0,14218.0,14542.0,10890.7,0.07,-5.54,-7.65,23.32,DN,DN,False,18200.0,12960.0,35.52,19610.0,False,False,False,C,3.0,하림지주,STOCK,Holding Company,Holding company,keyword_rule
-003540.KS,42200.0,0.0,74.7,39290.0,38526.25,39342.0,30899.5,7.41,9.54,7.26,36.57,UP,UP,True,51400.0,34900.0,21.8,51400.0,False,False,False,C,3.0,대신증권,STOCK,Financial Services,Securities,keyword_rule
-003550.KS,103000.0,0.0,82.22,98050.0,92110.0,93376.0,84005.5,5.05,11.82,10.31,22.61,UP,UP,True,107800.0,81800.0,4.66,107800.0,False,False,False,C,3.0,LG,STOCK,Holding Company,Holding company,exact
-003555.KS,72800.0,0.0,83.33,70900.0,68960.0,70124.0,66751.25,2.68,5.57,3.82,9.06,UP,UP,True,81000.0,63500.0,11.26,81000.0,False,False,True,C,3.0,LG우,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-005940.KS,38450.0,0.0,67.96,35505.0,33583.75,33668.0,24538.8,8.29,14.49,14.2,56.69,UP,UP,True,35800.0,29300.0,-6.89,42600.0,False,False,False,C,3.0,NH투자증권,STOCK,Financial Services,Securities,keyword_rule
-006800.KS,83800.0,0.0,66.76,69630.0,67392.37,67286.01,35762.94,20.35,24.35,24.54,134.32,UP,UP,True,74100.0,55593.03,-11.58,87800.0,False,False,False,C,3.0,미래에셋증권,STOCK,Financial Services,Securities,keyword_rule
-006805.KS,25850.0,0.0,68.24,22660.0,22345.57,22525.02,14534.91,14.08,15.68,14.76,77.85,UP,UP,True,24000.0,19940.0,-7.16,29661.15,False,False,False,C,3.0,미래에셋증권우,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-007390.KQ,19880.0,0.0,45.86,20145.0,18965.5,19340.8,22415.85,-1.32,4.82,2.79,-11.31,DN,UP,False,21900.0,16550.0,10.16,24850.0,False,False,False,C,3.0,네이처셀,STOCK,Healthcare,Biotech,exact
-009420.KS,44950.0,0.0,47.01,49065.0,52063.75,53239.0,42708.75,-8.39,-13.66,-15.57,5.25,DN,DN,False,66600.0,44950.0,48.16,66600.0,False,False,False,C,3.0,한올바이오파마,STOCK,Healthcare,Biotech / Healthcare,keyword_rule
-010060.KS,337500.0,0.0,73.68,349550.0,235547.5,217246.0,133590.0,-3.45,43.28,55.35,152.64,UP,UP,True,399000.0,115800.0,18.22,399000.0,False,False,False,C,3.0,OCI홀딩스,STOCK,Industrials,Holding company,keyword_rule
-010780.KS,25000.0,0.0,32.84,27630.0,28670.0,28919.0,22853.95,-9.52,-12.8,-13.55,9.39,DN,DN,False,34450.0,25150.0,37.8,34450.0,False,False,False,C,3.0,아이에스동서,STOCK,Materials,Construction materials / Real estate,exact
-014620.KQ,45350.0,0.0,69.47,44715.0,38401.25,37749.0,32292.25,1.42,18.1,20.14,40.44,UP,UP,True,41200.0,31350.0,-9.15,53300.0,False,False,False,C,3.0,성광벤드,STOCK,Industrials,Industrial fittings / Pipe components,exact
-017940.KS,104800.0,0.0,72.38,102880.0,99387.5,99806.0,87013.5,1.87,5.45,5.0,20.44,UP,UP,True,111300.0,93800.0,6.2,114500.0,False,False,True,C,3.0,E1,STOCK,Energy,LPG / Energy distribution,exact
-018880.KS,5410.0,0.0,84.58,4439.0,4092.62,4134.6,3664.32,21.87,32.19,30.85,47.64,UP,UP,True,5700.0,3650.0,5.36,5700.0,False,False,False,C,3.0,한온시스템,STOCK,Information Technology,IT Systems,keyword_rule
-024110.KS,21600.0,0.0,35.19,22310.0,22577.5,23064.0,21072.1,-3.18,-4.33,-6.35,2.51,DN,DN,False,22850.0,21100.0,5.79,29550.0,False,False,False,C,3.0,기업은행,STOCK,Financial Services,Banks,keyword_rule
-030200.KS,58500.0,0.0,13.92,61070.0,60907.5,61156.0,55229.5,-4.21,-3.95,-4.34,5.92,DN,UP,False,65100.0,54200.0,11.28,69400.0,False,False,False,C,3.0,KT,STOCK,Communication Services,Telecommunication,exact
-032640.KS,15400.0,0.0,19.65,16366.0,16066.75,16092.0,15383.25,-5.9,-4.15,-4.3,0.11,DN,UP,False,18500.0,14340.0,20.13,18500.0,False,False,False,C,3.0,LG유플러스,STOCK,Communication Services,Telecommunication,exact
-036830.KQ,71200.0,0.0,68.48,69960.0,56866.25,55903.0,46142.25,1.77,25.21,27.36,54.31,UP,UP,True,66900.0,45150.0,-6.04,80800.0,False,False,False,C,3.0,솔브레인홀딩스,STOCK,Industrials,Holding company,keyword_rule
-036890.KQ,19010.0,0.0,68.19,18060.0,16992.0,16522.6,13848.9,5.26,11.88,15.05,37.27,UP,UP,True,18310.0,12510.0,-3.68,19940.0,False,False,False,C,3.0,진성티이씨,STOCK,Industrials,Construction machinery parts,fallback_other
-036930.KQ,127600.0,0.0,87.47,124200.0,81457.5,76710.0,42674.5,2.74,56.65,66.34,199.01,UP,UP,True,138900.0,58950.0,8.86,138900.0,False,False,False,C,3.0,주성엔지니어링,STOCK,Industrials,Engineering,fallback_other
-039200.KQ,49700.0,0.0,40.38,52050.0,52716.25,52577.0,46226.25,-4.51,-5.72,-5.47,7.51,DN,UP,False,58000.0,47150.0,16.7,60200.0,False,False,False,C,3.0,오스코텍,STOCK,Healthcare,Biotech,exact
-047050.KS,83600.0,0.0,77.18,82850.0,77420.0,76240.0,59169.25,0.91,7.98,9.65,41.29,UP,UP,True,87200.0,58700.0,4.31,91200.0,False,False,False,C,3.0,포스코인터내셔널,STOCK,Industrials,Trading / Energy / Materials,exact
-051915.KS,194100.0,0.0,75.84,188610.0,165662.5,166316.0,164283.0,2.91,17.17,16.71,18.15,UP,UP,True,201000.0,141600.0,3.55,201000.0,False,False,False,C,3.0,LG화학우,PREFERRED,Materials,Chemicals / Battery materials preferred,preferred_rule
-058610.KQ,127900.0,0.0,71.43,124840.0,117590.0,120770.0,71712.75,2.45,8.77,5.9,78.35,UP,DN,True,155000.0,101300.0,21.19,159500.0,False,False,True,C,3.0,에스피지,STOCK,Industrials,Motors / Robotics components,exact
-064350.KS,262000.0,0.0,81.37,246650.0,210197.5,212968.0,204465.5,6.22,24.64,23.02,28.14,UP,UP,True,274000.0,166600.0,4.58,282000.0,False,False,False,C,3.0,현대로템,STOCK,Industrials,Defense / Railway equipment,exact
-065660.KQ,33800.0,0.0,23.88,36565.0,42371.25,41716.0,32733.0,-7.56,-20.23,-18.98,3.26,DN,DN,False,61800.0,34000.0,82.84,61800.0,False,False,False,C,3.0,안트로젠,STOCK,Healthcare,Biotech,exact
-066575.KS,65400.0,0.0,80.88,58990.0,53662.5,54762.0,47089.75,10.87,21.87,19.43,38.88,UP,UP,True,68200.0,47100.0,4.28,68200.0,False,False,False,C,3.0,LG전자우,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-068270.KS,194700.0,0.0,44.79,203000.0,202102.5,207020.0,191546.0,-4.09,-3.66,-5.95,1.65,DN,DN,False,212000.0,187700.0,8.89,251000.0,False,False,False,C,3.0,셀트리온,STOCK,Healthcare,Biopharmaceuticals,exact
-069960.KS,107700.0,0.0,76.15,104120.0,88970.0,91318.0,87084.5,3.44,21.05,17.94,23.67,UP,UP,True,115000.0,74100.0,6.78,120100.0,False,False,False,C,3.0,현대백화점,STOCK,Consumer Discretionary,Retail,fallback_other
-091700.KQ,7570.0,0.0,29.53,8179.0,8204.25,8185.0,7169.65,-7.45,-7.73,-7.51,5.58,DN,UP,False,8490.0,7590.0,12.15,8730.0,False,False,True,C,3.0,파트론,STOCK,Information Technology,Camera modules / Electronic components,exact
-096530.KQ,23950.0,0.0,49.36,24725.0,23432.5,23766.0,25690.0,-3.13,2.21,0.77,-6.77,DN,UP,False,29300.0,21750.0,22.34,29600.0,False,False,False,C,3.0,씨젠,STOCK,Healthcare,Diagnostics,exact
-097950.KS,230000.0,0.0,45.36,237300.0,223787.5,220466.0,225644.0,-3.08,2.78,4.32,1.93,UP,UP,False,235000.0,186100.0,2.17,252000.0,False,False,False,C,3.0,CJ제일제당,STOCK,Consumer Staples,Food processing,keyword
-105840.KS,28200.0,0.0,75.57,28125.0,25923.75,25585.0,18373.1,0.27,8.78,10.22,53.49,UP,UP,True,31300.0,21950.0,10.99,31700.0,False,False,False,C,3.0,우진,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-108490.KQ,310000.0,0.0,67.12,306550.0,267162.5,265860.0,208418.5,1.13,16.03,16.6,48.74,UP,UP,True,284000.0,228500.0,-8.39,361500.0,False,False,False,C,3.0,로보티즈,STOCK,Industrials,Robotics,keyword_rule
-111770.KS,81500.0,0.0,37.8,83870.0,83390.0,85300.0,75030.5,-2.83,-2.27,-4.45,8.62,DN,DN,False,88000.0,77500.0,7.98,103200.0,False,False,False,C,3.0,영원무역,STOCK,Consumer Discretionary,Apparel / Fashion OEM,exact
-128940.KS,434500.0,0.0,27.15,479450.0,506662.5,516840.0,423227.5,-9.38,-14.24,-15.93,2.66,DN,DN,False,571000.0,475500.0,31.42,647000.0,False,False,False,C,3.0,한미약품,STOCK,Healthcare,Pharmaceuticals,fallback_other
-132030.KS,26435.0,0.0,38.1,26494.5,26917.5,27448.1,24543.65,-0.22,-1.79,-3.69,7.71,DN,DN,False,27675.0,24200.0,4.69,30735.0,False,False,False,C,3.0,KODEX 골드선물(H),ETF,ETF,KODEX 골드선물(H),etf_rule
-138930.KS,18130.0,0.0,38.67,18705.0,18416.0,18709.8,16223.9,-3.07,-1.55,-3.1,11.75,DN,UP,False,19600.0,17200.0,8.11,23050.0,False,False,False,C,3.0,BNK금융지주,ETF,ETF,BNK금융지주,keyword_rule
-140410.KQ,86800.0,0.0,42.4,90880.0,93242.5,100622.0,80344.5,-4.49,-6.91,-13.74,8.03,DN,DN,False,179900.0,72000.0,107.26,162600.0,False,False,False,C,3.0,메지온,STOCK,Healthcare,Biotech,exact
-141080.KQ,176800.0,0.0,47.43,192960.0,193257.5,191818.0,167968.5,-8.37,-8.52,-7.83,5.26,DN,DN,False,225000.0,165200.0,27.26,225000.0,False,False,False,C,3.0,리가켐바이오,STOCK,Healthcare,Biotech / Healthcare,keyword_rule
-144510.KQ,23250.0,0.0,48.25,24465.0,24422.5,24500.0,23072.05,-4.97,-4.8,-5.1,0.77,DN,DN,False,27500.0,22350.0,18.28,27950.0,False,False,False,C,3.0,지씨셀,STOCK,Healthcare,Cell therapy / Biotech,exact
-161390.KS,59500.0,0.0,45.0,61840.0,58655.0,60422.0,53699.0,-3.78,1.44,-1.53,10.8,UP,UP,False,67000.0,51900.0,12.61,78400.0,False,False,False,C,3.0,한국타이어앤테크놀로지,STOCK,Consumer Discretionary,Auto parts,keyword_rule
-174900.KQ,46050.0,0.0,43.09,49860.0,61225.0,61136.0,37225.05,-7.64,-24.79,-24.68,23.71,DN,DN,False,95800.0,51500.0,108.03,95800.0,False,False,False,C,3.0,앱클론,STOCK,Healthcare,Biotech,exact
-175330.KS,26550.0,0.0,16.53,28285.0,29746.25,30102.0,25784.0,-6.13,-10.75,-11.8,2.97,DN,DN,False,32200.0,26750.0,21.28,38500.0,False,False,False,C,3.0,JB금융지주,STOCK,Financial Services,Financial services,keyword_rule
-178320.KQ,59500.0,0.0,66.61,55200.0,48521.25,47109.0,30646.05,7.79,22.63,26.3,94.15,UP,UP,True,52300.0,40150.0,-12.1,63600.0,False,False,False,C,3.0,서진시스템,STOCK,Information Technology,IT Systems,keyword_rule
-192820.KS,209000.0,0.0,60.78,217400.0,196635.0,193224.0,198986.0,-3.86,6.29,8.16,5.03,UP,UP,False,208000.0,178500.0,-0.48,234500.0,False,False,False,C,3.0,코스맥스,STOCK,Consumer Staples,Cosmetics ODM,exact
-195870.KS,78000.0,0.0,76.26,76140.0,60296.25,60051.0,46535.75,2.44,29.36,29.89,67.61,UP,UP,True,83800.0,46000.0,7.44,83800.0,False,False,False,C,3.0,해성디에스,STOCK,Information Technology,Semiconductor package substrate,exact
-204320.KS,57000.0,0.0,71.01,55950.0,52581.25,53501.0,46512.75,1.88,8.4,6.54,22.55,UP,UP,True,65000.0,47200.0,14.04,65000.0,False,False,True,C,3.0,HL만도,STOCK,Consumer Discretionary,Auto parts,exact
-233160.KS,19070.0,0.0,70.17,18958.0,17861.5,18287.5,14108.12,0.59,6.77,4.28,35.17,UP,DN,True,24165.0,14515.0,26.72,24165.0,False,False,True,C,3.0,TIGER 코스닥150 레버리지,ETF,ETF,TIGER 코스닥150 레버리지,etf_rule
-241560.KQ,74000.0,0.0,68.59,73900.0,65335.0,64766.0,59551.5,0.14,13.26,14.26,24.26,UP,UP,True,68400.0,56100.0,-7.57,79700.0,False,False,False,C,3.0,두산밥캣,STOCK,Industrials,Construction equipment,keyword_rule
-267270.KS,187700.0,0.0,67.71,188730.0,153545.0,149700.0,112303.5,-0.55,22.24,25.38,67.14,UP,UP,True,148500.0,113300.0,-20.88,217500.0,False,False,False,C,3.0,HD건설기계,STOCK,Industrials,Construction,keyword_rule
-274090.KQ,21450.0,0.0,31.01,22780.0,21811.5,21661.2,15965.05,-5.84,-1.66,-0.98,34.36,DN,UP,False,24800.0,18090.0,15.62,28800.0,False,False,False,C,3.0,켄코아에어로스페이스,STOCK,Industrials,Aerospace components,exact
-277810.KQ,702000.0,0.0,83.22,646100.0,629325.0,661540.0,464417.5,8.65,11.55,6.12,51.16,UP,DN,True,934000.0,516000.0,33.05,934000.0,False,False,False,C,3.0,레인보우로보틱스,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-290650.KQ,63200.0,0.0,29.26,67750.0,71290.0,75038.0,59153.75,-6.72,-11.35,-15.78,6.84,DN,DN,False,76000.0,59600.0,20.25,125000.0,False,False,False,C,3.0,엘앤씨바이오,STOCK,Healthcare,Biotech / Healthcare,keyword_rule
-294870.KS,22050.0,0.0,46.76,23370.0,22258.75,22323.0,21242.75,-5.65,-0.94,-1.22,3.8,DN,UP,False,24300.0,20100.0,10.2,25050.0,False,False,True,C,3.0,IPARK현대산업개발,STOCK,Industrials,Industrial products,fallback_other
-298050.KS,258500.0,0.0,73.86,250250.0,225687.5,227034.0,206796.0,3.3,14.54,13.86,25.0,UP,UP,True,268000.0,203500.0,3.68,282000.0,False,False,False,C,3.0,HS효성첨단소재,STOCK,Materials,Materials,keyword_rule
-316140.KS,32600.0,0.0,26.0,34005.0,33437.5,33904.0,28793.0,-4.13,-2.5,-3.85,13.22,DN,UP,False,36250.0,30300.0,11.2,41500.0,False,False,False,C,3.0,우리금융지주,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-357780.KQ,466000.0,0.0,70.51,466400.0,426750.0,428690.0,312570.5,-0.09,9.2,8.7,49.09,UP,DN,True,522000.0,360000.0,12.02,522000.0,False,False,False,C,3.0,솔브레인,STOCK,Materials,Semiconductor materials,keyword_rule
-365340.KQ,77200.0,0.0,68.58,80500.0,66207.5,64763.0,48598.5,-4.1,16.6,19.2,58.85,UP,UP,True,74000.0,48000.0,-4.15,85500.0,False,False,False,C,3.0,성일하이텍,STOCK,Materials,Battery recycling / Materials,exact
-377300.KS,63300.0,0.0,80.84,56700.0,55263.75,56747.0,56295.25,11.64,14.54,11.55,12.44,UP,DN,True,73300.0,46750.0,15.8,73300.0,False,False,False,C,3.0,카카오페이,STOCK,Financial Services,Fintech / Payments,exact
-393890.KQ,18730.0,0.0,65.57,19152.0,15289.5,14165.6,9193.95,-2.2,22.5,32.22,103.72,UP,UP,True,16920.0,7600.0,-9.66,21350.0,False,False,False,C,3.0,더블유씨피,STOCK,Materials,Battery separator film,exact
-411060.KS,30110.0,0.0,17.12,30771.5,31575.75,32024.9,28018.12,-2.15,-4.64,-5.98,7.47,DN,DN,False,35442.0,29120.0,17.71,35442.0,False,False,False,C,3.0,ACE KRX금현물,ETF,ETF,ACE KRX금현물,etf_rule
-445290.KS,36545.0,0.0,88.13,35028.0,32447.25,32939.8,25367.05,4.33,12.63,10.94,44.06,UP,UP,True,38970.0,28470.0,6.64,38970.0,False,False,False,C,3.0,KODEX 로봇액티브,ETF,ETF,KODEX 로봇액티브,etf_rule
-450080.KS,83200.0,0.0,66.49,83080.0,72577.5,71412.0,60556.75,0.14,14.64,16.51,37.39,UP,UP,True,75100.0,60000.0,-9.74,88800.0,False,False,False,C,3.0,에코프로머티,STOCK,Materials,Battery materials / Holding,keyword_rule
-000070.KS,66200.0,0.0,45.22,68810.0,68772.5,69382.0,82398.01,-3.79,-3.74,-4.59,-19.66,DN,DN,False,70800.0,63500.0,6.95,75500.0,False,False,True,C,2.0,삼양홀딩스,STOCK,Industrials,Holding company,keyword_rule
-000080.KS,16830.0,0.0,35.29,17119.0,16934.75,17017.6,18526.1,-1.69,-0.62,-1.1,-9.16,DN,UP,False,17610.0,16000.0,4.63,18320.0,False,False,True,C,2.0,하이트진로,STOCK,Consumer Staples,Beverages / Alcohol,exact
-000100.KS,87800.0,0.0,29.58,93200.0,95737.5,97678.0,111102.5,-5.79,-8.29,-10.11,-20.97,DN,DN,False,114500.0,90900.0,30.41,114500.0,False,False,False,C,2.0,유한양행,STOCK,Healthcare,Pharmaceuticals,exact
-000105.KS,73700.0,0.0,14.89,78920.0,84242.5,85704.0,98523.5,-6.61,-12.51,-14.01,-25.2,DN,DN,False,98300.0,82100.0,33.38,98300.0,False,False,False,C,2.0,유한양행우,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-000145.KS,11420.0,0.0,44.75,11930.0,11608.0,11622.8,12139.45,-4.27,-1.62,-1.74,-5.93,UP,UP,False,12700.0,10950.0,11.21,12270.0,False,False,True,C,2.0,하이트진로홀딩스우,PREFERRED,Consumer Staples,Beverages / Holding preferred,preferred_rule
-000240.KS,24300.0,0.0,37.21,24940.0,25201.25,26043.0,25411.0,-2.57,-3.58,-6.69,-4.37,DN,DN,False,26150.0,22500.0,7.61,36450.0,False,False,False,C,2.0,한국앤컴퍼니,STOCK,Holding Company,Holding company / Auto parts,exact
-001520.KS,779.0,0.0,38.52,805.1,801.9,827.84,804.55,-3.24,-2.86,-5.9,-3.18,DN,DN,False,1057.0,741.0,35.69,1057.0,False,False,False,C,2.0,동양,STOCK,Materials,Construction materials,exact
-001680.KS,20050.0,0.0,33.87,20715.0,20561.25,20866.0,21719.9,-3.21,-2.49,-3.91,-7.69,DN,DN,False,21450.0,19360.0,6.98,24150.0,False,False,False,C,2.0,대상,STOCK,Consumer Staples,Food,exact
-001940.KS,25550.0,0.0,42.86,27050.0,25981.25,25771.0,25722.5,-5.55,-1.66,-0.86,-0.67,DN,UP,False,26750.0,22900.0,4.7,28150.0,False,False,True,C,2.0,KISCO홀딩스,STOCK,Industrials,Holding company,keyword_rule
-002320.KS,19000.0,0.0,41.18,19363.0,19260.75,19561.2,20197.75,-1.87,-1.35,-2.87,-5.93,DN,DN,False,23650.0,18400.0,24.47,23650.0,False,False,False,C,2.0,한진,STOCK,Industrials,Logistics,exact
-003090.KS,21850.0,0.0,44.83,22740.0,23288.75,23791.0,23526.5,-3.91,-6.18,-8.16,-7.13,DN,DN,False,30600.0,21700.0,40.05,30600.0,False,False,False,C,2.0,대웅,STOCK,Holding Company,Holding company / Healthcare,exact
-003300.KS,17010.0,0.0,47.32,17479.0,17552.25,17429.0,17159.85,-2.68,-3.09,-2.4,-0.87,DN,UP,False,17980.0,16200.0,5.7,23800.0,False,False,False,C,2.0,한일홀딩스,STOCK,Industrials,Holding company,keyword_rule
-003520.KS,1719.0,0.0,42.27,1778.9,1777.48,1817.56,1966.18,-3.37,-3.29,-5.42,-12.57,DN,DN,False,1898.0,1700.0,10.41,2320.0,False,False,False,C,2.0,영진약품,STOCK,Healthcare,Pharmaceuticals,fallback_other
-003920.KS,51000.0,0.0,39.34,52060.0,52018.75,51598.0,53893.5,-2.04,-1.96,-1.16,-5.37,DN,UP,False,53900.0,49450.0,5.69,57700.0,False,False,True,C,2.0,남양유업,STOCK,Consumer Staples,Food / Dairy,exact
-004270.KS,7120.0,0.0,0.0,7489.0,7538.75,7565.6,8914.35,-4.93,-5.55,-5.89,-20.13,DN,UP,False,7790.0,7250.0,9.41,8430.0,False,False,False,C,2.0,남성,STOCK,Consumer Discretionary,Electronics / Distribution,exact
-005180.KS,72600.0,0.0,45.07,74950.0,74287.5,75494.0,76050.0,-3.14,-2.27,-3.83,-4.54,DN,DN,False,76200.0,69600.0,4.96,87400.0,False,False,False,C,2.0,빙그레,STOCK,Consumer Staples,Food / Dairy,exact
-005250.KS,13570.0,0.0,42.53,14100.0,13960.0,14227.2,15445.75,-3.76,-2.79,-4.62,-12.14,DN,DN,False,14760.0,13290.0,8.77,16870.0,False,False,False,C,2.0,녹십자홀딩스,STOCK,Industrials,Holding company,keyword_rule
-006040.KS,37900.0,0.0,39.74,38580.0,38767.5,39321.0,43292.5,-1.76,-2.24,-3.61,-12.46,DN,UP,False,40150.0,37200.0,5.94,46200.0,False,False,False,C,2.0,동원산업,STOCK,Industrials,Industrial products,fallback_other
-006220.KQ,12470.0,0.0,43.39,12927.0,12966.75,13469.4,13631.55,-3.54,-3.83,-7.42,-8.52,DN,DN,False,13700.0,11470.0,9.86,18840.0,False,False,False,C,2.0,제주은행,STOCK,Financial Services,Banks,keyword_rule
-006280.KS,135800.0,0.0,33.47,140270.0,144847.5,147896.0,144638.0,-3.19,-6.25,-8.18,-6.11,DN,DN,False,153300.0,137700.0,12.89,183800.0,False,False,False,C,2.0,녹십자,STOCK,Healthcare,Pharmaceuticals,exact
-006360.KS,35450.0,0.0,45.58,40145.0,32145.25,30007.6,21957.45,-11.7,10.28,18.14,61.45,DN,UP,True,24300.0,18430.0,-31.45,44850.0,False,False,False,C,2.0,GS건설,STOCK,Industrials,Construction,keyword_rule
-007310.KS,357000.0,0.0,32.2,364500.0,364650.0,369240.0,387327.5,-2.06,-2.1,-3.31,-7.83,DN,DN,False,373500.0,351500.0,4.62,414000.0,False,False,False,C,2.0,오뚜기,STOCK,Consumer Staples,Food,exact
-008930.KS,36750.0,0.0,35.94,38345.0,38175.0,38961.0,40211.75,-4.16,-3.73,-5.67,-8.61,DN,DN,False,40750.0,35650.0,10.88,55500.0,False,False,False,C,2.0,한미사이언스,STOCK,Holding Company,Holding company / Healthcare,exact
-010100.KS,4450.0,0.0,45.75,4578.0,4547.25,4669.4,4539.58,-2.8,-2.14,-4.7,-1.97,DN,DN,False,6170.0,4135.0,38.65,6170.0,False,False,False,C,2.0,한국무브넥스,STOCK,Consumer Discretionary,Auto parts,exact
-011200.KS,20550.0,0.0,42.62,20845.0,20670.25,20957.2,21282.15,-1.42,-0.58,-1.94,-3.44,DN,DN,False,21900.0,19110.0,6.57,24950.0,False,False,False,C,2.0,HMM,STOCK,Industrials,Shipping,exact
-012750.KS,73400.0,0.0,8.33,84910.0,86865.0,86972.0,79730.0,-13.56,-15.5,-15.61,-7.94,DN,DN,False,103000.0,79100.0,40.33,103000.0,False,False,False,C,2.0,에스원,STOCK,Industrials,Security services,exact
-020560.KS,6990.0,0.0,40.0,7085.0,7053.5,7126.6,8331.4,-1.34,-0.9,-1.92,-16.1,DN,UP,False,7290.0,6560.0,4.29,8200.0,False,False,False,C,2.0,아시아나항공,STOCK,Industrials,Aerospace / Airline,keyword_rule
-029780.KS,51600.0,0.0,28.57,53340.0,55242.5,56514.0,53950.5,-3.26,-6.59,-8.7,-4.36,DN,DN,False,55200.0,51000.0,6.98,69200.0,False,False,False,C,2.0,삼성카드,STOCK,Financial Services,Consumer finance,fallback_other
-030000.KS,19110.0,0.0,37.56,19740.0,19874.25,20160.2,20820.1,-3.19,-3.85,-5.21,-8.21,DN,DN,False,23100.0,18630.0,20.88,23100.0,False,False,False,C,2.0,제일기획,STOCK,Communication Services,Advertising / Marketing,exact
-031510.KQ,1013.0,0.0,42.86,1040.4,1033.6,1032.14,1041.05,-2.63,-1.99,-1.85,-2.69,DN,UP,False,1117.0,991.0,10.27,1139.0,False,False,False,C,2.0,오스템,STOCK,Industrials,Auto parts / Machinery,exact
-035720.KS,46300.0,0.0,39.53,48025.0,48457.5,49877.0,57629.25,-3.59,-4.45,-7.17,-19.66,DN,DN,False,51200.0,44000.0,10.58,64500.0,False,False,False,C,2.0,카카오,STOCK,Communication Services,Internet platform,exact
-035760.KQ,53000.0,0.0,46.25,54580.0,57077.5,59508.0,66254.0,-2.89,-7.14,-10.94,-20.0,DN,DN,False,80000.0,52000.0,50.94,80000.0,False,False,False,C,2.0,CJ ENM,STOCK,Communication Services,Media / Entertainment,exact
-039030.KQ,479000.0,0.0,48.95,491250.0,442525.0,435280.0,304721.0,-2.49,8.24,10.04,57.19,UP,UP,True,467000.0,367500.0,-2.51,527000.0,False,False,False,C,2.0,이오테크닉스,STOCK,Information Technology,Technology,keyword_rule
-042000.KQ,25100.0,0.0,34.74,26310.0,27307.5,28009.0,34762.75,-4.6,-8.08,-10.39,-27.8,DN,DN,False,28350.0,25150.0,12.95,39900.0,False,False,False,C,2.0,카페24,STOCK,Information Technology,E-commerce platform,exact
-048530.KQ,3430.0,0.0,39.17,3737.5,4043.5,4224.8,3846.28,-8.23,-15.17,-18.81,-10.82,DN,DN,False,7010.0,3445.0,104.37,7010.0,False,False,False,C,2.0,인트론바이오,STOCK,Healthcare,Biotech / Healthcare,keyword_rule
-053030.KQ,10780.0,0.0,37.38,11350.0,11733.5,12268.4,14884.25,-5.02,-8.13,-12.13,-27.57,DN,DN,False,12010.0,10600.0,11.41,16270.0,False,False,False,C,2.0,바이넥스,STOCK,Healthcare,Pharmaceuticals,exact
-064550.KQ,10030.0,0.0,41.23,10752.0,11172.75,11404.2,13250.1,-6.72,-10.23,-12.05,-24.3,DN,DN,False,13310.0,9900.0,32.7,13550.0,False,False,False,C,2.0,바이오니아,STOCK,Healthcare,Biotech / Healthcare,keyword_rule
-068760.KQ,54700.0,0.0,40.45,56990.0,57842.5,59970.0,58972.24,-4.02,-5.43,-8.79,-7.24,DN,DN,False,59000.0,54300.0,7.86,78300.0,False,False,False,C,2.0,셀트리온제약,STOCK,Healthcare,Pharmaceuticals,keyword_rule
-069080.KQ,12000.0,0.0,43.93,12298.0,12260.0,12395.4,13437.45,-2.42,-2.12,-3.19,-10.7,DN,DN,False,12990.0,11740.0,8.25,15320.0,False,False,False,C,2.0,웹젠,STOCK,Communication Services,Gaming,exact
-069620.KS,143200.0,0.0,38.89,149150.0,155857.5,159902.0,157261.5,-3.99,-8.12,-10.45,-8.94,DN,DN,False,171700.0,144200.0,19.9,198500.0,False,False,False,C,2.0,대웅제약,STOCK,Healthcare,Pharmaceuticals,keyword_rule
-071320.KS,73600.0,0.0,40.43,76820.0,79855.0,81786.0,91377.0,-4.19,-7.83,-10.01,-19.45,DN,DN,False,79600.0,68600.0,8.15,116700.0,False,False,False,C,2.0,지역난방공사,STOCK,Utilities,District heating / Utilities,exact
-073240.KS,5530.0,0.0,17.65,5926.0,6004.75,6120.0,5538.25,-6.68,-7.91,-9.64,-0.15,DN,DN,False,6410.0,5530.0,15.91,7650.0,False,False,False,C,2.0,금호타이어,STOCK,Consumer Discretionary,Auto parts,fallback_other
-080160.KQ,10970.0,0.0,37.34,11470.0,11369.25,11591.4,11608.95,-4.36,-3.51,-5.36,-5.5,DN,DN,False,11880.0,10500.0,8.3,17500.0,False,False,False,C,2.0,모두투어,STOCK,Consumer Discretionary,Travel agency,exact
-081660.KS,39000.0,0.0,27.08,41085.0,42837.5,44249.0,42123.25,-5.07,-8.96,-11.86,-7.41,DN,DN,False,43850.0,38450.0,12.44,55800.0,False,False,False,C,2.0,미스토홀딩스,STOCK,Industrials,Holding company,keyword_rule
-082270.KQ,22500.0,0.0,25.43,24190.0,31280.0,33297.0,40577.75,-6.99,-28.07,-32.43,-44.55,DN,DN,False,48850.0,22150.0,117.11,48850.0,False,False,False,C,2.0,젬백스,STOCK,Healthcare,Biotech,exact
-083790.KQ,1155.0,0.0,21.47,1269.1,1389.18,1385.3,1513.54,-8.99,-16.86,-16.62,-23.69,DN,DN,False,1667.0,1241.0,44.33,1667.0,False,False,False,C,2.0,CG인바이츠,STOCK,Healthcare,Biotech,exact
-091810.KS,896.0,0.0,44.27,957.5,1002.78,1057.78,1794.78,-6.42,-10.65,-15.29,-50.08,DN,DN,False,1032.0,814.0,15.18,1569.0,False,False,False,C,2.0,트리니티항공,STOCK,Industrials,Aerospace / Airline,keyword_rule
-095660.KQ,21300.0,0.0,21.25,22840.0,24266.25,24618.0,25199.0,-6.74,-12.22,-13.48,-15.47,DN,DN,False,24450.0,22700.0,14.79,29100.0,False,False,False,C,2.0,네오위즈,STOCK,Communication Services,Gaming,exact
-099430.KQ,5760.0,0.0,56.1,5771.0,5329.38,5290.9,5879.22,-0.19,8.08,8.87,-2.03,UP,UP,False,5680.0,4830.0,-1.39,6080.0,False,False,False,C,2.0,바이오플러스,STOCK,Healthcare,Biotech / Healthcare,keyword_rule
-103140.KS,99300.0,0.0,45.07,100470.0,99517.5,103052.0,115686.0,-1.16,-0.22,-3.64,-14.16,DN,DN,False,119300.0,86000.0,20.14,159200.0,False,False,False,C,2.0,풍산,STOCK,Materials,Copper / Non-ferrous metals,exact
-108230.KQ,4340.0,0.0,35.57,4551.0,4417.75,4453.2,4639.75,-4.64,-1.76,-2.54,-6.46,DN,UP,False,5260.0,4050.0,21.2,5260.0,False,False,False,C,2.0,톱텍,STOCK,Industrials,Automation equipment,exact
-110790.KQ,3900.0,0.0,49.51,3936.5,3961.46,3963.37,4154.42,-0.93,-1.55,-1.6,-6.12,DN,UP,False,4090.0,3800.0,4.87,4267.48,False,False,True,C,2.0,크리스에프앤씨,STOCK,Consumer Discretionary,Apparel / Fashion,exact
-114090.KS,11970.0,0.0,46.67,12003.0,11898.0,12097.4,14440.4,-0.27,0.61,-1.05,-17.11,UP,DN,False,13890.0,11120.0,16.04,13890.0,False,False,False,C,2.0,GKL,STOCK,Consumer Discretionary,Casino / Leisure,exact
-122450.KQ,3165.0,0.0,46.43,3199.5,3182.25,3230.5,3735.55,-1.08,-0.54,-2.03,-15.27,DN,UP,False,3275.0,2950.0,3.48,3790.0,False,False,False,C,2.0,KX,STOCK,Communication Services,Media / Broadcasting,exact
-122870.KQ,51300.0,0.0,48.87,53930.0,55420.0,58200.0,75603.5,-4.88,-7.43,-11.86,-32.15,DN,DN,False,56500.0,49300.0,10.14,79000.0,False,False,False,C,2.0,와이지엔터테인먼트,STOCK,Communication Services,Entertainment,keyword_rule
-137310.KS,7930.0,0.0,43.45,8414.0,8089.5,8123.6,9217.6,-5.75,-1.97,-2.38,-13.97,DN,UP,False,9560.0,7390.0,20.55,9560.0,False,False,False,C,2.0,에스디바이오센서,STOCK,Healthcare,Biotech / Healthcare,keyword_rule
-138040.KS,111600.0,0.0,31.69,114430.0,113690.0,115730.0,115566.0,-2.47,-1.84,-3.57,-3.43,DN,DN,False,122700.0,103400.0,9.95,149800.0,False,False,False,C,2.0,메리츠금융지주,STOCK,Financial Services,Financial services,keyword_rule
-145720.KS,51300.0,0.0,42.42,53420.0,52652.5,52106.0,54224.5,-3.97,-2.57,-1.55,-5.39,DN,UP,False,57300.0,48550.0,11.7,57300.0,False,False,True,C,2.0,덴티움,STOCK,Healthcare,Dental implants / Medical devices,exact
-160550.KQ,1720.0,0.0,31.71,1805.4,1791.42,1811.64,2189.34,-4.73,-3.99,-5.06,-21.44,DN,DN,False,1931.0,1690.0,12.27,2635.0,False,False,False,C,2.0,NEW,STOCK,Communication Services,Media / Contents,exact
-180640.KS,109700.0,0.0,44.95,114300.0,116107.5,121274.0,114694.0,-4.02,-5.52,-9.54,-4.35,DN,DN,False,122000.0,106000.0,11.21,175900.0,False,False,False,C,2.0,한진칼,STOCK,Holding Company,Holding company / Airline,exact
-185490.KQ,1355.0,0.0,45.25,1446.1,1457.4,1425.26,2048.32,-6.3,-7.03,-4.93,-33.85,DN,UP,False,1810.0,1182.0,33.58,1810.0,False,False,False,C,2.0,아이진,STOCK,Healthcare,Biotech,exact
-185750.KS,83100.0,0.0,32.89,87030.0,87902.5,88268.0,85332.0,-4.52,-5.46,-5.85,-2.62,DN,UP,False,92100.0,85000.0,10.83,98100.0,False,False,False,C,2.0,종근당,STOCK,Other,Other / Needs review,fallback_other
-187420.KQ,2710.0,0.0,41.83,2989.0,2781.25,2751.4,2926.4,-9.33,-2.56,-1.5,-7.39,DN,UP,False,3480.0,2500.0,28.41,3500.0,False,False,False,C,2.0,HLB제넥스,STOCK,Healthcare,Biotech,keyword_rule
-200130.KQ,11020.0,0.0,44.18,11648.0,11558.0,11916.0,13614.6,-5.39,-4.65,-7.52,-19.06,DN,DN,False,12270.0,10850.0,11.34,14830.0,False,False,False,C,2.0,콜마비앤에이치,STOCK,Other,Other / Needs review,fallback_other
-207940.KS,1480000.0,0.0,40.07,1511200.0,1563400.0,1586300.0,1670096.73,-2.06,-5.33,-6.7,-11.38,DN,DN,False,1660000.0,1480000.0,12.16,1795000.0,False,False,False,C,2.0,삼성바이오로직스,STOCK,Healthcare,Biotech / Healthcare,keyword_rule
-215000.KQ,49700.0,0.0,46.55,51040.0,49733.75,50661.0,58626.25,-2.63,-0.07,-1.9,-15.23,DN,DN,False,61400.0,47200.0,23.54,61400.0,False,False,False,C,2.0,골프존,STOCK,Other,Other / Needs review,fallback_other
-222810.KQ,15.0,0.0,20.37,409.5,1348.58,1524.06,2279.22,-96.34,-98.89,-99.02,-99.34,DN,DN,False,3135.0,2145.0,20800.0,3135.0,False,False,False,C,2.0,주요뉴스,STOCK,Other,Other / Needs review,fallback_other
-227840.KS,13790.0,0.0,72.55,13541.0,12590.0,12642.4,12497.4,1.84,9.53,9.08,10.34,UP,UP,True,14200.0,11830.0,2.97,14440.0,False,False,False,C,2.0,현대코퍼레이션홀딩스,STOCK,Industrials,Trading / Holdings,keyword_rule
-235980.KQ,5050.0,0.0,43.89,5236.0,5406.88,5397.5,5395.48,-3.55,-6.6,-6.44,-6.4,DN,UP,False,6960.0,5000.0,37.82,6960.0,False,False,False,C,2.0,메드팩토,STOCK,Other,Other / Needs review,fallback_other
-251270.KQ,49500.0,0.0,46.2,50430.0,51228.75,51694.0,54948.75,-1.84,-3.37,-4.24,-9.92,DN,UP,False,53200.0,48450.0,7.47,58900.0,False,False,False,C,2.0,넷마블,STOCK,Other,Other / Needs review,fallback_other
-251340.KS,1961.0,0.0,27.6,1969.7,2061.43,2077.42,2800.13,-0.44,-4.87,-5.6,-29.97,DN,DN,False,2275.0,1936.0,16.01,2505.0,False,False,False,C,2.0,KODEX 코스닥150선물인버스,ETF,ETF,KOSDAQ150 inverse ETF,etf_rule
-252670.KS,129.0,0.0,5.49,167.0,230.8,240.18,712.32,-22.75,-44.11,-46.29,-81.89,DN,DN,False,323.0,233.0,150.39,415.0,False,False,False,C,2.0,KODEX 200선물인버스2X,ETF,ETF,KODEX 200선물인버스2X,etf_rule
-253450.KQ,33950.0,0.0,43.1,35140.0,36458.75,37741.0,42738.25,-3.39,-6.88,-10.04,-20.56,DN,DN,False,36600.0,33000.0,7.81,50000.0,False,False,False,C,2.0,스튜디오드래곤,STOCK,Other,Other / Needs review,fallback_other
-263720.KQ,11740.0,0.0,45.56,12129.0,11864.75,11855.6,13728.25,-3.21,-1.05,-0.98,-14.48,DN,UP,False,12440.0,11190.0,5.96,13240.0,False,False,True,C,2.0,디앤씨미디어,STOCK,Communication Services,Media,keyword_rule
-272450.KS,6170.0,0.0,35.0,6405.0,6384.25,6466.2,7379.6,-3.67,-3.36,-4.58,-16.39,DN,UP,False,6800.0,6010.0,10.21,7630.0,False,False,False,C,2.0,진에어,STOCK,Other,Other / Needs review,fallback_other
-293490.KQ,11620.0,0.0,37.71,12239.0,12645.5,12926.2,15265.35,-5.06,-8.11,-10.11,-23.88,DN,DN,False,16470.0,11450.0,41.74,16640.0,False,False,False,C,2.0,카카오게임즈,STOCK,Communication Services,Gaming / Contents,keyword_rule
-298380.KQ,127600.0,0.0,34.96,146600.0,165127.5,169034.0,143586.0,-12.96,-22.73,-24.51,-11.13,DN,DN,False,203000.0,150600.0,59.09,203000.0,False,False,False,C,2.0,에이비엘바이오,STOCK,Healthcare,Biotech / Healthcare,keyword_rule
-300720.KS,16800.0,0.0,40.66,17171.0,16884.5,16990.2,18190.6,-2.16,-0.5,-1.12,-7.64,UP,UP,False,19300.0,15900.0,14.88,19300.0,False,False,False,C,2.0,한일시멘트,STOCK,Materials,Cement,fallback_other
-326030.KS,98500.0,0.0,45.2,101530.0,99080.0,101388.0,110541.5,-2.98,-0.59,-2.85,-10.89,DN,DN,False,107900.0,91200.0,9.54,120000.0,False,False,False,C,2.0,SK바이오팜,STOCK,Healthcare,Biotech / Healthcare,keyword_rule
-347850.KQ,71900.0,0.0,41.4,77890.0,76905.0,78426.0,121125.12,-7.69,-6.51,-8.32,-40.64,DN,DN,False,90400.0,65100.0,25.73,94800.0,False,False,False,C,2.0,디앤디파마텍,STOCK,Other,Other / Needs review,fallback_other
-000087.KS,14030.0,0.0,40.62,14050.0,14029.0,14068.6,15015.88,-0.14,0.01,-0.27,-6.57,DN,DN,False,14360.0,13880.0,2.35,14540.0,False,False,True,C,1.0,하이트진로2우B,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-000140.KS,9100.0,0.0,42.31,9182.0,9106.0,9192.2,9839.4,-0.89,-0.07,-1.0,-7.51,DN,UP,False,9330.0,8760.0,2.53,10050.0,False,False,False,C,1.0,하이트진로홀딩스,STOCK,Industrials,Holding company,keyword_rule
-004490.KS,64900.0,0.0,65.49,65460.0,61767.5,62632.0,64216.5,-0.86,5.07,3.62,1.06,UP,UP,False,62600.0,57800.0,-3.54,77700.0,False,False,False,C,1.0,세방전지,STOCK,Materials,Battery materials,keyword
-049950.KQ,16870.0,0.0,70.17,16393.0,14925.5,15207.0,16112.7,2.91,13.03,10.94,4.7,UP,UP,False,19240.0,12800.0,14.05,18760.0,False,False,False,C,1.0,미래컴퍼니,STOCK,Other,Other / Needs review,fallback_other
-060250.KQ,21300.0,0.0,70.12,20310.0,18604.25,19001.8,16983.9,4.87,14.49,12.09,25.41,DN,UP,True,21550.0,15090.0,1.17,24650.0,False,False,False,C,1.0,NHN KCP,STOCK,Other,Other / Needs review,fallback_other
-161890.KS,86900.0,0.0,69.49,88760.0,79747.5,77962.0,76044.0,-2.1,8.97,11.46,14.28,UP,UP,False,81500.0,64000.0,-6.21,93900.0,False,False,False,C,1.0,한국콜마,STOCK,Other,Other / Needs review,fallback_other
-204270.KQ,22500.0,0.0,74.54,19956.0,17900.5,18500.6,20280.3,12.75,25.69,21.62,10.95,UP,UP,False,25100.0,14490.0,11.56,25100.0,False,False,False,C,1.0,제이앤티씨,STOCK,Other,Other / Needs review,fallback_other
-267320.KQ,3940.0,0.0,72.34,3549.0,3216.75,3269.4,3376.42,11.02,22.48,20.51,16.69,UP,UP,False,4315.0,2930.0,9.52,4315.0,False,False,False,C,1.0,나인테크,STOCK,Information Technology,Technology,keyword_rule
-000500.KS,367000.0,0.0,96.28,229690.0,139467.5,132340.0,87146.5,59.78,163.14,177.32,321.13,UP,UP,True,117600.0,86700.0,-67.96,375000.0,False,True,False,C,0.0,가온전선,STOCK,Industrials,Electric wire / Power equipment,keyword_rule
-000660.KS,1601000.0,0.0,92.35,1311300.0,1062925.0,1042800.0,636167.5,22.09,50.62,53.53,151.66,UP,UP,True,1060000.0,806000.0,-33.79,1614000.0,False,True,False,C,0.0,SK하이닉스,STOCK,Information Technology,Semiconductors / Memory,fallback_other
-000670.KS,70000.0,0.0,70.17,67080.0,60612.5,60376.0,51691.42,4.35,15.49,15.94,35.42,UP,UP,True,64500.0,50100.0,-7.86,71000.0,False,True,False,C,0.0,영풍,STOCK,Other,Other / Needs review,fallback_other
-003470.KS,7830.0,0.0,90.28,5590.0,5055.5,5049.2,4146.92,40.07,54.88,55.07,88.81,UP,UP,True,5330.0,4400.0,-31.93,7830.0,False,True,False,C,0.0,유안타증권,STOCK,Financial Services,Securities,keyword_rule
-003670.KS,288500.0,0.0,80.08,259300.0,221467.5,221958.0,191780.5,11.26,30.27,29.98,50.43,UP,UP,True,254000.0,186000.0,-11.96,294500.0,False,True,False,C,0.0,포스코퓨처엠,STOCK,Materials,Battery materials / Cathode,fallback_other
-004800.KS,258500.0,0.0,89.96,202220.0,158212.5,158038.0,124254.5,27.83,63.39,63.57,108.04,UP,UP,True,155000.0,126900.0,-40.04,265500.0,False,True,False,C,0.0,효성,STOCK,Holding Company,Holding company,fallback_other
-005490.KS,506000.0,0.0,90.03,448850.0,374937.5,374880.0,328290.0,12.73,34.96,34.98,54.13,UP,UP,True,427500.0,318000.0,-15.51,519000.0,False,True,False,C,0.0,POSCO홀딩스,STOCK,Materials,Steel / Holding company,keyword_rule
-005930.KS,266000.0,0.0,81.48,227200.0,202796.25,201269.0,126907.0,17.08,31.17,32.16,109.6,UP,UP,True,223000.0,167000.0,-16.17,270000.0,False,True,False,C,0.0,삼성전자,STOCK,Information Technology,Semiconductors / Electronics,keyword_rule
-005935.KS,189300.0,0.0,84.86,161240.0,141662.5,140008.0,93621.25,17.4,33.63,35.21,102.2,UP,UP,True,149250.0,113500.0,-21.16,191900.0,False,True,False,C,0.0,삼성전자우,PREFERRED,Information Technology,Semiconductors / Electronics preferred,preferred_rule
-011070.KS,632000.0,0.0,90.92,547200.0,374937.5,356230.0,252494.5,15.5,68.56,77.41,150.3,UP,UP,True,353500.0,240000.0,-44.07,640000.0,False,True,False,C,0.0,LG이노텍,STOCK,Information Technology,Electronic components / Camera module,keyword
-011790.KS,161200.0,0.0,79.11,122820.0,104145.09,104426.07,106327.52,31.25,54.78,54.37,51.61,UP,UP,True,118500.0,85241.18,-26.49,161200.0,False,True,False,C,0.0,SKC,STOCK,Other,Other / Needs review,fallback_other
-017510.KS,15770.0,0.0,90.33,12413.0,10168.5,10222.2,9748.85,27.04,55.09,54.27,61.76,UP,UP,True,13460.0,8620.0,-14.65,15950.0,False,True,False,C,0.0,세명전기,STOCK,Industrials,Electrical equipment,keyword_rule
-028260.KS,375500.0,0.0,77.51,316050.0,292112.5,296960.0,239945.5,18.81,28.55,26.45,56.49,UP,UP,True,364000.0,245500.0,-3.06,386000.0,False,True,False,C,0.0,삼성물산,STOCK,Industrials,Trading / Construction,keyword
-036010.KQ,12890.0,0.0,91.29,11348.0,9612.75,9355.4,7848.7,13.59,34.09,37.78,64.23,UP,UP,True,10900.0,6900.0,-15.44,13000.0,False,True,False,C,0.0,아비코전자,STOCK,Information Technology,Electronics,keyword_rule
-042700.KS,394500.0,0.0,84.0,341600.0,300825.0,295100.0,168007.0,15.49,31.14,33.68,134.81,UP,UP,True,335500.0,242500.0,-14.96,397500.0,False,True,False,C,0.0,한미반도체,STOCK,Information Technology,Semiconductor equipment,keyword_rule
-051900.KS,267500.0,0.0,65.29,256500.0,249562.5,250780.0,277607.5,4.29,7.19,6.67,-3.64,UP,UP,False,258000.0,235000.0,-3.55,292000.0,False,False,False,C,0.0,LG생활건강,STOCK,Consumer Staples,Consumer goods,keyword
-066570.KS,154900.0,0.0,80.35,136160.0,120330.0,121788.0,95795.0,13.76,28.73,27.19,61.7,UP,UP,True,151900.0,103600.0,-1.94,157000.0,False,True,False,C,0.0,LG전자,STOCK,Information Technology,Electronics,keyword_rule
-069500.KS,113270.0,0.0,92.06,101103.0,89086.62,88549.8,63719.75,12.03,27.15,27.92,77.76,UP,UP,True,95720.0,75110.0,-15.49,114320.0,False,True,False,C,0.0,KODEX 200,ETF,ETF,KOSPI 200 ETF,etf_rule
-071055.KS,193200.0,0.0,77.23,177450.0,167622.5,168482.0,130473.5,8.88,15.26,14.67,48.08,UP,UP,True,180000.0,148500.0,-6.83,194300.0,False,True,False,C,0.0,한국금융지주우,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-091160.KS,140020.0,0.0,94.86,123981.0,106003.62,104276.2,66906.05,12.94,32.09,34.28,109.28,UP,UP,True,107800.0,86650.0,-23.01,140180.0,False,True,False,C,0.0,KODEX 반도체,ETF,ETF,Korea semiconductor ETF,etf_rule
-091230.KS,146300.0,0.0,94.47,130037.5,111408.0,109598.1,70133.32,12.51,31.32,33.49,108.6,UP,UP,True,112900.0,90695.0,-22.83,146590.0,False,True,False,C,0.0,TIGER 반도체,ETF,ETF,Korea semiconductor ETF,etf_rule
-102110.KS,113170.0,0.0,92.31,101133.0,89085.75,88536.5,63733.5,11.9,27.03,27.82,77.57,UP,UP,True,95680.0,75115.0,-15.45,114295.0,False,True,False,C,0.0,TIGER 200,ETF,ETF,KOSPI 200 ETF,etf_rule
-122630.KS,147355.0,0.0,92.3,117885.5,93253.25,93184.6,54541.65,25.0,58.02,58.13,170.17,UP,UP,True,115010.0,66180.0,-21.95,149630.0,False,True,False,C,0.0,KODEX 레버리지,ETF,ETF,KOSPI 200 leveraged ETF,etf_rule
-189300.KQ,153600.0,0.0,71.11,138170.0,128960.0,126532.0,74422.0,11.17,19.11,21.39,106.39,UP,UP,True,149000.0,108400.0,-2.99,155800.0,False,True,False,C,0.0,인텔리안테크,STOCK,Technology,Satellite communication equipment,keyword_rule
-222800.KQ,93800.0,0.0,82.97,87040.0,66696.25,63784.0,48322.25,7.77,40.64,47.06,94.11,UP,UP,True,65700.0,47050.0,-29.96,94700.0,False,True,False,C,0.0,심텍,STOCK,Information Technology,PCB / semiconductor substrate,keyword
-229640.KS,92100.0,0.0,92.05,74610.0,52850.0,50957.0,41927.0,23.44,74.27,80.74,119.67,UP,UP,True,49600.0,40100.0,-46.15,94300.0,False,True,False,C,0.0,LS에코에너지,STOCK,Energy,Energy,keyword_rule
-247540.KQ,228500.0,0.0,70.01,213550.0,202185.0,202658.0,161131.0,7.0,13.02,12.75,41.81,UP,UP,True,225000.0,178300.0,-1.53,231000.0,False,True,False,C,0.0,에코프로비엠,STOCK,Materials,Battery materials / Cathode,keyword_rule
-266370.KS,67505.0,0.0,94.72,59813.5,49306.75,48395.0,31871.26,12.86,36.91,39.49,111.81,UP,UP,True,50175.0,39775.0,-25.67,67800.0,False,True,False,C,0.0,KODEX IT,ETF,ETF,Korea IT sector ETF,etf_rule
-267260.KS,1389000.0,0.0,79.29,1226900.0,1023650.0,1020520.0,784217.5,13.21,35.69,36.11,77.12,UP,UP,True,1116000.0,830000.0,-19.65,1420000.0,False,True,False,C,0.0,HD현대일렉트릭,STOCK,Industrials,Electrical equipment / Power equipment,keyword_rule
-270660.KQ,18570.0,0.0,72.33,18562.0,17663.75,18337.2,19409.05,0.04,5.13,1.27,-4.32,UP,UP,False,31900.0,15410.0,71.78,27750.0,False,False,False,C,0.0,에브리봇,STOCK,Other,Other / Needs review,fallback_other
-298040.KS,4597000.0,0.0,91.25,3754200.0,2988700.0,2915760.0,2018960.0,22.45,53.81,57.66,127.69,UP,UP,True,3075000.0,2400000.0,-33.11,4640000.0,False,True,False,C,0.0,효성중공업,STOCK,Industrials,Power equipment / Heavy industry,fallback_other
-305540.KS,28310.0,0.0,83.31,26642.0,22461.62,22311.2,18717.7,6.26,26.04,26.89,51.25,UP,UP,True,24120.0,18925.0,-14.8,28310.0,False,True,False,C,0.0,TIGER 2차전지테마,ETF,ETF,Korea battery theme ETF,etf_rule
-305720.KS,22790.0,0.0,81.16,21506.5,18222.12,18107.0,15136.25,5.97,25.07,25.86,50.57,UP,UP,True,19695.0,15430.0,-13.58,22790.0,False,True,False,C,0.0,KODEX 2차전지산업,ETF,ETF,Korea battery industry ETF,etf_rule
-336260.KS,78300.0,0.0,90.28,55150.0,43965.0,42753.0,33732.0,41.98,78.1,83.15,132.12,UP,UP,True,48000.0,33400.0,-38.7,78500.0,False,True,False,C,0.0,두산퓨얼셀,STOCK,Industrials,Hydrogen fuel cells / Power systems,fallback_other
-353200.KS,125400.0,0.0,78.34,110170.0,88150.0,82742.0,48969.05,13.82,42.26,51.56,156.08,UP,UP,True,69000.0,49600.0,-44.98,127900.0,False,True,False,C,0.0,대덕전자,STOCK,Information Technology,Electronics,keyword_rule
-356860.KQ,95300.0,0.0,70.34,84800.0,74735.0,71529.0,55898.25,12.38,27.52,33.23,70.49,UP,UP,True,89300.0,46250.0,-6.3,96300.0,False,True,False,C,0.0,티엘비,STOCK,Information Technology,PCB / semiconductor substrate,fallback_other
-361610.KS,26800.0,0.0,70.71,27075.0,23485.0,23785.0,27137.5,-1.02,14.12,12.68,-1.24,UP,UP,False,29750.0,20100.0,11.01,29750.0,False,False,False,C,0.0,SK아이이테크놀로지,STOCK,Information Technology,Technology,keyword_rule
-381180.KS,42500.0,0.0,82.02,39781.0,33722.0,33081.9,27240.38,6.83,26.03,28.47,56.02,UP,UP,True,31620.0,28220.0,-25.6,43095.0,False,True,False,C,0.0,TIGER 미국필라델피아반도체나스닥,ETF,ETF,US semiconductor ETF,etf_rule
-390390.KS,52855.0,0.0,83.73,49954.5,43460.75,42774.3,35665.4,5.81,21.62,23.57,48.2,UP,UP,True,41480.0,37330.0,-21.52,53515.0,False,True,False,C,0.0,KODEX 미국반도체MV,ETF,ETF,US semiconductor ETF,etf_rule
-395160.KS,37315.0,0.0,94.42,33367.5,28920.75,28540.8,18873.0,11.83,29.03,30.74,97.72,UP,UP,True,30065.0,23695.0,-19.43,37315.0,False,True,False,C,0.0,KODEX AI반도체,ETF,ETF,Korea AI semiconductor ETF,etf_rule
-395270.KS,52370.0,0.0,96.32,46155.0,37827.62,37037.9,22804.6,13.47,38.44,41.4,129.65,UP,UP,True,37585.0,29865.0,-28.23,52410.0,False,True,False,C,0.0,HANARO K-반도체,ETF,ETF,Korea semiconductor ETF,etf_rule
-396500.KS,45470.0,0.0,95.98,39977.0,34773.75,34364.3,21822.18,13.74,30.76,32.32,108.37,UP,UP,True,36570.0,28350.0,-19.57,45515.0,False,True,False,C,0.0,TIGER 반도체TOP10,ETF,ETF,Korea semiconductor TOP10 ETF,etf_rule
-403870.KQ,56600.0,0.0,87.6,52450.0,46762.5,46061.0,35471.75,7.91,21.04,22.88,59.56,UP,UP,True,53900.0,40350.0,-4.77,58000.0,False,True,False,C,0.0,HPSP,STOCK,Information Technology,Semiconductor equipment,keyword
-409820.KS,18875.0,0.0,91.68,17568.0,15260.62,15183.9,15170.05,7.44,23.68,24.31,24.42,UP,UP,True,16680.0,12405.0,-11.63,18920.0,False,True,False,C,0.0,KODEX 미국나스닥100레버리지(합성 H),ETF,ETF,US Nasdaq 100 leveraged ETF,etf_rule
-454320.KS,64910.0,0.0,94.69,58147.0,48268.25,47138.9,34714.25,11.63,34.48,37.7,86.98,UP,UP,True,46920.0,40800.0,-27.72,65125.0,False,True,False,C,0.0,HANARO CAPEX설비투자iSelect,ETF,ETF,Korea capex/equipment ETF,etf_rule
-469150.KS,67225.0,0.0,94.35,58286.0,49588.88,48649.6,29863.88,15.34,35.56,38.18,125.1,UP,UP,True,49640.0,39860.0,-26.16,67225.0,False,True,False,C,0.0,ACE AI반도체TOP3+,ETF,ETF,Korea AI semiconductor ETF,etf_rule
-471760.KS,23200.0,0.0,88.45,22000.0,19811.38,19541.2,13405.2,5.45,17.1,18.72,73.07,UP,UP,True,21025.0,16640.0,-9.38,23390.0,False,True,False,C,0.0,TIGER AI반도체핵심공정,ETF,ETF,Korea AI semiconductor process ETF,etf_rule
-471990.KS,33560.0,0.0,90.34,30784.0,26750.62,26142.9,17159.68,9.02,25.46,28.37,95.57,UP,UP,True,27120.0,22340.0,-19.19,33585.0,False,True,False,C,0.0,KODEX AI반도체핵심장비,ETF,ETF,Korea semiconductor equipment ETF,etf_rule
-475310.KS,37310.0,0.0,89.14,34915.0,31190.88,30564.8,19925.78,6.86,19.62,22.07,87.24,UP,UP,True,32480.0,26390.0,-12.95,37310.0,False,True,False,C,0.0,SOL 반도체후공정,ETF,ETF,Korea semiconductor back-end ETF,etf_rule
-488080.KS,76480.0,0.0,95.29,59096.0,46094.38,45601.0,22692.4,29.42,65.92,67.72,237.03,UP,UP,True,54885.0,30800.0,-28.24,76490.0,False,True,False,C,0.0,TIGER 반도체TOP10레버리지,ETF,ETF,Korea semiconductor leveraged ETF,etf_rule
-494310.KS,126665.0,0.0,95.88,100606.5,76026.38,74709.7,37719.25,25.9,66.61,69.54,235.81,UP,UP,True,84995.0,51150.0,-32.9,126950.0,False,True,False,C,0.0,KODEX 반도체레버리지,ETF,ETF,Korea semiconductor leveraged ETF,etf_rule
-000150.KS,1790000.0,0.0,90.23,1565800.0,1275725.0,1242560.0,867075.0,14.32,40.31,44.06,106.44,UP,UP,True,1295000.0,1009000.0,-27.65,1900000.0,False,False,False,C,-1.0,두산,STOCK,Industrials,Holding company / Energy equipment,fallback_other
-000155.KS,713000.0,0.0,91.05,624300.0,536400.0,537480.0,470320.0,14.21,32.92,32.66,51.6,UP,UP,True,620000.0,434000.0,-13.04,739000.0,False,False,False,C,-1.0,두산우,PREFERRED,Industrials,Holding company preferred,preferred_rule
-000157.KS,630000.0,0.0,95.76,549650.0,467200.0,470990.0,435695.0,14.62,34.85,33.76,44.6,UP,UP,True,608000.0,362500.0,-3.49,656000.0,False,False,False,C,-1.0,두산2우B,PREFERRED,Industrials,Holding company preferred,preferred_rule
-000990.KS,162000.0,0.0,87.31,148780.0,104620.0,101716.0,72782.75,8.89,54.85,59.27,122.58,UP,UP,True,98100.0,76300.0,-39.44,168900.0,False,False,False,C,-1.0,DB하이텍,STOCK,Other,Other / Needs review,fallback_other
-001250.KS,4605.0,0.0,70.47,4571.0,3330.12,3173.7,2657.9,0.74,38.28,45.1,73.26,UP,UP,True,2775.0,2310.0,-39.74,5690.0,False,False,False,C,-1.0,GS글로벌,STOCK,Other,Other / Needs review,fallback_other
-001440.KS,69200.0,0.0,92.05,49315.0,35716.25,34968.0,24508.8,40.32,93.75,97.9,182.35,UP,UP,True,37350.0,26500.0,-46.03,74000.0,False,False,False,C,-1.0,대한전선,STOCK,Industrials,Electric wire / Power equipment,keyword_rule
-001470.KS,347.0,0.0,,347.0,347.0,347.0,347.0,0.0,0.0,0.0,0.0,FLAT,FLAT,False,347.0,347.0,0.0,347.0,False,True,True,C,-1.0,삼부토건,STOCK,Other,Other / Needs review,fallback_other
-001570.KS,9900.0,0.0,,9900.0,9900.0,9900.0,9900.0,0.0,0.0,0.0,0.0,FLAT,FLAT,False,9900.0,9900.0,0.0,9900.0,False,True,True,C,-1.0,금양,STOCK,Other,Other / Needs review,fallback_other
-001740.KS,6680.0,0.0,81.91,5863.0,5460.25,5472.6,4840.35,13.93,22.34,22.06,38.01,UP,UP,True,6040.0,4920.0,-9.58,7520.0,False,False,False,C,-1.0,SK네트웍스,STOCK,Other,Other / Needs review,fallback_other
-004000.KS,64800.0,0.0,74.18,62510.0,54002.5,52887.0,47099.25,3.66,19.99,22.53,37.58,UP,UP,True,56900.0,46100.0,-12.19,71800.0,False,False,False,C,-1.0,롯데정밀화학,STOCK,Materials,Chemicals,keyword_rule
-004170.KS,410000.0,0.0,85.08,399900.0,351237.5,350350.0,251601.5,2.53,16.73,17.03,62.96,UP,UP,True,384500.0,295500.0,-6.22,448000.0,False,False,False,C,-1.0,신세계,STOCK,Other,Other / Needs review,fallback_other
-005945.KS,29200.0,0.0,78.26,27905.0,26392.5,26154.0,20814.85,4.64,10.64,11.65,40.28,UP,UP,True,27550.0,23650.0,-5.65,31000.0,False,False,False,C,-1.0,NH투자증권우,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-006260.KS,531000.0,0.0,87.68,420500.0,315962.5,305710.0,220689.0,26.28,68.06,73.69,140.61,UP,UP,True,312000.0,246000.0,-41.24,587000.0,False,False,False,C,-1.0,LS,STOCK,Industrials,Holding / Electrical infrastructure,fallback_other
-006400.KS,698000.0,0.0,82.92,670000.0,491687.5,475590.0,319473.5,4.18,41.96,46.77,118.48,UP,UP,True,473500.0,375000.0,-32.16,723000.0,False,False,False,C,-1.0,삼성SDI,STOCK,Industrials,Battery cells,fallback_other
-006405.KS,355500.0,0.0,86.3,330200.0,251600.0,247840.0,181520.0,7.66,41.3,43.44,95.85,UP,UP,True,279500.0,202000.0,-21.38,373000.0,False,False,False,C,-1.0,삼성SDI우,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-008770.KS,63900.0,0.0,77.26,62580.0,49872.5,48969.0,48338.0,2.11,28.13,30.49,32.19,UP,UP,True,53400.0,39700.0,-16.43,70300.0,False,False,False,C,-1.0,호텔신라,STOCK,Consumer Discretionary,Travel / Leisure,fallback_other
-009150.KS,912000.0,0.0,87.27,826800.0,570200.0,540400.0,299786.0,10.3,59.94,68.76,204.22,UP,UP,True,488500.0,396500.0,-46.44,971000.0,False,False,False,C,-1.0,삼성전기,STOCK,Information Technology,Electronic components / MLCC,keyword_rule
-009155.KS,382000.0,0.0,88.02,336800.0,226505.0,215334.0,127484.5,13.42,68.65,77.4,199.64,UP,UP,True,195600.0,155600.0,-48.8,406000.0,False,False,False,C,-1.0,삼성전기우,PREFERRED,Information Technology,Electronic components preferred,preferred_rule
-010120.KS,315500.0,0.0,96.83,249990.0,184775.0,176768.0,105086.5,26.21,70.75,78.48,200.23,UP,UP,True,181400.0,143000.0,-42.5,328500.0,False,False,False,C,-1.0,LS ELECTRIC,STOCK,Industrials,Electrical equipment / Grid,fallback_other
-016360.KS,149500.0,0.0,84.45,117070.0,104085.0,103598.0,84014.25,27.7,43.63,44.31,77.95,UP,UP,True,119400.0,91300.0,-20.13,163000.0,False,False,False,C,-1.0,삼성증권,STOCK,Financial Services,Securities,keyword_rule
-020150.KS,78500.0,0.0,92.21,67680.0,48733.75,47264.0,34857.5,15.99,61.08,66.09,125.2,UP,UP,True,50500.0,33050.0,-35.67,83100.0,False,False,False,C,-1.0,롯데에너지머티리얼즈,STOCK,Energy,Energy,keyword_rule
-023530.KS,131800.0,0.0,77.1,129720.0,112445.0,110616.0,82880.5,1.6,17.21,19.15,59.02,UP,UP,True,116700.0,99100.0,-11.46,141900.0,False,False,False,C,-1.0,롯데쇼핑,STOCK,Consumer Discretionary,Retail,fallback_other
-024800.KQ,4475.0,0.0,72.99,4295.5,4012.62,4006.5,2951.92,4.18,11.52,11.69,51.6,UP,UP,True,4210.0,3455.0,-5.92,4675.0,False,False,False,C,-1.0,유성티엔에스,STOCK,Other,Other / Needs review,fallback_other
-033100.KQ,88200.0,0.0,89.16,65100.0,52365.0,52329.0,41821.0,35.48,68.43,68.55,110.9,UP,UP,True,70100.0,43250.0,-20.52,93800.0,False,False,False,C,-1.0,제룡전기,STOCK,Industrials,Electrical equipment,keyword_rule
-033640.KQ,34800.0,0.0,76.74,31175.0,23134.5,21969.2,16883.5,11.63,50.42,58.4,106.12,UP,UP,True,21500.0,14420.0,-38.22,37200.0,False,False,False,C,-1.0,네패스,STOCK,Other,Other / Needs review,fallback_other
-034020.KS,127000.0,0.0,85.27,124850.0,107545.0,105612.0,82943.5,1.72,18.09,20.25,53.12,UP,UP,True,112100.0,91100.0,-11.73,131100.0,False,False,False,C,-1.0,두산에너빌리티,STOCK,Industrials,Power equipment / Nuclear,fallback_other
-034730.KS,520000.0,0.0,95.68,423450.0,361450.0,364370.0,275490.5,22.8,43.86,42.71,88.75,UP,UP,True,424000.0,298000.0,-18.46,600000.0,False,False,False,C,-1.0,SK,STOCK,Other,Other / Needs review,fallback_other
-03473K.KS,350000.0,0.0,93.0,295350.0,262300.0,263710.0,205548.5,18.5,33.43,32.72,70.28,UP,UP,True,299500.0,226500.0,-14.43,381500.0,False,False,False,C,-1.0,SK우 : Npay 증권,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-040420.KQ,5960.0,0.0,48.15,6007.0,5891.25,5874.2,6165.85,-0.78,1.17,1.46,-3.34,DN,UP,False,5880.0,5750.0,-1.34,6130.0,False,False,True,C,-1.0,정상제이엘에스,STOCK,Other,Other / Needs review,fallback_other
-046890.KQ,16700.0,0.0,78.75,13835.0,11086.5,10906.2,7695.25,20.71,50.63,53.12,117.02,UP,UP,True,12000.0,8570.0,-28.14,18960.0,False,False,False,C,-1.0,서울반도체,STOCK,Information Technology,Semiconductors / Electronics,keyword_rule
-047040.KS,32200.0,0.0,70.33,33805.0,22192.0,19496.0,7904.0,-4.75,45.1,65.16,307.39,UP,UP,True,5760.0,3610.0,-82.11,40350.0,False,False,False,C,-1.0,대우건설,PREFERRED,Preferred Stock,Preferred / Special share,preferred_rule
-051910.KS,423500.0,0.0,79.5,399500.0,341562.5,343190.0,330842.5,6.01,23.99,23.4,28.01,UP,UP,True,424000.0,288000.0,0.12,436000.0,False,False,False,C,-1.0,LG화학,STOCK,Materials,Chemicals / Battery materials,keyword_rule
-060370.KQ,50100.0,0.0,85.04,39365.0,32410.0,31990.0,28432.5,27.27,54.58,56.61,76.21,UP,UP,True,35450.0,27300.0,-29.24,51600.0,False,False,False,C,-1.0,레고켐바이오,STOCK,Health Care,Biotech / ADC,keyword_rule
-062040.KS,319500.0,0.0,84.58,244050.0,177255.0,172722.0,140529.5,30.92,80.25,84.98,127.35,UP,UP,True,178100.0,131000.0,-44.26,341000.0,False,False,False,C,-1.0,산일전기,STOCK,Industrials,Transformer / Power equipment,keyword_rule
-064290.KQ,33350.0,0.0,76.35,30615.0,22540.75,21122.6,15543.35,8.93,47.95,57.89,114.56,UP,UP,True,18840.0,13250.0,-43.51,35100.0,False,False,False,C,-1.0,인텍플러스,STOCK,Other,Other / Needs review,fallback_other
-066970.KS,212500.0,0.0,70.78,201730.0,160765.0,151778.0,111958.5,5.34,32.18,40.01,89.8,UP,UP,True,129000.0,92500.0,-39.29,225000.0,False,False,False,C,-1.0,엘앤에프,STOCK,Other,Other / Needs review,fallback_other
-067310.KQ,43500.0,0.0,78.69,40215.0,34111.25,34185.0,25316.7,8.17,27.52,27.25,71.82,UP,UP,True,36500.0,27500.0,-16.09,44850.0,False,False,False,C,-1.0,하나마이크론,STOCK,Other,Other / Needs review,fallback_other
-082740.KS,84500.0,0.0,77.57,79350.0,55578.75,54737.0,46838.5,6.49,52.04,54.37,80.41,UP,UP,True,53300.0,42850.0,-36.92,94400.0,False,False,False,C,-1.0,한화엔진,STOCK,Other,Other / Needs review,fallback_other
-083450.KQ,56900.0,0.0,87.39,47620.0,35115.0,34160.0,26769.9,19.49,62.04,66.57,112.55,UP,UP,True,34050.0,24350.0,-40.16,61100.0,False,False,False,C,-1.0,GST,STOCK,Other,Other / Needs review,fallback_other
-089010.KQ,45700.0,0.0,79.96,37840.0,31495.0,31325.0,29944.25,20.77,45.1,45.89,52.62,UP,UP,True,37400.0,26000.0,-18.16,48900.0,False,False,False,C,-1.0,켐트로닉스,STOCK,Other,Other / Needs review,fallback_other
-092190.KQ,12110.0,0.0,94.51,6944.5,4517.38,4407.1,3137.38,74.38,168.08,174.78,285.99,UP,UP,True,4300.0,3150.0,-64.49,13630.0,False,False,False,C,-1.0,서울바이오시스,STOCK,Information Technology,LED / Optoelectronics,keyword_rule
-096770.KS,146700.0,0.0,80.1,138540.0,122542.5,123324.0,114341.0,5.89,19.71,18.95,28.3,UP,UP,True,141300.0,105100.0,-3.68,155400.0,False,False,False,C,-1.0,SK이노베이션,STOCK,Other,Other / Needs review,fallback_other
-098460.KQ,41600.0,0.0,72.21,38615.0,30906.25,30868.0,23108.7,7.73,34.6,34.77,80.02,UP,UP,True,37450.0,24300.0,-9.98,45000.0,False,False,False,C,-1.0,고영,STOCK,Other,Other / Needs review,fallback_other
-103590.KS,142200.0,0.0,95.45,111210.0,86927.5,86014.0,58979.62,27.87,63.58,65.32,141.1,UP,UP,True,98000.0,69000.0,-31.08,147900.0,False,False,False,C,-1.0,일진전기,STOCK,Industrials,Electric wire / Power equipment,keyword_rule
-131970.KQ,140000.0,0.0,84.93,126800.0,100990.0,93764.0,56766.5,10.41,38.63,49.31,146.62,UP,UP,True,117500.0,84600.0,-16.07,145400.0,False,False,False,C,-1.0,두산테스나,STOCK,Other,Other / Needs review,fallback_other
-140860.KQ,318000.0,0.0,82.89,290650.0,264987.5,266180.0,253727.5,9.41,20.01,19.47,25.33,UP,UP,True,305000.0,226000.0,-4.09,330000.0,False,False,False,C,-1.0,파크시스템스,STOCK,Information Technology,IT Systems,keyword_rule
-178920.KQ,30500.0,0.0,81.68,26480.0,23248.25,22520.4,18702.15,15.18,31.19,35.43,63.08,UP,UP,True,27900.0,16500.0,-8.52,31800.0,False,False,False,C,-1.0,PI첨단소재,STOCK,Materials,Materials,keyword_rule
-199820.KQ,19350.0,0.0,86.09,14521.0,11574.25,11264.2,10568.1,33.26,67.18,71.78,83.1,UP,UP,True,12930.0,9630.0,-33.18,22300.0,False,False,False,C,-1.0,제일일렉트릭,STOCK,Other,Other / Needs review,fallback_other
-263050.KQ,959.0,0.0,,959.0,959.0,959.0,1279.51,0.0,0.0,0.0,-25.05,FLAT,FLAT,False,959.0,959.0,0.0,959.0,False,True,False,C,-1.0,유틸렉스,STOCK,Other,Other / Needs review,fallback_other
-267770.KS,112540.0,0.0,92.03,90218.5,71267.38,71143.4,41644.22,24.74,57.91,58.19,170.24,UP,UP,True,87215.0,50365.0,-22.5,116000.0,False,False,False,C,-1.0,배럴,STOCK,Consumer Discretionary,Apparel / Leisure,fallback_other
-298000.KS,38900.0,0.0,,38900.0,38900.0,38900.0,38900.0,0.0,0.0,0.0,0.0,FLAT,FLAT,False,38900.0,38900.0,0.0,38900.0,False,True,True,C,-1.0,효성화학,STOCK,Materials,Chemicals,keyword_rule
-322000.KS,213500.0,0.0,76.35,199030.0,157770.0,144568.0,76423.75,7.27,35.32,47.68,179.36,UP,UP,True,96600.0,77700.0,-54.75,244000.0,False,False,False,C,-1.0,HD현대에너지솔루션,STOCK,Energy,Energy,keyword_rule
-329180.KS,648000.0,0.0,80.84,657200.0,550362.5,555930.0,532940.0,-1.4,17.74,16.56,21.59,UP,UP,True,630000.0,428000.0,-2.78,710000.0,False,False,False,C,-1.0,HD현대중공업,STOCK,Industrials,Heavy industry,keyword_rule
-353200.KQ,114400.0,0.0,75.09,106930.0,86520.0,81402.0,48431.7,6.99,32.22,40.54,136.21,UP,UP,True,69000.0,49600.0,-39.69,120000.0,False,False,False,C,-1.0,대덕전자,STOCK,Information Technology,Electronics,keyword_rule
-425040.KQ,21700.0,0.0,86.68,15843.0,12813.25,12099.6,9178.45,36.97,69.36,79.34,136.42,UP,UP,True,15000.0,12060.0,-30.88,25200.0,False,False,False,C,-1.0,티이엠씨,STOCK,Other,Other / Needs review,fallback_other
-068240.KQ,2530.0,0.0,,2530.0,2523.88,2611.7,4317.18,0.0,0.24,-3.13,-41.4,FLAT,UP,False,2530.0,2530.0,0.0,3990.0,False,False,False,C,-2.0,다원시스,STOCK,Other,Other / Needs review,fallback_other
-383220.KS,78500.0,0.0,88.14,69160.0,64677.5,65264.0,68166.0,13.5,21.37,20.28,15.16,UP,UP,False,78400.0,58000.0,-0.13,80450.0,False,True,False,C,-2.0,F&F,STOCK,Consumer Discretionary,Apparel / Fashion,fallback_other
-004430.KS,14930.0,0.0,84.75,12906.0,10072.25,9904.8,9891.5,15.68,48.23,50.73,50.94,UP,UP,False,9880.0,8470.0,-33.82,16730.0,False,False,False,C,-3.0,송원산업,STOCK,Industrials,Industrial products,fallback_other
-051900.KQ,279500.0,0.0,81.63,254900.0,249100.0,250890.0,277890.0,9.65,12.2,11.4,0.58,UP,UP,False,258000.0,235000.0,-7.69,292000.0,False,False,False,C,-3.0,LG생활건강,STOCK,Consumer Staples,Consumer goods,keyword
-192080.KS,58900.0,0.0,74.85,57720.0,51906.25,52018.0,53038.0,2.04,13.47,13.23,11.05,UP,UP,False,57500.0,47550.0,-2.38,63900.0,False,False,False,C,-3.0,더블유게임즈,STOCK,Communication Services,Gaming / Contents,keyword_rule
-256150.KQ,5440.0,0.0,76.92,5412.0,5239.75,5252.0,5543.7,0.52,3.82,3.58,-1.87,UP,UP,False,5340.0,5030.0,-1.84,5480.0,False,True,False,C,-3.0,한독크린텍,STOCK,Other,Other / Needs review,fallback_other
-259960.KS,284000.0,0.0,70.83,273600.0,249500.0,247690.0,275437.5,3.8,13.83,14.66,3.11,UP,UP,False,268500.0,208500.0,-5.46,303500.0,False,False,False,C,-3.0,크래프톤,STOCK,Other,Other / Needs review,fallback_other
-306200.KS,179200.0,0.0,77.56,165880.0,147062.5,143614.0,133289.5,8.03,21.85,24.78,34.44,UP,UP,False,143500.0,123500.0,-19.92,189000.0,False,False,False,C,-3.0,세아제강,STOCK,Materials,Steel wire,keyword
-443060.KS,260500.0,0.0,76.85,256450.0,198855.0,194566.0,199714.5,1.58,31.0,33.89,30.44,UP,UP,False,188800.0,158000.0,-27.52,287000.0,False,False,False,C,-3.0,HD현대마린솔루션,STOCK,Holding Company,Holding company,keyword_rule
+ticker,price,gap_pct,rsi14,sma10,sma40,sma50,sma200,px_vs_sma10,px_vs_sma40,px_vs_sma50,px_vs_sma200,sma10_slope,sma40_slope,weekly_up,weekly_r1,weekly_s1,room_to_weekly_r1_pct,daily_break_level,daily_breakout,daily_retest,in_daily_box_middle,grade,score
+089970.KQ,56800.0,0.0,73.12,55830.0,47231.25,45682.0,27348.05,1.74,20.26,24.34,107.69,UP,UP,True,58300.0,38000.0,2.64,58300.0,False,True,False,A,3.0
+373220.KS,482000.0,0.0,73.16,473350.0,414200.0,410110.0,398662.5,1.83,16.37,17.53,20.9,UP,UP,True,493000.0,346000.0,2.28,493000.0,False,True,False,A,3.0
+000050.KS,10130.0,0.0,64.02,10060.0,9551.5,9602.2,8333.6,0.7,6.06,5.5,21.56,UP,UP,True,15210.0,8810.0,50.15,15210.0,False,False,False,C,9.0
+001120.KS,49850.0,0.0,52.73,53345.0,48858.75,47774.0,36437.5,-6.55,2.03,4.35,36.81,UP,UP,True,54500.0,37600.0,9.33,57700.0,False,False,False,C,9.0
+001230.KS,39229.18,0.0,61.15,39163.8,36559.7,35735.03,28657.95,0.17,7.3,9.78,36.89,UP,UP,True,41121.82,32037.16,4.82,41121.82,False,False,False,C,9.0
+001430.KS,71000.0,0.0,56.54,71920.0,68825.0,68186.0,46458.75,-1.28,3.16,4.13,52.82,UP,UP,True,74000.0,62000.0,4.23,92500.0,False,False,False,C,9.0
+003620.KS,4330.0,0.0,61.51,4265.5,3786.88,3791.6,3594.08,1.51,14.34,14.2,20.48,UP,UP,True,4565.0,3300.0,5.43,4635.0,False,False,False,C,9.0
+004020.KS,41900.0,0.0,58.08,42510.0,38075.0,38159.0,34182.5,-1.43,10.05,9.8,22.58,UP,UP,True,50400.0,33050.0,20.29,50400.0,False,False,False,C,9.0
+005090.KS,56300.0,0.0,54.39,60720.0,57720.0,55510.0,31865.0,-7.28,-2.46,1.42,76.68,UP,UP,True,70700.0,49100.0,25.58,70700.0,False,False,False,C,9.0
+005290.KQ,59100.0,0.0,62.98,59120.0,51715.0,51842.0,41449.5,-0.03,14.28,14.0,42.58,UP,UP,True,64400.0,41850.0,8.97,64400.0,False,False,False,C,9.0
+005380.KS,550000.0,0.0,64.89,538700.0,510000.0,520120.0,346677.5,2.1,7.84,5.74,58.65,UP,UP,True,687000.0,445000.0,24.91,687000.0,False,False,True,C,9.0
+006120.KS,62900.0,0.0,50.32,58330.0,57650.0,57680.0,57461.75,7.83,9.11,9.05,9.46,DN,UP,True,68200.0,47500.0,8.43,68200.0,False,False,False,C,9.0
+010130.KS,1747000.0,0.0,62.44,1651200.0,1597150.0,1648040.0,1278130.0,5.8,9.38,6.0,36.68,DN,DN,True,2188000.0,1395000.0,25.24,2188000.0,False,False,True,C,9.0
+010820.KS,13440.0,0.0,55.97,14424.0,10164.25,9644.0,5676.98,-6.82,32.23,39.36,136.75,UP,UP,True,18730.0,6570.0,39.36,18730.0,False,False,False,C,9.0
+010950.KS,122000.0,0.0,52.91,122150.0,115415.0,116848.0,85786.75,-0.12,5.71,4.41,42.21,UP,DN,True,177100.0,103600.0,45.16,177100.0,False,False,False,C,9.0
+010955.KS,58700.0,0.0,56.39,58420.0,55967.5,56446.0,47939.5,0.48,4.88,3.99,22.45,UP,UP,True,75200.0,51300.0,28.11,75200.0,False,False,False,C,9.0
+011780.KS,140100.0,0.0,57.14,139490.0,130105.0,131596.0,123164.75,0.44,7.68,6.46,13.75,UP,UP,True,162300.0,110000.0,15.85,162300.0,False,False,True,C,9.0
+012330.KS,432500.0,0.0,58.96,437600.0,412675.0,421470.0,359597.5,-1.17,4.8,2.62,20.27,UP,UP,True,472000.0,372000.0,9.13,531000.0,False,False,False,C,9.0
+017800.KS,97000.0,0.0,55.86,98380.0,91830.0,92792.0,87029.5,-1.4,5.63,4.53,11.46,DN,UP,True,104100.0,82800.0,7.32,113400.0,False,False,True,C,9.0
+018260.KS,170000.0,0.0,62.45,172410.0,162907.5,165096.0,167138.5,-1.4,4.35,2.97,1.71,DN,UP,True,194000.0,146100.0,14.12,196900.0,False,False,True,C,9.0
+022100.KS,34550.0,0.0,63.08,35300.0,32470.0,33069.0,28835.25,-2.12,6.41,4.48,19.82,UP,UP,True,45600.0,28900.0,31.98,41950.0,False,False,True,C,9.0
+025900.KQ,12200.0,0.0,62.21,12114.0,10879.0,10676.2,9707.75,0.71,12.14,14.27,25.67,UP,UP,True,12980.0,7850.0,6.39,12980.0,False,False,False,C,9.0
+028670.KS,5620.0,0.0,64.35,5620.0,5283.38,5303.5,4387.68,0.0,6.37,5.97,28.09,FLAT,UP,True,6600.0,4650.0,17.44,6600.0,False,False,True,C,9.0
+031430.KS,14300.0,0.0,64.02,14760.0,13052.75,12935.8,11428.45,-3.12,9.56,10.55,25.13,UP,UP,True,14750.0,11700.0,3.15,15620.0,False,False,False,C,9.0
+032500.KQ,30750.0,0.0,55.96,30265.0,28627.0,26516.6,17621.1,1.6,7.42,15.97,74.51,UP,UP,True,35150.0,24300.0,14.31,35150.0,False,False,False,C,9.0
+035600.KQ,11330.0,0.0,63.41,11412.0,10760.75,10829.6,10689.8,-0.72,5.29,4.62,5.99,DN,UP,True,11970.0,10000.0,5.65,12280.0,False,False,True,C,9.0
+041960.KQ,9320.0,0.0,58.99,9672.0,8809.0,8778.2,7070.05,-3.64,5.8,6.17,31.82,DN,UP,True,10790.0,7630.0,15.77,10790.0,False,False,False,C,9.0
+051600.KS,59900.0,0.0,56.88,62240.0,59862.5,59592.0,54233.25,-3.76,0.06,0.52,10.45,UP,UP,True,69000.0,54800.0,15.19,69000.0,False,False,True,C,9.0
+052690.KS,182000.0,0.0,57.81,187770.0,172427.5,169488.0,118202.75,-3.07,5.55,7.38,53.97,UP,UP,True,198000.0,145600.0,8.79,198000.0,False,False,False,C,9.0
+058470.KQ,116700.0,0.0,56.0,117650.0,112147.5,111368.0,72604.0,-0.81,4.06,4.79,60.73,UP,DN,True,129000.0,94200.0,10.54,129000.0,False,False,False,C,9.0
+078930.KS,76900.0,0.0,58.22,76920.0,69785.0,69578.0,57545.5,-0.03,10.2,10.52,33.63,UP,UP,True,81000.0,60700.0,5.33,84000.0,False,False,False,C,9.0
+078935.KS,57500.0,0.0,61.9,57050.0,54867.5,55234.0,48902.5,0.79,4.8,4.1,17.58,UP,UP,True,63500.0,51500.0,10.43,63500.0,False,False,True,C,9.0
+079550.KS,979000.0,0.0,54.82,963800.0,826200.0,785050.0,561400.0,1.58,18.49,24.71,74.39,UP,UP,True,1118000.0,604000.0,14.2,1118000.0,False,False,False,C,9.0
+084370.KQ,138700.0,0.0,61.63,135100.0,127767.5,128648.0,87003.25,2.66,8.56,7.81,59.42,UP,DN,True,153200.0,105600.0,10.45,153200.0,False,False,False,C,9.0
+086790.KS,125500.0,0.0,62.98,124480.0,116092.5,116532.0,98603.0,0.82,8.1,7.7,27.28,UP,UP,True,133700.0,103200.0,6.53,133700.0,False,False,False,C,9.0
+095610.KQ,89700.0,0.0,59.13,88330.0,74077.5,73426.0,49728.75,1.55,21.09,22.16,80.38,DN,UP,True,95000.0,53700.0,5.91,95000.0,False,False,False,C,9.0
+097230.KS,27850.0,0.0,50.56,30110.0,26792.5,26212.8,22665.7,-7.51,3.95,6.25,22.87,UP,UP,True,33800.0,21500.0,21.36,33800.0,False,False,False,C,9.0
+105560.KS,158900.0,0.0,57.65,158720.0,153575.0,154012.0,130459.5,0.11,3.47,3.17,21.8,DN,UP,True,166500.0,141400.0,4.78,172500.0,False,False,False,C,9.0
+112610.KS,66900.0,0.0,58.08,70250.0,64635.0,61696.0,48151.75,-4.77,3.5,8.43,38.94,UP,UP,True,79400.0,41800.0,18.68,79400.0,False,False,False,C,9.0
+119850.KQ,36750.0,0.0,64.49,35740.0,34140.0,34747.0,34215.25,2.83,7.64,5.76,7.41,UP,UP,True,43450.0,28800.0,18.23,43450.0,False,False,True,C,9.0
+139130.KS,18980.0,0.0,63.32,19083.0,17706.75,17860.6,15391.0,-0.54,7.19,6.27,23.32,UP,UP,True,22000.0,16110.0,15.91,22000.0,False,False,True,C,9.0
+139480.KS,103300.0,0.0,63.9,104990.0,98110.0,98618.0,87174.5,-1.61,5.29,4.75,18.5,UP,UP,True,136400.0,88800.0,32.04,136400.0,False,False,False,C,9.0
+181710.KQ,40900.0,0.0,54.05,41310.0,39173.75,38823.0,31912.25,-0.99,4.41,5.35,28.16,DN,UP,True,43700.0,35000.0,6.85,44150.0,False,False,False,C,9.0
+181710.KS,40900.0,0.0,54.05,41310.0,39173.75,38823.0,31912.25,-0.99,4.41,5.35,28.16,DN,UP,True,43700.0,35000.0,6.85,44150.0,False,False,False,C,9.0
+195940.KQ,52100.0,0.0,62.96,52590.0,50846.25,51223.0,49289.75,-0.93,2.47,1.71,5.7,DN,UP,True,58600.0,46650.0,12.48,58600.0,False,False,True,C,9.0
+200710.KQ,55100.0,0.0,53.63,56050.0,52513.75,50614.0,33185.75,-1.69,4.92,8.86,66.04,DN,UP,True,62000.0,34600.0,12.52,62000.0,False,False,False,C,9.0
+211270.KQ,17550.0,0.0,54.33,17217.0,16875.0,16782.8,14141.75,1.93,4.0,4.57,24.1,DN,UP,True,18900.0,14980.0,7.69,21650.0,False,False,True,C,9.0
+218410.KQ,96400.0,0.0,50.72,96650.0,88095.0,82682.0,44833.5,-0.26,9.43,16.59,115.02,UP,UP,True,108600.0,32700.0,12.66,108600.0,False,False,False,C,9.0
+237690.KQ,150000.0,0.0,54.47,152960.0,149700.0,149808.0,118596.5,-1.94,0.2,0.13,26.48,UP,DN,True,171500.0,135100.0,14.33,172100.0,False,False,True,C,9.0
+272290.KQ,36000.0,0.0,64.58,35500.0,32860.0,33057.0,27609.75,1.41,9.56,8.9,30.39,DN,UP,True,37250.0,28200.0,3.47,44400.0,False,False,True,C,9.0
+278280.KQ,63900.0,0.0,52.85,66480.0,55911.25,54703.0,52454.75,-3.88,14.29,16.81,21.82,DN,UP,True,70700.0,40000.0,10.64,70700.0,False,False,False,C,9.0
+297090.KQ,8360.0,0.0,59.2,8632.0,8026.5,7746.8,6855.95,-3.15,4.15,7.92,21.94,UP,UP,True,9600.0,5540.0,14.83,9600.0,False,False,False,C,9.0
+298020.KS,505000.0,0.0,53.69,523800.0,435975.0,422750.0,292085.0,-3.59,15.83,19.46,72.89,UP,UP,True,557000.0,290000.0,10.3,557000.0,False,False,False,C,9.0
+307950.KS,441000.0,0.0,61.63,448700.0,413925.0,418780.0,286734.5,-1.72,6.54,5.31,53.8,UP,UP,True,543000.0,357000.0,23.13,543000.0,False,False,True,C,9.0
+319400.KQ,32150.0,0.0,59.55,31100.0,29488.75,29888.0,17268.05,3.38,9.02,7.57,86.18,UP,UP,True,34450.0,23700.0,7.15,37700.0,False,False,False,C,9.0
+383310.KQ,32650.0,0.0,64.04,32820.0,31001.25,31806.0,28117.25,-0.52,5.32,2.65,16.12,UP,DN,True,41300.0,27700.0,26.49,41300.0,False,False,False,C,9.0
+417500.KQ,5040.0,0.0,54.59,4747.5,4877.75,4737.8,3617.98,6.16,3.33,6.38,39.3,DN,UP,True,6160.0,4200.0,22.22,6160.0,False,False,False,C,9.0
+950160.KQ,103600.0,0.0,59.67,102980.0,102997.5,102702.0,69826.25,0.6,0.58,0.87,48.37,DN,DN,True,130700.0,89600.0,26.16,130700.0,False,False,False,C,9.0
+001450.KS,30800.0,0.0,54.46,30690.0,30478.75,31007.0,29166.5,0.36,1.05,-0.67,5.6,UP,UP,True,32600.0,29450.0,5.84,44250.0,False,False,False,C,8.0
+028050.KS,53000.0,0.0,52.91,53110.0,43110.0,41503.0,30733.25,-0.21,22.94,27.7,72.45,UP,UP,True,54500.0,30650.0,2.83,57800.0,False,False,False,C,8.0
+032820.KQ,21250.0,0.0,51.68,22300.0,22992.5,21712.8,9045.08,-4.71,-7.58,-2.13,134.93,DN,UP,True,25300.0,19300.0,19.06,30200.0,False,False,False,C,8.0
+048410.KQ,13740.0,0.0,53.21,14233.0,14350.5,14748.2,8260.75,-3.46,-4.25,-6.84,66.33,DN,DN,True,16450.0,12670.0,19.72,21500.0,False,False,False,C,8.0
+099320.KQ,173000.0,0.0,51.98,176910.0,177795.0,177608.0,102111.5,-2.21,-2.7,-2.59,69.42,DN,DN,True,210000.0,149300.0,21.39,222000.0,False,False,False,C,8.0
+226950.KQ,167400.0,0.0,54.84,176650.0,178055.0,177380.0,121042.25,-5.24,-5.98,-5.63,38.3,DN,DN,True,217000.0,147500.0,29.63,217000.0,False,False,True,C,8.0
+310210.KQ,283000.0,0.0,51.0,298900.0,306637.5,306700.0,211871.5,-5.32,-7.71,-7.73,33.57,DN,DN,True,371500.0,262500.0,31.27,375500.0,False,False,True,C,8.0
+00088K.KS,50900.0,0.0,64.36,49920.0,47846.25,48604.0,41952.25,1.96,6.38,4.72,21.33,UP,UP,True,51300.0,41100.0,0.79,58800.0,False,False,True,C,7.0
+003547.KS,23400.0,0.0,52.17,23160.0,23721.25,24133.0,21196.25,1.04,-1.35,-3.04,10.4,DN,DN,True,24100.0,21650.0,2.99,29750.0,False,False,False,C,7.0
+003570.KS,55800.0,0.0,51.09,57060.0,52756.25,52974.0,54226.0,-2.21,5.77,5.33,2.9,UP,UP,False,61100.0,44700.0,9.5,62800.0,False,False,False,C,7.0
+005070.KS,64000.0,0.0,69.64,62710.0,54506.25,54434.0,48652.25,2.06,17.42,17.57,31.55,UP,UP,True,66400.0,46600.0,3.75,66400.0,False,False,False,C,7.0
+007660.KS,151600.0,0.0,67.0,150120.0,123780.0,121602.0,102134.25,0.99,22.48,24.67,48.43,UP,UP,True,164400.0,96300.0,8.44,164400.0,False,False,False,C,7.0
+009540.KS,452500.0,0.0,68.79,463050.0,409462.5,414140.0,408325.0,-2.28,10.51,9.26,10.82,UP,UP,True,474000.0,340500.0,4.75,486000.0,False,False,False,C,7.0
+009830.KS,48100.0,0.0,65.06,48540.0,44619.38,45551.5,34357.75,-0.91,7.8,5.59,40.0,UP,UP,True,56800.0,33600.0,18.09,59300.0,False,False,False,C,7.0
+009835.KS,28000.0,0.0,67.39,27830.0,26312.5,26828.0,24172.5,0.61,6.41,4.37,15.83,UP,DN,True,35100.0,21550.0,25.36,35100.0,False,False,True,C,7.0
+010140.KS,31850.0,0.0,69.65,32665.0,29006.25,28799.0,25168.7,-2.5,9.8,10.59,26.55,UP,UP,True,35350.0,24200.0,10.99,35350.0,False,False,False,C,7.0
+018670.KS,262000.0,0.0,61.93,262400.0,249900.0,247790.0,245562.5,-0.15,4.84,5.73,6.69,UP,UP,False,285000.0,235500.0,8.78,300000.0,False,False,True,C,7.0
+031980.KQ,127600.0,0.0,62.53,121410.0,109327.5,106254.0,61888.5,5.1,16.71,20.09,106.18,UP,UP,True,129200.0,89600.0,1.25,139100.0,False,False,False,C,7.0
+033500.KQ,28100.0,0.0,61.59,29105.0,26608.75,26933.0,27624.75,-3.45,5.6,4.33,1.72,UP,UP,False,32150.0,21650.0,14.41,32150.0,False,False,False,C,7.0
+033780.KS,175400.0,0.0,66.08,175680.0,163442.5,163578.0,147055.0,-0.16,7.32,7.23,19.28,UP,UP,True,181500.0,148000.0,3.48,181800.0,False,False,False,C,7.0
+039490.KS,484500.0,0.0,51.11,441850.0,438775.0,439490.0,320192.0,9.65,10.42,10.24,51.32,DN,UP,True,489000.0,366500.0,0.93,517000.0,False,False,False,C,7.0
+042660.KS,130200.0,0.0,61.6,133020.0,128155.0,129122.0,120160.25,-2.12,1.6,0.83,8.36,UP,UP,False,154800.0,115100.0,18.89,154800.0,False,False,True,C,7.0
+056190.KQ,32100.0,0.0,69.18,31995.0,29235.0,29825.0,26047.25,0.33,9.8,7.63,23.24,UP,UP,True,36500.0,26000.0,13.71,36500.0,False,False,True,C,7.0
+060280.KQ,15970.0,0.0,60.71,16368.0,15598.75,15743.6,12591.6,-2.43,2.38,1.44,26.83,UP,UP,False,19400.0,14220.0,21.48,21100.0,False,False,False,C,7.0
+064400.KS,67000.0,0.0,64.88,66870.0,63860.0,64620.0,65920.0,0.19,4.92,3.68,1.64,DN,UP,False,78300.0,55400.0,16.87,78300.0,False,False,True,C,7.0
+071050.KS,291500.0,0.0,69.32,259950.0,236787.5,238790.0,182606.0,12.14,23.11,22.07,59.63,UP,UP,True,300500.0,200500.0,3.09,300500.0,False,False,False,C,7.0
+078600.KQ,158600.0,0.0,67.07,159580.0,130860.0,124482.0,85450.0,-0.61,21.2,27.41,85.61,UP,UP,True,183300.0,76100.0,15.57,183300.0,False,False,False,C,7.0
+083650.KQ,98800.0,0.0,66.1,98700.0,98152.5,96274.0,62980.25,0.1,0.66,2.62,56.87,UP,UP,True,103800.0,87500.0,5.06,114200.0,False,False,False,C,7.0
+084850.KQ,18480.0,0.0,52.69,17910.0,14146.25,13307.4,12009.15,3.18,30.64,38.87,53.88,DN,UP,False,19620.0,8620.0,6.17,19620.0,False,False,False,C,7.0
+086390.KQ,19160.0,0.0,69.04,19022.0,17976.25,18169.0,16056.05,0.73,6.59,5.45,19.33,UP,DN,True,23700.0,14740.0,23.7,23700.0,False,False,True,C,7.0
+088350.KS,5250.0,0.0,67.45,4967.0,4829.12,4858.9,3716.78,5.7,8.72,8.05,41.25,UP,UP,True,5470.0,4375.0,4.19,7560.0,False,False,False,C,7.0
+088390.KQ,13620.0,0.0,65.36,13985.0,12551.0,12618.2,11122.65,-2.61,8.52,7.94,22.45,UP,UP,True,14950.0,11100.0,9.77,17300.0,False,False,True,C,7.0
+089030.KQ,62100.0,0.0,65.02,59360.0,56016.25,55531.0,47795.25,4.62,10.86,11.83,29.93,UP,DN,True,74000.0,44850.0,19.16,74000.0,False,False,False,C,7.0
+093370.KS,14130.0,0.0,67.52,13725.0,9894.0,9433.2,7604.92,2.95,42.81,49.79,85.8,UP,UP,True,15420.0,6450.0,9.13,15420.0,False,False,False,C,7.0
+095700.KQ,5120.0,0.0,51.34,5628.0,5159.75,5050.4,5060.73,-9.03,-0.77,1.38,1.17,DN,UP,False,7490.0,4365.0,46.29,7490.0,False,False,False,C,7.0
+102710.KQ,57600.0,0.0,66.49,59500.0,54335.0,54982.0,49096.25,-3.19,6.01,4.76,17.32,UP,UP,True,62000.0,44700.0,7.64,65000.0,False,False,False,C,7.0
+117730.KQ,21300.0,0.0,67.12,21099.0,19504.75,20064.0,17119.8,0.95,9.2,6.16,24.42,UP,UP,True,30900.0,16780.0,45.07,26250.0,False,False,True,C,7.0
+121600.KQ,82700.0,0.0,65.71,85180.0,70590.0,69834.0,59868.25,-2.91,17.16,18.42,38.14,UP,UP,True,95300.0,58500.0,15.24,95300.0,False,False,False,C,7.0
+137400.KQ,57900.0,0.0,67.87,58060.0,51356.25,51222.0,42915.0,-0.28,12.74,13.04,34.92,UP,UP,True,62000.0,45350.0,7.08,62000.0,False,False,False,C,7.0
+183300.KQ,147400.0,0.0,67.21,147630.0,127027.5,122834.0,100020.0,-0.16,16.04,20.0,47.37,DN,UP,True,162200.0,98000.0,10.04,162200.0,False,False,False,C,7.0
+190510.KQ,19000.0,0.0,59.51,19127.0,18185.25,18744.6,18304.6,-0.66,4.48,1.36,3.8,UP,UP,False,26500.0,15500.0,39.47,26350.0,False,False,False,C,7.0
+233740.KS,17195.0,0.0,69.72,17099.0,16127.12,16506.1,12631.12,0.56,6.62,4.17,36.13,UP,DN,True,21750.0,13100.0,26.49,21750.0,False,False,True,C,7.0
+267250.KS,285500.0,0.0,66.21,285400.0,263387.5,267590.0,204654.5,0.04,8.4,6.69,39.5,UP,UP,True,317000.0,233500.0,11.03,333000.0,False,False,True,C,7.0
+455900.KQ,29150.0,0.0,63.39,29545.0,27818.75,28509.0,28291.5,-1.34,4.79,2.25,3.03,UP,UP,False,43950.0,24800.0,50.77,37300.0,False,False,False,C,7.0
+000215.KS,28750.0,0.0,46.91,29980.0,27791.25,27221.0,25124.0,-4.1,3.45,5.62,14.43,UP,UP,True,29850.0,21550.0,3.83,32550.0,False,False,False,C,6.0
+000270.KS,154600.0,0.0,57.94,155730.0,156987.5,161192.0,129205.5,-0.73,-1.52,-4.09,19.65,DN,DN,False,164800.0,143800.0,6.6,212500.0,False,False,False,C,6.0
+000720.KS,163700.0,0.0,35.43,168410.0,164205.0,160972.0,94768.5,-2.8,-0.31,1.69,72.74,DN,UP,True,198400.0,139600.0,21.2,198400.0,False,False,False,C,6.0
+000725.KS,72800.0,0.0,35.57,76050.0,73252.5,72676.0,60779.5,-4.27,-0.62,0.17,19.78,DN,UP,True,85000.0,62200.0,16.76,85000.0,False,False,True,C,6.0
+002150.KS,6760.0,0.0,28.07,7036.0,6728.0,6672.4,6460.8,-3.92,0.48,1.31,4.63,DN,UP,True,7650.0,6120.0,13.17,7650.0,False,False,True,C,6.0
+002840.KS,143300.0,0.0,61.63,145360.0,138860.0,139798.0,149170.0,-1.42,3.2,2.51,-3.94,UP,UP,False,156000.0,130000.0,8.86,156000.0,False,False,True,C,6.0
+003230.KS,1294000.0,0.0,55.88,1323900.0,1226800.0,1211760.0,1316930.0,-2.26,5.48,6.79,-1.74,DN,UP,False,1409000.0,981000.0,8.89,1409000.0,False,False,False,C,6.0
+003850.KS,9760.0,0.0,43.1,9950.0,9617.25,9642.2,8998.85,-1.91,1.48,1.22,8.46,DN,UP,True,10420.0,8720.0,6.76,10800.0,False,False,True,C,6.0
+005385.KS,252500.0,0.0,57.66,253850.0,252062.5,258150.0,212154.5,-0.53,0.17,-2.19,19.02,DN,DN,False,329000.0,229000.0,30.3,329000.0,False,False,False,C,6.0
+005387.KS,250500.0,0.0,58.87,252600.0,251362.5,257960.0,214954.5,-0.83,-0.34,-2.89,16.54,DN,DN,False,330000.0,231000.0,31.74,330000.0,False,False,False,C,6.0
+005389.KS,242500.0,0.0,59.38,244450.0,241787.5,247260.0,208057.0,-0.8,0.29,-1.93,16.55,DN,DN,False,310500.0,222500.0,28.04,310500.0,False,False,False,C,6.0
+007070.KS,22450.0,0.0,47.27,23320.0,21752.0,21590.6,19680.35,-3.73,3.21,3.98,14.07,DN,UP,True,24100.0,17800.0,7.35,24200.0,False,False,False,C,6.0
+011210.KS,81700.0,0.0,55.1,84440.0,82107.5,83674.0,67373.75,-3.24,-0.5,-2.36,21.26,DN,DN,False,112600.0,74300.0,37.82,112600.0,False,False,False,C,6.0
+012450.KS,1433000.0,0.0,38.86,1427900.0,1422925.0,1400920.0,1096820.0,0.36,0.71,2.29,30.65,DN,UP,True,1570000.0,1217000.0,9.56,1655000.0,False,False,False,C,6.0
+017960.KS,47750.0,0.0,40.17,50530.0,47050.0,45795.0,35385.75,-5.5,1.49,4.27,34.94,DN,UP,True,50800.0,37550.0,6.39,54100.0,False,False,False,C,6.0
+021240.KS,83200.0,0.0,54.5,84270.0,77605.0,78056.0,89811.0,-1.27,7.21,6.59,-7.36,UP,UP,False,90500.0,68800.0,8.77,90500.0,False,False,False,C,6.0
+023160.KQ,44700.0,0.0,48.76,45780.0,39361.25,37010.0,27889.45,-2.36,13.56,20.78,60.28,UP,UP,True,51300.0,23150.0,14.77,51300.0,False,False,False,C,6.0
+028300.KQ,61700.0,0.0,47.62,61430.0,55641.25,54742.0,48844.5,0.44,10.89,12.71,26.32,DN,UP,True,68500.0,45550.0,11.02,68500.0,False,False,False,C,6.0
+041190.KQ,6980.0,0.0,59.73,6774.0,6623.75,6772.8,8550.85,3.04,5.38,3.06,-18.37,DN,DN,False,8600.0,6050.0,23.21,8600.0,False,False,False,C,6.0
+053690.KS,27050.0,0.0,22.22,28215.0,27456.75,25822.6,21111.05,-4.13,-1.48,4.75,28.13,DN,UP,True,34750.0,16300.0,28.47,34750.0,False,False,False,C,6.0
+055550.KS,97300.0,0.0,44.05,99310.0,95307.5,95400.0,80337.5,-2.02,2.09,1.99,21.11,DN,UP,True,101400.0,87300.0,4.21,107200.0,False,False,True,C,6.0
+086280.KS,220000.0,0.0,50.36,229650.0,224012.5,231320.0,196259.5,-4.2,-1.79,-4.89,12.1,DN,DN,False,295000.0,204000.0,34.09,295000.0,False,False,False,C,6.0
+086520.KQ,162800.0,0.0,68.02,159110.0,151492.5,154714.0,100354.5,2.32,7.46,5.23,62.22,UP,DN,True,166700.0,138500.0,2.4,190000.0,False,False,True,C,6.0
+090430.KS,130000.0,0.0,50.84,137590.0,134535.0,136292.0,129250.5,-5.52,-3.37,-4.62,0.58,UP,UP,False,145200.0,127100.0,11.69,169000.0,False,False,False,C,6.0
+090710.KQ,12460.0,0.0,65.93,12335.0,12185.25,12464.6,7622.92,1.01,2.25,-0.04,63.45,UP,DN,True,15450.0,10180.0,24.0,15800.0,False,False,False,C,6.0
+093050.KS,24700.0,0.0,43.96,25380.0,23993.75,23555.0,19879.35,-2.68,2.94,4.86,24.25,DN,UP,True,26450.0,19750.0,7.09,26450.0,False,False,False,C,6.0
+097955.KS,136700.0,0.0,51.08,138040.0,133617.5,134034.0,138630.0,-0.97,2.31,1.99,-1.39,DN,UP,False,144200.0,128000.0,5.49,144200.0,False,False,True,C,6.0
+100590.KS,8880.0,0.0,37.5,6868.0,6435.0,5852.5,3916.05,29.3,38.0,51.73,126.76,DN,UP,True,12750.0,3100.0,43.58,12750.0,False,False,False,C,6.0
+101490.KQ,93800.0,0.0,33.09,101400.0,91845.0,91566.0,65295.25,-7.5,2.13,2.44,43.66,DN,UP,True,108400.0,75400.0,15.57,108400.0,False,False,True,C,6.0
+112040.KQ,23700.0,0.0,60.24,23920.0,22150.0,22684.0,26948.25,-0.92,7.0,4.48,-12.05,UP,UP,False,26550.0,19320.0,12.03,30300.0,False,False,False,C,6.0
+142280.KQ,3870.0,0.0,57.67,3898.5,3736.75,3728.4,3948.2,-0.73,3.57,3.8,-1.98,DN,UP,False,4500.0,3200.0,16.28,4500.0,False,False,True,C,6.0
+143240.KQ,16620.0,0.0,42.93,16990.0,16265.25,15798.6,14346.9,-2.18,2.18,5.2,15.84,DN,UP,True,17675.0,15490.0,6.35,18400.0,False,False,False,C,6.0
+214370.KQ,101000.0,0.0,56.03,103830.0,102535.0,108226.0,78520.25,-2.73,-1.5,-6.68,28.63,UP,DN,False,153800.0,75200.0,52.28,153800.0,False,False,False,C,6.0
+230360.KQ,16000.0,0.0,50.0,16002.0,15960.5,15938.4,13594.15,-0.01,0.25,0.39,17.7,DN,UP,True,16080.0,16000.0,0.5,16200.0,False,True,True,C,6.0
+253840.KQ,5420.0,0.0,59.6,5795.0,5145.0,5166.9,6328.78,-6.47,5.34,4.9,-14.36,DN,UP,False,8170.0,4310.0,50.74,8170.0,False,False,False,C,6.0
+273060.KQ,1063.0,0.0,57.08,1086.5,1060.95,1081.16,1056.54,-2.16,0.19,-1.68,0.61,DN,DN,False,1280.0,962.0,20.41,1409.0,False,False,False,C,6.0
+282330.KS,129100.0,0.0,47.8,133130.0,130057.5,128916.0,117109.0,-3.03,-0.74,0.14,10.24,DN,UP,True,147800.0,125300.0,14.48,147800.0,False,False,True,C,6.0
+285130.KS,58200.0,0.0,54.09,58820.0,56680.0,57888.0,64490.0,-1.05,2.68,0.54,-9.75,UP,UP,False,72700.0,50700.0,24.91,72700.0,False,False,False,C,6.0
+302440.KS,44100.0,0.0,59.13,43780.0,42968.75,43708.0,48163.75,0.73,2.63,0.9,-8.44,DN,UP,False,47400.0,40100.0,7.48,51200.0,False,False,False,C,6.0
+348340.KQ,65100.0,0.0,51.25,67080.0,65245.0,67398.0,44193.5,-2.95,-0.22,-3.41,47.31,DN,DN,False,71100.0,55000.0,9.22,104500.0,False,False,False,C,6.0
+375500.KS,93100.0,0.0,41.6,97790.0,78520.0,72484.0,50601.25,-4.8,18.57,28.44,83.99,DN,UP,True,106600.0,41000.0,14.5,106600.0,False,False,False,C,6.0
+451760.KQ,21900.0,0.0,45.68,21790.0,19684.5,19160.6,12921.45,0.5,11.26,14.3,69.49,UP,UP,True,26350.0,13800.0,20.32,26350.0,False,False,False,C,6.0
+475150.KS,54700.0,0.0,44.39,55220.0,52771.25,47732.0,28223.35,-0.94,3.65,14.6,93.81,UP,UP,True,69300.0,52000.0,26.69,69300.0,False,False,False,C,6.0
+000020.KS,5940.0,0.0,52.73,6016.0,5971.25,6028.8,6258.85,-1.26,-0.52,-1.47,-5.09,DN,DN,False,6150.0,5740.0,3.54,6730.0,False,False,False,C,5.0
+000210.KS,65500.0,0.0,50.0,68120.0,60811.25,58118.0,45173.75,-3.85,7.71,12.7,45.0,UP,UP,True,53300.0,40050.0,-18.63,77700.0,False,False,False,C,5.0
+001045.KS,88600.0,0.0,64.03,89770.0,87655.0,88876.0,90911.0,-1.3,1.08,-0.31,-2.54,UP,UP,False,104400.0,80500.0,17.83,104400.0,False,False,False,C,5.0
+001800.KS,24200.0,0.0,47.15,24830.0,24331.25,24221.0,21713.2,-2.54,-0.54,-0.09,11.45,UP,UP,True,25700.0,22600.0,6.2,26600.0,False,False,True,C,5.0
+002240.KS,25000.0,0.0,60.59,25150.0,22678.75,22605.0,19916.38,-0.6,10.24,10.6,25.52,UP,UP,True,24950.0,20450.0,-0.2,28300.0,False,False,False,C,5.0
+002790.KS,27400.0,0.0,50.56,28600.0,27798.75,28193.0,28185.5,-4.2,-1.43,-2.81,-2.79,UP,UP,False,29450.0,26550.0,7.48,35950.0,False,False,False,C,5.0
+002960.KS,482500.0,0.0,37.75,496600.0,497687.5,497860.0,456805.0,-2.84,-3.05,-3.09,5.62,DN,DN,True,604000.0,460000.0,25.18,604000.0,False,False,False,C,5.0
+003000.KS,6170.0,0.0,20.35,6885.0,7225.12,6820.9,4497.3,-10.38,-14.6,-9.54,37.19,DN,UP,True,9890.0,3600.0,60.29,9890.0,False,False,False,C,5.0
+003240.KS,1162000.0,0.0,34.39,1207200.0,1182050.0,1202260.0,959095.0,-3.74,-1.7,-3.35,21.16,DN,DN,True,1320000.0,1067000.0,13.6,1634000.0,False,False,False,C,5.0
+003490.KS,24550.0,0.0,48.1,24805.0,24596.25,24835.0,23653.25,-1.03,-0.19,-1.15,3.79,DN,UP,True,25775.0,22800.0,4.99,29750.0,False,False,False,C,5.0
+003545.KS,24400.0,0.0,47.46,24210.0,24875.0,25269.0,22244.7,0.78,-1.91,-3.44,9.69,DN,DN,True,25225.0,22800.0,3.38,30550.0,False,False,False,C,5.0
+004150.KS,3400.0,0.0,42.86,3360.5,3335.0,3349.0,3227.88,1.18,1.95,1.52,5.33,DN,UP,True,3495.0,3090.0,2.79,3845.0,False,False,True,C,5.0
+004710.KS,7900.0,0.0,55.43,7895.0,6037.62,6013.3,5955.58,0.06,30.85,31.38,32.65,UP,UP,True,6790.0,4480.0,-14.05,8940.0,False,False,False,C,5.0
+004990.KS,29350.0,0.0,57.14,29370.0,29400.0,30341.0,29668.0,-0.07,-0.17,-3.27,-1.07,UP,DN,False,39600.0,26850.0,34.92,39600.0,False,False,False,C,5.0
+005830.KS,162000.0,0.0,37.97,170470.0,172750.0,176260.0,144760.0,-4.97,-6.22,-8.09,11.91,DN,DN,True,177400.0,158700.0,9.51,214000.0,False,False,False,C,5.0
+005870.KS,8790.0,0.0,48.68,9704.0,8978.5,8900.6,8488.3,-9.42,-2.1,-1.24,3.55,DN,UP,True,11850.0,7900.0,34.81,11850.0,False,False,False,C,5.0
+006650.KS,170700.0,0.0,63.89,166440.0,146580.0,149408.0,134436.0,2.56,16.46,14.25,26.97,UP,UP,True,170000.0,121500.0,-0.41,202500.0,False,False,False,C,5.0
+007810.KS,94900.0,0.0,57.51,94270.0,76985.0,72618.0,39900.15,0.67,23.27,30.68,137.84,UP,UP,True,87400.0,44800.0,-7.9,101800.0,False,False,False,C,5.0
+009240.KS,39950.0,0.0,54.09,40815.0,41083.75,42156.0,44491.75,-2.12,-2.76,-5.23,-10.21,UP,UP,False,52500.0,38150.0,31.41,52500.0,False,False,False,C,5.0
+011170.KS,100800.0,0.0,60.63,99730.0,86862.5,86082.0,74772.0,1.07,16.05,17.1,34.81,UP,UP,True,100400.0,68800.0,-0.4,119500.0,False,False,False,C,5.0
+011560.KQ,21950.0,0.0,57.53,21765.0,19502.75,19088.0,14997.9,0.85,12.55,14.99,46.35,UP,UP,True,19850.0,17120.0,-9.57,24000.0,False,False,False,C,5.0
+015760.KS,45050.0,0.0,55.38,45290.0,45105.0,47081.0,45955.25,-0.53,-0.12,-4.31,-1.97,DN,DN,False,47650.0,39650.0,5.77,65300.0,False,False,False,C,5.0
+035420.KS,208000.0,0.0,56.84,214200.0,211775.0,217090.0,238908.75,-2.89,-1.78,-4.19,-12.94,DN,DN,False,267000.0,194200.0,28.37,267000.0,False,False,False,C,5.0
+035900.KQ,60700.0,0.0,53.68,62860.0,62852.5,63532.0,70581.0,-3.44,-3.42,-4.46,-14.0,DN,DN,False,76700.0,58300.0,26.36,72900.0,False,False,False,C,5.0
+038500.KQ,15630.0,0.0,38.18,16246.0,16428.75,16211.8,7452.38,-3.79,-4.86,-3.59,109.73,UP,UP,True,19690.0,14050.0,25.98,23500.0,False,False,False,C,5.0
+041510.KQ,92200.0,0.0,58.14,94270.0,92760.0,95862.0,116211.0,-2.2,-0.6,-3.82,-20.66,UP,DN,False,124300.0,82000.0,34.82,124300.0,False,False,False,C,5.0
+047810.KS,176600.0,0.0,33.72,175380.0,183227.5,182774.0,130884.0,0.7,-3.62,-3.38,34.93,DN,DN,True,205500.0,164200.0,16.36,215500.0,False,False,True,C,5.0
+065350.KQ,56700.0,0.0,50.82,59060.0,59230.0,60712.0,61286.0,-4.0,-4.27,-6.61,-7.48,DN,DN,False,64200.0,52900.0,13.23,77500.0,False,False,False,C,5.0
+069260.KS,18020.0,0.0,54.3,18327.0,18201.0,18324.0,18327.2,-1.68,-0.99,-1.66,-1.68,UP,UP,False,20000.0,17150.0,10.99,21550.0,False,False,False,C,5.0
+078130.KQ,436.0,0.0,66.11,444.1,352.45,343.54,421.65,-1.82,23.71,26.91,3.4,UP,UP,False,597.0,261.0,36.93,597.0,False,False,True,C,5.0
+081580.KQ,3070.0,0.0,40.11,3316.5,3143.5,3117.1,2691.48,-7.43,-2.34,-1.51,14.06,DN,UP,True,3695.0,2755.0,20.36,3695.0,False,False,True,C,5.0
+086900.KQ,102500.0,0.0,53.67,106380.0,106307.5,110144.0,123050.0,-3.65,-3.58,-6.94,-16.7,DN,DN,False,141100.0,96400.0,37.66,135500.0,False,False,False,C,5.0
+087010.KQ,269500.0,0.0,55.62,266000.0,286212.5,282640.0,281631.0,1.32,-5.84,-4.65,-4.31,UP,DN,False,359000.0,248500.0,33.21,359000.0,False,False,False,C,5.0
+087010.KS,269500.0,0.0,55.62,266000.0,286287.5,282700.0,281142.5,1.32,-5.86,-4.67,-4.14,UP,DN,False,359000.0,248500.0,33.21,359000.0,False,False,False,C,5.0
+089590.KS,5180.0,0.0,50.0,5359.0,5228.75,5345.1,5884.38,-3.34,-0.93,-3.09,-11.97,DN,UP,False,5640.0,4865.0,8.88,6790.0,False,False,False,C,5.0
+094850.KQ,5310.0,0.0,53.91,5580.0,5309.88,5349.2,6142.15,-4.84,0.0,-0.73,-13.55,UP,UP,False,5910.0,4945.0,11.3,6700.0,False,False,False,C,5.0
+096240.KQ,10460.0,0.0,51.05,10789.0,10908.25,10992.0,12294.4,-3.05,-4.11,-4.84,-14.92,UP,DN,False,11940.0,10250.0,14.15,12210.0,False,False,False,C,5.0
+108320.KS,61600.0,0.0,68.97,61030.0,53621.25,53881.0,54406.5,0.93,14.88,14.33,13.22,UP,UP,False,65600.0,48250.0,6.49,67300.0,False,False,False,C,5.0
+119610.KQ,20900.0,0.0,56.98,21430.0,19855.75,19447.4,18194.7,-2.47,5.26,7.47,14.87,UP,UP,True,19390.0,16000.0,-7.22,23100.0,False,False,False,C,5.0
+120110.KS,95600.0,0.0,57.23,92720.0,82142.5,78250.0,51246.25,3.11,16.38,22.17,86.55,UP,UP,True,48200.0,54500.0,-49.58,104900.0,False,False,False,C,5.0
+145020.KQ,255000.0,0.0,51.3,261750.0,255237.5,255950.0,271432.5,-2.58,-0.09,-0.37,-6.05,DN,FLAT,False,276500.0,236500.0,8.43,291000.0,False,False,True,C,5.0
+160190.KQ,42800.0,0.0,61.61,43200.0,42896.25,46881.0,49447.5,-0.93,-0.22,-8.71,-13.44,UP,DN,False,72900.0,32250.0,70.33,75800.0,False,False,False,C,5.0
+187660.KQ,9850.0,0.0,28.43,11631.0,13599.75,13642.2,5340.24,-15.31,-27.57,-27.8,84.45,DN,DN,True,18440.0,9870.0,87.21,21500.0,False,False,False,C,5.0
+196170.KQ,363500.0,0.0,55.28,369550.0,363287.5,367690.0,437920.0,-1.64,0.06,-1.14,-16.99,DN,DN,False,399500.0,329000.0,9.9,419000.0,False,False,True,C,5.0
+205470.KQ,4005.0,0.0,58.69,3866.0,3928.62,4149.7,5807.5,3.6,1.94,-3.49,-31.04,UP,DN,False,4570.0,3315.0,14.11,5325.0,False,False,False,C,5.0
+214150.KQ,55100.0,0.0,52.29,57410.0,54557.5,55285.0,55942.75,-4.02,0.99,-0.33,-1.51,DN,UP,False,77600.0,50200.0,40.83,76700.0,False,False,False,C,5.0
+215200.KQ,44850.0,0.0,50.6,45995.0,45925.0,46068.0,45378.5,-2.49,-2.34,-2.64,-1.16,UP,UP,False,49950.0,43750.0,11.37,50800.0,False,False,False,C,5.0
+225190.KQ,2100.0,0.0,48.03,2246.5,2091.32,2115.18,1776.01,-6.52,0.41,-0.72,18.24,DN,UP,True,2545.0,1785.0,21.19,3155.0,False,False,False,C,5.0
+225190.KS,2100.0,0.0,48.03,2246.5,2092.93,2116.46,1773.66,-6.52,0.34,-0.78,18.4,DN,UP,True,2545.0,1785.0,21.19,3155.0,False,False,False,C,5.0
+240810.KQ,129000.0,0.0,58.62,120430.0,120157.5,120590.0,74695.5,7.12,7.36,6.97,72.7,UP,DN,True,126300.0,107800.0,-2.09,143000.0,False,False,False,C,5.0
+241560.KQ,72600.0,0.0,61.59,74060.0,65732.5,64908.0,59639.5,-1.97,10.45,11.85,21.73,UP,UP,True,68400.0,56100.0,-5.79,79700.0,False,False,False,C,5.0
+241560.KS,72600.0,0.0,61.59,74060.0,65732.5,64908.0,59639.5,-1.97,10.45,11.85,21.73,UP,UP,True,68400.0,56100.0,-5.79,79700.0,False,False,False,C,5.0
+263750.KQ,54700.0,0.0,42.23,57750.0,57898.75,57326.0,43182.75,-5.28,-5.52,-4.58,26.67,UP,DN,True,77400.0,52600.0,41.5,77400.0,False,False,False,C,5.0
+271560.KS,139200.0,0.0,60.83,141400.0,134197.5,133658.0,115155.0,-1.56,3.73,4.15,20.88,UP,UP,True,137800.0,121500.0,-1.01,150100.0,False,False,False,C,5.0
+272210.KQ,122200.0,0.0,32.48,124930.0,131605.0,131140.0,79280.25,-2.19,-7.15,-6.82,54.14,DN,DN,True,184000.0,113500.0,50.57,184000.0,False,False,False,C,5.0
+272210.KS,122200.0,0.0,32.48,124930.0,131605.0,131140.0,79280.25,-2.19,-7.15,-6.82,54.14,DN,DN,True,184000.0,113500.0,50.57,184000.0,False,False,False,C,5.0
+278470.KS,422000.0,0.0,62.95,436400.0,372700.0,357400.0,263150.0,-3.3,13.23,18.07,60.36,UP,UP,True,377000.0,263000.0,-10.66,469500.0,False,False,False,C,5.0
+295310.KQ,87100.0,0.0,43.58,88780.0,91955.0,88932.0,52386.5,-1.89,-5.28,-2.06,66.26,DN,UP,True,102000.0,72000.0,17.11,116600.0,False,False,False,C,5.0
+348370.KQ,44700.0,0.0,60.3,47930.0,44962.5,49766.0,67315.5,-6.74,-0.58,-10.18,-33.6,UP,DN,False,55500.0,29950.0,24.16,87700.0,False,False,False,C,5.0
+352820.KS,246500.0,0.0,50.58,251550.0,287000.0,303680.0,304265.0,-2.01,-14.11,-18.83,-18.99,DN,DN,False,405500.0,243500.0,64.5,405500.0,False,False,False,C,5.0
+388720.KQ,101200.0,0.0,65.33,100800.0,96362.5,99830.0,87936.0,0.4,5.02,1.37,15.08,UP,DN,False,135200.0,79900.0,33.6,141800.0,False,False,False,C,5.0
+000810.KS,480500.0,0.0,46.02,467150.0,468675.0,478870.0,475860.0,2.86,2.52,0.34,0.98,DN,DN,False,515000.0,419000.0,7.18,646000.0,False,False,False,C,4.0
+004370.KS,376500.0,0.0,51.76,379400.0,375475.0,384520.0,414165.0,-0.76,0.27,-2.09,-9.09,DN,DN,False,385000.0,361000.0,2.26,459500.0,False,False,False,C,4.0
+004650.KQ,10270.0,0.0,16.3,10536.0,10234.5,10131.8,10085.15,-2.52,0.35,1.36,1.83,DN,UP,False,13460.0,9370.0,31.06,13460.0,False,False,False,C,4.0
+00680K.KS,23800.0,0.0,68.23,20681.0,20499.37,20575.13,13097.56,15.08,16.1,15.67,81.71,UP,UP,True,21500.0,18640.0,-9.66,24250.0,False,True,False,C,4.0
+009410.KS,1897.0,0.0,44.44,2012.9,1918.05,1896.8,1831.38,-5.76,-1.1,0.01,3.58,DN,UP,False,2275.0,1734.0,19.93,2275.0,False,False,True,C,4.0
+014820.KS,26600.0,0.0,58.11,27720.0,25916.25,25894.0,27668.0,-4.04,2.64,2.73,-3.86,UP,UP,False,26850.0,24000.0,0.94,30150.0,False,False,True,C,4.0
+036460.KS,37850.0,0.0,66.04,38190.0,36403.75,37221.0,40129.5,-0.89,3.97,1.69,-5.68,UP,UP,False,45700.0,34050.0,20.74,45700.0,False,False,False,C,4.0
+067630.KQ,4180.0,0.0,35.62,4273.0,4085.75,4031.6,4059.05,-2.18,2.31,3.68,2.98,DN,UP,False,4830.0,3250.0,15.55,4830.0,False,False,False,C,4.0
+145990.KS,46750.0,0.0,51.91,47675.0,46585.0,47196.0,49808.25,-1.94,0.35,-0.94,-6.14,DN,UP,False,47650.0,44000.0,1.93,53900.0,False,False,False,C,4.0
+192440.KQ,26700.0,0.0,49.35,27085.0,25720.0,25447.0,24221.25,-1.42,3.81,4.92,10.23,DN,UP,False,28250.0,21800.0,5.81,28250.0,False,False,False,C,4.0
+214450.KQ,336000.0,0.0,68.66,320650.0,310437.5,315160.0,464835.0,4.79,8.23,6.61,-27.72,UP,UP,False,363500.0,278500.0,8.18,457000.0,False,False,False,C,4.0
+298690.KS,1970.0,0.0,42.19,2054.5,1941.72,1924.48,1905.9,-4.11,1.46,2.37,3.36,DN,UP,False,2205.0,1633.0,11.93,2205.0,False,False,True,C,4.0
+000040.KS,426.0,0.0,41.46,446.4,419.48,412.7,473.54,-4.57,1.56,3.22,-10.04,DN,UP,False,515.0,351.0,20.89,515.0,False,False,True,C,3.0
+000120.KS,99700.0,0.0,35.1,102350.0,106760.0,110618.0,96919.0,-2.59,-6.61,-9.87,2.87,DN,DN,False,154000.0,101000.0,54.46,154000.0,False,False,False,C,3.0
+000250.KQ,406000.0,0.0,33.04,422100.0,656750.0,667800.0,353950.0,-3.81,-38.18,-39.2,14.71,DN,DN,False,1233000.0,349500.0,203.69,1233000.0,False,False,False,C,3.0
+000815.KS,375000.0,0.0,41.56,371800.0,378037.5,383350.0,363965.0,0.86,-0.8,-2.18,3.03,DN,DN,False,388000.0,356500.0,3.47,472500.0,False,False,False,C,3.0
+000880.KS,140600.0,0.0,74.06,132510.0,123295.0,124788.0,100620.5,6.11,14.04,12.67,39.73,UP,UP,True,148500.0,103400.0,5.62,148500.0,False,False,False,C,3.0
+001040.KS,215500.0,0.0,67.56,218700.0,202112.5,202428.0,183257.0,-1.46,6.62,6.46,17.59,UP,UP,True,213000.0,181100.0,-1.16,235000.0,False,False,False,C,3.0
+001060.KS,30100.0,0.0,43.54,31255.0,30980.0,31669.0,26716.5,-3.7,-2.84,-4.95,12.66,DN,DN,False,33500.0,28450.0,11.3,39250.0,False,False,False,C,3.0
+002020.KS,71000.0,0.0,68.81,65240.0,61382.5,61600.0,51803.5,8.83,15.67,15.26,37.06,UP,UP,True,71400.0,57500.0,0.56,75000.0,False,False,False,C,3.0
+002350.KS,7140.0,0.0,37.32,7556.0,7391.0,7609.4,7089.3,-5.51,-3.4,-6.17,0.72,DN,DN,False,10110.0,6890.0,41.6,10110.0,False,False,False,C,3.0
+002380.KS,623000.0,0.0,71.66,565700.0,529962.5,541260.0,446582.5,10.13,17.56,15.1,39.5,UP,UP,True,692000.0,452000.0,11.08,692000.0,False,False,False,C,3.0
+003160.KS,35450.0,0.0,71.13,33765.0,32846.25,33083.0,24132.9,4.99,7.93,7.15,46.89,UP,UP,True,39000.0,26850.0,10.01,39000.0,False,False,False,C,3.0
+003380.KQ,13430.0,0.0,46.32,13421.0,14218.0,14542.0,10890.7,0.07,-5.54,-7.65,23.32,DN,DN,False,18200.0,12960.0,35.52,19610.0,False,False,False,C,3.0
+003540.KS,42200.0,0.0,74.7,39290.0,38526.25,39342.0,30899.5,7.41,9.54,7.26,36.57,UP,UP,True,51400.0,34900.0,21.8,51400.0,False,False,False,C,3.0
+003550.KS,103000.0,0.0,82.22,98050.0,92110.0,93376.0,84005.5,5.05,11.82,10.31,22.61,UP,UP,True,107800.0,81800.0,4.66,107800.0,False,False,False,C,3.0
+003555.KS,72800.0,0.0,83.33,70900.0,68960.0,70124.0,66751.25,2.68,5.57,3.82,9.06,UP,UP,True,81000.0,63500.0,11.26,81000.0,False,False,True,C,3.0
+005940.KS,38450.0,0.0,67.96,35505.0,33583.75,33668.0,24538.8,8.29,14.49,14.2,56.69,UP,UP,True,35800.0,29300.0,-6.89,42600.0,False,False,False,C,3.0
+006800.KS,83800.0,0.0,66.76,69630.0,67392.37,67286.01,35762.94,20.35,24.35,24.54,134.32,UP,UP,True,74100.0,55593.03,-11.58,87800.0,False,False,False,C,3.0
+006805.KS,25850.0,0.0,68.24,22660.0,22345.57,22525.02,14534.91,14.08,15.68,14.76,77.85,UP,UP,True,24000.0,19940.0,-7.16,29661.15,False,False,False,C,3.0
+007390.KQ,19880.0,0.0,45.86,20145.0,18965.5,19340.8,22415.85,-1.32,4.82,2.79,-11.31,DN,UP,False,21900.0,16550.0,10.16,24850.0,False,False,False,C,3.0
+009420.KS,44950.0,0.0,47.01,49065.0,52063.75,53239.0,42708.75,-8.39,-13.66,-15.57,5.25,DN,DN,False,66600.0,44950.0,48.16,66600.0,False,False,False,C,3.0
+010060.KS,337500.0,0.0,73.68,349550.0,235547.5,217246.0,133590.0,-3.45,43.28,55.35,152.64,UP,UP,True,399000.0,115800.0,18.22,399000.0,False,False,False,C,3.0
+010780.KS,25000.0,0.0,32.84,27630.0,28670.0,28919.0,22853.95,-9.52,-12.8,-13.55,9.39,DN,DN,False,34450.0,25150.0,37.8,34450.0,False,False,False,C,3.0
+014620.KQ,45350.0,0.0,69.47,44715.0,38401.25,37749.0,32292.25,1.42,18.1,20.14,40.44,UP,UP,True,41200.0,31350.0,-9.15,53300.0,False,False,False,C,3.0
+017940.KS,104800.0,0.0,72.38,102880.0,99387.5,99806.0,87013.5,1.87,5.45,5.0,20.44,UP,UP,True,111300.0,93800.0,6.2,114500.0,False,False,True,C,3.0
+018880.KS,5410.0,0.0,84.58,4439.0,4092.62,4134.6,3664.32,21.87,32.19,30.85,47.64,UP,UP,True,5700.0,3650.0,5.36,5700.0,False,False,False,C,3.0
+024110.KS,21600.0,0.0,35.19,22310.0,22577.5,23064.0,21072.1,-3.18,-4.33,-6.35,2.51,DN,DN,False,22850.0,21100.0,5.79,29550.0,False,False,False,C,3.0
+030200.KS,58500.0,0.0,13.92,61070.0,60907.5,61156.0,55229.5,-4.21,-3.95,-4.34,5.92,DN,UP,False,65100.0,54200.0,11.28,69400.0,False,False,False,C,3.0
+032640.KS,15400.0,0.0,19.65,16366.0,16066.75,16092.0,15383.25,-5.9,-4.15,-4.3,0.11,DN,UP,False,18500.0,14340.0,20.13,18500.0,False,False,False,C,3.0
+036830.KQ,71200.0,0.0,68.48,69960.0,56866.25,55903.0,46142.25,1.77,25.21,27.36,54.31,UP,UP,True,66900.0,45150.0,-6.04,80800.0,False,False,False,C,3.0
+036890.KQ,19010.0,0.0,68.19,18060.0,16992.0,16522.6,13848.9,5.26,11.88,15.05,37.27,UP,UP,True,18310.0,12510.0,-3.68,19940.0,False,False,False,C,3.0
+036930.KQ,127600.0,0.0,87.47,124200.0,81457.5,76710.0,42674.5,2.74,56.65,66.34,199.01,UP,UP,True,138900.0,58950.0,8.86,138900.0,False,False,False,C,3.0
+039200.KQ,49700.0,0.0,40.38,52050.0,52716.25,52577.0,46226.25,-4.51,-5.72,-5.47,7.51,DN,UP,False,58000.0,47150.0,16.7,60200.0,False,False,False,C,3.0
+047050.KS,83600.0,0.0,77.18,82850.0,77420.0,76240.0,59169.25,0.91,7.98,9.65,41.29,UP,UP,True,87200.0,58700.0,4.31,91200.0,False,False,False,C,3.0
+051915.KS,194100.0,0.0,75.84,188610.0,165662.5,166316.0,164283.0,2.91,17.17,16.71,18.15,UP,UP,True,201000.0,141600.0,3.55,201000.0,False,False,False,C,3.0
+058610.KQ,127900.0,0.0,71.43,124840.0,117590.0,120770.0,71712.75,2.45,8.77,5.9,78.35,UP,DN,True,155000.0,101300.0,21.19,159500.0,False,False,True,C,3.0
+064350.KS,262000.0,0.0,81.37,246650.0,210197.5,212968.0,204465.5,6.22,24.64,23.02,28.14,UP,UP,True,274000.0,166600.0,4.58,282000.0,False,False,False,C,3.0
+065660.KQ,33800.0,0.0,23.88,36565.0,42371.25,41716.0,32733.0,-7.56,-20.23,-18.98,3.26,DN,DN,False,61800.0,34000.0,82.84,61800.0,False,False,False,C,3.0
+066575.KS,65400.0,0.0,80.88,58990.0,53662.5,54762.0,47089.75,10.87,21.87,19.43,38.88,UP,UP,True,68200.0,47100.0,4.28,68200.0,False,False,False,C,3.0
+068270.KS,194700.0,0.0,44.79,203000.0,202102.5,207020.0,191546.0,-4.09,-3.66,-5.95,1.65,DN,DN,False,212000.0,187700.0,8.89,251000.0,False,False,False,C,3.0
+069960.KS,107700.0,0.0,76.15,104120.0,88970.0,91318.0,87084.5,3.44,21.05,17.94,23.67,UP,UP,True,115000.0,74100.0,6.78,120100.0,False,False,False,C,3.0
+091700.KQ,7570.0,0.0,29.53,8179.0,8204.25,8185.0,7169.65,-7.45,-7.73,-7.51,5.58,DN,UP,False,8490.0,7590.0,12.15,8730.0,False,False,True,C,3.0
+096530.KQ,23950.0,0.0,49.36,24725.0,23432.5,23766.0,25690.0,-3.13,2.21,0.77,-6.77,DN,UP,False,29300.0,21750.0,22.34,29600.0,False,False,False,C,3.0
+097950.KS,230000.0,0.0,45.36,237300.0,223787.5,220466.0,225644.0,-3.08,2.78,4.32,1.93,UP,UP,False,235000.0,186100.0,2.17,252000.0,False,False,False,C,3.0
+105840.KS,28200.0,0.0,75.57,28125.0,25923.75,25585.0,18373.1,0.27,8.78,10.22,53.49,UP,UP,True,31300.0,21950.0,10.99,31700.0,False,False,False,C,3.0
+108490.KQ,310000.0,0.0,67.12,306550.0,267162.5,265860.0,208418.5,1.13,16.03,16.6,48.74,UP,UP,True,284000.0,228500.0,-8.39,361500.0,False,False,False,C,3.0
+111770.KS,81500.0,0.0,37.8,83870.0,83390.0,85300.0,75030.5,-2.83,-2.27,-4.45,8.62,DN,DN,False,88000.0,77500.0,7.98,103200.0,False,False,False,C,3.0
+128940.KS,434500.0,0.0,27.15,479450.0,506662.5,516840.0,423227.5,-9.38,-14.24,-15.93,2.66,DN,DN,False,571000.0,475500.0,31.42,647000.0,False,False,False,C,3.0
+132030.KS,26435.0,0.0,38.1,26494.5,26917.5,27448.1,24543.65,-0.22,-1.79,-3.69,7.71,DN,DN,False,27675.0,24200.0,4.69,30735.0,False,False,False,C,3.0
+138930.KS,18130.0,0.0,38.67,18705.0,18416.0,18709.8,16223.9,-3.07,-1.55,-3.1,11.75,DN,UP,False,19600.0,17200.0,8.11,23050.0,False,False,False,C,3.0
+140410.KQ,86800.0,0.0,42.4,90880.0,93242.5,100622.0,80344.5,-4.49,-6.91,-13.74,8.03,DN,DN,False,179900.0,72000.0,107.26,162600.0,False,False,False,C,3.0
+141080.KQ,176800.0,0.0,47.43,192960.0,193257.5,191818.0,167968.5,-8.37,-8.52,-7.83,5.26,DN,DN,False,225000.0,165200.0,27.26,225000.0,False,False,False,C,3.0
+144510.KQ,23250.0,0.0,48.25,24465.0,24422.5,24500.0,23072.05,-4.97,-4.8,-5.1,0.77,DN,DN,False,27500.0,22350.0,18.28,27950.0,False,False,False,C,3.0
+161390.KS,59500.0,0.0,45.0,61840.0,58655.0,60422.0,53699.0,-3.78,1.44,-1.53,10.8,UP,UP,False,67000.0,51900.0,12.61,78400.0,False,False,False,C,3.0
+174900.KQ,46050.0,0.0,43.09,49860.0,61225.0,61136.0,37225.05,-7.64,-24.79,-24.68,23.71,DN,DN,False,95800.0,51500.0,108.03,95800.0,False,False,False,C,3.0
+175330.KS,26550.0,0.0,16.53,28285.0,29746.25,30102.0,25784.0,-6.13,-10.75,-11.8,2.97,DN,DN,False,32200.0,26750.0,21.28,38500.0,False,False,False,C,3.0
+178320.KQ,59500.0,0.0,66.61,55200.0,48521.25,47109.0,30646.05,7.79,22.63,26.3,94.15,UP,UP,True,52300.0,40150.0,-12.1,63600.0,False,False,False,C,3.0
+192820.KS,209000.0,0.0,60.78,217400.0,196635.0,193224.0,198986.0,-3.86,6.29,8.16,5.03,UP,UP,False,208000.0,178500.0,-0.48,234500.0,False,False,False,C,3.0
+195870.KS,78000.0,0.0,76.26,76140.0,60296.25,60051.0,46535.75,2.44,29.36,29.89,67.61,UP,UP,True,83800.0,46000.0,7.44,83800.0,False,False,False,C,3.0
+204320.KS,57000.0,0.0,71.01,55950.0,52581.25,53501.0,46512.75,1.88,8.4,6.54,22.55,UP,UP,True,65000.0,47200.0,14.04,65000.0,False,False,True,C,3.0
+233160.KS,19070.0,0.0,70.17,18958.0,17861.5,18287.5,14108.12,0.59,6.77,4.28,35.17,UP,DN,True,24165.0,14515.0,26.72,24165.0,False,False,True,C,3.0
+267270.KS,187700.0,0.0,67.71,188730.0,153545.0,149700.0,112303.5,-0.55,22.24,25.38,67.14,UP,UP,True,148500.0,113300.0,-20.88,217500.0,False,False,False,C,3.0
+274090.KQ,21450.0,0.0,31.01,22780.0,21811.5,21661.2,15965.05,-5.84,-1.66,-0.98,34.36,DN,UP,False,24800.0,18090.0,15.62,28800.0,False,False,False,C,3.0
+277810.KQ,702000.0,0.0,83.22,646100.0,629325.0,661540.0,464417.5,8.65,11.55,6.12,51.16,UP,DN,True,934000.0,516000.0,33.05,934000.0,False,False,False,C,3.0
+290650.KQ,63200.0,0.0,29.26,67750.0,71290.0,75038.0,59153.75,-6.72,-11.35,-15.78,6.84,DN,DN,False,76000.0,59600.0,20.25,125000.0,False,False,False,C,3.0
+294870.KS,22050.0,0.0,46.76,23370.0,22258.75,22323.0,21242.75,-5.65,-0.94,-1.22,3.8,DN,UP,False,24300.0,20100.0,10.2,25050.0,False,False,True,C,3.0
+298050.KS,258500.0,0.0,73.86,250250.0,225687.5,227034.0,206796.0,3.3,14.54,13.86,25.0,UP,UP,True,268000.0,203500.0,3.68,282000.0,False,False,False,C,3.0
+316140.KS,32600.0,0.0,26.0,34005.0,33437.5,33904.0,28793.0,-4.13,-2.5,-3.85,13.22,DN,UP,False,36250.0,30300.0,11.2,41500.0,False,False,False,C,3.0
+357780.KQ,466000.0,0.0,70.51,466400.0,426750.0,428690.0,312570.5,-0.09,9.2,8.7,49.09,UP,DN,True,522000.0,360000.0,12.02,522000.0,False,False,False,C,3.0
+357780.KS,466000.0,0.0,70.51,466400.0,426750.0,428690.0,312092.0,-0.09,9.2,8.7,49.31,UP,DN,True,522000.0,360000.0,12.02,522000.0,False,False,False,C,3.0
+365340.KQ,77200.0,0.0,68.58,80500.0,66207.5,64763.0,48598.5,-4.1,16.6,19.2,58.85,UP,UP,True,74000.0,48000.0,-4.15,85500.0,False,False,False,C,3.0
+377300.KS,63300.0,0.0,80.84,56700.0,55263.75,56747.0,56295.25,11.64,14.54,11.55,12.44,UP,DN,True,73300.0,46750.0,15.8,73300.0,False,False,False,C,3.0
+393890.KQ,18730.0,0.0,65.57,19152.0,15289.5,14165.6,9193.95,-2.2,22.5,32.22,103.72,UP,UP,True,16920.0,7600.0,-9.66,21350.0,False,False,False,C,3.0
+411060.KS,30110.0,0.0,17.12,30771.5,31575.75,32024.9,28018.12,-2.15,-4.64,-5.98,7.47,DN,DN,False,35442.0,29120.0,17.71,35442.0,False,False,False,C,3.0
+445290.KS,36545.0,0.0,88.13,35028.0,32447.25,32939.8,25367.05,4.33,12.63,10.94,44.06,UP,UP,True,38970.0,28470.0,6.64,38970.0,False,False,False,C,3.0
+450080.KS,83200.0,0.0,66.49,83080.0,72577.5,71412.0,60556.75,0.14,14.64,16.51,37.39,UP,UP,True,75100.0,60000.0,-9.74,88800.0,False,False,False,C,3.0
+000070.KS,66200.0,0.0,45.22,68810.0,68772.5,69382.0,82398.01,-3.79,-3.74,-4.59,-19.66,DN,DN,False,70800.0,63500.0,6.95,75500.0,False,False,True,C,2.0
+000080.KS,16830.0,0.0,35.29,17119.0,16934.75,17017.6,18526.1,-1.69,-0.62,-1.1,-9.16,DN,UP,False,17610.0,16000.0,4.63,18320.0,False,False,True,C,2.0
+000100.KS,87800.0,0.0,29.58,93200.0,95737.5,97678.0,111102.5,-5.79,-8.29,-10.11,-20.97,DN,DN,False,114500.0,90900.0,30.41,114500.0,False,False,False,C,2.0
+000105.KS,73700.0,0.0,14.89,78920.0,84242.5,85704.0,98523.5,-6.61,-12.51,-14.01,-25.2,DN,DN,False,98300.0,82100.0,33.38,98300.0,False,False,False,C,2.0
+000145.KS,11420.0,0.0,44.75,11930.0,11608.0,11622.8,12139.45,-4.27,-1.62,-1.74,-5.93,UP,UP,False,12700.0,10950.0,11.21,12270.0,False,False,True,C,2.0
+000240.KS,24300.0,0.0,37.21,24940.0,25201.25,26043.0,25411.0,-2.57,-3.58,-6.69,-4.37,DN,DN,False,26150.0,22500.0,7.61,36450.0,False,False,False,C,2.0
+001520.KS,779.0,0.0,38.52,805.1,801.9,827.84,804.55,-3.24,-2.86,-5.9,-3.18,DN,DN,False,1057.0,741.0,35.69,1057.0,False,False,False,C,2.0
+001680.KS,20050.0,0.0,33.87,20715.0,20561.25,20866.0,21719.9,-3.21,-2.49,-3.91,-7.69,DN,DN,False,21450.0,19360.0,6.98,24150.0,False,False,False,C,2.0
+001940.KS,25550.0,0.0,42.86,27050.0,25981.25,25771.0,25722.5,-5.55,-1.66,-0.86,-0.67,DN,UP,False,26750.0,22900.0,4.7,28150.0,False,False,True,C,2.0
+002320.KS,19000.0,0.0,41.18,19363.0,19260.75,19561.2,20197.75,-1.87,-1.35,-2.87,-5.93,DN,DN,False,23650.0,18400.0,24.47,23650.0,False,False,False,C,2.0
+003090.KS,21850.0,0.0,44.83,22740.0,23288.75,23791.0,23526.5,-3.91,-6.18,-8.16,-7.13,DN,DN,False,30600.0,21700.0,40.05,30600.0,False,False,False,C,2.0
+003300.KS,17010.0,0.0,47.32,17479.0,17552.25,17429.0,17159.85,-2.68,-3.09,-2.4,-0.87,DN,UP,False,17980.0,16200.0,5.7,23800.0,False,False,False,C,2.0
+003520.KS,1719.0,0.0,42.27,1778.9,1777.48,1817.56,1966.18,-3.37,-3.29,-5.42,-12.57,DN,DN,False,1898.0,1700.0,10.41,2320.0,False,False,False,C,2.0
+003920.KS,51000.0,0.0,39.34,52060.0,52018.75,51598.0,53893.5,-2.04,-1.96,-1.16,-5.37,DN,UP,False,53900.0,49450.0,5.69,57700.0,False,False,True,C,2.0
+004270.KS,7120.0,0.0,0.0,7489.0,7538.75,7565.6,8914.35,-4.93,-5.55,-5.89,-20.13,DN,UP,False,7790.0,7250.0,9.41,8430.0,False,False,False,C,2.0
+004540.KQ,1943.0,0.0,31.34,2001.3,2008.22,1995.6,1993.87,-2.91,-3.25,-2.64,-2.55,DN,UP,False,2405.0,1780.0,23.78,2405.0,False,False,False,C,2.0
+005180.KS,72600.0,0.0,45.07,74950.0,74287.5,75494.0,76050.0,-3.14,-2.27,-3.83,-4.54,DN,DN,False,76200.0,69600.0,4.96,87400.0,False,False,False,C,2.0
+005250.KS,13570.0,0.0,42.53,14100.0,13960.0,14227.2,15445.75,-3.76,-2.79,-4.62,-12.14,DN,DN,False,14760.0,13290.0,8.77,16870.0,False,False,False,C,2.0
+006040.KS,37900.0,0.0,39.74,38580.0,38767.5,39321.0,43292.5,-1.76,-2.24,-3.61,-12.46,DN,UP,False,40150.0,37200.0,5.94,46200.0,False,False,False,C,2.0
+006220.KQ,12510.0,0.0,36.31,12861.0,12948.25,13383.2,13615.0,-2.73,-3.38,-6.52,-8.12,DN,DN,False,13700.0,11470.0,9.51,18840.0,False,False,False,C,2.0
+006280.KS,135800.0,0.0,33.47,140270.0,144847.5,147896.0,144638.0,-3.19,-6.25,-8.18,-6.11,DN,DN,False,153300.0,137700.0,12.89,183800.0,False,False,False,C,2.0
+006360.KS,35450.0,0.0,45.58,40145.0,32145.25,30007.6,21957.45,-11.7,10.28,18.14,61.45,DN,UP,True,24300.0,18430.0,-31.45,44850.0,False,False,False,C,2.0
+007310.KS,357000.0,0.0,32.2,364500.0,364650.0,369240.0,387327.5,-2.06,-2.1,-3.31,-7.83,DN,DN,False,373500.0,351500.0,4.62,414000.0,False,False,False,C,2.0
+008930.KS,36750.0,0.0,35.94,38345.0,38175.0,38961.0,40211.75,-4.16,-3.73,-5.67,-8.61,DN,DN,False,40750.0,35650.0,10.88,55500.0,False,False,False,C,2.0
+010100.KS,4450.0,0.0,45.75,4578.0,4547.25,4669.4,4539.58,-2.8,-2.14,-4.7,-1.97,DN,DN,False,6170.0,4135.0,38.65,6170.0,False,False,False,C,2.0
+011200.KS,20550.0,0.0,42.62,20845.0,20670.25,20957.2,21282.15,-1.42,-0.58,-1.94,-3.44,DN,DN,False,21900.0,19110.0,6.57,24950.0,False,False,False,C,2.0
+012750.KS,73400.0,0.0,8.33,84910.0,86865.0,86972.0,79730.0,-13.56,-15.5,-15.61,-7.94,DN,DN,False,103000.0,79100.0,40.33,103000.0,False,False,False,C,2.0
+020560.KS,6990.0,0.0,40.0,7085.0,7053.5,7126.6,8331.4,-1.34,-0.9,-1.92,-16.1,DN,UP,False,7290.0,6560.0,4.29,8200.0,False,False,False,C,2.0
+029780.KS,51600.0,0.0,28.57,53340.0,55242.5,56514.0,53950.5,-3.26,-6.59,-8.7,-4.36,DN,DN,False,55200.0,51000.0,6.98,69200.0,False,False,False,C,2.0
+030000.KS,19110.0,0.0,37.56,19740.0,19874.25,20160.2,20820.1,-3.19,-3.85,-5.21,-8.21,DN,DN,False,23100.0,18630.0,20.88,23100.0,False,False,False,C,2.0
+031510.KQ,1013.0,0.0,42.86,1040.4,1033.6,1032.14,1041.05,-2.63,-1.99,-1.85,-2.69,DN,UP,False,1117.0,991.0,10.27,1139.0,False,False,False,C,2.0
+035720.KS,46300.0,0.0,39.53,48025.0,48457.5,49877.0,57629.25,-3.59,-4.45,-7.17,-19.66,DN,DN,False,51200.0,44000.0,10.58,64500.0,False,False,False,C,2.0
+035760.KQ,53000.0,0.0,46.25,54580.0,57077.5,59508.0,66254.0,-2.89,-7.14,-10.94,-20.0,DN,DN,False,80000.0,52000.0,50.94,80000.0,False,False,False,C,2.0
+039030.KQ,479000.0,0.0,48.95,491250.0,442525.0,435280.0,304721.0,-2.49,8.24,10.04,57.19,UP,UP,True,467000.0,367500.0,-2.51,527000.0,False,False,False,C,2.0
+039130.KQ,41100.0,0.0,47.06,42185.0,41668.75,42416.0,47958.25,-2.57,-1.36,-3.1,-14.3,DN,UP,False,43450.0,39800.0,5.72,51500.0,False,False,False,C,2.0
+042000.KQ,25100.0,0.0,34.74,26310.0,27307.5,28009.0,34762.75,-4.6,-8.08,-10.39,-27.8,DN,DN,False,28350.0,25150.0,12.95,39900.0,False,False,False,C,2.0
+048530.KQ,3430.0,0.0,39.17,3737.5,4043.5,4224.8,3846.28,-8.23,-15.17,-18.81,-10.82,DN,DN,False,7010.0,3445.0,104.37,7010.0,False,False,False,C,2.0
+053030.KQ,10780.0,0.0,37.38,11350.0,11733.5,12268.4,14884.25,-5.02,-8.13,-12.13,-27.57,DN,DN,False,12010.0,10600.0,11.41,16270.0,False,False,False,C,2.0
+064550.KQ,10030.0,0.0,41.23,10752.0,11172.75,11404.2,13250.1,-6.72,-10.23,-12.05,-24.3,DN,DN,False,13310.0,9900.0,32.7,13550.0,False,False,False,C,2.0
+068760.KQ,54700.0,0.0,40.45,56990.0,57842.5,59970.0,58972.24,-4.02,-5.43,-8.79,-7.24,DN,DN,False,59000.0,54300.0,7.86,78300.0,False,False,False,C,2.0
+069080.KQ,12000.0,0.0,43.93,12298.0,12260.0,12395.4,13437.45,-2.42,-2.12,-3.19,-10.7,DN,DN,False,12990.0,11740.0,8.25,15320.0,False,False,False,C,2.0
+069620.KS,143200.0,0.0,38.89,149150.0,155857.5,159902.0,157261.5,-3.99,-8.12,-10.45,-8.94,DN,DN,False,171700.0,144200.0,19.9,198500.0,False,False,False,C,2.0
+071320.KS,73600.0,0.0,40.43,76820.0,79855.0,81786.0,91377.0,-4.19,-7.83,-10.01,-19.45,DN,DN,False,79600.0,68600.0,8.15,116700.0,False,False,False,C,2.0
+073240.KS,5530.0,0.0,17.65,5926.0,6004.75,6120.0,5538.25,-6.68,-7.91,-9.64,-0.15,DN,DN,False,6410.0,5530.0,15.91,7650.0,False,False,False,C,2.0
+080160.KQ,10970.0,0.0,37.34,11470.0,11369.25,11591.4,11608.95,-4.36,-3.51,-5.36,-5.5,DN,DN,False,11880.0,10500.0,8.3,17500.0,False,False,False,C,2.0
+081660.KS,39000.0,0.0,27.08,41085.0,42837.5,44249.0,42123.25,-5.07,-8.96,-11.86,-7.41,DN,DN,False,43850.0,38450.0,12.44,55800.0,False,False,False,C,2.0
+082270.KQ,22500.0,0.0,25.43,24190.0,31280.0,33297.0,40577.75,-6.99,-28.07,-32.43,-44.55,DN,DN,False,48850.0,22150.0,117.11,48850.0,False,False,False,C,2.0
+083790.KQ,1155.0,0.0,21.47,1269.1,1389.18,1385.3,1513.54,-8.99,-16.86,-16.62,-23.69,DN,DN,False,1667.0,1241.0,44.33,1667.0,False,False,False,C,2.0
+091810.KS,896.0,0.0,44.27,957.5,1002.78,1057.78,1794.78,-6.42,-10.65,-15.29,-50.08,DN,DN,False,1032.0,814.0,15.18,1569.0,False,False,False,C,2.0
+095660.KQ,21300.0,0.0,21.25,22840.0,24266.25,24618.0,25199.0,-6.74,-12.22,-13.48,-15.47,DN,DN,False,24450.0,22700.0,14.79,29100.0,False,False,False,C,2.0
+099430.KQ,5760.0,0.0,56.1,5771.0,5329.38,5290.9,5879.22,-0.19,8.08,8.87,-2.03,UP,UP,False,5680.0,4830.0,-1.39,6080.0,False,False,False,C,2.0
+103140.KS,99300.0,0.0,45.07,100470.0,99517.5,103052.0,115686.0,-1.16,-0.22,-3.64,-14.16,DN,DN,False,119300.0,86000.0,20.14,159200.0,False,False,False,C,2.0
+108230.KQ,4340.0,0.0,35.57,4551.0,4417.75,4453.2,4639.75,-4.64,-1.76,-2.54,-6.46,DN,UP,False,5260.0,4050.0,21.2,5260.0,False,False,False,C,2.0
+110790.KQ,3900.0,0.0,49.51,3936.5,3961.46,3963.37,4154.42,-0.93,-1.55,-1.6,-6.12,DN,UP,False,4090.0,3800.0,4.87,4267.48,False,False,True,C,2.0
+114090.KS,11970.0,0.0,46.67,12003.0,11898.0,12097.4,14440.4,-0.27,0.61,-1.05,-17.11,UP,DN,False,13890.0,11120.0,16.04,13890.0,False,False,False,C,2.0
+122450.KQ,3165.0,0.0,46.43,3199.5,3182.25,3230.5,3735.55,-1.08,-0.54,-2.03,-15.27,DN,UP,False,3275.0,2950.0,3.48,3790.0,False,False,False,C,2.0
+122870.KQ,51300.0,0.0,48.87,53930.0,55420.0,58200.0,75603.5,-4.88,-7.43,-11.86,-32.15,DN,DN,False,56500.0,49300.0,10.14,79000.0,False,False,False,C,2.0
+137310.KS,7930.0,0.0,43.45,8414.0,8089.5,8123.6,9217.6,-5.75,-1.97,-2.38,-13.97,DN,UP,False,9560.0,7390.0,20.55,9560.0,False,False,False,C,2.0
+138040.KS,111600.0,0.0,31.69,114430.0,113690.0,115730.0,115566.0,-2.47,-1.84,-3.57,-3.43,DN,DN,False,122700.0,103400.0,9.95,149800.0,False,False,False,C,2.0
+145720.KS,51300.0,0.0,42.42,53420.0,52652.5,52106.0,54224.5,-3.97,-2.57,-1.55,-5.39,DN,UP,False,57300.0,48550.0,11.7,57300.0,False,False,True,C,2.0
+160550.KQ,1720.0,0.0,31.71,1805.4,1791.42,1811.64,2189.34,-4.73,-3.99,-5.06,-21.44,DN,DN,False,1931.0,1690.0,12.27,2635.0,False,False,False,C,2.0
+180640.KS,109700.0,0.0,44.95,114300.0,116107.5,121274.0,114694.0,-4.02,-5.52,-9.54,-4.35,DN,DN,False,122000.0,106000.0,11.21,175900.0,False,False,False,C,2.0
+185490.KQ,1355.0,0.0,45.25,1446.1,1457.4,1425.26,2048.32,-6.3,-7.03,-4.93,-33.85,DN,UP,False,1810.0,1182.0,33.58,1810.0,False,False,False,C,2.0
+185750.KS,83100.0,0.0,32.89,87030.0,87902.5,88268.0,85332.0,-4.52,-5.46,-5.85,-2.62,DN,UP,False,92100.0,85000.0,10.83,98100.0,False,False,False,C,2.0
+187420.KQ,2710.0,0.0,41.83,2989.0,2781.25,2751.4,2926.4,-9.33,-2.56,-1.5,-7.39,DN,UP,False,3480.0,2500.0,28.41,3500.0,False,False,False,C,2.0
+200130.KQ,11020.0,0.0,44.18,11648.0,11558.0,11916.0,13614.6,-5.39,-4.65,-7.52,-19.06,DN,DN,False,12270.0,10850.0,11.34,14830.0,False,False,False,C,2.0
+207940.KS,1480000.0,0.0,40.07,1511200.0,1563400.0,1586300.0,1670096.73,-2.06,-5.33,-6.7,-11.38,DN,DN,False,1660000.0,1480000.0,12.16,1795000.0,False,False,False,C,2.0
+215000.KQ,49700.0,0.0,46.55,51040.0,49733.75,50661.0,58626.25,-2.63,-0.07,-1.9,-15.23,DN,DN,False,61400.0,47200.0,23.54,61400.0,False,False,False,C,2.0
+222810.KQ,15.0,0.0,20.37,409.5,1348.58,1524.06,2279.22,-96.34,-98.89,-99.02,-99.34,DN,DN,False,3135.0,2145.0,20800.0,3135.0,False,False,False,C,2.0
+227840.KS,13790.0,0.0,72.55,13541.0,12590.0,12642.4,12497.4,1.84,9.53,9.08,10.34,UP,UP,True,14200.0,11830.0,2.97,14440.0,False,False,False,C,2.0
+235980.KQ,5050.0,0.0,43.89,5236.0,5406.88,5397.5,5395.48,-3.55,-6.6,-6.44,-6.4,DN,UP,False,6960.0,5000.0,37.82,6960.0,False,False,False,C,2.0
+251270.KQ,48450.0,0.0,38.46,50125.0,51060.0,51517.0,54882.5,-3.34,-5.11,-5.95,-11.72,DN,DN,False,53200.0,48450.0,9.8,58900.0,False,False,False,C,2.0
+251340.KS,1961.0,0.0,27.6,1969.7,2061.43,2077.42,2800.13,-0.44,-4.87,-5.6,-29.97,DN,DN,False,2275.0,1936.0,16.01,2505.0,False,False,False,C,2.0
+252670.KS,129.0,0.0,5.49,167.0,230.8,240.18,712.32,-22.75,-44.11,-46.29,-81.89,DN,DN,False,323.0,233.0,150.39,415.0,False,False,False,C,2.0
+253450.KQ,33950.0,0.0,43.1,35140.0,36458.75,37741.0,42738.25,-3.39,-6.88,-10.04,-20.56,DN,DN,False,36600.0,33000.0,7.81,50000.0,False,False,False,C,2.0
+263720.KQ,11740.0,0.0,45.56,12129.0,11864.75,11855.6,13728.25,-3.21,-1.05,-0.98,-14.48,DN,UP,False,12440.0,11190.0,5.96,13240.0,False,False,True,C,2.0
+272450.KS,6170.0,0.0,35.0,6405.0,6384.25,6466.2,7379.6,-3.67,-3.36,-4.58,-16.39,DN,UP,False,6800.0,6010.0,10.21,7630.0,False,False,False,C,2.0
+293490.KQ,11620.0,0.0,37.71,12239.0,12645.5,12926.2,15265.35,-5.06,-8.11,-10.11,-23.88,DN,DN,False,16470.0,11450.0,41.74,16640.0,False,False,False,C,2.0
+298380.KQ,127600.0,0.0,34.96,146600.0,165127.5,169034.0,143586.0,-12.96,-22.73,-24.51,-11.13,DN,DN,False,203000.0,150600.0,59.09,203000.0,False,False,False,C,2.0
+300720.KS,16800.0,0.0,40.66,17171.0,16884.5,16990.2,18190.6,-2.16,-0.5,-1.12,-7.64,UP,UP,False,19300.0,15900.0,14.88,19300.0,False,False,False,C,2.0
+326030.KS,98500.0,0.0,45.2,101530.0,99080.0,101388.0,110541.5,-2.98,-0.59,-2.85,-10.89,DN,DN,False,107900.0,91200.0,9.54,120000.0,False,False,False,C,2.0
+347850.KQ,71900.0,0.0,41.4,77890.0,76905.0,78426.0,121125.12,-7.69,-6.51,-8.32,-40.64,DN,DN,False,90400.0,65100.0,25.73,94800.0,False,False,False,C,2.0
+000087.KS,14030.0,0.0,40.62,14050.0,14029.0,14068.6,15015.88,-0.14,0.01,-0.27,-6.57,DN,DN,False,14360.0,13880.0,2.35,14540.0,False,False,True,C,1.0
+000140.KS,9100.0,0.0,42.31,9182.0,9106.0,9192.2,9839.4,-0.89,-0.07,-1.0,-7.51,DN,UP,False,9330.0,8760.0,2.53,10050.0,False,False,False,C,1.0
+004490.KS,64900.0,0.0,65.49,65460.0,61767.5,62632.0,64216.5,-0.86,5.07,3.62,1.06,UP,UP,False,62600.0,57800.0,-3.54,77700.0,False,False,False,C,1.0
+049950.KQ,16870.0,0.0,70.17,16393.0,14925.5,15207.0,16112.7,2.91,13.03,10.94,4.7,UP,UP,False,19240.0,12800.0,14.05,18760.0,False,False,False,C,1.0
+060250.KQ,21300.0,0.0,70.12,20310.0,18604.25,19001.8,16983.9,4.87,14.49,12.09,25.41,DN,UP,True,21550.0,15090.0,1.17,24650.0,False,False,False,C,1.0
+161890.KS,86900.0,0.0,69.49,88760.0,79747.5,77962.0,76044.0,-2.1,8.97,11.46,14.28,UP,UP,False,81500.0,64000.0,-6.21,93900.0,False,False,False,C,1.0
+204270.KQ,22500.0,0.0,74.54,19956.0,17900.5,18500.6,20280.3,12.75,25.69,21.62,10.95,UP,UP,False,25100.0,14490.0,11.56,25100.0,False,False,False,C,1.0
+267320.KQ,3940.0,0.0,72.34,3549.0,3216.75,3269.4,3376.42,11.02,22.48,20.51,16.69,UP,UP,False,4315.0,2930.0,9.52,4315.0,False,False,False,C,1.0
+000500.KS,367000.0,0.0,96.28,229690.0,139467.5,132340.0,87146.5,59.78,163.14,177.32,321.13,UP,UP,True,117600.0,86700.0,-67.96,375000.0,False,True,False,C,0.0
+000660.KS,1601000.0,0.0,92.35,1311300.0,1062925.0,1042800.0,636167.5,22.09,50.62,53.53,151.66,UP,UP,True,1060000.0,806000.0,-33.79,1614000.0,False,True,False,C,0.0
+000670.KS,70000.0,0.0,70.17,67080.0,60612.5,60376.0,51691.42,4.35,15.49,15.94,35.42,UP,UP,True,64500.0,50100.0,-7.86,71000.0,False,True,False,C,0.0
+003470.KS,7830.0,0.0,90.28,5590.0,5055.5,5049.2,4146.92,40.07,54.88,55.07,88.81,UP,UP,True,5330.0,4400.0,-31.93,7830.0,False,True,False,C,0.0
+003670.KS,288500.0,0.0,80.08,259300.0,221467.5,221958.0,191780.5,11.26,30.27,29.98,50.43,UP,UP,True,254000.0,186000.0,-11.96,294500.0,False,True,False,C,0.0
+004800.KS,258500.0,0.0,89.96,202220.0,158212.5,158038.0,124254.5,27.83,63.39,63.57,108.04,UP,UP,True,155000.0,126900.0,-40.04,265500.0,False,True,False,C,0.0
+005490.KS,506000.0,0.0,90.03,448850.0,374937.5,374880.0,328290.0,12.73,34.96,34.98,54.13,UP,UP,True,427500.0,318000.0,-15.51,519000.0,False,True,False,C,0.0
+005930.KS,266000.0,0.0,81.48,227200.0,202796.25,201269.0,126907.0,17.08,31.17,32.16,109.6,UP,UP,True,223000.0,167000.0,-16.17,270000.0,False,True,False,C,0.0
+005935.KS,189300.0,0.0,84.86,161240.0,141662.5,140008.0,93621.25,17.4,33.63,35.21,102.2,UP,UP,True,149250.0,113500.0,-21.16,191900.0,False,True,False,C,0.0
+011070.KS,632000.0,0.0,90.92,547200.0,374937.5,356230.0,252494.5,15.5,68.56,77.41,150.3,UP,UP,True,353500.0,240000.0,-44.07,640000.0,False,True,False,C,0.0
+011790.KS,161200.0,0.0,79.11,122820.0,104145.09,104426.07,106327.52,31.25,54.78,54.37,51.61,UP,UP,True,118500.0,85241.18,-26.49,161200.0,False,True,False,C,0.0
+017510.KS,15770.0,0.0,90.19,12963.0,10344.25,10319.0,9789.75,21.65,52.45,52.82,61.09,UP,UP,True,13460.0,8620.0,-14.65,16200.0,False,True,False,C,0.0
+028260.KS,375500.0,0.0,77.51,316050.0,292112.5,296960.0,239945.5,18.81,28.55,26.45,56.49,UP,UP,True,364000.0,245500.0,-3.06,386000.0,False,True,False,C,0.0
+036010.KQ,12890.0,0.0,91.29,11348.0,9612.75,9355.4,7848.7,13.59,34.09,37.78,64.23,UP,UP,True,10900.0,6900.0,-15.44,13000.0,False,True,False,C,0.0
+042700.KS,394500.0,0.0,84.0,341600.0,300825.0,295100.0,168007.0,15.49,31.14,33.68,134.81,UP,UP,True,335500.0,242500.0,-14.96,397500.0,False,True,False,C,0.0
+051900.KQ,267500.0,0.0,65.29,256500.0,249562.5,250780.0,277607.5,4.29,7.19,6.67,-3.64,UP,UP,False,258000.0,235000.0,-3.55,292000.0,False,False,False,C,0.0
+051900.KS,267500.0,0.0,65.29,256500.0,249562.5,250780.0,277607.5,4.29,7.19,6.67,-3.64,UP,UP,False,258000.0,235000.0,-3.55,292000.0,False,False,False,C,0.0
+066570.KS,154900.0,0.0,80.35,136160.0,120330.0,121788.0,95795.0,13.76,28.73,27.19,61.7,UP,UP,True,151900.0,103600.0,-1.94,157000.0,False,True,False,C,0.0
+069500.KS,113270.0,0.0,92.06,101103.0,89086.62,88549.8,63719.75,12.03,27.15,27.92,77.76,UP,UP,True,95720.0,75110.0,-15.49,114320.0,False,True,False,C,0.0
+071055.KS,193200.0,0.0,77.23,177450.0,167622.5,168482.0,130473.5,8.88,15.26,14.67,48.08,UP,UP,True,180000.0,148500.0,-6.83,194300.0,False,True,False,C,0.0
+091160.KS,140020.0,0.0,94.86,123981.0,106003.62,104276.2,66906.05,12.94,32.09,34.28,109.28,UP,UP,True,107800.0,86650.0,-23.01,140180.0,False,True,False,C,0.0
+091230.KS,146300.0,0.0,94.47,130037.5,111408.0,109598.1,70133.32,12.51,31.32,33.49,108.6,UP,UP,True,112900.0,90695.0,-22.83,146590.0,False,True,False,C,0.0
+102110.KS,113170.0,0.0,92.31,101133.0,89085.75,88536.5,63733.5,11.9,27.03,27.82,77.57,UP,UP,True,95680.0,75115.0,-15.45,114295.0,False,True,False,C,0.0
+122630.KS,147355.0,0.0,92.3,117885.5,93253.25,93184.6,54541.65,25.0,58.02,58.13,170.17,UP,UP,True,115010.0,66180.0,-21.95,149630.0,False,True,False,C,0.0
+189300.KQ,153600.0,0.0,71.11,138170.0,128960.0,126532.0,74422.0,11.17,19.11,21.39,106.39,UP,UP,True,149000.0,108400.0,-2.99,155800.0,False,True,False,C,0.0
+222800.KQ,93800.0,0.0,82.97,87040.0,66696.25,63784.0,48322.25,7.77,40.64,47.06,94.11,UP,UP,True,65700.0,47050.0,-29.96,94700.0,False,True,False,C,0.0
+229640.KS,92100.0,0.0,92.05,74610.0,52850.0,50957.0,41927.0,23.44,74.27,80.74,119.67,UP,UP,True,49600.0,40100.0,-46.15,94300.0,False,True,False,C,0.0
+247540.KQ,228500.0,0.0,70.01,213550.0,202185.0,202658.0,161131.0,7.0,13.02,12.75,41.81,UP,UP,True,225000.0,178300.0,-1.53,231000.0,False,True,False,C,0.0
+266370.KS,67505.0,0.0,94.72,59813.5,49306.75,48395.0,31871.26,12.86,36.91,39.49,111.81,UP,UP,True,50175.0,39775.0,-25.67,67800.0,False,True,False,C,0.0
+267260.KS,1389000.0,0.0,79.29,1226900.0,1023650.0,1020520.0,784217.5,13.21,35.69,36.11,77.12,UP,UP,True,1116000.0,830000.0,-19.65,1420000.0,False,True,False,C,0.0
+270660.KQ,18570.0,0.0,72.33,18562.0,17663.75,18337.2,19409.05,0.04,5.13,1.27,-4.32,UP,UP,False,31900.0,15410.0,71.78,27750.0,False,False,False,C,0.0
+298040.KS,4597000.0,0.0,91.25,3754200.0,2988700.0,2915760.0,2018960.0,22.45,53.81,57.66,127.69,UP,UP,True,3075000.0,2400000.0,-33.11,4640000.0,False,True,False,C,0.0
+305540.KS,28310.0,0.0,83.31,26642.0,22461.62,22311.2,18717.7,6.26,26.04,26.89,51.25,UP,UP,True,24120.0,18925.0,-14.8,28310.0,False,True,False,C,0.0
+305720.KS,22790.0,0.0,81.16,21506.5,18222.12,18107.0,15136.25,5.97,25.07,25.86,50.57,UP,UP,True,19695.0,15430.0,-13.58,22790.0,False,True,False,C,0.0
+336260.KS,78300.0,0.0,90.28,55150.0,43965.0,42753.0,33732.0,41.98,78.1,83.15,132.12,UP,UP,True,48000.0,33400.0,-38.7,78500.0,False,True,False,C,0.0
+353200.KQ,125400.0,0.0,78.34,110170.0,88150.0,82742.0,48969.05,13.82,42.26,51.56,156.08,UP,UP,True,69000.0,49600.0,-44.98,127900.0,False,True,False,C,0.0
+353200.KS,125400.0,0.0,78.34,110170.0,88150.0,82742.0,48969.05,13.82,42.26,51.56,156.08,UP,UP,True,69000.0,49600.0,-44.98,127900.0,False,True,False,C,0.0
+356860.KQ,95300.0,0.0,70.34,84800.0,74735.0,71529.0,55898.25,12.38,27.52,33.23,70.49,UP,UP,True,89300.0,46250.0,-6.3,96300.0,False,True,False,C,0.0
+361610.KS,26800.0,0.0,70.71,27075.0,23485.0,23785.0,27137.5,-1.02,14.12,12.68,-1.24,UP,UP,False,29750.0,20100.0,11.01,29750.0,False,False,False,C,0.0
+381180.KS,42500.0,0.0,82.02,39781.0,33722.0,33081.9,27240.38,6.83,26.03,28.47,56.02,UP,UP,True,31620.0,28220.0,-25.6,43095.0,False,True,False,C,0.0
+390390.KS,52855.0,0.0,83.73,49954.5,43460.75,42774.3,35665.4,5.81,21.62,23.57,48.2,UP,UP,True,41480.0,37330.0,-21.52,53515.0,False,True,False,C,0.0
+395160.KS,37315.0,0.0,94.42,33367.5,28920.75,28540.8,18873.0,11.83,29.03,30.74,97.72,UP,UP,True,30065.0,23695.0,-19.43,37315.0,False,True,False,C,0.0
+395270.KS,52370.0,0.0,96.32,46155.0,37827.62,37037.9,22804.6,13.47,38.44,41.4,129.65,UP,UP,True,37585.0,29865.0,-28.23,52410.0,False,True,False,C,0.0
+396500.KS,45470.0,0.0,95.98,39977.0,34773.75,34364.3,21822.18,13.74,30.76,32.32,108.37,UP,UP,True,36570.0,28350.0,-19.57,45515.0,False,True,False,C,0.0
+403870.KQ,56600.0,0.0,87.6,52450.0,46762.5,46061.0,35471.75,7.91,21.04,22.88,59.56,UP,UP,True,53900.0,40350.0,-4.77,58000.0,False,True,False,C,0.0
+409820.KS,18875.0,0.0,91.68,17568.0,15260.62,15183.9,15170.05,7.44,23.68,24.31,24.42,UP,UP,True,16680.0,12405.0,-11.63,18920.0,False,True,False,C,0.0
+454320.KS,64910.0,0.0,94.69,58147.0,48268.25,47138.9,34714.25,11.63,34.48,37.7,86.98,UP,UP,True,46920.0,40800.0,-27.72,65125.0,False,True,False,C,0.0
+469150.KS,67225.0,0.0,94.35,58286.0,49588.88,48649.6,29863.88,15.34,35.56,38.18,125.1,UP,UP,True,49640.0,39860.0,-26.16,67225.0,False,True,False,C,0.0
+471760.KS,23200.0,0.0,88.45,22000.0,19811.38,19541.2,13405.2,5.45,17.1,18.72,73.07,UP,UP,True,21025.0,16640.0,-9.38,23390.0,False,True,False,C,0.0
+471990.KS,33560.0,0.0,90.34,30784.0,26750.62,26142.9,17159.68,9.02,25.46,28.37,95.57,UP,UP,True,27120.0,22340.0,-19.19,33585.0,False,True,False,C,0.0
+475310.KS,37310.0,0.0,89.14,34915.0,31190.88,30564.8,19925.78,6.86,19.62,22.07,87.24,UP,UP,True,32480.0,26390.0,-12.95,37310.0,False,True,False,C,0.0
+488080.KS,76480.0,0.0,95.29,59096.0,46094.38,45601.0,22692.4,29.42,65.92,67.72,237.03,UP,UP,True,54885.0,30800.0,-28.24,76490.0,False,True,False,C,0.0
+494310.KS,126665.0,0.0,95.88,100606.5,76026.38,74709.7,37719.25,25.9,66.61,69.54,235.81,UP,UP,True,84995.0,51150.0,-32.9,126950.0,False,True,False,C,0.0
+000150.KS,1790000.0,0.0,90.23,1565800.0,1275725.0,1242560.0,867075.0,14.32,40.31,44.06,106.44,UP,UP,True,1295000.0,1009000.0,-27.65,1900000.0,False,False,False,C,-1.0
+000155.KS,713000.0,0.0,91.05,624300.0,536400.0,537480.0,470320.0,14.21,32.92,32.66,51.6,UP,UP,True,620000.0,434000.0,-13.04,739000.0,False,False,False,C,-1.0
+000157.KS,630000.0,0.0,95.76,549650.0,467200.0,470990.0,435695.0,14.62,34.85,33.76,44.6,UP,UP,True,608000.0,362500.0,-3.49,656000.0,False,False,False,C,-1.0
+000990.KS,162000.0,0.0,87.31,148780.0,104620.0,101716.0,72782.75,8.89,54.85,59.27,122.58,UP,UP,True,98100.0,76300.0,-39.44,168900.0,False,False,False,C,-1.0
+001250.KS,4605.0,0.0,70.47,4571.0,3330.12,3173.7,2657.9,0.74,38.28,45.1,73.26,UP,UP,True,2775.0,2310.0,-39.74,5690.0,False,False,False,C,-1.0
+001440.KS,69200.0,0.0,92.05,49315.0,35716.25,34968.0,24508.8,40.32,93.75,97.9,182.35,UP,UP,True,37350.0,26500.0,-46.03,74000.0,False,False,False,C,-1.0
+001470.KS,347.0,0.0,,347.0,347.0,347.0,347.0,0.0,0.0,0.0,0.0,FLAT,FLAT,False,347.0,347.0,0.0,347.0,False,True,True,C,-1.0
+001570.KS,9900.0,0.0,,9900.0,9900.0,9900.0,9900.0,0.0,0.0,0.0,0.0,FLAT,FLAT,False,9900.0,9900.0,0.0,9900.0,False,True,True,C,-1.0
+001740.KS,6680.0,0.0,81.91,5863.0,5460.25,5472.6,4840.35,13.93,22.34,22.06,38.01,UP,UP,True,6040.0,4920.0,-9.58,7520.0,False,False,False,C,-1.0
+004000.KS,64800.0,0.0,74.18,62510.0,54002.5,52887.0,47099.25,3.66,19.99,22.53,37.58,UP,UP,True,56900.0,46100.0,-12.19,71800.0,False,False,False,C,-1.0
+004170.KS,410000.0,0.0,85.08,399900.0,351237.5,350350.0,251601.5,2.53,16.73,17.03,62.96,UP,UP,True,384500.0,295500.0,-6.22,448000.0,False,False,False,C,-1.0
+005945.KS,29200.0,0.0,78.26,27905.0,26392.5,26154.0,20814.85,4.64,10.64,11.65,40.28,UP,UP,True,27550.0,23650.0,-5.65,31000.0,False,False,False,C,-1.0
+006260.KS,531000.0,0.0,87.68,420500.0,315962.5,305710.0,220689.0,26.28,68.06,73.69,140.61,UP,UP,True,312000.0,246000.0,-41.24,587000.0,False,False,False,C,-1.0
+006400.KS,698000.0,0.0,82.92,670000.0,491687.5,475590.0,319473.5,4.18,41.96,46.77,118.48,UP,UP,True,473500.0,375000.0,-32.16,723000.0,False,False,False,C,-1.0
+006405.KS,355500.0,0.0,86.3,330200.0,251600.0,247840.0,181520.0,7.66,41.3,43.44,95.85,UP,UP,True,279500.0,202000.0,-21.38,373000.0,False,False,False,C,-1.0
+008770.KS,63900.0,0.0,77.26,62580.0,49872.5,48969.0,48338.0,2.11,28.13,30.49,32.19,UP,UP,True,53400.0,39700.0,-16.43,70300.0,False,False,False,C,-1.0
+009150.KS,912000.0,0.0,87.27,826800.0,570200.0,540400.0,299786.0,10.3,59.94,68.76,204.22,UP,UP,True,488500.0,396500.0,-46.44,971000.0,False,False,False,C,-1.0
+009155.KS,382000.0,0.0,88.02,336800.0,226505.0,215334.0,127484.5,13.42,68.65,77.4,199.64,UP,UP,True,195600.0,155600.0,-48.8,406000.0,False,False,False,C,-1.0
+010120.KS,315500.0,0.0,96.83,249990.0,184775.0,176768.0,105086.5,26.21,70.75,78.48,200.23,UP,UP,True,181400.0,143000.0,-42.5,328500.0,False,False,False,C,-1.0
+016360.KS,149500.0,0.0,84.45,117070.0,104085.0,103598.0,84014.25,27.7,43.63,44.31,77.95,UP,UP,True,119400.0,91300.0,-20.13,163000.0,False,False,False,C,-1.0
+020150.KS,78500.0,0.0,92.21,67680.0,48733.75,47264.0,34857.5,15.99,61.08,66.09,125.2,UP,UP,True,50500.0,33050.0,-35.67,83100.0,False,False,False,C,-1.0
+023530.KS,131800.0,0.0,77.1,129720.0,112445.0,110616.0,82880.5,1.6,17.21,19.15,59.02,UP,UP,True,116700.0,99100.0,-11.46,141900.0,False,False,False,C,-1.0
+024800.KQ,4475.0,0.0,72.99,4295.5,4012.62,4006.5,2951.92,4.18,11.52,11.69,51.6,UP,UP,True,4210.0,3455.0,-5.92,4675.0,False,False,False,C,-1.0
+033100.KQ,88200.0,0.0,89.16,65100.0,52365.0,52329.0,41821.0,35.48,68.43,68.55,110.9,UP,UP,True,70100.0,43250.0,-20.52,93800.0,False,False,False,C,-1.0
+033640.KQ,34800.0,0.0,76.74,31175.0,23134.5,21969.2,16883.5,11.63,50.42,58.4,106.12,UP,UP,True,21500.0,14420.0,-38.22,37200.0,False,False,False,C,-1.0
+034020.KS,127000.0,0.0,85.27,124850.0,107545.0,105612.0,82943.5,1.72,18.09,20.25,53.12,UP,UP,True,112100.0,91100.0,-11.73,131100.0,False,False,False,C,-1.0
+034730.KS,520000.0,0.0,95.68,423450.0,361450.0,364370.0,275490.5,22.8,43.86,42.71,88.75,UP,UP,True,424000.0,298000.0,-18.46,600000.0,False,False,False,C,-1.0
+03473K.KS,350000.0,0.0,93.0,295350.0,262300.0,263710.0,205548.5,18.5,33.43,32.72,70.28,UP,UP,True,299500.0,226500.0,-14.43,381500.0,False,False,False,C,-1.0
+040420.KQ,5960.0,0.0,48.15,6007.0,5891.25,5874.2,6165.85,-0.78,1.17,1.46,-3.34,DN,UP,False,5880.0,5750.0,-1.34,6130.0,False,False,True,C,-1.0
+046890.KQ,16700.0,0.0,78.75,13835.0,11086.5,10906.2,7695.25,20.71,50.63,53.12,117.02,UP,UP,True,12000.0,8570.0,-28.14,18960.0,False,False,False,C,-1.0
+047040.KS,32200.0,0.0,70.33,33805.0,22192.0,19496.0,7904.0,-4.75,45.1,65.16,307.39,UP,UP,True,5760.0,3610.0,-82.11,40350.0,False,False,False,C,-1.0
+051910.KS,423500.0,0.0,79.5,399500.0,341562.5,343190.0,330842.5,6.01,23.99,23.4,28.01,UP,UP,True,424000.0,288000.0,0.12,436000.0,False,False,False,C,-1.0
+060370.KQ,50100.0,0.0,85.04,39365.0,32410.0,31990.0,28432.5,27.27,54.58,56.61,76.21,UP,UP,True,35450.0,27300.0,-29.24,51600.0,False,False,False,C,-1.0
+062040.KS,319500.0,0.0,84.58,244050.0,177255.0,172722.0,140529.5,30.92,80.25,84.98,127.35,UP,UP,True,178100.0,131000.0,-44.26,341000.0,False,False,False,C,-1.0
+064290.KQ,33350.0,0.0,76.35,30615.0,22540.75,21122.6,15543.35,8.93,47.95,57.89,114.56,UP,UP,True,18840.0,13250.0,-43.51,35100.0,False,False,False,C,-1.0
+066970.KS,212500.0,0.0,70.78,201730.0,160765.0,151778.0,111958.5,5.34,32.18,40.01,89.8,UP,UP,True,129000.0,92500.0,-39.29,225000.0,False,False,False,C,-1.0
+067310.KQ,43500.0,0.0,78.69,40215.0,34111.25,34185.0,25316.7,8.17,27.52,27.25,71.82,UP,UP,True,36500.0,27500.0,-16.09,44850.0,False,False,False,C,-1.0
+082740.KS,84500.0,0.0,77.57,79350.0,55578.75,54737.0,46838.5,6.49,52.04,54.37,80.41,UP,UP,True,53300.0,42850.0,-36.92,94400.0,False,False,False,C,-1.0
+083450.KQ,56900.0,0.0,87.39,47620.0,35115.0,34160.0,26769.9,19.49,62.04,66.57,112.55,UP,UP,True,34050.0,24350.0,-40.16,61100.0,False,False,False,C,-1.0
+089010.KQ,45700.0,0.0,79.96,37840.0,31495.0,31325.0,29944.25,20.77,45.1,45.89,52.62,UP,UP,True,37400.0,26000.0,-18.16,48900.0,False,False,False,C,-1.0
+092190.KQ,12110.0,0.0,94.51,6944.5,4517.38,4407.1,3137.38,74.38,168.08,174.78,285.99,UP,UP,True,4300.0,3150.0,-64.49,13630.0,False,False,False,C,-1.0
+096770.KS,146700.0,0.0,80.1,138540.0,122542.5,123324.0,114341.0,5.89,19.71,18.95,28.3,UP,UP,True,141300.0,105100.0,-3.68,155400.0,False,False,False,C,-1.0
+098460.KQ,41600.0,0.0,72.21,38615.0,30906.25,30868.0,23108.7,7.73,34.6,34.77,80.02,UP,UP,True,37450.0,24300.0,-9.98,45000.0,False,False,False,C,-1.0
+103590.KS,142200.0,0.0,95.45,111210.0,86927.5,86014.0,58979.62,27.87,63.58,65.32,141.1,UP,UP,True,98000.0,69000.0,-31.08,147900.0,False,False,False,C,-1.0
+131970.KQ,140000.0,0.0,84.93,126800.0,100990.0,93764.0,56766.5,10.41,38.63,49.31,146.62,UP,UP,True,117500.0,84600.0,-16.07,145400.0,False,False,False,C,-1.0
+140860.KQ,318000.0,0.0,82.89,290650.0,264987.5,266180.0,253727.5,9.41,20.01,19.47,25.33,UP,UP,True,305000.0,226000.0,-4.09,330000.0,False,False,False,C,-1.0
+178920.KQ,31250.0,0.0,83.33,27050.0,23568.25,22745.4,18766.85,15.53,32.59,37.39,66.52,UP,UP,True,27900.0,16500.0,-10.72,32150.0,False,False,False,C,-1.0
+199820.KQ,19350.0,0.0,86.09,14521.0,11574.25,11264.2,10568.1,33.26,67.18,71.78,83.1,UP,UP,True,12930.0,9630.0,-33.18,22300.0,False,False,False,C,-1.0
+263050.KQ,959.0,0.0,,959.0,959.0,959.0,1271.38,0.0,0.0,0.0,-24.57,FLAT,FLAT,False,959.0,959.0,0.0,959.0,False,True,False,C,-1.0
+267770.KS,112540.0,0.0,92.03,90218.5,71267.38,71143.4,41644.22,24.74,57.91,58.19,170.24,UP,UP,True,87215.0,50365.0,-22.5,116000.0,False,False,False,C,-1.0
+298000.KS,38900.0,0.0,,38900.0,38900.0,38900.0,38900.0,0.0,0.0,0.0,0.0,FLAT,FLAT,False,38900.0,38900.0,0.0,38900.0,False,True,True,C,-1.0
+322000.KS,213500.0,0.0,76.35,199030.0,157770.0,144568.0,76423.75,7.27,35.32,47.68,179.36,UP,UP,True,96600.0,77700.0,-54.75,244000.0,False,False,False,C,-1.0
+329180.KS,648000.0,0.0,80.84,657200.0,550362.5,555930.0,532940.0,-1.4,17.74,16.56,21.59,UP,UP,True,630000.0,428000.0,-2.78,710000.0,False,False,False,C,-1.0
+425040.KQ,21700.0,0.0,86.68,15843.0,12813.25,12099.6,9178.45,36.97,69.36,79.34,136.42,UP,UP,True,15000.0,12060.0,-30.88,25200.0,False,False,False,C,-1.0
+068240.KQ,2530.0,0.0,,2530.0,2529.25,2603.6,4287.48,0.0,0.03,-2.83,-40.99,FLAT,UP,False,2530.0,2530.0,0.0,3990.0,False,False,False,C,-2.0
+383220.KS,78500.0,0.0,88.14,69160.0,64677.5,65264.0,68166.0,13.5,21.37,20.28,15.16,UP,UP,False,78400.0,58000.0,-0.13,80450.0,False,True,False,C,-2.0
+004430.KS,14930.0,0.0,84.75,12906.0,10072.25,9904.8,9891.5,15.68,48.23,50.73,50.94,UP,UP,False,9880.0,8470.0,-33.82,16730.0,False,False,False,C,-3.0
+192080.KS,58900.0,0.0,74.85,57720.0,51906.25,52018.0,53038.0,2.04,13.47,13.23,11.05,UP,UP,False,57500.0,47550.0,-2.38,63900.0,False,False,False,C,-3.0
+256150.KQ,5440.0,0.0,76.92,5412.0,5239.75,5252.0,5543.7,0.52,3.82,3.58,-1.87,UP,UP,False,5340.0,5030.0,-1.84,5480.0,False,True,False,C,-3.0
+259960.KS,284000.0,0.0,70.83,273600.0,249500.0,247690.0,275437.5,3.8,13.83,14.66,3.11,UP,UP,False,268500.0,208500.0,-5.46,303500.0,False,False,False,C,-3.0
+306200.KS,179200.0,0.0,77.56,165880.0,147062.5,143614.0,133289.5,8.03,21.85,24.78,34.44,UP,UP,False,143500.0,123500.0,-19.92,189000.0,False,False,False,C,-3.0
+443060.KS,260500.0,0.0,76.85,256450.0,198855.0,194566.0,199714.5,1.58,31.0,33.89,30.44,UP,UP,False,188800.0,158000.0,-27.52,287000.0,False,False,False,C,-3.0
