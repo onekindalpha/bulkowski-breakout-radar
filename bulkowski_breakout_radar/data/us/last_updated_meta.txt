@@ -1,3 +1,4 @@
-workflow=US Breakout Scan
-run_id=25418414472
-sha=a8e34f3d3361440fe7943cce059f3a4b6d01d8cd
+market=US
+source=github_actions
+updated_kst=2026-05-08 20:45:26 KST
+updated_utc=2026-05-08 11:45:26 UTC
