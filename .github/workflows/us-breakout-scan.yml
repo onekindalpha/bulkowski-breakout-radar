@@ -80,6 +80,33 @@ jobs:
           python bulkowski_breakout_radar/build_ticker_master_us.py --report bulkowski_breakout_radar/data/us/report_v2.csv --tickers bulkowski_breakout_radar/data/us/tickers.txt --premarket bulkowski_breakout_radar/data/us/premarket_auto.csv --finviz-members bulkowski_breakout_radar/data/us/finviz_top_groups_members.csv --out bulkowski_breakout_radar/data/us/ticker_master_us.csv --max-yf 2000
           python bulkowski_breakout_radar/repair_us_master.py --path bulkowski_breakout_radar/data/us/ticker_master_us.csv
 
+      - name: Write US last updated files
+        run: |
+          python - <<'PY'
+          from datetime import datetime, timezone
+          from zoneinfo import ZoneInfo
+          from pathlib import Path
+
+          d = Path("bulkowski_breakout_radar/data/us")
+          d.mkdir(parents=True, exist_ok=True)
+
+          now_utc = datetime.now(timezone.utc)
+          now_kst = now_utc.astimezone(ZoneInfo("Asia/Seoul"))
+
+          kst = now_kst.strftime("%Y-%m-%d %H:%M:%S KST")
+          utc = now_utc.strftime("%Y-%m-%d %H:%M:%S UTC")
+
+          (d / "last_updated_kst.txt").write_text(kst + "\n", encoding="utf-8")
+          (d / "last_updated_utc.txt").write_text(utc + "\n", encoding="utf-8")
+          (d / "last_updated_meta.txt").write_text(
+              f"market=US\nsource=github_actions\nupdated_kst={kst}\nupdated_utc={utc}\n",
+              encoding="utf-8",
+          )
+
+          print("US last_updated_kst:", kst)
+          print("US last_updated_utc:", utc)
+          PY
+
       - name: Commit updated US data
         run: |
           git config user.name "github-actions[bot]"
