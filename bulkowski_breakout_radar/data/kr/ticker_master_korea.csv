@@ -164,6 +164,7 @@ ticker,name,market,asset_type,sector,industry,source
 007810.KS,코리아써키트,,STOCK,Information Technology,PCB,existing
 011790.KS,SKC,,STOCK,Other,Other / Needs review,existing
 016360.KS,삼성증권,,STOCK,Financial Services,Securities,existing
+017510.KS,세명전기,,STOCK,Industrials,Electrical equipment,existing
 018670.KS,SK가스,,STOCK,Utilities,Gas / Utilities,existing
 020150.KS,롯데에너지머티리얼즈,,STOCK,Energy,Energy,existing
 023160.KQ,태광,,STOCK,Industrials,Industrial fittings,existing
@@ -191,7 +192,6 @@ ticker,name,market,asset_type,sector,industry,source
 112610.KS,씨에스윈드,,STOCK,Energy,Wind power equipment,existing
 119610.KQ,인터로조,,STOCK,Healthcare,Medical devices / Contact lens,existing
 137400.KQ,피엔티,,STOCK,Industrials,Battery equipment,existing
-178920.KQ,PI첨단소재,,STOCK,Materials,Materials,existing
 180640.KS,한진칼,,STOCK,Holding Company,Holding company / Airline,existing
 181710.KQ,NHN,,STOCK,Communication Services,Gaming / Internet services,existing
 181710.KS,NHN,,STOCK,Communication Services,Gaming / Internet services,existing
@@ -201,6 +201,7 @@ ticker,name,market,asset_type,sector,industry,source
 218410.KQ,RFHIC,,STOCK,Information Technology,Telecom equipment / RF components,existing
 240810.KQ,원익IPS,,STOCK,Information Technology,Semiconductor equipment,existing
 267260.KS,HD현대일렉트릭,,STOCK,Industrials,Electrical equipment / Power equipment,existing
+272210.KQ,한화시스템,,STOCK,Information Technology,IT Systems,existing
 272210.KS,한화시스템,,STOCK,Information Technology,IT Systems,existing
 278280.KQ,천보,,STOCK,Materials,Battery materials / Chemicals,existing
 329180.KS,HD현대중공업,,STOCK,Industrials,Heavy industry,existing
@@ -237,7 +238,6 @@ ticker,name,market,asset_type,sector,industry,source
 010130.KS,고려아연,,STOCK,Materials,Non-ferrous metals,existing
 012450.KS,한화에어로스페이스,KOSPI,STOCK,Industrials,Defense / Aerospace,builtin
 014620.KQ,성광벤드,,STOCK,Industrials,Industrial fittings / Pipe components,existing
-017510.KS,세명전기,,STOCK,Industrials,Electrical equipment,existing
 017960.KS,한국카본,,STOCK,Materials,Composite materials / LNG materials,existing
 024110.KS,기업은행,,STOCK,Financial Services,Banks,existing
 028300.KQ,HLB,,STOCK,Healthcare,Biotech,existing
@@ -270,6 +270,7 @@ ticker,name,market,asset_type,sector,industry,source
 145020.KQ,휴젤,,STOCK,Healthcare,Biotech / Aesthetics,existing
 174900.KQ,앱클론,,STOCK,Healthcare,Biotech,existing
 178320.KQ,서진시스템,,STOCK,Information Technology,IT Systems,existing
+178920.KQ,PI첨단소재,,STOCK,Materials,Materials,existing
 183300.KQ,코미코,,STOCK,Information Technology,Semiconductor cleaning / coating,existing
 187660.KQ,페니트리움바이오,,STOCK,Healthcare,Biotech / Healthcare,existing
 190510.KQ,나무가,,STOCK,Information Technology,Camera modules,existing
@@ -283,7 +284,6 @@ ticker,name,market,asset_type,sector,industry,source
 256150.KQ,한독크린텍,,STOCK,Other,Other / Needs review,existing
 259960.KS,크래프톤,,STOCK,Other,Other / Needs review,existing
 263750.KQ,펄어비스,,STOCK,Communication Services,Gaming,existing
-272210.KQ,한화시스템,,STOCK,Information Technology,IT Systems,existing
 274090.KQ,켄코아에어로스페이스,,STOCK,Industrials,Aerospace components,existing
 277810.KQ,레인보우로보틱스,,PREFERRED,Preferred Stock,Preferred / Special share,existing
 290650.KQ,엘앤씨바이오,,STOCK,Healthcare,Biotech / Healthcare,existing
@@ -349,7 +349,6 @@ ticker,name,market,asset_type,sector,industry,source
 042000.KQ,카페24,,STOCK,Information Technology,E-commerce platform,existing
 042660.KS,한화오션,,STOCK,Industrials,Shipbuilding / Defense,existing
 048530.KQ,인트론바이오,,STOCK,Healthcare,Biotech / Healthcare,existing
-051900.KQ,LG생활건강,,STOCK,Consumer Staples,Consumer goods,existing
 053030.KQ,바이넥스,,STOCK,Healthcare,Pharmaceuticals,existing
 064550.KQ,바이오니아,,STOCK,Healthcare,Biotech / Healthcare,existing
 065350.KQ,신성델타테크,,STOCK,Industrials,Electronics / Components,existing
@@ -411,6 +410,7 @@ ticker,name,market,asset_type,sector,industry,source
 352820.KS,하이브,,STOCK,Communication Services,Entertainment / Music platform,existing
 364970.KS,TIGER 바이오TOP10,,ETF,ETF,TIGER 바이오TOP10,existing
 005180.KS,빙그레,,STOCK,Consumer Staples,Food / Dairy,existing
+051900.KQ,LG생활건강,,STOCK,Consumer Staples,Consumer goods,existing
 051900.KS,LG생활건강,,STOCK,Consumer Staples,Consumer goods,existing
 000660.KS,SK하이닉스,KOSPI,STOCK,Information Technology,Semiconductors / Memory,builtin
 001740.KS,SK네트웍스,,STOCK,Other,Other / Needs review,existing
