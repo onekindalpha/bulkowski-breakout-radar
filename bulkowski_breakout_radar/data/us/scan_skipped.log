@@ -23,4 +23,4 @@ SQ	no_ohlcv_or_columns
 PLL	no_ohlcv_or_columns
 LAAC	no_ohlcv_or_columns
 MRO	no_ohlcv_or_columns
-Q	too_short(len=138)
+Q	too_short(len=139)
