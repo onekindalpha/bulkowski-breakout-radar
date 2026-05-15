@@ -15,7 +15,7 @@ Overlay purpose: reward strong company/theme/cycle/news/flow stories while keepi
 (none)
 
 --- AVOID NEW / MANUAL ∩ SAFE ---
-(none)
+01. 007070.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=29450.00 break=29950.00 | dist=+1.70% room=-18.17% | 10dma=+15.69% 40dma=+27.97% 50dma=+32.44% 200dma=+47.31% | too hot + weak score -> avoid new entry, wait for reset
 
 --- HOLD ONLY / SAFE ONLY ---
 (none)
