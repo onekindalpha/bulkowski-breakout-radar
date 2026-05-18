@@ -1,4 +1,4 @@
-# Bulkowski Breakout Radar — Korea
+# Bulkowski Breakout Radar
 
 Prior-high breakout candidate dashboard based on Bulkowski-style chart pattern logic.
 
