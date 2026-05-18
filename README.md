@@ -19,13 +19,6 @@ This project converts rule-based chart pattern ideas into an automated data pipe
 - Prior-high breakout and retest candidate review
 - Structured screening outputs for dashboard visualization
 
----
-
-## Live Dashboard
-
-- **Streamlit Dashboard**: https://bulkowski-breakout-radar-dfb5nsywarnwlaetmhdsts.streamlit.app
-
----
 
 ## Local Run
 
