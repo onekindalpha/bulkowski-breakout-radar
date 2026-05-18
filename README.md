@@ -1,8 +1,23 @@
 # Bulkowski Breakout Radar
 
-Prior-high breakout candidate dashboard based on Bulkowski-style chart pattern logic.
+Prior-high breakout and retest candidate dashboard based on Bulkowski-style chart pattern logic.
 
-This project converts rule-based chart pattern ideas into an automated data pipeline and Streamlit dashboard. It scans Korea market candidates, stores structured screening results, and provides a visual interface for reviewing prior-high breakout and retest-style signals.
+This project converts rule-based chart pattern ideas into an automated data pipeline and Streamlit dashboard. It supports Korea and US market screening workflows, stores structured screening outputs, and provides a visual interface for reviewing breakout, retest, and pattern-based candidate states.
+
+---
+
+## Live Dashboard
+
+- **Streamlit Dashboard**: https://bulkowski-breakout-radar-dfb5nsywarnwlaetmhdsts.streamlit.app
+
+---
+
+## Supported Markets
+
+- Korea market screening workflow
+- US market screening workflow
+- Prior-high breakout and retest candidate review
+- Structured screening outputs for dashboard visualization
 
 ---
 
@@ -23,9 +38,13 @@ streamlit run streamlit_app.py
 
 ---
 
-## Fix Korean Names / Ticker Master
+## Ticker Metadata Refresh
 
-If numeric tickers appear in the company-name column, run the command below to rebuild the Korea ticker master file.
+The dashboard uses ticker metadata to display company names and related market information correctly.
+
+### Korea Ticker Metadata
+
+If numeric tickers appear in the company-name column for Korea results, rebuild the Korea ticker master file.
 
 ```bash
 cd /Users/velocitygoal/bulkowski_breakout_radar
@@ -40,7 +59,7 @@ python build_ticker_master_korea.py \
 
 Alternatively, use the **Build / refresh Korean names** button in the dashboard sidebar.
 
-### v5 Name Resolution Order
+### Name Resolution Order
 
 1. Built-in / seed metadata
 2. `pykrx` KRX ticker names
