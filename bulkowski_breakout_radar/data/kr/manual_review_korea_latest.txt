@@ -1,12 +1,12 @@
 === V12.1 OVERLAY REVIEW ===
-manual tickers in report: 500 | safe top: 500 | overlay rows: 12
+manual tickers in report: 498 | safe top: 498 | overlay rows: 12
 Ranking priority: PREBREAK OK > ENTRY OK > SMALL SIZE > HOLD ONLY > AVOID NEW > WATCH > REJECT
 Within each state: BUY NOW > NEAR BREAKOUT > retest > STOCK > ETF > thesis > overlay_score > grade > 40DMA timing > room > dist > ext
 DMA display: 10/40/50/200 모두 현재가 대비 이격률(%)로 표시
 Overlay purpose: reward strong company/theme/cycle/news/flow stories while keeping default detail focused on actionable new entries.
 
 --- NEW ENTRY / MANUAL ∩ SAFE ---
-01. 230360.KQ  [STOCK] | entry=[30;103mSMALL SIZE[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=6.0 | price=16010.00 break=16300.00 | dist=+1.81% room=+0.44% | 10dma=+0.04% 40dma=+0.18% 50dma=+0.30% 200dma=+15.64% | room is tight -> size smaller or require stronger volume
+01. 230360.KQ  [STOCK] | entry=[30;103mSMALL SIZE[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=3.0 | price=16000.00 break=16300.00 | dist=+1.88% room=+0.50% | 10dma=-0.01% 40dma=+0.12% 50dma=+0.23% 200dma=+15.57% | room is tight -> size smaller or require stronger volume | 10DMA lost -> short-term execution caution
 
 --- NEW ENTRY / SAFE ONLY ---
 (none)
@@ -15,8 +15,9 @@ Overlay purpose: reward strong company/theme/cycle/news/flow stories while keepi
 (none)
 
 --- AVOID NEW / MANUAL ∩ SAFE ---
-01. 036930.KQ  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=182200.00 break=183500.00 | dist=+0.71% room=-52.96% | 10dma=+20.95% 40dma=+82.56% 50dma=+96.44% 200dma=+281.77% | too hot + weak score -> avoid new entry, wait for reset
-02. 295310.KQ  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=125800.00 break=127000.00 | dist=+0.95% room=-18.92% | 10dma=+29.86% 40dma=+37.50% 50dma=+35.88% 200dma=+128.23% | too hot + weak score -> avoid new entry, wait for reset
+01. 360750.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=27360.00 break=27880.00 | dist=+1.90% room=-8.21% | 10dma=+1.19% 40dma=+6.64% 50dma=+7.39% 200dma=+12.67% | too hot + weak score -> avoid new entry, wait for reset
+02. 036930.KQ  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=182200.00 break=183500.00 | dist=+0.71% room=-52.96% | 10dma=+20.95% 40dma=+82.56% 50dma=+96.44% 200dma=+281.77% | too hot + weak score -> avoid new entry, wait for reset
+03. 295310.KQ  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=125300.00 break=127000.00 | dist=+1.36% room=-18.60% | 10dma=+29.42% 40dma=+36.97% 50dma=+35.36% 200dma=+127.33% | too hot + weak score -> avoid new entry, wait for reset
 
 --- HOLD ONLY / SAFE ONLY ---
 (none)
@@ -29,10 +30,10 @@ Overlay purpose: reward strong company/theme/cycle/news/flow stories while keepi
 --- MANUAL ∩ SAFE / TOP DETAIL ---
 
 [1순위 상세]
-230360.KQ | asset=STOCK | [1;96mNEAR BREAKOUT[0m | entry=[30;103mSMALL SIZE[0m | safe=Y | grade=C score=6.0 | thesis=NO OVERLAY(0.0) T/C/N/F/Q=0/0/0/0/0 | breakout=N retest=Y | price=16010.00 break=16300.00 | ext=-1.78% | dist=+1.81% | rsi=50.00 | room_pct=+0.44% | weekly_r1=16080.00 | room_left=70.00 | sma10=Y px_vs_sma10=+0.04% slope10= | sma40=Y px_vs_sma40=+0.18% slope40= | sma50=Y px_vs_sma50=+0.30% | sma200=Y px_vs_sma200=+15.64%
+230360.KQ | asset=STOCK | [1;96mNEAR BREAKOUT[0m | entry=[30;103mSMALL SIZE[0m | safe=Y | grade=C score=3.0 | thesis=NO OVERLAY(0.0) T/C/N/F/Q=0/0/0/0/0 | breakout=N retest=Y | price=16000.00 break=16300.00 | ext=-1.84% | dist=+1.88% | rsi=33.33 | room_pct=+0.50% | weekly_r1=16080.00 | room_left=80.00 | sma10=N px_vs_sma10=-0.01% slope10= | sma40=Y px_vs_sma40=+0.12% slope40= | sma50=Y px_vs_sma50=+0.23% | sma200=Y px_vs_sma200=+15.57%
     why: just below break_level; retest/trigger setup looks clean
-    manage: room is tight -> size smaller or require stronger volume
-    safe warning: weekly room small (0.44%)
+    manage: room is tight -> size smaller or require stronger volume | 10DMA lost -> short-term execution caution
+    safe warning: weekly room small (0.50%); RSI low (33.33); below 10DMA (-0.01%)
 
 --- MANUAL ONLY ---
 (manual-only tickers are shown as WATCH because SAFE metrics are unavailable in report_v2)
