@@ -12,7 +12,7 @@ Overlay purpose: reward strong company/theme/cycle/news/flow stories while keepi
 (none)
 
 --- HOLD ONLY / MANUAL ∩ SAFE ---
-(none)
+01. 078130.KQ  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=3.0 | price=4360.00 break=4360.00 | dist=+0.00% room=-86.31% | 10dma=+426.32% 40dma=+809.19% 50dma=+880.26% 200dma=+933.44% | late / target1 passed -> prefer hold-only or wait for fresh setup
 
 --- AVOID NEW / MANUAL ∩ SAFE ---
 01. 425040.KQ  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=25850.00 break=26350.00 | dist=+1.93% room=-41.97% | 10dma=+11.23% 40dma=+63.51% 50dma=+76.61% 200dma=+160.76% | too hot + weak score -> avoid new entry, wait for reset
