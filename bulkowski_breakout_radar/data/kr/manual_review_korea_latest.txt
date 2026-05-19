@@ -15,8 +15,8 @@ Overlay purpose: reward strong company/theme/cycle/news/flow stories while keepi
 (none)
 
 --- AVOID NEW / MANUAL ∩ SAFE ---
-01. 360750.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=27600.00 break=27880.00 | dist=+1.01% room=-9.00% | 10dma=+1.60% 40dma=+7.27% 50dma=+8.12% 200dma=+13.53% | too hot + weak score -> avoid new entry, wait for reset
-02. 425040.KQ  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=25900.00 break=26350.00 | dist=+1.74% room=-42.08% | 10dma=+11.42% 40dma=+63.82% 50dma=+76.94% 200dma=+161.26% | too hot + weak score -> avoid new entry, wait for reset
+01. 425040.KQ  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=25850.00 break=26350.00 | dist=+1.93% room=-41.97% | 10dma=+11.23% 40dma=+63.51% 50dma=+76.61% 200dma=+160.76% | too hot + weak score -> avoid new entry, wait for reset
+02. 133690.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=192740.00 break=196500.00 | dist=+1.95% room=-14.75% | 10dma=+1.31% 40dma=+11.44% 50dma=+12.82% 200dma=+19.89% | too hot + weak score -> avoid new entry, wait for reset
 
 --- HOLD ONLY / SAFE ONLY ---
 (none)
