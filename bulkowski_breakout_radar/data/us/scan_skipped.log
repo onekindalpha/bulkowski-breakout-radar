@@ -1,4 +1,3 @@
-AEM	no_ohlcv_or_columns
 AUX	no_ohlcv_or_columns
 BDH	no_ohlcv_or_columns
 BHH	no_ohlcv_or_columns
@@ -24,4 +23,4 @@ SQ	no_ohlcv_or_columns
 PLL	no_ohlcv_or_columns
 LAAC	no_ohlcv_or_columns
 MRO	no_ohlcv_or_columns
-Q	too_short(len=143)
+Q	too_short(len=144)
