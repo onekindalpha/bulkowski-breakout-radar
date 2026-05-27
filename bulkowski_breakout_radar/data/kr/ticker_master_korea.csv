@@ -10,7 +10,6 @@ ticker,name,market,asset_type,sector,industry,source
 005385.KS,현대차우,,PREFERRED,Preferred Stock,Preferred / Special share,existing
 005387.KS,현대차2우B,,PREFERRED,Preferred Stock,Preferred / Special share,existing
 005389.KS,현대차3우B,,PREFERRED,Preferred Stock,Preferred / Special share,existing
-005850.KS,에스엘,,STOCK,분류 미확인,업종 미확인,existing
 010780.KS,아이에스동서,,STOCK,Materials,Construction materials / Real estate,existing
 011210.KS,현대위아,,STOCK,Consumer Discretionary,Auto parts / Machinery,existing
 023530.KS,롯데쇼핑,,STOCK,Consumer Discretionary,Retail,existing
@@ -18,7 +17,6 @@ ticker,name,market,asset_type,sector,industry,source
 028260.KS,삼성물산,,STOCK,Industrials,Trading / Construction,existing
 028670.KS,팬오션,,STOCK,Industrials,Shipping / Marine transportation,existing
 034220.KS,LG디스플레이,,STOCK,분류 미확인,업종 미확인,existing
-036570.KS,NC,,STOCK,분류 미확인,업종 미확인,existing
 048410.KQ,현대바이오,,STOCK,Healthcare,Biotech / Healthcare,existing
 066575.KS,LG전자우,,PREFERRED,Preferred Stock,Preferred / Special share,existing
 083450.KQ,GST,,STOCK,Other,Other / Needs review,existing
@@ -166,6 +164,7 @@ ticker,name,market,asset_type,sector,industry,source
 375500.KS,DL이앤씨,,STOCK,Industrials,Construction,existing
 393890.KQ,더블유씨피,,STOCK,Materials,Battery separator film,existing
 396500.KS,TIGER 반도체TOP10,KOSPI,ETF,ETF,Korea semiconductor TOP10 ETF,builtin
+402340.KS,SK스퀘어,,STOCK,분류 미확인,업종 미확인,naver
 425040.KQ,티이엠씨,,STOCK,Other,Other / Needs review,existing
 488080.KS,TIGER 반도체TOP10레버리지,KOSPI,ETF,ETF,Korea semiconductor leveraged ETF,builtin
 494310.KS,KODEX 반도체레버리지,KOSPI,ETF,ETF,Korea semiconductor leveraged ETF,builtin
