@@ -8,7 +8,7 @@
 010120	no_ohlcv_or_columns
 010620.KS	no_ohlcv_or_columns
 012450	no_ohlcv_or_columns
-0167A0.KS	too_short(len=50)
+0167A0.KS	too_short(len=51)
 017800	no_ohlcv_or_columns
 034230.KQ	no_ohlcv_or_columns
 036490.KQ	no_ohlcv_or_columns
