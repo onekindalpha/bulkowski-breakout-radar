@@ -1,4 +1,4 @@
-# saved_at_kr,2026-06-03 16:29:04 KST
+# saved_at_kr,2026-06-04 08:53:03 KST
 # provider,yahoo(yfinance)
 group,ticker,premarket,src,ts_kst,error
 kr_foreign_naver_auto,402340.KS,1346000.0,yf_close(5m),2026-06-02T15:30:00+09:00,
@@ -131,7 +131,7 @@ tickers_core_korea,004370.KS,383000.0,yf_close(5m),2026-06-02T15:30:00+09:00,
 tickers_core_korea,282330.KS,132500.0,yf_close(5m),2026-06-02T15:30:00+09:00,
 tickers_core_korea,008770.KS,52100.0,yf_close(5m),2026-06-02T15:30:00+09:00,
 tickers_core_korea,207940.KS,1367000.0,yf_close(5m),2026-06-02T15:30:00+09:00,
-tickers_core_korea,068270.KS,187900.0,yf_close(5m),2026-06-02T15:30:00+09:00,
+tickers_core_korea,068270.KS,178952.39,yf_close(5m),2026-06-02T15:30:00+09:00,
 tickers_core_korea,000100.KS,81500.0,yf_close(5m),2026-06-02T15:30:00+09:00,
 tickers_core_korea,326030.KS,88400.0,yf_close(5m),2026-06-02T15:30:00+09:00,
 tickers_core_korea,196170.KQ,357000.0,yf_close(5m),2026-06-02T15:30:00+09:00,
@@ -621,7 +621,7 @@ finviz_manual_korea,271560.KS,128400.0,yf_close(5m),2026-06-02T15:30:00+09:00,
 finviz_manual_korea,282330.KS,132500.0,yf_close(5m),2026-06-02T15:30:00+09:00,
 finviz_manual_korea,008770.KS,52100.0,yf_close(5m),2026-06-02T15:30:00+09:00,
 finviz_manual_korea,207940.KS,1367000.0,yf_close(5m),2026-06-02T15:30:00+09:00,
-finviz_manual_korea,068270.KS,187900.0,yf_close(5m),2026-06-02T15:30:00+09:00,
+finviz_manual_korea,068270.KS,178952.39,yf_close(5m),2026-06-02T15:30:00+09:00,
 finviz_manual_korea,000100.KS,81500.0,yf_close(5m),2026-06-02T15:30:00+09:00,
 finviz_manual_korea,326030.KS,88400.0,yf_close(5m),2026-06-02T15:30:00+09:00,
 finviz_manual_korea,196170.KQ,357000.0,yf_close(5m),2026-06-02T15:30:00+09:00,
