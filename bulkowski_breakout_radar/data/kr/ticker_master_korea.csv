@@ -169,7 +169,7 @@ ticker,name,market,asset_type,sector,industry,source
 032820.KQ,우리기술,,PREFERRED,Preferred Stock,Preferred / Special share,existing
 033640.KQ,네패스,,STOCK,Other,Other / Needs review,existing
 034020.KS,두산에너빌리티,KOSPI,STOCK,Industrials,Power equipment / Nuclear,builtin
-034220.KS,LG디스플레이,,STOCK,분류 미확인,업종 미확인,naver
+034220.KS,LG디스플레이,,STOCK,분류 미확인,업종 미확인,existing
 038500.KQ,삼표시멘트,,STOCK,Materials,Cement,existing
 039490.KS,키움증권,,STOCK,Financial Services,Securities,existing
 042700.KS,한미반도체,KOSPI,STOCK,Information Technology,Semiconductor equipment,builtin
