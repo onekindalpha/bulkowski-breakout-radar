@@ -32,7 +32,6 @@ ticker,name,market,asset_type,sector,industry,source
 016360.KS,삼성증권,,STOCK,Financial Services,Securities,existing
 031430.KS,신세계인터내셔날,,STOCK,Consumer Discretionary,Fashion / Retail,existing
 031980.KQ,피에스케이홀딩스,,STOCK,Industrials,Holding company,existing
-034220.KS,LG디스플레이,,STOCK,분류 미확인,업종 미확인,existing
 039030.KQ,이오테크닉스,,STOCK,Information Technology,Technology,existing
 046890.KQ,서울반도체,,STOCK,Information Technology,Semiconductors / Electronics,existing
 062040.KS,산일전기,KOSPI,STOCK,Industrials,Transformer / Power equipment,builtin
@@ -125,6 +124,7 @@ ticker,name,market,asset_type,sector,industry,source
 409820.KS,KODEX 미국나스닥100레버리지(합성 H),KOSPI,ETF,ETF,US Nasdaq 100 leveraged ETF,builtin
 445290.KS,KODEX 로봇액티브,,ETF,ETF,KODEX 로봇액티브,existing
 454320.KS,HANARO CAPEX설비투자iSelect,KOSPI,ETF,ETF,Korea capex/equipment ETF,builtin
+454910.KS,두산로보틱스,,STOCK,분류 미확인,업종 미확인,naver
 469150.KS,ACE AI반도체TOP3+,KOSPI,ETF,ETF,Korea AI semiconductor ETF,builtin
 471760.KS,TIGER AI반도체핵심공정,KOSPI,ETF,ETF,Korea AI semiconductor process ETF,builtin
 000270.KS,기아,,STOCK,Consumer Discretionary,Automobile,existing
@@ -207,7 +207,7 @@ ticker,name,market,asset_type,sector,industry,source
 120110.KS,코오롱인더,,STOCK,Materials,Chemicals / Industrial materials,existing
 138930.KS,BNK금융지주,,ETF,ETF,BNK금융지주,existing
 139130.KS,iM금융지주,,STOCK,Financial Services,Financial services,existing
-139230.KS,TIGER 200 중공업,,ETF,ETF,TIGER 200 중공업,naver
+139230.KS,TIGER 200 중공업,,ETF,ETF,TIGER 200 중공업,existing
 139480.KS,이마트,,STOCK,Consumer Staples,Retail / Hypermarket,existing
 143240.KQ,사람인,,STOCK,Communication Services,HR platform,existing
 187660.KQ,페니트리움바이오,,STOCK,Healthcare,Biotech / Healthcare,existing
@@ -478,12 +478,12 @@ ticker,name,market,asset_type,sector,industry,source
 352820.KS,하이브,,STOCK,Communication Services,Entertainment / Music platform,existing
 356860.KQ,티엘비,,STOCK,Information Technology,PCB / semiconductor substrate,existing
 361610.KS,SK아이이테크놀로지,,STOCK,Information Technology,Technology,existing
-364970.KS,TIGER 바이오TOP10,,ETF,ETF,TIGER 바이오TOP10,naver
+364970.KS,TIGER 바이오TOP10,,ETF,ETF,TIGER 바이오TOP10,existing
 377300.KS,카카오페이,,STOCK,Financial Services,Fintech / Payments,existing
 396500.KS,TIGER 반도체TOP10,KOSPI,ETF,ETF,Korea semiconductor TOP10 ETF,builtin
 417500.KQ,제이아이테크,,STOCK,Information Technology,Semiconductor materials,existing
 455900.KQ,엔젤로보틱스,,STOCK,Healthcare,Wearable robots,existing
-471460.KS,KIWOOM 국고채30년액티브,,STOCK,분류 미확인,업종 미확인,naver
+471460.KS,KIWOOM 국고채30년액티브,,STOCK,분류 미확인,업종 미확인,existing
 488080.KS,TIGER 반도체TOP10레버리지,KOSPI,ETF,ETF,Korea semiconductor leveraged ETF,builtin
 494310.KS,KODEX 반도체레버리지,KOSPI,ETF,ETF,Korea semiconductor leveraged ETF,builtin
 031510.KQ,오스템,,STOCK,Industrials,Auto parts / Machinery,existing
