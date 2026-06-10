@@ -53,7 +53,7 @@ ticker,name,market,asset_type,sector,industry,source
 067310.KQ,하나마이크론,,STOCK,Other,Other / Needs review,existing
 081660.KS,미스토홀딩스,,STOCK,Industrials,Holding company,existing
 086790.KS,하나금융지주,,STOCK,Financial Services,Financial services,existing
-091170.KS,KODEX 은행,,ETF,ETF,KODEX 은행,naver
+091170.KS,KODEX 은행,,ETF,ETF,KODEX 은행,existing
 092190.KQ,서울바이오시스,KOSDAQ,STOCK,Information Technology,LED / Optoelectronics,builtin
 105560.KS,KB금융,,STOCK,Financial Services,Financial services,existing
 108490.KQ,로보티즈,,STOCK,Industrials,Robotics,existing
@@ -82,12 +82,14 @@ ticker,name,market,asset_type,sector,industry,source
 012330.KS,현대모비스,,STOCK,Consumer Discretionary,Auto parts,existing
 012750.KS,에스원,,STOCK,Industrials,Security services,existing
 016360.KS,삼성증권,,STOCK,Financial Services,Securities,existing
+017670.KS,SK텔레콤,,STOCK,분류 미확인,업종 미확인,naver
 018260.KS,삼성에스디에스,,STOCK,Information Technology,IT services,existing
 024110.KS,기업은행,,STOCK,Financial Services,Banks,existing
 024800.KQ,유성티엔에스,,STOCK,Other,Other / Needs review,existing
 028050.KS,삼성E&A,,STOCK,Industrials,Engineering / Construction,existing
 031510.KQ,오스템,,STOCK,Industrials,Auto parts / Machinery,existing
 031980.KQ,피에스케이홀딩스,,STOCK,Industrials,Holding company,existing
+032830.KS,삼성생명,,STOCK,분류 미확인,업종 미확인,naver
 033640.KQ,네패스,,STOCK,Other,Other / Needs review,existing
 036930.KQ,주성엔지니어링,,STOCK,Industrials,Engineering,existing
 047040.KS,대우건설,,PREFERRED,Preferred Stock,Preferred / Special share,existing
@@ -174,7 +176,6 @@ ticker,name,market,asset_type,sector,industry,source
 058470.KQ,리노공업,,STOCK,Information Technology,Semiconductor equipment / Components,existing
 058610.KQ,에스피지,,STOCK,Industrials,Motors / Robotics components,existing
 064290.KQ,인텍플러스,,STOCK,Other,Other / Needs review,existing
-066970.KS,엘앤에프,,STOCK,분류 미확인,업종 미확인,existing
 071050.KS,한국금융지주,,STOCK,Financial Services,Financial services,existing
 071055.KS,한국금융지주우,,PREFERRED,Preferred Stock,Preferred / Special share,existing
 078600.KQ,대주전자재료,,STOCK,Information Technology,Electronics,existing
@@ -190,8 +191,8 @@ ticker,name,market,asset_type,sector,industry,source
 120110.KS,코오롱인더,,STOCK,Materials,Chemicals / Industrial materials,existing
 138930.KS,BNK금융지주,,ETF,ETF,BNK금융지주,existing
 139130.KS,iM금융지주,,STOCK,Financial Services,Financial services,existing
-139220.KS,TIGER 200 건설,,ETF,ETF,TIGER 200 건설,naver
-139230.KS,TIGER 200 중공업,,ETF,ETF,TIGER 200 중공업,naver
+139220.KS,TIGER 200 건설,,ETF,ETF,TIGER 200 건설,existing
+139230.KS,TIGER 200 중공업,,ETF,ETF,TIGER 200 중공업,existing
 143240.KQ,사람인,,STOCK,Communication Services,HR platform,existing
 161390.KS,한국타이어앤테크놀로지,,STOCK,Consumer Discretionary,Auto parts,existing
 178920.KQ,PI첨단소재,,STOCK,Materials,Materials,existing
@@ -397,7 +398,8 @@ ticker,name,market,asset_type,sector,industry,source
 110790.KQ,크리스에프앤씨,,STOCK,Consumer Discretionary,Apparel / Fashion,existing
 112040.KQ,위메이드,,STOCK,Communication Services,Gaming,existing
 112610.KS,씨에스윈드,,STOCK,Energy,Wind power equipment,existing
-117680.KS,KODEX 철강,,ETF,ETF,KODEX 철강,naver
+114800.KS,KODEX 인버스,,ETF,ETF,KODEX 인버스,naver
+117680.KS,KODEX 철강,,ETF,ETF,KODEX 철강,existing
 117730.KQ,티로보틱스,,STOCK,Industrials,Robotics,existing
 119610.KQ,인터로조,,STOCK,Healthcare,Medical devices / Contact lens,existing
 119850.KQ,지엔씨에너지,,STOCK,Energy,Energy,existing
@@ -480,7 +482,7 @@ ticker,name,market,asset_type,sector,industry,source
 348370.KQ,엔켐,,STOCK,Materials,Battery electrolyte,existing
 352820.KS,하이브,,STOCK,Communication Services,Entertainment / Music platform,existing
 361610.KS,SK아이이테크놀로지,,STOCK,Information Technology,Technology,existing
-364970.KS,TIGER 바이오TOP10,,ETF,ETF,TIGER 바이오TOP10,naver
+364970.KS,TIGER 바이오TOP10,,ETF,ETF,TIGER 바이오TOP10,existing
 365340.KQ,성일하이텍,,STOCK,Materials,Battery recycling / Materials,existing
 373220.KS,LG에너지솔루션,,STOCK,Energy,Energy,existing
 377300.KS,카카오페이,,STOCK,Financial Services,Fintech / Payments,existing
@@ -489,7 +491,7 @@ ticker,name,market,asset_type,sector,industry,source
 417500.KQ,제이아이테크,,STOCK,Information Technology,Semiconductor materials,existing
 451760.KQ,컨텍,,STOCK,Industrials,Satellite / Ground station,existing
 455900.KQ,엔젤로보틱스,,STOCK,Healthcare,Wearable robots,existing
-471460.KS,KIWOOM 국고채30년액티브,,STOCK,분류 미확인,업종 미확인,naver
+471460.KS,KIWOOM 국고채30년액티브,,STOCK,분류 미확인,업종 미확인,existing
 001470.KS,삼부토건,,STOCK,Other,Other / Needs review,existing
 001570.KS,금양,,STOCK,Other,Other / Needs review,existing
 069960.KS,현대백화점,,STOCK,Consumer Discretionary,Retail,existing
