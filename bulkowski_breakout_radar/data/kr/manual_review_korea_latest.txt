@@ -1,5 +1,5 @@
 === V12.1 OVERLAY REVIEW ===
-manual tickers in report: 504 | safe top: 504 | overlay rows: 12
+manual tickers in report: 499 | safe top: 499 | overlay rows: 12
 Ranking priority: PREBREAK OK > ENTRY OK > SMALL SIZE > HOLD ONLY > AVOID NEW > WATCH > REJECT
 Within each state: BUY NOW > NEAR BREAKOUT > retest > STOCK > ETF > thesis > overlay_score > grade > 40DMA timing > room > dist > ext
 DMA display: 10/40/50/200 모두 현재가 대비 이격률(%)로 표시
@@ -12,10 +12,14 @@ Overlay purpose: reward strong company/theme/cycle/news/flow stories while keepi
 (none)
 
 --- HOLD ONLY / MANUAL ∩ SAFE ---
-01. 023530.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=4.0 | price=195500.00 break=198500.00 | dist=+1.53% room=-8.95% | 10dma=+19.00% 40dma=+35.73% 50dma=+43.20% 200dma=+110.82% | late / target1 passed -> prefer hold-only or wait for fresh setup
+01. 084370.KQ  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=4.0 | price=178300.00 break=182600.00 | dist=+2.41% room=-11.39% | 10dma=+25.47% 40dma=+31.70% 50dma=+34.45% 200dma=+81.71% | late / target1 passed -> prefer hold-only or wait for fresh setup
 
 --- AVOID NEW / MANUAL ∩ SAFE ---
-(none)
+01. 023530.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=202000.00 break=202000.00 | dist=+0.00% room=-11.88% | 10dma=+19.34% 40dma=+37.96% 50dma=+46.08% 200dma=+116.26% | too hot + weak score -> avoid new entry, wait for reset
+02. 183300.KQ  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=139200.00 break=139200.00 | dist=+0.00% room=-41.74% | 10dma=+36.55% 40dma=+67.43% 50dma=+78.23% 200dma=+145.54% | too hot + weak score -> avoid new entry, wait for reset
+03. 069960.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=187100.00 break=187100.00 | dist=+0.00% room=-31.59% | 10dma=+32.45% 40dma=+64.59% 50dma=+75.51% 200dma=+101.21% | too hot + weak score -> avoid new entry, wait for reset
+04. 004170.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=714000.00 break=725000.00 | dist=+1.54% room=-46.15% | 10dma=+18.51% 40dma=+49.04% 50dma=+59.73% 200dma=+142.03% | too hot + weak score -> avoid new entry, wait for reset
+05. 064290.KQ  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=44000.00 break=44900.00 | dist=+2.05% room=-20.23% | 10dma=+10.52% 40dma=+36.72% 50dma=+46.97% 200dma=+137.14% | too hot + weak score -> avoid new entry, wait for reset
 
 --- HOLD ONLY / SAFE ONLY ---
 (none)
