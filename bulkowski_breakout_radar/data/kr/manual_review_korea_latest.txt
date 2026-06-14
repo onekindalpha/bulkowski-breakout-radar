@@ -1,5 +1,5 @@
 === V12.1 OVERLAY REVIEW ===
-manual tickers in report: 499 | safe top: 499 | overlay rows: 12
+manual tickers in report: 497 | safe top: 497 | overlay rows: 12
 Ranking priority: PREBREAK OK > ENTRY OK > SMALL SIZE > HOLD ONLY > AVOID NEW > WATCH > REJECT
 Within each state: BUY NOW > NEAR BREAKOUT > retest > STOCK > ETF > thesis > overlay_score > grade > 40DMA timing > room > dist > ext
 DMA display: 10/40/50/200 모두 현재가 대비 이격률(%)로 표시
@@ -9,7 +9,7 @@ Overlay purpose: reward strong company/theme/cycle/news/flow stories while keepi
 01. 001450.KS  [STOCK] | entry=[30;102mENTRY OK[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=A score=9.0 | price=39250.00 break=40150.00 | dist=+2.29% room=+2.29% | 10dma=+8.92% 40dma=+17.52% 50dma=+19.86% 200dma=+30.17% | valid setup -> confirm volume and keep break as control line
 02. 471990.KS  [ETF] | entry=[30;102mENTRY OK[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=A score=9.0 | price=33710.00 break=34400.00 | dist=+2.05% room=+2.05% | 10dma=+13.47% 40dma=+11.40% 50dma=+15.75% 200dma=+71.00% | valid setup -> confirm volume and keep break as control line
 03. 033780.KS  [STOCK] | entry=[30;103mSMALL SIZE[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=B score=8.0 | price=187800.00 break=190000.00 | dist=+1.17% room=+1.17% | 10dma=+2.68% 40dma=+5.02% 50dma=+7.35% 200dma=+23.00% | room is tight -> size smaller or require stronger volume
-04. 230360.KQ  [STOCK] | entry=[30;103mSMALL SIZE[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=9.0 | price=16000.00 break=16300.00 | dist=+1.88% room=+1.88% | 10dma=-0.01% 40dma=-0.02% 50dma=+0.03% 200dma=+12.35% | room is tight -> size smaller or require stronger volume | 10DMA lost -> short-term execution caution
+04. 230360.KQ  [STOCK] | entry=[30;103mSMALL SIZE[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=6.0 | price=16000.00 break=16300.00 | dist=+1.88% room=+1.88% | 10dma=-0.01% 40dma=-0.02% 50dma=+0.02% 200dma=+12.29% | room is tight -> size smaller or require stronger volume | 10DMA lost -> short-term execution caution
 
 --- NEW ENTRY / SAFE ONLY ---
 (none)
