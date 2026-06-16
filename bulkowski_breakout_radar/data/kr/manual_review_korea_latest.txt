@@ -1,5 +1,5 @@
 === V12.1 OVERLAY REVIEW ===
-manual tickers in report: 502 | safe top: 502 | overlay rows: 12
+manual tickers in report: 501 | safe top: 501 | overlay rows: 12
 Ranking priority: PREBREAK OK > ENTRY OK > SMALL SIZE > HOLD ONLY > AVOID NEW > WATCH > REJECT
 Within each state: BUY NOW > NEAR BREAKOUT > retest > STOCK > ETF > thesis > overlay_score > grade > 40DMA timing > room > dist > ext
 DMA display: 10/40/50/200 모두 현재가 대비 이격률(%)로 표시
@@ -18,9 +18,9 @@ Overlay purpose: reward strong company/theme/cycle/news/flow stories while keepi
 03. 001450.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=4.0 | price=41250.00 break=42200.00 | dist=+2.30% room=-2.67% | 10dma=+10.49% 40dma=+21.56% 50dma=+24.42% 200dma=+36.17% | late / target1 passed -> prefer hold-only or wait for fresh setup
 04. 395160.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=6.0 | price=54475.00 break=54515.00 | dist=+0.07% room=-44.81% | 10dma=+8.73% 40dma=+32.11% 50dma=+41.66% 200dma=+131.17% | late / target1 passed -> prefer hold-only or wait for fresh setup
 05. 381180.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=6.0 | price=55505.00 break=55800.00 | dist=+0.53% room=-43.03% | 10dma=+5.93% 40dma=+21.36% 50dma=+28.71% 200dma=+78.71% | late / target1 passed -> prefer hold-only or wait for fresh setup
-06. 402340.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=6.0 | price=1501000.00 break=1510000.00 | dist=+0.60% room=-54.63% | 10dma=+16.56% 40dma=+42.07% 50dma=+57.58% 200dma=+197.46% | late / target1 passed -> prefer hold-only or wait for fresh setup
-07. 395270.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=6.0 | price=76960.00 break=77880.00 | dist=+1.20% room=-51.16% | 10dma=+8.05% 40dma=+32.09% 50dma=+43.27% 200dma=+157.03% | late / target1 passed -> prefer hold-only or wait for fresh setup
-08. 204320.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=4.0 | price=76900.00 break=77900.00 | dist=+1.30% room=-11.57% | 10dma=+30.87% 40dma=+31.80% 50dma=+35.79% 200dma=+54.23% | late / target1 passed -> prefer hold-only or wait for fresh setup
+06. 395270.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=6.0 | price=76960.00 break=77880.00 | dist=+1.20% room=-51.16% | 10dma=+8.05% 40dma=+32.09% 50dma=+43.27% 200dma=+157.03% | late / target1 passed -> prefer hold-only or wait for fresh setup
+07. 204320.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=4.0 | price=76900.00 break=77900.00 | dist=+1.30% room=-11.57% | 10dma=+30.87% 40dma=+31.80% 50dma=+35.79% 200dma=+54.23% | late / target1 passed -> prefer hold-only or wait for fresh setup
+08. 402340.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=6.0 | price=1413000.00 break=1444000.00 | dist=+2.19% room=-51.80% | 10dma=+10.48% 40dma=+34.02% 50dma=+48.62% 200dma=+180.27% | late / target1 passed -> prefer hold-only or wait for fresh setup
 09. 390390.KS  [ETF] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=6.0 | price=66585.00 break=66920.00 | dist=+0.50% room=-37.70% | 10dma=+5.14% 40dma=+17.74% 50dma=+24.00% 200dma=+66.17% | late / target1 passed -> prefer hold-only or wait for fresh setup
 
 --- AVOID NEW / MANUAL ∩ SAFE ---
