@@ -1,5 +1,5 @@
 === V12.1 OVERLAY REVIEW ===
-manual tickers in report: 495 | safe top: 495 | overlay rows: 12
+manual tickers in report: 496 | safe top: 496 | overlay rows: 12
 Ranking priority: PREBREAK OK > ENTRY OK > SMALL SIZE > HOLD ONLY > AVOID NEW > WATCH > REJECT
 Within each state: BUY NOW > NEAR BREAKOUT > retest > STOCK > ETF > thesis > overlay_score > grade > 40DMA timing > room > dist > ext
 DMA display: 10/40/50/200 모두 현재가 대비 이격률(%)로 표시
@@ -7,6 +7,7 @@ Overlay purpose: reward strong company/theme/cycle/news/flow stories while keepi
 
 --- NEW ENTRY / MANUAL ∩ SAFE ---
 01. 005930.KS  [STOCK] | entry=[30;102mENTRY OK[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=A score=9.0 | price=362500.00 break=370000.00 | dist=+2.07% room=+2.07% | 10dma=+11.21% 40dma=+27.09% 50dma=+34.55% 200dma=+124.23% | valid setup -> confirm volume and keep break as control line
+02. 133690.KS  [STOCK] | entry=[30;103mSMALL SIZE[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=B score=9.0 | price=203160.00 break=206675.00 | dist=+1.73% room=+1.73% | 10dma=+1.50% 40dma=+5.95% 50dma=+8.91% 200dma=+22.11% | room is tight -> size smaller or require stronger volume
 
 --- NEW ENTRY / SAFE ONLY ---
 (none)
@@ -40,6 +41,12 @@ Overlay purpose: reward strong company/theme/cycle/news/flow stories while keepi
 005930.KS | asset=STOCK | [1;96mNEAR BREAKOUT[0m | entry=[30;102mENTRY OK[0m | safe=Y | grade=A score=9.0 | thesis=NO OVERLAY(0.0) T/C/N/F/Q=0/0/0/0/0 | breakout=N retest=Y | price=362500.00 break=370000.00 | ext=-2.03% | dist=+2.07% | rsi=63.18 | room_pct=+2.07% | weekly_r1=370000.00 | room_left=7500.00 | sma10=Y px_vs_sma10=+11.21% slope10= | sma40=Y px_vs_sma40=+27.09% slope40= | sma50=Y px_vs_sma50=+34.55% | sma200=Y px_vs_sma200=+124.23%
     why: just below break_level; retest/trigger setup looks clean
     manage: valid setup -> confirm volume and keep break as control line
+
+[2순위 상세]
+133690.KS | asset=STOCK | [1;96mNEAR BREAKOUT[0m | entry=[30;103mSMALL SIZE[0m | safe=Y | grade=B score=9.0 | thesis=NO OVERLAY(0.0) T/C/N/F/Q=0/0/0/0/0 | breakout=N retest=Y | price=203160.00 break=206675.00 | ext=-1.70% | dist=+1.73% | rsi=56.63 | room_pct=+1.73% | weekly_r1=206675.00 | room_left=3515.00 | sma10=Y px_vs_sma10=+1.50% slope10= | sma40=Y px_vs_sma40=+5.95% slope40= | sma50=Y px_vs_sma50=+8.91% | sma200=Y px_vs_sma200=+22.11%
+    why: just below break_level; retest/trigger setup looks clean
+    manage: room is tight -> size smaller or require stronger volume
+    safe warning: weekly room small (1.73%)
 
 --- MANUAL ONLY ---
 (manual-only tickers are shown as WATCH because SAFE metrics are unavailable in report_v2)
