@@ -40,7 +40,6 @@ ticker,name,market,asset_type,sector,industry,source
 251340.KS,KODEX 코스닥150선물인버스,KOSPI,ETF,ETF,KOSDAQ150 inverse ETF,existing
 353200.KQ,대덕전자,,STOCK,Information Technology,Electronics,existing
 353200.KS,대덕전자,,STOCK,Information Technology,Electronics,existing
-357780.KS,솔브레인,,STOCK,Materials,Semiconductor materials,existing
 409820.KS,KODEX 미국나스닥100레버리지(합성 H),KOSPI,ETF,ETF,US Nasdaq 100 leveraged ETF,builtin
 475150.KS,SK이터닉스,,STOCK,Energy,Renewable energy,existing
 488080.KS,TIGER 반도체TOP10레버리지,KOSPI,ETF,ETF,Korea semiconductor leveraged ETF,builtin
@@ -159,7 +158,6 @@ ticker,name,market,asset_type,sector,industry,source
 241560.KS,두산밥캣,,STOCK,Industrials,Construction equipment,existing
 267260.KS,HD현대일렉트릭,,STOCK,Industrials,Electrical equipment / Power equipment,existing
 271560.KS,오리온,,STOCK,Consumer Staples,Food,existing
-272210.KQ,한화시스템,,STOCK,Information Technology,IT Systems,existing
 278470.KS,에이피알,,STOCK,Consumer Staples,Beauty / Consumer goods,existing
 298000.KS,효성화학,,STOCK,Materials,Chemicals,existing
 319400.KQ,현대무벡스,,STOCK,Industrials,Logistics automation,existing
@@ -445,6 +443,7 @@ ticker,name,market,asset_type,sector,industry,source
 267320.KQ,나인테크,,STOCK,Information Technology,Technology,existing
 267770.KS,배럴,KOSPI,STOCK,Consumer Discretionary,Apparel / Leisure,builtin
 270660.KQ,에브리봇,,STOCK,Other,Other / Needs review,existing
+272210.KQ,한화시스템,,STOCK,Information Technology,IT Systems,existing
 272210.KS,한화시스템,,STOCK,Information Technology,IT Systems,existing
 272290.KQ,이녹스첨단소재,,STOCK,Materials,Materials,existing
 272450.KS,진에어,,STOCK,Other,Other / Needs review,existing
@@ -474,6 +473,7 @@ ticker,name,market,asset_type,sector,industry,source
 348370.KQ,엔켐,,STOCK,Materials,Battery electrolyte,existing
 352820.KS,하이브,,STOCK,Communication Services,Entertainment / Music platform,existing
 357780.KQ,솔브레인,,STOCK,Materials,Semiconductor materials,existing
+357780.KS,솔브레인,,STOCK,Materials,Semiconductor materials,existing
 361610.KS,SK아이이테크놀로지,,STOCK,Information Technology,Technology,existing
 364970.KS,TIGER 바이오TOP10,,ETF,ETF,TIGER 바이오TOP10,existing
 365340.KQ,성일하이텍,,STOCK,Materials,Battery recycling / Materials,existing
