@@ -1,31 +1,21 @@
 === V12.1 OVERLAY REVIEW ===
-manual tickers in report: 497 | safe top: 497 | overlay rows: 12
+manual tickers in report: 501 | safe top: 501 | overlay rows: 12
 Ranking priority: PREBREAK OK > ENTRY OK > SMALL SIZE > HOLD ONLY > AVOID NEW > WATCH > REJECT
 Within each state: BUY NOW > NEAR BREAKOUT > retest > STOCK > ETF > thesis > overlay_score > grade > 40DMA timing > room > dist > ext
 DMA display: 10/40/50/200 모두 현재가 대비 이격률(%)로 표시
 Overlay purpose: reward strong company/theme/cycle/news/flow stories while keeping default detail focused on actionable new entries.
 
 --- NEW ENTRY / MANUAL ∩ SAFE ---
-01. 409820.KS  [STOCK] | entry=[30;103mSMALL SIZE[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=B score=6.0 | price=21665.00 break=22010.00 | dist=+1.59% room=+1.59% | 10dma=+3.77% 40dma=+8.34% 50dma=+13.19% 200dma=+33.38% | room is tight -> size smaller or require stronger volume
+(none)
 
 --- NEW ENTRY / SAFE ONLY ---
 (none)
 
 --- HOLD ONLY / MANUAL ∩ SAFE ---
-01. 133690.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=6.0 | price=207085.00 break=207085.00 | dist=+0.00% room=-20.65% | 10dma=+3.05% 40dma=+7.11% 50dma=+9.95% 200dma=+24.01% | late / target1 passed -> prefer hold-only or wait for fresh setup
-02. 381180.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=6.0 | price=57815.00 break=57815.00 | dist=+0.00% room=-45.31% | 10dma=+7.57% 40dma=+21.30% 50dma=+28.10% 200dma=+82.04% | late / target1 passed -> prefer hold-only or wait for fresh setup
-03. 494310.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=6.0 | price=212820.00 break=212855.00 | dist=+0.02% room=-10.64% | 10dma=+20.86% 40dma=+45.81% 50dma=+61.26% 200dma=+251.54% | late / target1 passed -> prefer hold-only or wait for fresh setup
-04. 091160.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=6.0 | price=188345.00 break=188760.00 | dist=+0.22% room=-42.76% | 10dma=+10.17% 40dma=+24.28% 50dma=+31.94% 200dma=+119.33% | late / target1 passed -> prefer hold-only or wait for fresh setup
-05. 091230.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=6.0 | price=196640.00 break=198000.00 | dist=+0.69% room=-42.59% | 10dma=+9.81% 40dma=+23.65% 50dma=+31.23% 200dma=+118.27% | late / target1 passed -> prefer hold-only or wait for fresh setup
-06. 395270.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=6.0 | price=88505.00 break=89130.00 | dist=+0.71% room=-57.53% | 10dma=+14.89% 40dma=+41.51% 50dma=+53.02% 200dma=+181.96% | late / target1 passed -> prefer hold-only or wait for fresh setup
-07. 395160.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=6.0 | price=63000.00 break=63540.00 | dist=+0.86% room=-52.28% | 10dma=+15.79% 40dma=+42.61% 50dma=+52.91% 200dma=+156.58% | late / target1 passed -> prefer hold-only or wait for fresh setup
-08. 000660.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=4.0 | price=2919000.00 break=2945000.00 | dist=+0.89% room=-63.69% | 10dma=+21.26% 40dma=+49.86% 50dma=+64.13% 200dma=+215.80% | late / target1 passed -> prefer hold-only or wait for fresh setup
-09. 396500.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=6.0 | price=55670.00 break=56645.00 | dist=+1.75% room=-34.31% | 10dma=+6.84% 40dma=+17.11% 50dma=+23.57% 200dma=+101.13% | late / target1 passed -> prefer hold-only or wait for fresh setup
-10. 390390.KS  [ETF] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=6.0 | price=69480.00 break=69480.00 | dist=+0.00% room=-40.30% | 10dma=+7.13% 40dma=+18.49% 50dma=+24.36% 200dma=+70.04% | late / target1 passed -> prefer hold-only or wait for fresh setup
+01. 133690.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=3.0 | price=202855.00 break=207085.00 | dist=+2.09% room=-19.00% | 10dma=+0.72% 40dma=+4.54% 50dma=+7.25% 200dma=+21.26% | late / target1 passed -> prefer hold-only or wait for fresh setup
 
 --- AVOID NEW / MANUAL ∩ SAFE ---
-01. 089970.KQ  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=B score=2.0 | price=102800.00 break=104000.00 | dist=+1.17% room=+1.17% | 10dma=+14.45% 40dma=+55.22% 50dma=+63.72% 200dma=+182.86% | too hot -> avoid new entry, wait for reset or tight base
-02. 000815.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=435500.00 break=446000.00 | dist=+2.41% room=-10.91% | 10dma=+3.84% 40dma=+11.56% 50dma=+12.34% 200dma=+17.01% | too hot + weak score -> avoid new entry, wait for reset
+(none)
 
 --- HOLD ONLY / SAFE ONLY ---
 (none)
@@ -36,12 +26,7 @@ Overlay purpose: reward strong company/theme/cycle/news/flow stories while keepi
 (기본 상세는 PREBREAK OK / ENTRY OK / SMALL SIZE만 보여줌. HOLD ONLY / AVOID NEW는 summary에서 보고, 전체는 --full-details로 확인.)
 
 --- MANUAL ∩ SAFE / TOP DETAIL ---
-
-[1순위 상세]
-409820.KS | asset=STOCK | [1;96mNEAR BREAKOUT[0m | entry=[30;103mSMALL SIZE[0m | safe=Y | grade=B score=6.0 | thesis=NO OVERLAY(0.0) T/C/N/F/Q=0/0/0/0/0 | breakout=N retest=Y | price=21665.00 break=22010.00 | ext=-1.57% | dist=+1.59% | rsi=47.95 | room_pct=+1.59% | weekly_r1=22010.00 | room_left=345.00 | sma10=Y px_vs_sma10=+3.77% slope10= | sma40=Y px_vs_sma40=+8.34% slope40= | sma50=Y px_vs_sma50=+13.19% | sma200=Y px_vs_sma200=+33.38%
-    why: just below break_level; retest/trigger setup looks clean
-    manage: room is tight -> size smaller or require stronger volume
-    safe warning: weekly room small (1.59%)
+(none)
 
 --- MANUAL ONLY ---
 (manual-only tickers are shown as WATCH because SAFE metrics are unavailable in report_v2)
