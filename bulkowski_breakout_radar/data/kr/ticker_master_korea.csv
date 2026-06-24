@@ -178,7 +178,7 @@ ticker,name,market,asset_type,sector,industry,source
 471760.KS,TIGER AI반도체핵심공정,KOSPI,ETF,ETF,Korea AI semiconductor process ETF,builtin
 471990.KS,KODEX AI반도체핵심장비,KOSPI,ETF,ETF,Korea semiconductor equipment ETF,builtin
 475310.KS,SOL 반도체후공정,KOSPI,ETF,ETF,Korea semiconductor back-end ETF,builtin
-486290.KS,TIGER 미국나스닥100타겟데일리커버드콜,,ETF,ETF,TIGER 미국나스닥100타겟데일리커버드콜,naver
+486290.KS,TIGER 미국나스닥100타겟데일리커버드콜,,ETF,ETF,TIGER 미국나스닥100타겟데일리커버드콜,existing
 950160.KQ,코오롱티슈진,,STOCK,Healthcare,Biotech,existing
 000020.KS,동화약품,,STOCK,Healthcare,Pharmaceuticals,existing
 000040.KS,KR모터스,,STOCK,Consumer Discretionary,Motorcycles / Automobile,existing
@@ -293,7 +293,7 @@ ticker,name,market,asset_type,sector,industry,source
 030200.KS,KT,,STOCK,Communication Services,Telecommunication,existing
 031510.KQ,오스템,,STOCK,Industrials,Auto parts / Machinery,existing
 032640.KS,LG유플러스,,STOCK,Communication Services,Telecommunication,existing
-032830.KS,삼성생명,,STOCK,분류 미확인,업종 미확인,naver
+032830.KS,삼성생명,,STOCK,분류 미확인,업종 미확인,existing
 033500.KQ,동성화인텍,,STOCK,Materials,LNG insulation / Materials,existing
 035420.KS,NAVER,,STOCK,Communication Services,Internet platform,existing
 035600.KQ,KG이니시스,,STOCK,Information Technology,Payment / Fintech,existing
