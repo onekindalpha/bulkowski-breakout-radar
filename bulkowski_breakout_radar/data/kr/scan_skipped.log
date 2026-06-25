@@ -33,3 +33,4 @@
 298040	no_ohlcv_or_columns
 310970.KS	too_short(len=1)
 329180	no_ohlcv_or_columns
+483650.KS	weekly_too_short(len=58)
