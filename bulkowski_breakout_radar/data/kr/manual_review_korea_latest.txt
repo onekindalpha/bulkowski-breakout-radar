@@ -1,5 +1,5 @@
 === V12.1 OVERLAY REVIEW ===
-manual tickers in report: 499 | safe top: 499 | overlay rows: 12
+manual tickers in report: 497 | safe top: 497 | overlay rows: 12
 Ranking priority: PREBREAK OK > ENTRY OK > SMALL SIZE > HOLD ONLY > AVOID NEW > WATCH > REJECT
 Within each state: BUY NOW > NEAR BREAKOUT > retest > STOCK > ETF > thesis > overlay_score > grade > 40DMA timing > room > dist > ext
 DMA display: 10/40/50/200 모두 현재가 대비 이격률(%)로 표시
@@ -12,7 +12,10 @@ Overlay purpose: reward strong company/theme/cycle/news/flow stories while keepi
 (none)
 
 --- HOLD ONLY / MANUAL ∩ SAFE ---
-(none)
+01. 133690.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=3.0 | price=203875.00 break=207085.00 | dist=+1.57% room=-19.40% | 10dma=+0.45% 40dma=+4.36% 50dma=+6.91% 200dma=+21.45% | late / target1 passed -> prefer hold-only or wait for fresh setup
+02. 486290.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=3.0 | price=12315.00 break=12510.00 | dist=+1.58% room=-15.27% | 10dma=+0.44% 40dma=+3.46% 50dma=+5.54% 200dma=+14.09% | late / target1 passed -> prefer hold-only or wait for fresh setup
+03. 000660.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=4.0 | price=2934000.00 break=2987000.00 | dist=+1.81% room=-63.87% | 10dma=+13.64% 40dma=+42.51% 50dma=+56.11% 200dma=+205.30% | late / target1 passed -> prefer hold-only or wait for fresh setup
+04. 290650.KQ  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=6.0 | price=97100.00 break=99300.00 | dist=+2.27% room=-21.73% | 10dma=+14.30% 40dma=+31.53% 50dma=+32.50% 200dma=+46.34% | late / target1 passed -> prefer hold-only or wait for fresh setup
 
 --- AVOID NEW / MANUAL ∩ SAFE ---
 (none)
