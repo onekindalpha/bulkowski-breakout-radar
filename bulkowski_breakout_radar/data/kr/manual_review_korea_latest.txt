@@ -60,7 +60,6 @@ Overlay purpose: reward strong company/theme/cycle/news/flow stories while keepi
 290130.KQ | WATCH | entry=WATCH | safe=N | why: manual-only ticker present, but not in SAFE report
 294030.KQ | WATCH | entry=WATCH | safe=N | why: manual-only ticker present, but not in SAFE report
 310970.KS | WATCH | entry=WATCH | safe=N | why: manual-only ticker present, but not in SAFE report
-483650.KS | WATCH | entry=WATCH | safe=N | why: manual-only ticker present, but not in SAFE report
 TICKER | WATCH | entry=WATCH | safe=N | why: manual-only ticker present, but not in SAFE report
 
 --- SAFE ONLY / TOP DETAIL ---

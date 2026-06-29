@@ -1,5 +1,4 @@
 ticker,name,market,asset_type,sector,industry,source
-000500.KS,가온전선,,STOCK,Industrials,Electric wire / Power equipment,existing
 003490.KS,대한항공,,STOCK,Industrials,Aerospace / Airline,existing
 004170.KS,신세계,,STOCK,Other,Other / Needs review,existing
 005930.KS,삼성전자,KOSPI,STOCK,Information Technology,Semiconductors / Electronics,builtin
@@ -56,7 +55,7 @@ ticker,name,market,asset_type,sector,industry,source
 081660.KS,미스토홀딩스,,STOCK,Industrials,Holding company,existing
 086520.KQ,에코프로,,STOCK,Materials,Battery materials / Holding,existing
 093050.KS,LF,,STOCK,Consumer Discretionary,Apparel / Fashion,existing
-139220.KS,TIGER 200 건설,,ETF,ETF,TIGER 200 건설,naver
+139220.KS,TIGER 200 건설,,ETF,ETF,TIGER 200 건설,existing
 143240.KQ,사람인,,STOCK,Communication Services,HR platform,existing
 161390.KS,한국타이어앤테크놀로지,,STOCK,Consumer Discretionary,Auto parts,existing
 183300.KQ,코미코,,STOCK,Information Technology,Semiconductor cleaning / coating,existing
@@ -142,7 +141,7 @@ ticker,name,market,asset_type,sector,industry,source
 227840.KS,현대코퍼레이션홀딩스,KOSPI,STOCK,Industrials,Trading / Holdings,builtin
 230360.KQ,에코마케팅,KOSDAQ,STOCK,Communication Services,Advertising / Marketing,builtin
 237690.KQ,에스티팜,,STOCK,Healthcare,Pharmaceuticals / CDMO,existing
-266420.KS,KODEX 헬스케어,,ETF,ETF,KODEX 헬스케어,naver
+266420.KS,KODEX 헬스케어,,ETF,ETF,KODEX 헬스케어,existing
 272450.KS,진에어,,STOCK,Other,Other / Needs review,existing
 278280.KQ,천보,,STOCK,Materials,Battery materials / Chemicals,existing
 278470.KS,에이피알,,STOCK,Consumer Staples,Beauty / Consumer goods,existing
@@ -170,6 +169,7 @@ ticker,name,market,asset_type,sector,industry,source
 047810.KS,한국항공우주,,PREFERRED,Preferred Stock,Preferred / Special share,existing
 069080.KQ,웹젠,,STOCK,Communication Services,Gaming,existing
 000270.KS,기아,,STOCK,Consumer Discretionary,Automobile,existing
+000500.KS,가온전선,,STOCK,Industrials,Electric wire / Power equipment,existing
 000720.KS,현대건설,,STOCK,Industrials,Construction,existing
 001230.KS,동국홀딩스,,STOCK,Industrials,Holding company,existing
 001440.KS,대한전선,,STOCK,Industrials,Electric wire / Power equipment,existing
@@ -229,10 +229,13 @@ ticker,name,market,asset_type,sector,industry,source
 141080.KQ,리가켐바이오,,STOCK,Healthcare,Biotech / Healthcare,existing
 161890.KS,한국콜마,,STOCK,Other,Other / Needs review,existing
 178320.KQ,서진시스템,,STOCK,Information Technology,IT Systems,existing
+178920.KQ,PI첨단소재,,STOCK,Materials,Materials,existing
+181710.KQ,NHN,,STOCK,Communication Services,Gaming / Internet services,existing
 181710.KS,NHN,,STOCK,Communication Services,Gaming / Internet services,existing
 195870.KS,해성디에스,,STOCK,Information Technology,Semiconductor package substrate,existing
 218410.KQ,RFHIC,,STOCK,Information Technology,Telecom equipment / RF components,existing
 229640.KS,LS에코에너지,,STOCK,Energy,Energy,existing
+241560.KQ,두산밥캣,,STOCK,Industrials,Construction equipment,existing
 241560.KS,두산밥캣,,STOCK,Industrials,Construction equipment,existing
 267260.KS,HD현대일렉트릭,,STOCK,Industrials,Electrical equipment / Power equipment,existing
 307950.KS,현대오토에버,,STOCK,Information Technology,Mobility software / IT services,existing
@@ -241,7 +244,7 @@ ticker,name,market,asset_type,sector,industry,source
 329180.KS,HD현대중공업,,STOCK,Industrials,Heavy industry,existing
 336260.KS,두산퓨얼셀,,STOCK,Industrials,Hydrogen fuel cells / Power systems,existing
 356860.KQ,티엘비,,STOCK,Information Technology,PCB / semiconductor substrate,existing
-364980.KS,TIGER 2차전지TOP10,,ETF,ETF,TIGER 2차전지TOP10,naver
+364980.KS,TIGER 2차전지TOP10,,ETF,ETF,TIGER 2차전지TOP10,existing
 375500.KS,DL이앤씨,,STOCK,Industrials,Construction,existing
 393890.KQ,더블유씨피,,STOCK,Materials,Battery separator film,existing
 425040.KQ,티이엠씨,,STOCK,Other,Other / Needs review,existing
@@ -402,7 +405,7 @@ ticker,name,market,asset_type,sector,industry,source
 110790.KQ,크리스에프앤씨,,STOCK,Consumer Discretionary,Apparel / Fashion,existing
 111770.KS,영원무역,,STOCK,Consumer Discretionary,Apparel / Fashion OEM,existing
 114090.KS,GKL,,STOCK,Consumer Discretionary,Casino / Leisure,existing
-117680.KS,KODEX 철강,,ETF,ETF,KODEX 철강,naver
+117680.KS,KODEX 철강,,ETF,ETF,KODEX 철강,existing
 117730.KQ,티로보틱스,,STOCK,Industrials,Robotics,existing
 119610.KQ,인터로조,,STOCK,Healthcare,Medical devices / Contact lens,existing
 121600.KQ,나노신소재,,STOCK,Materials,Materials,existing
@@ -422,8 +425,6 @@ ticker,name,market,asset_type,sector,industry,source
 160550.KQ,NEW,,STOCK,Communication Services,Media / Contents,existing
 174900.KQ,앱클론,,STOCK,Healthcare,Biotech,existing
 175330.KS,JB금융지주,,STOCK,Financial Services,Financial services,existing
-178920.KQ,PI첨단소재,,STOCK,Materials,Materials,existing
-181710.KQ,NHN,,STOCK,Communication Services,Gaming / Internet services,existing
 185490.KQ,아이진,,STOCK,Healthcare,Biotech,existing
 185750.KS,종근당,,STOCK,Other,Other / Needs review,existing
 187420.KQ,HLB제넥스,,STOCK,Healthcare,Biotech,existing
@@ -445,7 +446,6 @@ ticker,name,market,asset_type,sector,industry,source
 233160.KS,TIGER 코스닥150 레버리지,,ETF,ETF,TIGER 코스닥150 레버리지,existing
 233740.KS,KODEX 코스닥150레버리지,,ETF,ETF,KODEX 코스닥150레버리지,existing
 235980.KQ,메드팩토,,STOCK,Other,Other / Needs review,existing
-241560.KQ,두산밥캣,,STOCK,Industrials,Construction equipment,existing
 247540.KQ,에코프로비엠,,STOCK,Materials,Battery materials / Cathode,existing
 251270.KQ,넷마블,,STOCK,Other,Other / Needs review,existing
 251340.KS,KODEX 코스닥150선물인버스,KOSPI,ETF,ETF,KOSDAQ150 inverse ETF,existing
@@ -526,5 +526,4 @@ ticker,name,market,asset_type,sector,industry,source
 290130.KQ,RISE ESG사회책임투자,,ETF,ETF,RISE ESG사회책임투자,existing
 294030.KQ,주요뉴스,,STOCK,Other,Other / Needs review,existing
 310970.KS,TIGER MSCI Korea TR,,ETF,ETF,TIGER MSCI Korea TR,existing
-483650.KS,달바글로벌,,STOCK,분류 미확인,업종 미확인,existing
 00680K.KS,미래에셋증권2우B,,PREFERRED,Financial Services,Securities / Preferred,override
