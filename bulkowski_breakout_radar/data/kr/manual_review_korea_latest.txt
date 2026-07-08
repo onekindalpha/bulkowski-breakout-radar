@@ -1,21 +1,21 @@
 === V12.1 OVERLAY REVIEW ===
-manual tickers in report: 504 | safe top: 504 | overlay rows: 12
+manual tickers in report: 502 | safe top: 502 | overlay rows: 12
 Ranking priority: PREBREAK OK > ENTRY OK > SMALL SIZE > HOLD ONLY > AVOID NEW > WATCH > REJECT
 Within each state: BUY NOW > NEAR BREAKOUT > retest > STOCK > ETF > thesis > overlay_score > grade > 40DMA timing > room > dist > ext
 DMA display: 10/40/50/200 모두 현재가 대비 이격률(%)로 표시
 Overlay purpose: reward strong company/theme/cycle/news/flow stories while keeping default detail focused on actionable new entries.
 
 --- NEW ENTRY / MANUAL ∩ SAFE ---
-01. 055550.KS  [STOCK] | entry=[30;102mENTRY OK[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=A score=9.0 | price=108600.00 break=110800.00 | dist=+2.03% room=+2.03% | 10dma=+9.01% 40dma=+10.52% 50dma=+10.32% 200dma=+25.23% | valid setup -> confirm volume and keep break as control line
+(none)
 
 --- NEW ENTRY / SAFE ONLY ---
 (none)
 
 --- HOLD ONLY / MANUAL ∩ SAFE ---
-01. 010955.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=4.0 | price=64300.00 break=64300.00 | dist=+0.00% room=-2.33% | 10dma=+13.62% 40dma=+17.08% 50dma=+15.65% 200dma=+26.18% | late / target1 passed -> prefer hold-only or wait for fresh setup
+(none)
 
 --- AVOID NEW / MANUAL ∩ SAFE ---
-(none)
+01. 251340.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=-2.0 | price=2705.00 break=2730.00 | dist=+0.92% room=-15.71% | 10dma=+12.52% 40dma=+22.59% 50dma=+25.37% 200dma=+6.85% | too hot + weak score -> avoid new entry, wait for reset
 
 --- HOLD ONLY / SAFE ONLY ---
 (none)
@@ -26,11 +26,7 @@ Overlay purpose: reward strong company/theme/cycle/news/flow stories while keepi
 (기본 상세는 PREBREAK OK / ENTRY OK / SMALL SIZE만 보여줌. HOLD ONLY / AVOID NEW는 summary에서 보고, 전체는 --full-details로 확인.)
 
 --- MANUAL ∩ SAFE / TOP DETAIL ---
-
-[1순위 상세]
-055550.KS | asset=STOCK | [1;96mNEAR BREAKOUT[0m | entry=[30;102mENTRY OK[0m | safe=Y | grade=A score=9.0 | thesis=NO OVERLAY(0.0) T/C/N/F/Q=0/0/0/0/0 | breakout=N retest=Y | price=108600.00 break=110800.00 | ext=-1.99% | dist=+2.03% | rsi=59.08 | room_pct=+2.03% | weekly_r1=110800.00 | room_left=2200.00 | sma10=Y px_vs_sma10=+9.01% slope10= | sma40=Y px_vs_sma40=+10.52% slope40= | sma50=Y px_vs_sma50=+10.32% | sma200=Y px_vs_sma200=+25.23%
-    why: just below break_level; retest/trigger setup looks clean
-    manage: valid setup -> confirm volume and keep break as control line
+(none)
 
 --- MANUAL ONLY ---
 (manual-only tickers are shown as WATCH because SAFE metrics are unavailable in report_v2)
