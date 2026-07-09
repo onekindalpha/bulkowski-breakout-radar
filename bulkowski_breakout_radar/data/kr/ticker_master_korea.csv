@@ -30,7 +30,6 @@ ticker,name,market,asset_type,sector,industry,source
 030000.KS,제일기획,,STOCK,Communication Services,Advertising / Marketing,existing
 031980.KQ,피에스케이홀딩스,,STOCK,Industrials,Holding company,existing
 047810.KS,한국항공우주,,PREFERRED,Preferred Stock,Preferred / Special share,existing
-051900.KQ,LG생활건강,,STOCK,Consumer Staples,Consumer goods,existing
 069620.KS,대웅제약,,STOCK,Healthcare,Pharmaceuticals,existing
 069960.KS,현대백화점,,STOCK,Consumer Discretionary,Retail,existing
 086790.KS,하나금융지주,,STOCK,Financial Services,Financial services,existing
@@ -73,6 +72,7 @@ ticker,name,market,asset_type,sector,industry,source
 033780.KS,KT&G,KOSPI,STOCK,Consumer Staples,Tobacco,builtin
 034730.KS,SK,,STOCK,Other,Other / Needs review,existing
 036930.KQ,주성엔지니어링,,STOCK,Industrials,Engineering,existing
+051900.KQ,LG생활건강,,STOCK,Consumer Staples,Consumer goods,existing
 051900.KS,LG생활건강,,STOCK,Consumer Staples,Consumer goods,existing
 066570.KS,LG전자,,STOCK,Information Technology,Electronics,existing
 068270.KS,셀트리온,,STOCK,Healthcare,Biopharmaceuticals,existing
@@ -412,7 +412,7 @@ ticker,name,market,asset_type,sector,industry,source
 225190.KS,LK삼양,,STOCK,Consumer Discretionary,Optics / Camera components,existing
 226950.KQ,올릭스,,STOCK,Healthcare,Biotech,existing
 227840.KS,현대코퍼레이션홀딩스,KOSPI,STOCK,Industrials,Trading / Holdings,builtin
-229200.KS,KODEX 코스닥150,,ETF,ETF,KODEX 코스닥150,naver
+229200.KS,KODEX 코스닥150,,ETF,ETF,KODEX 코스닥150,existing
 229640.KS,LS에코에너지,,STOCK,Energy,Energy,existing
 233160.KS,TIGER 코스닥150 레버리지,,ETF,ETF,TIGER 코스닥150 레버리지,existing
 233740.KS,KODEX 코스닥150레버리지,,ETF,ETF,KODEX 코스닥150레버리지,existing
