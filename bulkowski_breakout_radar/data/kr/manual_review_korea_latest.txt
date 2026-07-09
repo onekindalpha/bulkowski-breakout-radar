@@ -1,5 +1,5 @@
 === V12.1 OVERLAY REVIEW ===
-manual tickers in report: 501 | safe top: 501 | overlay rows: 12
+manual tickers in report: 497 | safe top: 497 | overlay rows: 12
 Ranking priority: PREBREAK OK > ENTRY OK > SMALL SIZE > HOLD ONLY > AVOID NEW > WATCH > REJECT
 Within each state: BUY NOW > NEAR BREAKOUT > retest > STOCK > ETF > thesis > overlay_score > grade > 40DMA timing > room > dist > ext
 DMA display: 10/40/50/200 모두 현재가 대비 이격률(%)로 표시
@@ -12,10 +12,10 @@ Overlay purpose: reward strong company/theme/cycle/news/flow stories while keepi
 (none)
 
 --- HOLD ONLY / MANUAL ∩ SAFE ---
-(none)
+01. 251340.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=2.0 | price=2665.00 break=2730.00 | dist=+2.44% room=-14.45% | 10dma=+9.42% 40dma=+19.92% 50dma=+22.71% 200dma=+5.41% | late / target1 passed -> prefer hold-only or wait for fresh setup
 
 --- AVOID NEW / MANUAL ∩ SAFE ---
-01. 251340.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=-2.0 | price=2700.00 break=2730.00 | dist=+1.11% room=-15.56% | 10dma=+12.34% 40dma=+22.37% 50dma=+25.14% 200dma=+6.66% | too hot + weak score -> avoid new entry, wait for reset
+(none)
 
 --- HOLD ONLY / SAFE ONLY ---
 (none)
