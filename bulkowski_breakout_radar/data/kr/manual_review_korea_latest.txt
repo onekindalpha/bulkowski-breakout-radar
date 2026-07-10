@@ -6,7 +6,7 @@ DMA display: 10/40/50/200 모두 현재가 대비 이격률(%)로 표시
 Overlay purpose: reward strong company/theme/cycle/news/flow stories while keeping default detail focused on actionable new entries.
 
 --- NEW ENTRY / MANUAL ∩ SAFE ---
-01. 055550.KS  [STOCK] | entry=[30;103mSMALL SIZE[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=4.0 | price=110200.00 break=111800.00 | dist=+1.45% room=+0.54% | 10dma=+6.28% 40dma=+11.20% 50dma=+11.43% 200dma=+26.16% | room is tight -> size smaller or require stronger volume
+01. 055550.KS  [STOCK] | entry=[30;103mSMALL SIZE[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=B score=6.0 | price=109200.00 break=111800.00 | dist=+2.38% room=+1.47% | 10dma=+5.42% 40dma=+10.22% 50dma=+10.44% 200dma=+25.02% | room is tight -> size smaller or require stronger volume
 
 --- NEW ENTRY / SAFE ONLY ---
 (none)
@@ -15,7 +15,8 @@ Overlay purpose: reward strong company/theme/cycle/news/flow stories while keepi
 (none)
 
 --- AVOID NEW / MANUAL ∩ SAFE ---
-01. 073240.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=7800.00 break=7800.00 | dist=+0.00% room=-18.21% | 10dma=+35.90% 40dma=+55.69% 50dma=+52.11% 200dma=+39.61% | too hot + weak score -> avoid new entry, wait for reset
+01. 010955.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=65800.00 break=67300.00 | dist=+2.28% room=-4.56% | 10dma=+9.47% 40dma=+18.18% 50dma=+17.34% 200dma=+28.14% | too hot + weak score -> avoid new entry, wait for reset
+02. 073240.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=7800.00 break=7800.00 | dist=+0.00% room=-18.21% | 10dma=+35.90% 40dma=+55.69% 50dma=+52.11% 200dma=+39.61% | too hot + weak score -> avoid new entry, wait for reset
 
 --- HOLD ONLY / SAFE ONLY ---
 (none)
@@ -28,10 +29,10 @@ Overlay purpose: reward strong company/theme/cycle/news/flow stories while keepi
 --- MANUAL ∩ SAFE / TOP DETAIL ---
 
 [1순위 상세]
-055550.KS | asset=STOCK | [1;96mNEAR BREAKOUT[0m | entry=[30;103mSMALL SIZE[0m | safe=Y | grade=C score=4.0 | thesis=NO OVERLAY(0.0) T/C/N/F/Q=0/0/0/0/0 | breakout=N retest=Y | price=110200.00 break=111800.00 | ext=-1.43% | dist=+1.45% | rsi=69.07 | room_pct=+0.54% | weekly_r1=110800.00 | room_left=600.00 | sma10=Y px_vs_sma10=+6.28% slope10= | sma40=Y px_vs_sma40=+11.20% slope40= | sma50=Y px_vs_sma50=+11.43% | sma200=Y px_vs_sma200=+26.16%
+055550.KS | asset=STOCK | [1;96mNEAR BREAKOUT[0m | entry=[30;103mSMALL SIZE[0m | safe=Y | grade=B score=6.0 | thesis=NO OVERLAY(0.0) T/C/N/F/Q=0/0/0/0/0 | breakout=N retest=Y | price=109200.00 break=111800.00 | ext=-2.33% | dist=+2.38% | rsi=68.11 | room_pct=+1.47% | weekly_r1=110800.00 | room_left=1600.00 | sma10=Y px_vs_sma10=+5.42% slope10= | sma40=Y px_vs_sma40=+10.22% slope40= | sma50=Y px_vs_sma50=+10.44% | sma200=Y px_vs_sma200=+25.02%
     why: just below break_level; retest/trigger setup looks clean
     manage: room is tight -> size smaller or require stronger volume
-    safe warning: weekly room small (0.54%)
+    safe warning: weekly room small (1.47%)
 
 --- MANUAL ONLY ---
 (manual-only tickers are shown as WATCH because SAFE metrics are unavailable in report_v2)
