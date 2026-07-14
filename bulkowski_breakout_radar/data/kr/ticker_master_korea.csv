@@ -42,6 +42,7 @@ ticker,name,market,asset_type,sector,industry,source
 181710.KS,NHN,,STOCK,Communication Services,Gaming / Internet services,existing
 214450.KQ,파마리서치,,STOCK,Healthcare,Medical aesthetics / Regenerative medicine,existing
 237690.KQ,에스티팜,,STOCK,Healthcare,Pharmaceuticals / CDMO,existing
+241560.KQ,두산밥캣,,STOCK,Industrials,Construction equipment,existing
 241560.KS,두산밥캣,,STOCK,Industrials,Construction equipment,existing
 271560.KS,오리온,,STOCK,Consumer Staples,Food,existing
 278470.KS,에이피알,,STOCK,Consumer Staples,Beauty / Consumer goods,existing
@@ -58,7 +59,6 @@ ticker,name,market,asset_type,sector,industry,source
 000270.KS,기아,,STOCK,Consumer Discretionary,Automobile,existing
 000660.KS,SK하이닉스,KOSPI,STOCK,Information Technology,Semiconductors / Memory,builtin
 001120.KS,LX인터내셔널,,STOCK,Industrials,Trading / Holding,existing
-001520.KS,동양,,STOCK,Materials,Construction materials,existing
 001680.KS,대상,,STOCK,Consumer Staples,Food,existing
 001740.KS,SK네트웍스,,STOCK,Other,Other / Needs review,existing
 002150.KS,도화엔지니어링,,STOCK,Industrials,Engineering,existing
@@ -116,6 +116,7 @@ ticker,name,market,asset_type,sector,industry,source
 102110.KS,TIGER 200,KOSPI,ETF,ETF,KOSPI 200 ETF,builtin
 112040.KQ,위메이드,,STOCK,Communication Services,Gaming,existing
 122450.KQ,KX,,STOCK,Communication Services,Media / Broadcasting,existing
+133690.KS,TIGER 미국나스닥100,,ETF,ETF,TIGER 미국나스닥100,naver
 140860.KQ,파크시스템스,,STOCK,Information Technology,IT Systems,existing
 145990.KS,삼양사,,STOCK,Materials,Food ingredients / Chemicals,existing
 160550.KQ,NEW,,STOCK,Communication Services,Media / Contents,existing
@@ -142,6 +143,7 @@ ticker,name,market,asset_type,sector,industry,source
 395270.KS,HANARO K-반도체,KOSPI,ETF,ETF,Korea semiconductor ETF,builtin
 402340.KS,SK스퀘어,,STOCK,분류 미확인,업종 미확인,existing
 409820.KS,KODEX 미국나스닥100레버리지(합성 H),KOSPI,ETF,ETF,US Nasdaq 100 leveraged ETF,builtin
+486290.KS,TIGER 미국나스닥100타겟데일리커버드콜,,ETF,ETF,TIGER 미국나스닥100타겟데일리커버드콜,naver
 006120.KS,SK디스커버리,,STOCK,Holding Company,Holding company,existing
 078935.KS,GS우,,PREFERRED,Preferred Stock,Preferred / Special share,existing
 090430.KS,아모레퍼시픽,,STOCK,Consumer Staples,Cosmetics,existing
@@ -220,6 +222,7 @@ ticker,name,market,asset_type,sector,industry,source
 001250.KS,GS글로벌,,STOCK,Other,Other / Needs review,existing
 001430.KS,세아베스틸지주,,STOCK,Holding Company,Holding company,existing
 001440.KS,대한전선,,STOCK,Industrials,Electric wire / Power equipment,existing
+001520.KS,동양,,STOCK,Materials,Construction materials,existing
 002020.KS,코오롱,,STOCK,Holding Company,Holding company / Chemicals,existing
 002240.KS,고려제강,,STOCK,Materials,Steel wire,existing
 002320.KS,한진,,STOCK,Industrials,Logistics,existing
@@ -421,7 +424,6 @@ ticker,name,market,asset_type,sector,industry,source
 233160.KS,TIGER 코스닥150 레버리지,,ETF,ETF,TIGER 코스닥150 레버리지,existing
 233740.KS,KODEX 코스닥150레버리지,,ETF,ETF,KODEX 코스닥150레버리지,existing
 235980.KQ,메드팩토,,STOCK,Other,Other / Needs review,existing
-241560.KQ,두산밥캣,,STOCK,Industrials,Construction equipment,existing
 247540.KQ,에코프로비엠,,STOCK,Materials,Battery materials / Cathode,existing
 253450.KQ,스튜디오드래곤,,STOCK,Other,Other / Needs review,existing
 253840.KQ,수젠텍,,STOCK,Healthcare,Diagnostics,existing
