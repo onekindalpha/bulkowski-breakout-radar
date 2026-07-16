@@ -1,5 +1,5 @@
 === V12.1 OVERLAY REVIEW ===
-manual tickers in report: 493 | safe top: 493 | overlay rows: 12
+manual tickers in report: 499 | safe top: 499 | overlay rows: 12
 Ranking priority: PREBREAK OK > ENTRY OK > SMALL SIZE > HOLD ONLY > AVOID NEW > WATCH > REJECT
 Within each state: BUY NOW > NEAR BREAKOUT > retest > STOCK > ETF > thesis > overlay_score > grade > 40DMA timing > room > dist > ext
 DMA display: 10/40/50/200 모두 현재가 대비 이격률(%)로 표시
@@ -15,7 +15,8 @@ Overlay purpose: reward strong company/theme/cycle/news/flow stories while keepi
 (none)
 
 --- AVOID NEW / MANUAL ∩ SAFE ---
-01. 086790.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=136800.00 break=139800.00 | dist=+2.19% room=-0.58% | 10dma=+7.30% 40dma=+13.22% 50dma=+12.65% 200dma=+27.88% | too hot + weak score -> avoid new entry, wait for reset
+01. 010955.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=69600.00 break=70400.00 | dist=+1.15% room=-9.77% | 10dma=+7.62% 40dma=+22.48% 50dma=+22.86% 200dma=+34.05% | too hot + weak score -> avoid new entry, wait for reset
+02. 010950.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=145200.00 break=146500.00 | dist=+0.90% room=-19.49% | 10dma=+10.99% 40dma=+27.73% 50dma=+27.52% 200dma=+47.22% | too hot + weak score -> avoid new entry, wait for reset
 
 --- HOLD ONLY / SAFE ONLY ---
 (none)
