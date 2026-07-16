@@ -26,4 +26,4 @@ MRO	no_ohlcv_or_columns
 BK	no_ohlcv_or_columns
 CTRA	no_ohlcv_or_columns
 SATS	no_ohlcv_or_columns
-Q	too_short(len=179)
+Q	too_short(len=180)
