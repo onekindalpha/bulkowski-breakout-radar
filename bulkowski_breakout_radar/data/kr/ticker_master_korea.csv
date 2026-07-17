@@ -118,7 +118,7 @@ ticker,name,market,asset_type,sector,industry,source
 030000.KS,제일기획,,STOCK,Communication Services,Advertising / Marketing,existing
 030200.KS,KT,,STOCK,Communication Services,Telecommunication,existing
 032640.KS,LG유플러스,,STOCK,Communication Services,Telecommunication,existing
-032830.KS,삼성생명,,STOCK,분류 미확인,업종 미확인,naver
+032830.KS,삼성생명,,STOCK,분류 미확인,업종 미확인,existing
 033100.KQ,제룡전기,,STOCK,Industrials,Electrical equipment,existing
 034730.KS,SK,,STOCK,Other,Other / Needs review,existing
 035600.KQ,KG이니시스,,STOCK,Information Technology,Payment / Fintech,existing
@@ -475,7 +475,7 @@ ticker,name,market,asset_type,sector,industry,source
 010955.KS,S-Oil우,,PREFERRED,Preferred Stock,Preferred / Special share,existing
 078935.KS,GS우,,PREFERRED,Preferred Stock,Preferred / Special share,existing
 090430.KS,아모레퍼시픽,,STOCK,Consumer Staples,Cosmetics,existing
-114800.KS,KODEX 인버스,,ETF,ETF,KODEX 인버스,naver
+114800.KS,KODEX 인버스,,ETF,ETF,KODEX 인버스,existing
 181710.KQ,NHN,,STOCK,Communication Services,Gaming / Internet services,existing
 181710.KS,NHN,,STOCK,Communication Services,Gaming / Internet services,existing
 192820.KS,코스맥스,,STOCK,Consumer Staples,Cosmetics ODM,existing
@@ -524,7 +524,7 @@ ticker,name,market,asset_type,sector,industry,source
 222810.KQ,주요뉴스,,STOCK,Other,Other / Needs review,existing
 230360.KQ,에코마케팅,KOSDAQ,STOCK,Communication Services,Advertising / Marketing,builtin
 252330.KQ,주요뉴스,,STOCK,Other,Other / Needs review,existing
-279570.KS,케이뱅크,,STOCK,분류 미확인,업종 미확인,naver
+279570.KS,케이뱅크,,STOCK,분류 미확인,업종 미확인,existing
 287410.KQ,주요뉴스,,STOCK,Other,Other / Needs review,existing
 290130.KQ,RISE ESG사회책임투자,,ETF,ETF,RISE ESG사회책임투자,existing
 294030.KQ,주요뉴스,,STOCK,Other,Other / Needs review,existing
