@@ -1,4 +1,4 @@
-# saved_at_kr,2026-07-17 18:02:36 KST
+# saved_at_kr,2026-07-20 08:01:56 KST
 # provider,yahoo(yfinance)
 group,ticker,premarket,src,ts_kst,error
 kr_foreign_naver_auto,252670.KS,100.0,yf_close(5m),2026-07-16T15:30:00+09:00,
