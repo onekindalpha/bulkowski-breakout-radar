@@ -103,6 +103,8 @@ ticker,name,market,asset_type,sector,industry,source
 300720.KS,한일시멘트,,STOCK,Materials,Cement,existing
 306200.KS,세아제강,,STOCK,Materials,Steel wire,existing
 352820.KS,하이브,,STOCK,Communication Services,Entertainment / Music platform,existing
+360750.KS,TIGER 미국S&P500,KOSPI,ETF,ETF,US S&P 500 ETF,builtin
+379800.KS,KODEX 미국S&P500,,ETF,ETF,KODEX 미국S&P500,naver
 381180.KS,TIGER 미국필라델피아반도체나스닥,KOSPI,ETF,ETF,US semiconductor ETF,builtin
 383220.KS,F&F,,STOCK,Consumer Discretionary,Apparel / Fashion,existing
 390390.KS,KODEX 미국반도체MV,KOSPI,ETF,ETF,US semiconductor ETF,builtin
@@ -169,6 +171,7 @@ ticker,name,market,asset_type,sector,industry,source
 469150.KS,ACE AI반도체TOP3+,KOSPI,ETF,ETF,Korea AI semiconductor ETF,builtin
 471990.KS,KODEX AI반도체핵심장비,KOSPI,ETF,ETF,Korea semiconductor equipment ETF,builtin
 475310.KS,SOL 반도체후공정,KOSPI,ETF,ETF,Korea semiconductor back-end ETF,builtin
+486290.KS,TIGER 미국나스닥100타겟데일리커버드콜,,ETF,ETF,TIGER 미국나스닥100타겟데일리커버드콜,naver
 488080.KS,TIGER 반도체TOP10레버리지,KOSPI,ETF,ETF,Korea semiconductor leveraged ETF,builtin
 494310.KS,KODEX 반도체레버리지,KOSPI,ETF,ETF,Korea semiconductor leveraged ETF,builtin
 000020.KS,동화약품,,STOCK,Healthcare,Pharmaceuticals,existing
@@ -279,6 +282,7 @@ ticker,name,market,asset_type,sector,industry,source
 035760.KQ,CJ ENM,,STOCK,Communication Services,Media / Entertainment,existing
 035900.KQ,JYP Ent.,,STOCK,Communication Services,Entertainment,existing
 036010.KQ,아비코전자,,STOCK,Information Technology,Electronics,existing
+036570.KS,NC,,STOCK,분류 미확인,업종 미확인,naver
 036830.KQ,솔브레인홀딩스,,STOCK,Industrials,Holding company,existing
 036890.KQ,진성티이씨,KOSDAQ,STOCK,Industrials,Construction machinery parts,builtin
 038500.KQ,삼표시멘트,,STOCK,Materials,Cement,existing
@@ -477,7 +481,6 @@ ticker,name,market,asset_type,sector,industry,source
 950160.KQ,코오롱티슈진,,STOCK,Healthcare,Biotech,existing
 119850.KQ,지엔씨에너지,,STOCK,Energy,Energy,existing
 011200.KS,HMM,,STOCK,Industrials,Shipping,existing
-114800.KS,KODEX 인버스,,ETF,ETF,KODEX 인버스,existing
 001470.KS,삼부토건,,STOCK,Other,Other / Needs review,existing
 001570.KS,금양,,STOCK,Other,Other / Needs review,existing
 005830.KS,DB손해보험,,STOCK,Financial Services,Insurance,existing
@@ -520,7 +523,6 @@ ticker,name,market,asset_type,sector,industry,source
 222810.KQ,주요뉴스,,STOCK,Other,Other / Needs review,existing
 230360.KQ,에코마케팅,KOSDAQ,STOCK,Communication Services,Advertising / Marketing,builtin
 252330.KQ,주요뉴스,,STOCK,Other,Other / Needs review,existing
-279570.KS,케이뱅크,,STOCK,분류 미확인,업종 미확인,existing
 287410.KQ,주요뉴스,,STOCK,Other,Other / Needs review,existing
 290130.KQ,RISE ESG사회책임투자,,ETF,ETF,RISE ESG사회책임투자,existing
 294030.KQ,주요뉴스,,STOCK,Other,Other / Needs review,existing
