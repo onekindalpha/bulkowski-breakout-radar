@@ -5,7 +5,7 @@ ticker,name,market,asset_type,sector,industry,source
 031510.KQ,오스템,,STOCK,Industrials,Auto parts / Machinery,existing
 055550.KS,신한지주,,STOCK,Holding Company,Holding company,existing
 073240.KS,금호타이어,,STOCK,Consumer Discretionary,Auto parts,existing
-091170.KS,KODEX 은행,,ETF,ETF,KODEX 은행,naver
+091170.KS,KODEX 은행,,ETF,ETF,KODEX 은행,existing
 105560.KS,KB금융,,STOCK,Financial Services,Financial services,existing
 143240.KQ,사람인,,STOCK,Communication Services,HR platform,existing
 298000.KS,효성화학,,STOCK,Materials,Chemicals,existing
@@ -36,7 +36,9 @@ ticker,name,market,asset_type,sector,industry,source
 138040.KS,메리츠금융지주,,STOCK,Financial Services,Financial services,existing
 139130.KS,iM금융지주,,STOCK,Financial Services,Financial services,existing
 161890.KS,한국콜마,,STOCK,Other,Other / Needs review,existing
+181710.KQ,NHN,,STOCK,Communication Services,Gaming / Internet services,existing
 181710.KS,NHN,,STOCK,Communication Services,Gaming / Internet services,existing
+241560.KQ,두산밥캣,,STOCK,Industrials,Construction equipment,existing
 241560.KS,두산밥캣,,STOCK,Industrials,Construction equipment,existing
 252670.KS,KODEX 200선물인버스2X,,ETF,ETF,KODEX 200선물인버스2X,existing
 267270.KS,HD건설기계,,STOCK,Industrials,Construction,existing
@@ -88,7 +90,6 @@ ticker,name,market,asset_type,sector,industry,source
 097955.KS,CJ제일제당 우,,PREFERRED,Preferred Stock,Preferred / Special share,existing
 119850.KQ,지엔씨에너지,,STOCK,Energy,Energy,existing
 132030.KS,KODEX 골드선물(H),,ETF,ETF,KODEX 골드선물(H),existing
-133690.KS,TIGER 미국나스닥100,,ETF,ETF,TIGER 미국나스닥100,existing
 160550.KQ,NEW,,STOCK,Communication Services,Media / Contents,existing
 190510.KQ,나무가,,STOCK,Information Technology,Camera modules,existing
 192080.KS,더블유게임즈,,STOCK,Communication Services,Gaming / Contents,existing
@@ -285,7 +286,6 @@ ticker,name,market,asset_type,sector,industry,source
 035900.KQ,JYP Ent.,,STOCK,Communication Services,Entertainment,existing
 036010.KQ,아비코전자,,STOCK,Information Technology,Electronics,existing
 036460.KS,한국가스공사,,STOCK,Utilities,Gas / Utilities,existing
-036570.KS,NC,,STOCK,분류 미확인,업종 미확인,existing
 036830.KQ,솔브레인홀딩스,,STOCK,Industrials,Holding company,existing
 036890.KQ,진성티이씨,KOSDAQ,STOCK,Industrials,Construction machinery parts,builtin
 038500.KQ,삼표시멘트,,STOCK,Materials,Cement,existing
@@ -393,7 +393,6 @@ ticker,name,market,asset_type,sector,industry,source
 174900.KQ,앱클론,,STOCK,Healthcare,Biotech,existing
 178320.KQ,서진시스템,,STOCK,Information Technology,IT Systems,existing
 180640.KS,한진칼,,STOCK,Holding Company,Holding company / Airline,existing
-181710.KQ,NHN,,STOCK,Communication Services,Gaming / Internet services,existing
 185750.KS,종근당,,STOCK,Other,Other / Needs review,existing
 187420.KQ,HLB제넥스,,STOCK,Healthcare,Biotech,existing
 187660.KQ,페니트리움바이오,,STOCK,Healthcare,Biotech / Healthcare,existing
@@ -417,13 +416,11 @@ ticker,name,market,asset_type,sector,industry,source
 225190.KQ,LK삼양,,STOCK,Consumer Discretionary,Optics / Camera components,existing
 225190.KS,LK삼양,,STOCK,Consumer Discretionary,Optics / Camera components,existing
 226950.KQ,올릭스,,STOCK,Healthcare,Biotech,existing
-229200.KS,KODEX 코스닥150,,ETF,ETF,KODEX 코스닥150,existing
 229640.KS,LS에코에너지,,STOCK,Energy,Energy,existing
 233160.KS,TIGER 코스닥150 레버리지,,ETF,ETF,TIGER 코스닥150 레버리지,existing
 233740.KS,KODEX 코스닥150레버리지,,ETF,ETF,KODEX 코스닥150레버리지,existing
 235980.KQ,메드팩토,,STOCK,Other,Other / Needs review,existing
 237690.KQ,에스티팜,,STOCK,Healthcare,Pharmaceuticals / CDMO,existing
-241560.KQ,두산밥캣,,STOCK,Industrials,Construction equipment,existing
 247540.KQ,에코프로비엠,,STOCK,Materials,Battery materials / Cathode,existing
 251270.KQ,넷마블,,STOCK,Other,Other / Needs review,existing
 253450.KQ,스튜디오드래곤,,STOCK,Other,Other / Needs review,existing
@@ -466,7 +463,7 @@ ticker,name,market,asset_type,sector,industry,source
 357780.KQ,솔브레인,,STOCK,Materials,Semiconductor materials,existing
 357780.KS,솔브레인,,STOCK,Materials,Semiconductor materials,existing
 361610.KS,SK아이이테크놀로지,,STOCK,Information Technology,Technology,existing
-364970.KS,TIGER 바이오TOP10,,ETF,ETF,TIGER 바이오TOP10,naver
+364970.KS,TIGER 바이오TOP10,,ETF,ETF,TIGER 바이오TOP10,existing
 364980.KS,TIGER 2차전지TOP10,,ETF,ETF,TIGER 2차전지TOP10,existing
 365340.KQ,성일하이텍,,STOCK,Materials,Battery recycling / Materials,existing
 373220.KS,LG에너지솔루션,,STOCK,Energy,Energy,existing
