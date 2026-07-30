@@ -1,78 +1,74 @@
 ticker,name,market,asset_type,sector,industry,source
 001450.KS,현대해상,,STOCK,Financial Services,Insurance,existing
-001800.KS,오리온홀딩스,,STOCK,Industrials,Holding company,existing
 003300.KS,한일홀딩스,,STOCK,Industrials,Holding company,existing
 073240.KS,금호타이어,,STOCK,Consumer Discretionary,Auto parts,existing
 086790.KS,하나금융지주,,STOCK,Financial Services,Financial services,existing
 383220.KS,F&F,,STOCK,Consumer Discretionary,Apparel / Fashion,existing
+001800.KS,오리온홀딩스,,STOCK,Industrials,Holding company,existing
 018260.KS,삼성에스디에스,,STOCK,Information Technology,IT services,existing
-002960.KS,한국쉘석유,,STOCK,Energy,Oil / Refining,existing
 011200.KS,HMM,,STOCK,Industrials,Shipping,existing
 091170.KS,KODEX 은행,,ETF,ETF,KODEX 은행,existing
+096770.KS,SK이노베이션,,STOCK,Other,Other / Needs review,existing
 111770.KS,영원무역,,STOCK,Consumer Discretionary,Apparel / Fashion OEM,existing
-143240.KQ,사람인,,STOCK,Communication Services,HR platform,existing
 175330.KS,JB금융지주,,STOCK,Financial Services,Financial services,existing
 192820.KS,코스맥스,,STOCK,Consumer Staples,Cosmetics ODM,existing
 282330.KS,BGF리테일,,STOCK,Consumer Staples,Retail / Convenience stores,existing
 000070.KS,삼양홀딩스,,STOCK,Industrials,Holding company,existing
 000080.KS,하이트진로,,STOCK,Consumer Staples,Beverages / Alcohol,existing
 001680.KS,대상,,STOCK,Consumer Staples,Food,existing
+003920.KS,남양유업,,STOCK,Consumer Staples,Food / Dairy,existing
 004430.KS,송원산업,,STOCK,Industrials,Industrial products,existing
-005180.KS,빙그레,,STOCK,Consumer Staples,Food / Dairy,existing
 005945.KS,NH투자증권우,,PREFERRED,Preferred Stock,Preferred / Special share,existing
-014820.KS,동원시스템즈,,STOCK,Information Technology,IT Systems,existing
-017940.KS,E1,,STOCK,Energy,LPG / Energy distribution,existing
+008930.KS,한미사이언스,,STOCK,Holding Company,Holding company / Healthcare,existing
 018670.KS,SK가스,,STOCK,Utilities,Gas / Utilities,existing
 021240.KS,코웨이,,STOCK,Consumer Discretionary,Home appliances / Rental,existing
-028670.KS,팬오션,,STOCK,Industrials,Shipping / Marine transportation,existing
 036460.KS,한국가스공사,,STOCK,Utilities,Gas / Utilities,existing
-090430.KS,아모레퍼시픽,,STOCK,Consumer Staples,Cosmetics,existing
-096770.KS,SK이노베이션,,STOCK,Other,Other / Needs review,existing
-097955.KS,CJ제일제당 우,,PREFERRED,Preferred Stock,Preferred / Special share,existing
+055550.KS,신한지주,,STOCK,Holding Company,Holding company,existing
 105560.KS,KB금융,,STOCK,Financial Services,Financial services,existing
 119850.KQ,지엔씨에너지,,STOCK,Energy,Energy,existing
+143240.KQ,사람인,,STOCK,Communication Services,HR platform,existing
 214450.KQ,파마리서치,,STOCK,Healthcare,Medical aesthetics / Regenerative medicine,existing
 215200.KQ,메가스터디교육,,STOCK,Utilities,Gas / Utilities,existing
 271560.KS,오리온,,STOCK,Consumer Staples,Food,existing
 298000.KS,효성화학,,STOCK,Materials,Chemicals,existing
-475150.KS,SK이터닉스,,STOCK,Energy,Renewable energy,existing
 000100.KS,유한양행,,STOCK,Healthcare,Pharmaceuticals,existing
 000105.KS,유한양행우,,PREFERRED,Preferred Stock,Preferred / Special share,existing
 000120.KS,CJ대한통운,,STOCK,Industrials,Logistics,existing
+000140.KS,하이트진로홀딩스,,STOCK,Industrials,Holding company,existing
 000215.KS,DL우,,PREFERRED,Preferred Stock,Preferred / Special share,existing
 000810.KS,삼성화재,,STOCK,Financial Services,Insurance,existing
 001045.KS,CJ우,,PREFERRED,Preferred Stock,Preferred / Special share,existing
 001230.KS,동국홀딩스,,STOCK,Industrials,Holding company,existing
 001430.KS,세아베스틸지주,,STOCK,Holding Company,Holding company,existing
 003240.KS,태광산업,,STOCK,Industrials,Industrial products,existing
-003920.KS,남양유업,,STOCK,Consumer Staples,Food / Dairy,existing
 004000.KS,롯데정밀화학,,STOCK,Materials,Chemicals,existing
 004150.KS,한솔홀딩스,,STOCK,Industrials,Holding company,existing
+005180.KS,빙그레,,STOCK,Consumer Staples,Food / Dairy,existing
 005490.KS,POSCO홀딩스,KOSPI,STOCK,Materials,Steel / Holding company,builtin
 006040.KS,동원산업,,STOCK,Industrials,Industrial products,existing
 007070.KS,GS리테일,,STOCK,Consumer Staples,Retail / Convenience stores,existing
-009410.KS,태영건설,,STOCK,Industrials,Construction,existing
 009540.KS,HD한국조선해양,,STOCK,Industrials,Shipbuilding,existing
+010955.KS,S-Oil우,,PREFERRED,Preferred Stock,Preferred / Special share,existing
 011780.KS,금호석유화학,,STOCK,Materials,Chemicals,existing
 014620.KQ,성광벤드,,STOCK,Industrials,Industrial fittings / Pipe components,existing
-024110.KS,기업은행,,STOCK,Financial Services,Banks,existing
+014820.KS,동원시스템즈,,STOCK,Information Technology,IT Systems,existing
+017940.KS,E1,,STOCK,Energy,LPG / Energy distribution,existing
 031510.KQ,오스템,,STOCK,Industrials,Auto parts / Machinery,existing
 035420.KS,NAVER,,STOCK,Communication Services,Internet platform,existing
-035600.KQ,KG이니시스,,STOCK,Information Technology,Payment / Fintech,existing
 035720.KS,카카오,,STOCK,Communication Services,Internet platform,existing
 042660.KS,한화오션,,STOCK,Industrials,Shipbuilding / Defense,existing
 047050.KS,포스코인터내셔널,,STOCK,Industrials,Trading / Energy / Materials,existing
 048530.KQ,인트론바이오,,STOCK,Healthcare,Biotech / Healthcare,existing
-055550.KS,신한지주,,STOCK,Holding Company,Holding company,existing
 058610.KQ,에스피지,,STOCK,Industrials,Motors / Robotics components,existing
+078930.KS,GS,,STOCK,Holding Company,Holding company,existing
 078935.KS,GS우,,PREFERRED,Preferred Stock,Preferred / Special share,existing
 080160.KQ,모두투어,,STOCK,Consumer Discretionary,Travel agency,existing
 086280.KS,현대글로비스,,STOCK,Industrials,Logistics,existing
 095660.KQ,네오위즈,,STOCK,Communication Services,Gaming,existing
 095700.KQ,제넥신,,STOCK,Healthcare,Biotech,existing
+097955.KS,CJ제일제당 우,,PREFERRED,Preferred Stock,Preferred / Special share,existing
 161390.KS,한국타이어앤테크놀로지,,STOCK,Consumer Discretionary,Auto parts,existing
 161890.KS,한국콜마,,STOCK,Other,Other / Needs review,existing
-185490.KQ,아이진,,STOCK,Healthcare,Biotech,existing
 200130.KQ,콜마비앤에이치,,STOCK,Other,Other / Needs review,existing
 215000.KQ,골프존,,STOCK,Other,Other / Needs review,existing
 253840.KQ,수젠텍,,STOCK,Healthcare,Diagnostics,existing
@@ -81,14 +77,12 @@ ticker,name,market,asset_type,sector,industry,source
 294870.KS,IPARK현대산업개발,,STOCK,Industrials,Industrial products,existing
 298020.KS,효성티앤씨,,STOCK,Materials,Textiles / Chemicals,existing
 306200.KS,세아제강,,STOCK,Materials,Steel wire,existing
+316140.KS,우리금융지주,,PREFERRED,Preferred Stock,Preferred / Special share,existing
 364970.KS,TIGER 바이오TOP10,,ETF,ETF,TIGER 바이오TOP10,existing
 373220.KS,LG에너지솔루션,,STOCK,Energy,Energy,existing
 377300.KS,카카오페이,,STOCK,Financial Services,Fintech / Payments,existing
 455900.KQ,엔젤로보틱스,,STOCK,Healthcare,Wearable robots,existing
 000145.KS,하이트진로홀딩스우,KOSPI,PREFERRED,Consumer Staples,Beverages / Holding preferred,builtin
-002790.KS,아모레퍼시픽홀딩스,,STOCK,Industrials,Holding company,existing
-008930.KS,한미사이언스,,STOCK,Holding Company,Holding company / Healthcare,existing
-010955.KS,S-Oil우,,PREFERRED,Preferred Stock,Preferred / Special share,existing
 081660.KS,미스토홀딩스,,STOCK,Industrials,Holding company,existing
 227840.KS,현대코퍼레이션홀딩스,KOSPI,STOCK,Industrials,Trading / Holdings,builtin
 000240.KS,한국앤컴퍼니,,STOCK,Holding Company,Holding company / Auto parts,existing
@@ -96,20 +90,24 @@ ticker,name,market,asset_type,sector,industry,source
 000660.KS,SK하이닉스,KOSPI,STOCK,Information Technology,Semiconductors / Memory,builtin
 001740.KS,SK네트웍스,,STOCK,Other,Other / Needs review,existing
 002840.KS,미원상사,KOSPI,STOCK,Materials,Specialty chemicals,builtin
+002960.KS,한국쉘석유,,STOCK,Energy,Oil / Refining,existing
 003490.KS,대한항공,,STOCK,Industrials,Aerospace / Airline,existing
 003550.KS,LG,,STOCK,Holding Company,Holding company,existing
 004170.KS,신세계,,STOCK,Other,Other / Needs review,existing
-004270.KS,남성,,STOCK,Consumer Discretionary,Electronics / Distribution,existing
 005830.KS,DB손해보험,,STOCK,Financial Services,Insurance,existing
 005930.KS,삼성전자,KOSPI,STOCK,Information Technology,Semiconductors / Electronics,builtin
 005935.KS,삼성전자우,KOSPI,PREFERRED,Information Technology,Semiconductors / Electronics preferred,builtin
 007310.KS,오뚜기,,STOCK,Consumer Staples,Food,existing
+007390.KQ,네이처셀,,STOCK,Healthcare,Biotech,existing
 009150.KS,삼성전기,KOSPI,STOCK,Information Technology,Electronic components / MLCC,builtin
 009155.KS,삼성전기우,KOSPI,PREFERRED,Information Technology,Electronic components preferred,builtin
+011560.KQ,세보엠이씨,,STOCK,Industrials,Mechanical construction,existing
 012330.KS,현대모비스,,STOCK,Consumer Discretionary,Auto parts,existing
+017670.KS,SK텔레콤,,STOCK,분류 미확인,업종 미확인,naver
 023530.KS,롯데쇼핑,,STOCK,Consumer Discretionary,Retail,existing
 024800.KQ,유성티엔에스,,STOCK,Other,Other / Needs review,existing
 028050.KS,삼성E&A,,STOCK,Industrials,Engineering / Construction,existing
+028670.KS,팬오션,,STOCK,Industrials,Shipping / Marine transportation,existing
 030000.KS,제일기획,,STOCK,Communication Services,Advertising / Marketing,existing
 033780.KS,KT&G,KOSPI,STOCK,Consumer Staples,Tobacco,builtin
 034730.KS,SK,,STOCK,Other,Other / Needs review,existing
@@ -120,9 +118,7 @@ ticker,name,market,asset_type,sector,industry,source
 069500.KS,KODEX 200,KOSPI,ETF,ETF,KOSPI 200 ETF,builtin
 069620.KS,대웅제약,,STOCK,Healthcare,Pharmaceuticals,existing
 069960.KS,현대백화점,,STOCK,Consumer Discretionary,Retail,existing
-078930.KS,GS,,STOCK,Holding Company,Holding company,existing
 079550.KS,LIG디펜스앤에어로스페이스,,STOCK,Industrials,Defense / Aerospace,existing
-083450.KQ,GST,,STOCK,Other,Other / Needs review,existing
 088350.KS,한화생명,,STOCK,Financial Services,Life insurance,existing
 089970.KQ,브이엠,,STOCK,Industrials,Semiconductor / Display equipment,existing
 093050.KS,LF,,STOCK,Consumer Discretionary,Apparel / Fashion,existing
@@ -134,17 +130,17 @@ ticker,name,market,asset_type,sector,industry,source
 192080.KS,더블유게임즈,,STOCK,Communication Services,Gaming / Contents,existing
 192440.KQ,슈피겐코리아,,STOCK,Consumer Discretionary,Mobile accessories,existing
 259960.KS,크래프톤,,STOCK,Other,Other / Needs review,existing
-316140.KS,우리금융지주,,PREFERRED,Preferred Stock,Preferred / Special share,existing
 381180.KS,TIGER 미국필라델피아반도체나스닥,KOSPI,ETF,ETF,US semiconductor ETF,builtin
 390390.KS,KODEX 미국반도체MV,KOSPI,ETF,ETF,US semiconductor ETF,builtin
+395160.KS,KODEX AI반도체,KOSPI,ETF,ETF,Korea AI semiconductor ETF,builtin
 395270.KS,HANARO K-반도체,KOSPI,ETF,ETF,Korea semiconductor ETF,builtin
 402340.KS,SK스퀘어,,STOCK,분류 미확인,업종 미확인,existing
 409820.KS,KODEX 미국나스닥100레버리지(합성 H),KOSPI,ETF,ETF,US Nasdaq 100 leveraged ETF,builtin
+475150.KS,SK이터닉스,,STOCK,Energy,Renewable energy,existing
 000020.KS,동화약품,,STOCK,Healthcare,Pharmaceuticals,existing
 000040.KS,KR모터스,,STOCK,Consumer Discretionary,Motorcycles / Automobile,existing
 000050.KS,경방,,STOCK,Consumer Discretionary,Textiles / Apparel,existing
 000087.KS,하이트진로2우B,,PREFERRED,Preferred Stock,Preferred / Special share,existing
-000140.KS,하이트진로홀딩스,,STOCK,Industrials,Holding company,existing
 000150.KS,두산,KOSPI,STOCK,Industrials,Holding company / Energy equipment,builtin
 000155.KS,두산우,KOSPI,PREFERRED,Industrials,Holding company preferred,builtin
 000157.KS,두산2우B,KOSPI,PREFERRED,Industrials,Holding company preferred,builtin
@@ -163,13 +159,13 @@ ticker,name,market,asset_type,sector,industry,source
 001250.KS,GS글로벌,,STOCK,Other,Other / Needs review,existing
 001440.KS,대한전선,,STOCK,Industrials,Electric wire / Power equipment,existing
 001520.KS,동양,,STOCK,Materials,Construction materials,existing
-001820.KS,삼화콘덴서,,STOCK,분류 미확인,업종 미확인,existing
 002020.KS,코오롱,,STOCK,Holding Company,Holding company / Chemicals,existing
 002150.KS,도화엔지니어링,,STOCK,Industrials,Engineering,existing
 002240.KS,고려제강,,STOCK,Materials,Steel wire,existing
 002320.KS,한진,,STOCK,Industrials,Logistics,existing
 002350.KS,넥센타이어,,STOCK,Consumer Discretionary,Auto parts,existing
 002380.KS,KCC,,STOCK,Materials,Building materials / Chemicals,existing
+002790.KS,아모레퍼시픽홀딩스,,STOCK,Industrials,Holding company,existing
 003000.KS,부광약품,,STOCK,Healthcare,Pharmaceuticals,existing
 003090.KS,대웅,,STOCK,Holding Company,Holding company / Healthcare,existing
 003160.KS,디아이,,STOCK,Information Technology,Semiconductor equipment,existing
@@ -211,10 +207,10 @@ ticker,name,market,asset_type,sector,industry,source
 006650.KS,대한유화,,STOCK,Materials,Petrochemicals,existing
 006800.KS,미래에셋증권,,STOCK,Financial Services,Securities,existing
 006805.KS,미래에셋증권우,,PREFERRED,Preferred Stock,Preferred / Special share,existing
-007390.KQ,네이처셀,,STOCK,Healthcare,Biotech,existing
 007660.KS,이수페타시스,,STOCK,Information Technology,PCB / electronic components,existing
 007810.KS,코리아써키트,,STOCK,Information Technology,PCB,existing
 008770.KS,호텔신라,,STOCK,Consumer Discretionary,Travel / Leisure,existing
+009410.KS,태영건설,,STOCK,Industrials,Construction,existing
 009420.KS,한올바이오파마,,STOCK,Healthcare,Biotech / Healthcare,existing
 009830.KS,한화솔루션,,STOCK,Materials,Chemicals / Solar materials,existing
 009835.KS,한화솔루션우,,PREFERRED,Preferred Stock,Preferred / Special share,existing
@@ -229,7 +225,6 @@ ticker,name,market,asset_type,sector,industry,source
 011070.KS,LG이노텍,KOSPI,STOCK,Information Technology,Electronic components / Camera module,builtin
 011170.KS,롯데케미칼,,STOCK,Materials,Chemicals,existing
 011210.KS,현대위아,,STOCK,Consumer Discretionary,Auto parts / Machinery,existing
-011560.KQ,세보엠이씨,,STOCK,Industrials,Mechanical construction,existing
 011790.KS,SKC,,STOCK,Other,Other / Needs review,existing
 012450.KS,한화에어로스페이스,KOSPI,STOCK,Industrials,Defense / Aerospace,builtin
 012750.KS,에스원,,STOCK,Industrials,Security services,existing
@@ -241,6 +236,7 @@ ticker,name,market,asset_type,sector,industry,source
 020560.KS,아시아나항공,,STOCK,Industrials,Aerospace / Airline,existing
 022100.KS,포스코DX,,STOCK,Information Technology,IT services / Smart factory,existing
 023160.KQ,태광,,STOCK,Industrials,Industrial fittings,existing
+024110.KS,기업은행,,STOCK,Financial Services,Banks,existing
 025900.KQ,동화기업,,STOCK,Materials,Battery materials / Wood materials,existing
 028260.KS,삼성물산,,STOCK,Industrials,Trading / Construction,existing
 028300.KQ,HLB,,STOCK,Healthcare,Biotech,existing
@@ -255,6 +251,7 @@ ticker,name,market,asset_type,sector,industry,source
 033500.KQ,동성화인텍,,STOCK,Materials,LNG insulation / Materials,existing
 033640.KQ,네패스,,STOCK,Other,Other / Needs review,existing
 034020.KS,두산에너빌리티,KOSPI,STOCK,Industrials,Power equipment / Nuclear,builtin
+035600.KQ,KG이니시스,,STOCK,Information Technology,Payment / Fintech,existing
 035760.KQ,CJ ENM,,STOCK,Communication Services,Media / Entertainment,existing
 035900.KQ,JYP Ent.,,STOCK,Communication Services,Entertainment,existing
 036010.KQ,아비코전자,,STOCK,Information Technology,Electronics,existing
@@ -307,6 +304,7 @@ ticker,name,market,asset_type,sector,industry,source
 081580.KQ,성우전자,,PREFERRED,Preferred Stock,Preferred / Special share,existing
 082270.KQ,젬백스,,STOCK,Healthcare,Biotech,existing
 082740.KS,한화엔진,,STOCK,Other,Other / Needs review,existing
+083450.KQ,GST,,STOCK,Other,Other / Needs review,existing
 083650.KQ,비에이치아이,,STOCK,Industrials,Power plant equipment,existing
 083790.KQ,CG인바이츠,,STOCK,Healthcare,Biotech,existing
 084370.KQ,유진테크,,STOCK,Information Technology,Semiconductor equipment,existing
@@ -361,7 +359,7 @@ ticker,name,market,asset_type,sector,industry,source
 137310.KS,에스디바이오센서,,STOCK,Healthcare,Biotech / Healthcare,existing
 137400.KQ,피엔티,,STOCK,Industrials,Battery equipment,existing
 138930.KS,BNK금융지주,,ETF,ETF,BNK금융지주,existing
-139220.KS,TIGER 200 건설,,ETF,ETF,TIGER 200 건설,naver
+139220.KS,TIGER 200 건설,,ETF,ETF,TIGER 200 건설,existing
 139480.KS,이마트,,STOCK,Consumer Staples,Retail / Hypermarket,existing
 140410.KQ,메지온,,STOCK,Healthcare,Biotech,existing
 140860.KQ,파크시스템스,,STOCK,Information Technology,IT Systems,existing
@@ -379,6 +377,7 @@ ticker,name,market,asset_type,sector,industry,source
 181710.KQ,NHN,,STOCK,Communication Services,Gaming / Internet services,existing
 181710.KS,NHN,,STOCK,Communication Services,Gaming / Internet services,existing
 183300.KQ,코미코,,STOCK,Information Technology,Semiconductor cleaning / coating,existing
+185490.KQ,아이진,,STOCK,Healthcare,Biotech,existing
 185750.KS,종근당,,STOCK,Other,Other / Needs review,existing
 187420.KQ,HLB제넥스,,STOCK,Healthcare,Biotech,existing
 187660.KQ,페니트리움바이오,,STOCK,Healthcare,Biotech / Healthcare,existing
@@ -465,7 +464,6 @@ ticker,name,market,asset_type,sector,industry,source
 383310.KQ,에코프로에이치엔,,STOCK,Industrials,Environmental services,existing
 388720.KQ,유일로보틱스,,STOCK,Industrials,Robotics,existing
 393890.KQ,더블유씨피,,STOCK,Materials,Battery separator film,existing
-395160.KS,KODEX AI반도체,KOSPI,ETF,ETF,Korea AI semiconductor ETF,builtin
 396500.KS,TIGER 반도체TOP10,KOSPI,ETF,ETF,Korea semiconductor TOP10 ETF,builtin
 403870.KQ,HPSP,,STOCK,Information Technology,Semiconductor equipment,existing
 411060.KS,ACE KRX금현물,,ETF,ETF,ACE KRX금현물,existing
@@ -480,12 +478,13 @@ ticker,name,market,asset_type,sector,industry,source
 471760.KS,TIGER AI반도체핵심공정,KOSPI,ETF,ETF,Korea AI semiconductor process ETF,builtin
 471990.KS,KODEX AI반도체핵심장비,KOSPI,ETF,ETF,Korea semiconductor equipment ETF,builtin
 475310.KS,SOL 반도체후공정,KOSPI,ETF,ETF,Korea semiconductor back-end ETF,builtin
-486290.KS,TIGER 미국나스닥100타겟데일리커버드콜,,ETF,ETF,TIGER 미국나스닥100타겟데일리커버드콜,existing
 488080.KS,TIGER 반도체TOP10레버리지,KOSPI,ETF,ETF,Korea semiconductor leveraged ETF,builtin
 494310.KS,KODEX 반도체레버리지,KOSPI,ETF,ETF,Korea semiconductor leveraged ETF,builtin
 950160.KQ,코오롱티슈진,,STOCK,Healthcare,Biotech,existing
 001940.KS,KISCO홀딩스,,STOCK,Industrials,Holding company,existing
 003230.KS,삼양식품,,STOCK,Consumer Staples,Food,existing
+004270.KS,남성,,STOCK,Consumer Discretionary,Electronics / Distribution,existing
+090430.KS,아모레퍼시픽,,STOCK,Consumer Staples,Cosmetics,existing
 004370.KS,농심,KOSPI,STOCK,Consumer Staples,Food / Noodles,builtin
 207940.KS,삼성바이오로직스,,STOCK,Healthcare,Biotech / Healthcare,existing
 001470.KS,삼부토건,,STOCK,Other,Other / Needs review,existing
