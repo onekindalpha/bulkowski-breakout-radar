@@ -30,6 +30,7 @@ ticker,name,market,asset_type,sector,industry,source
 145020.KQ,휴젤,,STOCK,Healthcare,Biotech / Aesthetics,existing
 192820.KS,코스맥스,,STOCK,Consumer Staples,Cosmetics ODM,existing
 227840.KS,현대코퍼레이션홀딩스,KOSPI,STOCK,Industrials,Trading / Holdings,builtin
+241560.KQ,두산밥캣,,STOCK,Industrials,Construction equipment,existing
 241560.KS,두산밥캣,,STOCK,Industrials,Construction equipment,existing
 267270.KS,HD건설기계,,STOCK,Industrials,Construction,existing
 298020.KS,효성티앤씨,,STOCK,Materials,Textiles / Chemicals,existing
@@ -81,7 +82,6 @@ ticker,name,market,asset_type,sector,industry,source
 161890.KS,한국콜마,,STOCK,Other,Other / Needs review,existing
 175330.KS,JB금융지주,,STOCK,Financial Services,Financial services,existing
 195940.KQ,HK이노엔,,STOCK,Healthcare,Pharmaceuticals,existing
-251270.KQ,넷마블,,STOCK,Other,Other / Needs review,existing
 271560.KS,오리온,,STOCK,Consumer Staples,Food,existing
 285130.KS,SK케미칼,,STOCK,Materials,Chemicals,existing
 298040.KS,효성중공업,KOSPI,STOCK,Industrials,Power equipment / Heavy industry,builtin
@@ -193,7 +193,7 @@ ticker,name,market,asset_type,sector,industry,source
 114090.KS,GKL,,STOCK,Consumer Discretionary,Casino / Leisure,existing
 120110.KS,코오롱인더,,STOCK,Materials,Chemicals / Industrial materials,existing
 132030.KS,KODEX 골드선물(H),,ETF,ETF,KODEX 골드선물(H),existing
-133690.KS,TIGER 미국나스닥100,,ETF,ETF,TIGER 미국나스닥100,naver
+133690.KS,TIGER 미국나스닥100,,ETF,ETF,TIGER 미국나스닥100,existing
 137310.KS,에스디바이오센서,,STOCK,Healthcare,Biotech / Healthcare,existing
 137400.KQ,피엔티,,STOCK,Industrials,Battery equipment,existing
 139230.KS,TIGER 200 중공업,,ETF,ETF,TIGER 200 중공업,existing
@@ -218,6 +218,7 @@ ticker,name,market,asset_type,sector,industry,source
 225190.KQ,LK삼양,,STOCK,Consumer Discretionary,Optics / Camera components,existing
 225190.KS,LK삼양,,STOCK,Consumer Discretionary,Optics / Camera components,existing
 229640.KS,LS에코에너지,,STOCK,Energy,Energy,existing
+251270.KQ,넷마블,,STOCK,Other,Other / Needs review,existing
 253450.KQ,스튜디오드래곤,,STOCK,Other,Other / Needs review,existing
 256150.KQ,한독크린텍,,STOCK,Other,Other / Needs review,existing
 263720.KQ,디앤씨미디어,,STOCK,Communication Services,Media,existing
@@ -307,7 +308,6 @@ ticker,name,market,asset_type,sector,industry,source
 139130.KS,iM금융지주,,STOCK,Financial Services,Financial services,existing
 185490.KQ,아이진,,STOCK,Healthcare,Biotech,existing
 214450.KQ,파마리서치,,STOCK,Healthcare,Medical aesthetics / Regenerative medicine,existing
-241560.KQ,두산밥캣,,STOCK,Industrials,Construction equipment,existing
 251340.KS,KODEX 코스닥150선물인버스,KOSPI,ETF,ETF,KOSDAQ150 inverse ETF,existing
 266370.KS,KODEX IT,KOSPI,ETF,ETF,Korea IT sector ETF,builtin
 267770.KS,배럴,KOSPI,STOCK,Consumer Discretionary,Apparel / Leisure,builtin
