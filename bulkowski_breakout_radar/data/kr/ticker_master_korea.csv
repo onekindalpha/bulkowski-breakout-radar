@@ -124,7 +124,7 @@ ticker,name,market,asset_type,sector,industry,source
 293490.KQ,카카오게임즈,,STOCK,Communication Services,Gaming / Contents,existing
 298040.KS,효성중공업,KOSPI,STOCK,Industrials,Power equipment / Heavy industry,builtin
 307950.KS,현대오토에버,,STOCK,Information Technology,Mobility software / IT services,existing
-364980.KS,TIGER 2차전지TOP10,,ETF,ETF,TIGER 2차전지TOP10,naver
+364980.KS,TIGER 2차전지TOP10,,ETF,ETF,TIGER 2차전지TOP10,existing
 373220.KS,LG에너지솔루션,,STOCK,Energy,Energy,existing
 377300.KS,카카오페이,,STOCK,Financial Services,Fintech / Payments,existing
 411060.KS,ACE KRX금현물,,ETF,ETF,ACE KRX금현물,existing
@@ -243,7 +243,6 @@ ticker,name,market,asset_type,sector,industry,source
 263720.KQ,디앤씨미디어,,STOCK,Communication Services,Media,existing
 263750.KQ,펄어비스,,STOCK,Communication Services,Gaming,existing
 267320.KQ,나인테크,,STOCK,Information Technology,Technology,existing
-272210.KQ,한화시스템,,STOCK,Information Technology,IT Systems,existing
 272290.KQ,이녹스첨단소재,,STOCK,Materials,Materials,existing
 272450.KS,진에어,,STOCK,Other,Other / Needs review,existing
 277810.KQ,레인보우로보틱스,,PREFERRED,Preferred Stock,Preferred / Special share,existing
@@ -344,6 +343,7 @@ ticker,name,market,asset_type,sector,industry,source
 189300.KQ,인텔리안테크,,STOCK,Technology,Satellite communication equipment,existing
 192440.KQ,슈피겐코리아,,STOCK,Consumer Discretionary,Mobile accessories,existing
 252670.KS,KODEX 200선물인버스2X,,ETF,ETF,KODEX 200선물인버스2X,existing
+272210.KQ,한화시스템,,STOCK,Information Technology,IT Systems,existing
 272210.KS,한화시스템,,STOCK,Information Technology,IT Systems,existing
 274090.KQ,켄코아에어로스페이스,,STOCK,Industrials,Aerospace components,existing
 294870.KS,IPARK현대산업개발,,STOCK,Industrials,Industrial products,existing
@@ -391,7 +391,6 @@ ticker,name,market,asset_type,sector,industry,source
 112610.KS,씨에스윈드,,STOCK,Energy,Wind power equipment,existing
 114090.KS,GKL,,STOCK,Consumer Discretionary,Casino / Leisure,existing
 122630.KS,KODEX 레버리지,KOSPI,ETF,ETF,KOSPI 200 leveraged ETF,builtin
-123320.KS,TIGER 레버리지,,ETF,ETF,TIGER 레버리지,existing
 131970.KQ,두산테스나,,STOCK,Other,Other / Needs review,existing
 138930.KS,BNK금융지주,,ETF,ETF,BNK금융지주,existing
 160550.KQ,NEW,,STOCK,Communication Services,Media / Contents,existing
@@ -477,10 +476,10 @@ ticker,name,market,asset_type,sector,industry,source
 298690.KS,에어부산,,STOCK,Industrials,Airline,existing
 008930.KS,한미사이언스,,STOCK,Holding Company,Holding company / Healthcare,existing
 009240.KS,한샘,,STOCK,Consumer Discretionary,Furniture / Interior,existing
-051900.KQ,LG생활건강,,STOCK,Consumer Staples,Consumer goods,existing
 068270.KS,셀트리온,,STOCK,Healthcare,Biopharmaceuticals,existing
 196170.KQ,알테오젠,,STOCK,Healthcare,Biotech,existing
 300720.KS,한일시멘트,,STOCK,Materials,Cement,existing
+051900.KQ,LG생활건강,,STOCK,Consumer Staples,Consumer goods,existing
 051900.KS,LG생활건강,,STOCK,Consumer Staples,Consumer goods,existing
 185490.KQ,아이진,,STOCK,Healthcare,Biotech,existing
 364970.KS,TIGER 바이오TOP10,,ETF,ETF,TIGER 바이오TOP10,existing
