@@ -225,7 +225,6 @@ ticker,name,market,asset_type,sector,industry,source
 160190.KQ,하이젠알앤엠,,STOCK,Industrials,Motors / Robotics components,existing
 161390.KS,한국타이어앤테크놀로지,,STOCK,Consumer Discretionary,Auto parts,existing
 178320.KQ,서진시스템,,STOCK,Information Technology,IT Systems,existing
-181710.KQ,NHN,,STOCK,Communication Services,Gaming / Internet services,existing
 187660.KQ,페니트리움바이오,,STOCK,Healthcare,Biotech / Healthcare,existing
 190510.KQ,나무가,,STOCK,Information Technology,Camera modules,existing
 192440.KQ,슈피겐코리아,,STOCK,Consumer Discretionary,Mobile accessories,existing
@@ -237,7 +236,6 @@ ticker,name,market,asset_type,sector,industry,source
 214370.KQ,케어젠,,STOCK,Healthcare,Biotech / Cosmetics materials,existing
 215200.KQ,메가스터디교육,,STOCK,Utilities,Gas / Utilities,existing
 218410.KQ,RFHIC,,STOCK,Information Technology,Telecom equipment / RF components,existing
-225190.KS,LK삼양,,STOCK,Consumer Discretionary,Optics / Camera components,existing
 229640.KS,LS에코에너지,,STOCK,Energy,Energy,existing
 233160.KS,TIGER 코스닥150 레버리지,,ETF,ETF,TIGER 코스닥150 레버리지,existing
 233740.KS,KODEX 코스닥150레버리지,,ETF,ETF,KODEX 코스닥150레버리지,existing
@@ -245,6 +243,7 @@ ticker,name,market,asset_type,sector,industry,source
 247540.KQ,에코프로비엠,,STOCK,Materials,Battery materials / Cathode,existing
 263720.KQ,디앤씨미디어,,STOCK,Communication Services,Media,existing
 267320.KQ,나인테크,,STOCK,Information Technology,Technology,existing
+272210.KQ,한화시스템,,STOCK,Information Technology,IT Systems,existing
 272210.KS,한화시스템,,STOCK,Information Technology,IT Systems,existing
 272290.KQ,이녹스첨단소재,,STOCK,Materials,Materials,existing
 272450.KS,진에어,,STOCK,Other,Other / Needs review,existing
@@ -338,7 +337,6 @@ ticker,name,market,asset_type,sector,industry,source
 204320.KS,HL만도,,STOCK,Consumer Discretionary,Auto parts,existing
 240810.KQ,원익IPS,,STOCK,Information Technology,Semiconductor equipment,existing
 252670.KS,KODEX 200선물인버스2X,,ETF,ETF,KODEX 200선물인버스2X,existing
-272210.KQ,한화시스템,,STOCK,Information Technology,IT Systems,existing
 274090.KQ,켄코아에어로스페이스,,STOCK,Industrials,Aerospace components,existing
 294870.KS,IPARK현대산업개발,,STOCK,Industrials,Industrial products,existing
 295310.KQ,에이치브이엠,,STOCK,Industrials,Semiconductor / Display equipment,existing
@@ -451,6 +449,7 @@ ticker,name,market,asset_type,sector,industry,source
 200130.KQ,콜마비앤에이치,,STOCK,Other,Other / Needs review,existing
 205470.KQ,휴마시스,,STOCK,Healthcare,Diagnostics,existing
 225190.KQ,LK삼양,,STOCK,Consumer Discretionary,Optics / Camera components,existing
+225190.KS,LK삼양,,STOCK,Consumer Discretionary,Optics / Camera components,existing
 251270.KQ,넷마블,,STOCK,Other,Other / Needs review,existing
 253840.KQ,수젠텍,,STOCK,Healthcare,Diagnostics,existing
 256150.KQ,한독크린텍,,STOCK,Other,Other / Needs review,existing
@@ -467,6 +466,7 @@ ticker,name,market,asset_type,sector,industry,source
 028300.KQ,HLB,,STOCK,Healthcare,Biotech,existing
 068240.KQ,다원시스,,STOCK,Other,Other / Needs review,existing
 096530.KQ,씨젠,,STOCK,Healthcare,Diagnostics,existing
+181710.KQ,NHN,,STOCK,Communication Services,Gaming / Internet services,existing
 181710.KS,NHN,,STOCK,Communication Services,Gaming / Internet services,existing
 263050.KQ,유틸렉스,,STOCK,Other,Other / Needs review,existing
 282330.KS,BGF리테일,,STOCK,Consumer Staples,Retail / Convenience stores,existing
