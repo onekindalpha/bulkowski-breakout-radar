@@ -5,11 +5,11 @@ BIX	no_ohlcv_or_columns
 CWX	no_ohlcv_or_columns
 FPP	no_ohlcv_or_columns
 GAX	no_ohlcv_or_columns
-GIP	too_short(len=14)
+GIP	too_short(len=13)
 HCX	no_ohlcv_or_columns
 IAH	no_ohlcv_or_columns
 IUX	no_ohlcv_or_columns
-IXF	too_short(len=15)
+IXF	too_short(len=14)
 IYD	no_ohlcv_or_columns
 IYV	no_ohlcv_or_columns
 RMS	no_ohlcv_or_columns
@@ -27,4 +27,4 @@ BK	no_ohlcv_or_columns
 CTRA	no_ohlcv_or_columns
 SATS	too_short(len=1)
 EA	too_short(len=6)
-Q	too_short(len=201)
+Q	too_short(len=202)
