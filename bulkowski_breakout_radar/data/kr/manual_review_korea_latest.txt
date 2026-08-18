@@ -1,5 +1,5 @@
 === V12.1 OVERLAY REVIEW ===
-manual tickers in report: 491 | safe top: 491 | overlay rows: 12
+manual tickers in report: 486 | safe top: 486 | overlay rows: 12
 Ranking priority: PREBREAK OK > ENTRY OK > SMALL SIZE > HOLD ONLY > AVOID NEW > WATCH > REJECT
 Within each state: BUY NOW > NEAR BREAKOUT > retest > STOCK > ETF > thesis > overlay_score > grade > 40DMA timing > room > dist > ext
 DMA display: 10/40/50/200 모두 현재가 대비 이격률(%)로 표시
@@ -23,7 +23,6 @@ Overlay purpose: reward strong company/theme/cycle/news/flow stories while keepi
 04. 078935.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=64200.00 break=64700.00 | dist=+0.78% room=-6.54% | 10dma=+6.86% 40dma=+15.38% 50dma=+16.41% 200dma=+21.23% | too hot + weak score -> avoid new entry, wait for reset
 05. 078930.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=119300.00 break=120100.00 | dist=+0.67% room=-33.45% | 10dma=+15.93% 40dma=+40.82% 50dma=+44.84% 200dma=+72.69% | too hot + weak score -> avoid new entry, wait for reset
 06. 001450.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=49700.00 break=50250.00 | dist=+1.11% room=-15.69% | 10dma=+19.43% 40dma=+30.10% 50dma=+29.83% 200dma=+52.89% | too hot + weak score -> avoid new entry, wait for reset
-07. 181710.KQ  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=74700.00 break=76200.00 | dist=+2.01% room=-45.98% | 10dma=+47.28% 40dma=+86.73% 50dma=+85.43% 200dma=+105.11% | too hot + weak score -> avoid new entry, wait for reset
 
 --- HOLD ONLY / SAFE ONLY ---
 (none)
@@ -55,7 +54,9 @@ Overlay purpose: reward strong company/theme/cycle/news/flow stories while keepi
 066970.KQ | WATCH | entry=WATCH | safe=N | why: manual-only ticker present, but not in SAFE report
 087010.KS | WATCH | entry=WATCH | safe=N | why: manual-only ticker present, but not in SAFE report
 090460.KQ | WATCH | entry=WATCH | safe=N | why: manual-only ticker present, but not in SAFE report
+091230.KS | WATCH | entry=WATCH | safe=N | why: manual-only ticker present, but not in SAFE report
 091990.KQ | WATCH | entry=WATCH | safe=N | why: manual-only ticker present, but not in SAFE report
+102110.KS | WATCH | entry=WATCH | safe=N | why: manual-only ticker present, but not in SAFE report
 115390.KS | WATCH | entry=WATCH | safe=N | why: manual-only ticker present, but not in SAFE report
 131390.KQ | WATCH | entry=WATCH | safe=N | why: manual-only ticker present, but not in SAFE report
 151910.KQ | WATCH | entry=WATCH | safe=N | why: manual-only ticker present, but not in SAFE report
@@ -68,9 +69,15 @@ Overlay purpose: reward strong company/theme/cycle/news/flow stories while keepi
 222810.KQ | WATCH | entry=WATCH | safe=N | why: manual-only ticker present, but not in SAFE report
 230360.KQ | WATCH | entry=WATCH | safe=N | why: manual-only ticker present, but not in SAFE report
 252330.KQ | WATCH | entry=WATCH | safe=N | why: manual-only ticker present, but not in SAFE report
+252670.KS | WATCH | entry=WATCH | safe=N | why: manual-only ticker present, but not in SAFE report
+267770.KS | WATCH | entry=WATCH | safe=N | why: manual-only ticker present, but not in SAFE report
 287410.KQ | WATCH | entry=WATCH | safe=N | why: manual-only ticker present, but not in SAFE report
 290130.KQ | WATCH | entry=WATCH | safe=N | why: manual-only ticker present, but not in SAFE report
 294030.KQ | WATCH | entry=WATCH | safe=N | why: manual-only ticker present, but not in SAFE report
+305720.KS | WATCH | entry=WATCH | safe=N | why: manual-only ticker present, but not in SAFE report
+395270.KS | WATCH | entry=WATCH | safe=N | why: manual-only ticker present, but not in SAFE report
+409820.KS | WATCH | entry=WATCH | safe=N | why: manual-only ticker present, but not in SAFE report
+469150.KS | WATCH | entry=WATCH | safe=N | why: manual-only ticker present, but not in SAFE report
 TICKER | WATCH | entry=WATCH | safe=N | why: manual-only ticker present, but not in SAFE report
 
 --- SAFE ONLY / TOP DETAIL ---
