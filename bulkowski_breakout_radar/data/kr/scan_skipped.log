@@ -8,7 +8,7 @@
 010120	no_ohlcv_or_columns
 010620.KS	no_ohlcv_or_columns
 012450	no_ohlcv_or_columns
-0167A0.KS	too_short(len=19)
+0167A0.KS	too_short(len=106)
 017510.KS	too_short(len=22)
 017800	no_ohlcv_or_columns
 034230.KQ	no_ohlcv_or_columns
@@ -18,9 +18,7 @@
 066970.KQ	no_ohlcv_or_columns
 087010.KS	too_short(len=22)
 090460.KQ	no_ohlcv_or_columns
-091230.KS	too_short(len=19)
 091990.KQ	no_ohlcv_or_columns
-102110.KS	too_short(len=19)
 115390.KS	no_ohlcv_or_columns
 131390.KQ	no_ohlcv_or_columns
 151910.KQ	no_ohlcv_or_columns
@@ -33,14 +31,8 @@
 222810.KQ	no_ohlcv_or_columns
 230360.KQ	no_ohlcv_or_columns
 252330.KQ	no_ohlcv_or_columns
-252670.KS	too_short(len=19)
-267770.KS	too_short(len=19)
 287410.KQ	no_ohlcv_or_columns
 290130.KQ	no_ohlcv_or_columns
 294030.KQ	no_ohlcv_or_columns
 298040	no_ohlcv_or_columns
-305720.KS	too_short(len=19)
 329180	no_ohlcv_or_columns
-395270.KS	too_short(len=19)
-409820.KS	too_short(len=19)
-469150.KS	too_short(len=19)
