@@ -12,13 +12,12 @@ Overlay purpose: reward strong company/theme/cycle/news/flow stories while keepi
 (none)
 
 --- HOLD ONLY / MANUAL ∩ SAFE ---
-01. 004370.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=2.0 | price=441000.00 break=452000.00 | dist=+2.49% room=-7.03% | 10dma=+7.61% 40dma=+19.02% 50dma=+19.44% 200dma=+10.68% | late / target1 passed -> prefer hold-only or wait for fresh setup
-02. 003230.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=4.0 | price=1397000.00 break=1412000.00 | dist=+1.07% room=-10.81% | 10dma=+9.06% 40dma=+18.65% 50dma=+19.73% 200dma=+14.07% | late / target1 passed -> prefer hold-only or wait for fresh setup
+(none)
 
 --- AVOID NEW / MANUAL ∩ SAFE ---
-01. 005180.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=-2.0 | price=87200.00 break=87400.00 | dist=+0.23% room=-9.29% | 10dma=+17.11% 40dma=+28.27% 50dma=+28.62% 200dma=+19.01% | too hot + weak score -> avoid new entry, wait for reset
-02. 192820.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=260500.00 break=263000.00 | dist=+0.96% room=-9.98% | 10dma=+12.65% 40dma=+37.88% 50dma=+41.67% 200dma=+41.39% | too hot + weak score -> avoid new entry, wait for reset
-03. 041960.KQ  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=9740.00 break=9940.00 | dist=+2.05% room=-2.77% | 10dma=+8.88% 40dma=+25.18% 50dma=+23.60% 200dma=+25.36% | too hot + weak score -> avoid new entry, wait for reset
+01. 078935.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=63300.00 break=64700.00 | dist=+2.21% room=-5.21% | 10dma=+2.79% 40dma=+11.87% 50dma=+13.34% 200dma=+18.90% | too hot + weak score -> avoid new entry, wait for reset
+02. 192820.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=268000.00 break=269000.00 | dist=+0.37% room=-12.50% | 10dma=+12.68% 40dma=+39.70% 50dma=+44.12% 200dma=+45.21% | too hot + weak score -> avoid new entry, wait for reset
+03. 001450.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=50250.00 break=50800.00 | dist=+1.09% room=-16.62% | 10dma=+10.90% 40dma=+28.09% 50dma=+28.55% 200dma=+53.05% | too hot + weak score -> avoid new entry, wait for reset
 
 --- HOLD ONLY / SAFE ONLY ---
 (none)
