@@ -29,4 +29,4 @@ CTRA	no_ohlcv_or_columns
 SATS	too_short(len=1)
 EA	too_short(len=6)
 EQR	too_short(len=15)
-Q	too_short(len=208)
+Q	too_short(len=209)
