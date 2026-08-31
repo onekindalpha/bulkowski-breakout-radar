@@ -1,28 +1,29 @@
 === V12.1 OVERLAY REVIEW ===
-manual tickers in report: 500 | safe top: 500 | overlay rows: 12
+manual tickers in report: 495 | safe top: 495 | overlay rows: 12
 Ranking priority: PREBREAK OK > ENTRY OK > SMALL SIZE > HOLD ONLY > AVOID NEW > WATCH > REJECT
 Within each state: BUY NOW > NEAR BREAKOUT > retest > STOCK > ETF > thesis > overlay_score > grade > 40DMA timing > room > dist > ext
 DMA display: 10/40/50/200 모두 현재가 대비 이격률(%)로 표시
 Overlay purpose: reward strong company/theme/cycle/news/flow stories while keeping default detail focused on actionable new entries.
 
 --- NEW ENTRY / MANUAL ∩ SAFE ---
-(none)
+01. 001940.KS  [STOCK] | entry=[30;103mSMALL SIZE[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=B score=4.0 | price=28350.00 break=28650.00 | dist=+1.06% room=+1.06% | 10dma=+1.89% 40dma=+7.03% 50dma=+8.82% 200dma=+11.51% | room is tight -> size smaller or require stronger volume
+02. 002840.KS  [STOCK] | entry=[30;103mSMALL SIZE[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=2.0 | price=138300.00 break=141000.00 | dist=+1.95% room=+0.00% | 10dma=+4.61% 40dma=+10.01% 50dma=+11.56% 200dma=+1.10% | room is tight -> size smaller or require stronger volume
 
 --- NEW ENTRY / SAFE ONLY ---
 (none)
 
 --- HOLD ONLY / MANUAL ∩ SAFE ---
-01. 143240.KQ  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=6.0 | price=17370.00 break=17680.00 | dist=+1.78% room=-0.40% | 10dma=+0.98% 40dma=+5.14% 50dma=+6.35% 200dma=+15.21% | late / target1 passed -> prefer hold-only or wait for fresh setup
-02. 294870.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=4.0 | price=22750.00 break=23300.00 | dist=+2.42% room=-6.81% | 10dma=+1.52% 40dma=+10.68% 50dma=+12.55% 200dma=+8.42% | late / target1 passed -> prefer hold-only or wait for fresh setup
-03. 035600.KQ  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=4.0 | price=10450.00 break=10710.00 | dist=+2.49% room=-7.27% | 10dma=+3.04% 40dma=+7.21% 50dma=+7.96% 200dma=+0.61% | late / target1 passed -> prefer hold-only or wait for fresh setup
-04. 003230.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=2.0 | price=1521000.00 break=1557000.00 | dist=+2.37% room=-18.08% | 10dma=+6.44% 40dma=+23.22% 50dma=+25.50% 200dma=+23.68% | late / target1 passed -> prefer hold-only or wait for fresh setup
+01. 143240.KQ  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=4.0 | price=17650.00 break=17680.00 | dist=+0.17% room=-1.98% | 10dma=+2.44% 40dma=+6.79% 50dma=+8.02% 200dma=+17.06% | late / target1 passed -> prefer hold-only or wait for fresh setup
+02. 294870.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=6.0 | price=23400.00 break=23400.00 | dist=+0.00% room=-9.40% | 10dma=+4.12% 40dma=+13.76% 50dma=+15.69% 200dma=+11.50% | late / target1 passed -> prefer hold-only or wait for fresh setup
+03. 035600.KQ  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=4.0 | price=10510.00 break=10710.00 | dist=+1.90% room=-7.80% | 10dma=+3.57% 40dma=+7.81% 50dma=+8.57% 200dma=+1.18% | late / target1 passed -> prefer hold-only or wait for fresh setup
+04. 003230.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=2.0 | price=1531000.00 break=1557000.00 | dist=+1.70% room=-18.62% | 10dma=+7.06% 40dma=+24.00% 50dma=+26.30% 200dma=+24.49% | late / target1 passed -> prefer hold-only or wait for fresh setup
 
 --- AVOID NEW / MANUAL ∩ SAFE ---
-01. 090430.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=-2.0 | price=148700.00 break=151600.00 | dist=+1.95% room=-4.51% | 10dma=+5.59% 40dma=+14.42% 50dma=+19.09% 200dma=+16.13% | too hot + weak score -> avoid new entry, wait for reset
-02. 001450.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=52000.00 break=53000.00 | dist=+1.92% room=-19.42% | 10dma=+3.06% 40dma=+24.95% 50dma=+28.63% 200dma=+55.04% | too hot + weak score -> avoid new entry, wait for reset
-03. 300720.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=-2.0 | price=16810.00 break=17140.00 | dist=+1.96% room=-10.23% | 10dma=+5.49% 40dma=+14.63% 50dma=+16.08% 200dma=+2.54% | too hot + weak score -> avoid new entry, wait for reset
-04. 192820.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=300000.00 break=306000.00 | dist=+2.00% room=-21.83% | 10dma=+8.48% 40dma=+41.41% 50dma=+49.33% 200dma=+60.19% | too hot + weak score -> avoid new entry, wait for reset
-05. 005180.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=-2.0 | price=92700.00 break=95000.00 | dist=+2.48% room=-14.67% | 10dma=+5.62% 40dma=+27.88% 50dma=+30.75% 200dma=+25.46% | too hot + weak score -> avoid new entry, wait for reset
+01. 278470.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=STRONG STORY(6.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=464500.00 break=466500.00 | dist=+0.43% room=-4.63% | 10dma=+10.50% 40dma=+21.65% 50dma=+21.70% 200dma=+40.22% | too hot + weak score -> avoid new entry, wait for reset
+02. 017940.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=97100.00 break=99300.00 | dist=+2.27% room=-1.13% | 10dma=+2.42% 40dma=+9.68% 50dma=+11.85% 200dma=+7.37% | too hot + weak score -> avoid new entry, wait for reset
+03. 078935.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=65500.00 break=66800.00 | dist=+1.98% room=-8.40% | 10dma=+1.87% 40dma=+12.05% 50dma=+14.63% 200dma=+21.61% | too hot + weak score -> avoid new entry, wait for reset
+04. 300720.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=-2.0 | price=17010.00 break=17160.00 | dist=+0.88% room=-11.29% | 10dma=+6.61% 40dma=+15.96% 50dma=+17.43% 200dma=+3.75% | too hot + weak score -> avoid new entry, wait for reset
+05. 192820.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=300000.00 break=306000.00 | dist=+2.00% room=-21.83% | 10dma=+8.48% 40dma=+41.41% 50dma=+49.33% 200dma=+60.19% | too hot + weak score -> avoid new entry, wait for reset
 
 --- HOLD ONLY / SAFE ONLY ---
 (none)
@@ -33,7 +34,18 @@ Overlay purpose: reward strong company/theme/cycle/news/flow stories while keepi
 (기본 상세는 PREBREAK OK / ENTRY OK / SMALL SIZE만 보여줌. HOLD ONLY / AVOID NEW는 summary에서 보고, 전체는 --full-details로 확인.)
 
 --- MANUAL ∩ SAFE / TOP DETAIL ---
-(none)
+
+[1순위 상세]
+001940.KS | asset=STOCK | [1;96mNEAR BREAKOUT[0m | entry=[30;103mSMALL SIZE[0m | safe=Y | grade=B score=4.0 | thesis=NO OVERLAY(0.0) T/C/N/F/Q=0/0/0/0/0 | breakout=N retest=Y | price=28350.00 break=28650.00 | ext=-1.05% | dist=+1.06% | rsi=67.78 | room_pct=+1.06% | weekly_r1=28650.00 | room_left=300.00 | sma10=Y px_vs_sma10=+1.89% slope10= | sma40=Y px_vs_sma40=+7.03% slope40= | sma50=Y px_vs_sma50=+8.82% | sma200=Y px_vs_sma200=+11.51%
+    why: just below break_level; retest/trigger setup looks clean
+    manage: room is tight -> size smaller or require stronger volume
+    safe warning: weekly room small (1.06%)
+
+[2순위 상세]
+002840.KS | asset=STOCK | [1;96mNEAR BREAKOUT[0m | entry=[30;103mSMALL SIZE[0m | safe=Y | grade=C score=2.0 | thesis=NO OVERLAY(0.0) T/C/N/F/Q=0/0/0/0/0 | breakout=N retest=Y | price=138300.00 break=141000.00 | ext=-1.91% | dist=+1.95% | rsi=66.74 | room_pct=+0.00% | weekly_r1=138300.00 | room_left=0.00 | sma10=Y px_vs_sma10=+4.61% slope10= | sma40=Y px_vs_sma40=+10.01% slope40= | sma50=Y px_vs_sma50=+11.56% | sma200=Y px_vs_sma200=+1.10%
+    why: just below break_level; retest/trigger setup looks clean
+    manage: room is tight -> size smaller or require stronger volume
+    safe warning: weekly room small (0.00%)
 
 --- MANUAL ONLY ---
 (manual-only tickers are shown as WATCH because SAFE metrics are unavailable in report_v2)
