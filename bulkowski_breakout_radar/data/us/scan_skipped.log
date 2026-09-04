@@ -28,5 +28,5 @@ BK	no_ohlcv_or_columns
 CTRA	no_ohlcv_or_columns
 SATS	no_ohlcv_or_columns
 EA	too_short(len=6)
-EQR	too_short(len=14)
-Q	too_short(len=215)
+EQR	too_short(len=15)
+Q	too_short(len=216)
