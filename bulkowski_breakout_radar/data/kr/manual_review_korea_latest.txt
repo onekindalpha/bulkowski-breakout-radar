@@ -1,5 +1,5 @@
 === V12.1 OVERLAY REVIEW ===
-manual tickers in report: 492 | safe top: 492 | overlay rows: 12
+manual tickers in report: 494 | safe top: 494 | overlay rows: 12
 Ranking priority: PREBREAK OK > ENTRY OK > SMALL SIZE > HOLD ONLY > AVOID NEW > WATCH > REJECT
 Within each state: BUY NOW > NEAR BREAKOUT > retest > STOCK > ETF > thesis > overlay_score > grade > 40DMA timing > room > dist > ext
 DMA display: 10/40/50/200 모두 현재가 대비 이격률(%)로 표시
@@ -18,6 +18,7 @@ Overlay purpose: reward strong company/theme/cycle/news/flow stories while keepi
 01. 096770.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=6.0 | price=138300.00 break=139600.00 | dist=+0.94% room=-1.81% | 10dma=+10.06% 40dma=+15.69% 50dma=+20.34% 200dma=+19.38% | late / target1 passed -> prefer hold-only or wait for fresh setup
 02. 010955.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=6.0 | price=71900.00 break=72900.00 | dist=+1.39% room=-0.14% | 10dma=+4.86% 40dma=+7.82% 50dma=+10.82% 200dma=+28.14% | late / target1 passed -> prefer hold-only or wait for fresh setup
 03. 294870.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=6.0 | price=23300.00 break=23500.00 | dist=+0.86% room=-9.01% | 10dma=+1.66% 40dma=+10.84% 50dma=+13.62% 200dma=+10.56% | late / target1 passed -> prefer hold-only or wait for fresh setup
+04. 001470.KS  [STOCK] | entry=[1;95mHOLD ONLY[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=3.0 | price=9429.35 break=9429.35 | dist=+0.00% room=-96.32% | 10dma=+40.64% 40dma=+386.95% 50dma=+482.59% 200dma=+1318.20% | late / target1 passed -> prefer hold-only or wait for fresh setup
 
 --- AVOID NEW / MANUAL ∩ SAFE ---
 01. 017940.KS  [STOCK] | entry=[37;101mAVOID NEW[0m | thesis=NO OVERLAY(0.0) | [1;96mNEAR BREAKOUT[0m | grade=C score=0.0 | price=97700.00 break=99400.00 | dist=+1.74% room=-1.74% | 10dma=+0.78% 40dma=+8.78% 50dma=+10.75% 200dma=+7.56% | too hot + weak score -> avoid new entry, wait for reset
