@@ -1,225 +1,228 @@
 ticker,name,asset_type,sector,industry,exchange,quote_type,market_cap,beta,trailing_pe,forward_pe,dividend_yield,revenue_growth,earnings_growth,target_mean_price,recommendation,website,source
-AMT,American Tower Corporation (REI,STOCK,Real Estate,REIT - Specialty,,,,,,,,,,,,,yfinance
-WAT,Waters Corporation,STOCK,Healthcare,Diagnostics & Research,,,,,,,,,,,,,yfinance
-FTNT,"Fortinet, Inc.",STOCK,Technology,Software - Infrastructure,,,,,,,,,,,,,yfinance
+AAPL,Apple Inc.,STOCK,Technology,Consumer Electronics,,,,,,,,,,,,,builtin
+FNV,Franco-Nevada Corporation,STOCK,Basic Materials,Gold,,,,,,,,,,,,,yfinance
+WBD,"Warner Bros. Discovery, Inc. -",STOCK,Communication Services,Entertainment,,,,,,,,,,,,,yfinance
 ABBV,AbbVie,STOCK,Health Care,Pharmaceuticals,,,,,,,,,,,,,builtin
-HCA,"HCA Healthcare, Inc.",STOCK,Healthcare,Medical Care Facilities,,,,,,,,,,,,,yfinance
+GILD,"Gilead Sciences, Inc.",STOCK,Healthcare,Drug Manufacturers - General,,,,,,,,,,,,,yfinance
 XLK,State Street Technology Select,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
-NVDA,NVIDIA Corporation,STOCK,Technology,Semiconductors,,,,,,,,,,,,,builtin
-AMD,Advanced Micro Devices,STOCK,Technology,Semiconductors,,,,,,,,,,,,,builtin
-DE,Deere & Company,STOCK,Industrials,Farm & Heavy Construction Machinery,,,,,,,,,,,,,yfinance
+HCA,"HCA Healthcare, Inc.",STOCK,Healthcare,Medical Care Facilities,,,,,,,,,,,,,yfinance
+MU,Micron Technology,STOCK,Technology,Memory Semiconductors,,,,,,,,,,,,,builtin
+SMCI,Super Micro Computer,STOCK,Technology,AI Servers,,,,,,,,,,,,,builtin
+BRK-B,Berkshire Hathaway,STOCK,Financials,Financial Conglomerate,,,,,,,,,,,,,builtin
+JNJ,Johnson & Johnson,STOCK,Healthcare,Drug Manufacturers - General,,,,,,,,,,,,,yfinance
+PM,Philip Morris International Inc,STOCK,Consumer Defensive,Tobacco,,,,,,,,,,,,,yfinance
 XOM,Exxon Mobil Corporation,STOCK,Energy,Oil & Gas Integrated,,,,,,,,,,,,,yfinance
 NUE,Nucor Corporation,STOCK,Basic Materials,Steel,,,,,,,,,,,,,yfinance
 LYB,LyondellBasell Industries NV,STOCK,Basic Materials,Specialty Chemicals,,,,,,,,,,,,,yfinance
+GM,General Motors Company,STOCK,Consumer Cyclical,Auto Manufacturers,,,,,,,,,,,,,yfinance
 GSAT,"Globalstar, Inc.",STOCK,Communication Services,Telecom Services,,,,,,,,,,,,,yfinance
 FLR,Fluor Corporation,STOCK,Industrials,Engineering & Construction,,,,,,,,,,,,,yfinance
 OXY,Occidental Petroleum Corporatio,STOCK,Energy,Oil & Gas E&P,,,,,,,,,,,,,yfinance
 EOG,"EOG Resources, Inc.",STOCK,Energy,Oil & Gas E&P,,,,,,,,,,,,,yfinance
-CNC,Centene Corporation,STOCK,Healthcare,Healthcare Plans,,,,,,,,,,,,,yfinance
+BG,Bunge Limited,STOCK,Consumer Defensive,Farm Products,,,,,,,,,,,,,yfinance
+CPAY,"Corpay, Inc.",STOCK,Technology,Software - Infrastructure,,,,,,,,,,,,,yfinance
 ELV,"Elevance Health, Inc.",STOCK,Healthcare,Healthcare Plans,,,,,,,,,,,,,yfinance
-GEN,Gen Digital Inc.,STOCK,Technology,Software - Infrastructure,,,,,,,,,,,,,yfinance
 HPE,Hewlett Packard Enterprise Comp,STOCK,Technology,Communication Equipment,,,,,,,,,,,,,yfinance
-PANW,"Palo Alto Networks, Inc.",STOCK,Technology,Software - Infrastructure,,,,,,,,,,,,,yfinance
+MRNA,"Moderna, Inc.",STOCK,Healthcare,Biotechnology,,,,,,,,,,,,,yfinance
+NTAP,"NetApp, Inc.",STOCK,Technology,Software - Infrastructure,,,,,,,,,,,,,yfinance
 PFG,Principal Financial Group Inc,STOCK,Financial Services,Asset Management,,,,,,,,,,,,,yfinance
+STLD,"Steel Dynamics, Inc.",STOCK,Basic Materials,Steel,,,,,,,,,,,,,yfinance
 TRV,"The Travelers Companies, Inc.",STOCK,Financial Services,Insurance - Property & Casualty,,,,,,,,,,,,,yfinance
+VTRS,Viatris Inc.,STOCK,Healthcare,Drug Manufacturers - Specialty & Generic,,,,,,,,,,,,,yfinance
 TEAM,Atlassian Corporation,STOCK,Technology,Software - Application,,,,,,,,,,,,,yfinance
-CVE,Cenovus Energy Inc,STOCK,Energy,Oil & Gas Integrated,,,,,,,,,,,,,yfinance
 IYW,iShares U.S. Technology ETF,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
 DVN,Devon Energy Corporation,STOCK,Energy,Oil & Gas E&P,,,,,,,,,,,,,yfinance
+CNC,Centene Corporation,STOCK,Healthcare,Healthcare Plans,,,,,,,,,,,,,yfinance
+EG,"Everest Group, Ltd.",STOCK,Financial Services,Insurance - Reinsurance,,,,,,,,,,,,,yfinance
 MET,"MetLife, Inc.",STOCK,Financial Services,Insurance - Life,,,,,,,,,,,,,yfinance
-VTRS,Viatris Inc.,STOCK,Healthcare,Drug Manufacturers - Specialty & Generic,,,,,,,,,,,,,yfinance
+CVE,Cenovus Energy Inc,STOCK,Energy,Oil & Gas Integrated,,,,,,,,,,,,,yfinance
+AMD,Advanced Micro Devices,STOCK,Technology,Semiconductors,,,,,,,,,,,,,builtin
 TSM,Taiwan Semiconductor Manufacturing,STOCK,Technology,Semiconductors,,,,,,,,,,,,,builtin
-AUR,"Aurora Innovation, Inc.",STOCK,Consumer Cyclical,Auto Parts,,,,,,,,,,,,,yfinance
-AAPL,Apple Inc.,STOCK,Technology,Consumer Electronics,,,,,,,,,,,,,builtin
+GOOGL,Alphabet Inc. Class A,STOCK,Communication Services,Internet / Search,,,,,,,,,,,,,builtin
+HOOD,"Robinhood Markets, Inc.",STOCK,Financial Services,Capital Markets,,,,,,,,,,,,,yfinance
+RDW,Redwire Corporation,STOCK,Industrials,Aerospace & Defense,,,,,,,,,,,,,yfinance
+SATL,Satellogic Inc.,STOCK,Industrials,Aerospace & Defense,,,,,,,,,,,,,yfinance
 CZR,"Caesars Entertainment, Inc.",STOCK,Consumer Cyclical,Resorts & Casinos,,,,,,,,,,,,,yfinance
 MO,"Altria Group, Inc.",STOCK,Consumer Defensive,Tobacco,,,,,,,,,,,,,yfinance
-ADM,Archer-Daniels-Midland Company,STOCK,Consumer Defensive,Farm Products,,,,,,,,,,,,,yfinance
-BG,Bunge Limited,STOCK,Consumer Defensive,Farm Products,,,,,,,,,,,,,yfinance
 CDW,CDW Corporation,STOCK,Technology,Information Technology Services,,,,,,,,,,,,,yfinance
-EBAY,eBay Inc.,STOCK,Consumer Cyclical,Internet Retail,,,,,,,,,,,,,yfinance
+CB,Chubb Limited,STOCK,Financial Services,Insurance - Property & Casualty,,,,,,,,,,,,,yfinance
 GDDY,GoDaddy Inc.,STOCK,Technology,Software - Infrastructure,,,,,,,,,,,,,yfinance
-MDT,Medtronic plc.,STOCK,Healthcare,Medical Devices,,,,,,,,,,,,,yfinance
+KEYS,Keysight Technologies Inc.,STOCK,Technology,Scientific & Technical Instruments,,,,,,,,,,,,,yfinance
+MTD,"Mettler-Toledo International, I",STOCK,Healthcare,Diagnostics & Research,,,,,,,,,,,,,yfinance
 SNDK,Sandisk Corporation,STOCK,Technology,Computer Hardware,,,,,,,,,,,,,yfinance
 NOW,"ServiceNow, Inc.",STOCK,Technology,Software - Application,,,,,,,,,,,,,yfinance
+WDAY,"Workday, Inc.",STOCK,Technology,Software - Application,,,,,,,,,,,,,yfinance
+ARM,Arm Holdings plc,STOCK,Technology,Semiconductors,,,,,,,,,,,,,yfinance
 BBH,VanEck Biotech ETF,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
 FCX,Freeport-McMoRan Inc,STOCK,Basic Materials,Copper,,,,,,,,,,,,,finviz_members
 GSM,Ferroglobe PLC,STOCK,Basic Materials,Other Industrial Metals & Mining,,,,,,,,,,,,,yfinance
-HAL,Halliburton Company,STOCK,Energy,Oil & Gas Equipment & Services,,,,,,,,,,,,,yfinance
 IYH,iShares U.S. Healthcare ETF,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
-MU,Micron Technology,STOCK,Technology,Memory Semiconductors,,,,,,,,,,,,,builtin
+PPH,VanEck Pharmaceutical ETF,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
+SCCO,Southern Copper Corporation,STOCK,Basic Materials,Copper,,,,,,,,,,,,,finviz_members
+NVDA,NVIDIA Corporation,STOCK,Technology,Semiconductors,,,,,,,,,,,,,builtin
 ANET,Arista Networks Inc,STOCK,Technology,Computer Hardware,,,,,,,,,,,,,finviz_members
-SMCI,Super Micro Computer,STOCK,Technology,AI Servers,,,,,,,,,,,,,builtin
 MRVL,"Marvell Technology, Inc.",STOCK,Technology,Semiconductors,,,,,,,,,,,,,yfinance
-GOOGL,Alphabet Inc. Class A,STOCK,Communication Services,Internet / Search,,,,,,,,,,,,,builtin
 V,Visa Inc.,STOCK,Financials,Payments,,,,,,,,,,,,,builtin
-PWR,Quanta Services,STOCK,Industrials,Grid Infrastructure,,,,,,,,,,,,,builtin
-JNJ,Johnson & Johnson,STOCK,Healthcare,Drug Manufacturers - General,,,,,,,,,,,,,yfinance
 ISRG,"Intuitive Surgical, Inc.",STOCK,Healthcare,Medical Instruments & Supplies,,,,,,,,,,,,,yfinance
 VRTX,Vertex Pharmaceuticals Incorpor,STOCK,Healthcare,Biotechnology,,,,,,,,,,,,,yfinance
 KO,Coca-Cola Company (The),STOCK,Consumer Defensive,Beverages - Non-Alcoholic,,,,,,,,,,,,,yfinance
 MDLZ,Mondelez International Inc,STOCK,Consumer Defensive,Confectioners,,,,,,,,,,,,,finviz_members
-MSTR,Strategy Inc,STOCK,Technology,Software - Application,,,,,,,,,,,,,yfinance
 SYM,Symbotic Inc.,STOCK,Industrials,Specialty Industrial Machinery,,,,,,,,,,,,,yfinance
 TSLA,Tesla Inc.,STOCK,Consumer Discretionary,EV / Energy,,,,,,,,,,,,,builtin
-SLDP,"Solid Power, Inc.",STOCK,Consumer Cyclical,Auto Parts,,,,,,,,,,,,,yfinance
+VSAT,"ViaSat, Inc.",STOCK,Technology,Communication Equipment,,,,,,,,,,,,,yfinance
 WFC,Wells Fargo & Company,STOCK,Financial Services,Banks - Diversified,,,,,,,,,,,,,yfinance
-IRDM,Iridium Communications Inc,STOCK,Communication Services,Telecom Services,,,,,,,,,,,,,yfinance
-ABNB,"Airbnb, Inc.",STOCK,Consumer Cyclical,Travel Services,,,,,,,,,,,,,yfinance
+ULTA,"Ulta Beauty, Inc.",STOCK,Consumer Cyclical,Specialty Retail,,,,,,,,,,,,,yfinance
+TEL,TE Connectivity plc,STOCK,Technology,Electronic Components,,,,,,,,,,,,,yfinance
 COM,Direxion Auspice Broad Commodit,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
+COPX,Global X Copper Miners ETF,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
 NEM,Newmont Corporation,STOCK,Basic Materials,Gold,,,,,,,,,,,,,yfinance
-FNV,Franco-Nevada Corporation,STOCK,Basic Materials,Gold,,,,,,,,,,,,,yfinance
 WPM,Wheaton Precious Metals Corp,STOCK,Basic Materials,Gold,,,,,,,,,,,,,yfinance
 TRGP,"Targa Resources, Inc.",STOCK,Energy,Oil & Gas Midstream,,,,,,,,,,,,,yfinance
 ACN,Accenture plc,STOCK,Technology,Information Technology Services,,,,,,,,,,,,,yfinance
+AFL,AFLAC Incorporated,STOCK,Financial Services,Insurance - Life,,,,,,,,,,,,,yfinance
 A,"Agilent Technologies, Inc.",STOCK,Healthcare,Diagnostics & Research,,,,,,,,,,,,,yfinance
-ARE,Alexandria Real Estate Equities,STOCK,Real Estate,REIT - Office,,,,,,,,,,,,,yfinance
 GOOG,Alphabet Inc. Class C,STOCK,Communication Services,Internet / Search,,,,,,,,,,,,,builtin
+AMT,American Tower Corporation (REI,STOCK,Real Estate,REIT - Specialty,,,,,,,,,,,,,yfinance
 AWK,"American Water Works Company, I",STOCK,Utilities,Utilities - Regulated Water,,,,,,,,,,,,,yfinance
 AIZ,"Assurant, Inc.",STOCK,Financial Services,Insurance - Property & Casualty,,,,,,,,,,,,,yfinance
 ADP,"Automatic Data Processing, Inc.",STOCK,Technology,Software - Application,,,,,,,,,,,,,yfinance
 BDX,"Becton, Dickinson and Company",STOCK,Healthcare,Medical Instruments & Supplies,,,,,,,,,,,,,yfinance
 BIIB,Biogen Inc.,STOCK,Healthcare,Drug Manufacturers - General,,,,,,,,,,,,,yfinance
 CRL,Charles River Laboratories Inte,STOCK,Healthcare,Diagnostics & Research,,,,,,,,,,,,,yfinance
-CPAY,"Corpay, Inc.",STOCK,Technology,Software - Infrastructure,,,,,,,,,,,,,yfinance
-DDOG,"Datadog, Inc.",STOCK,Technology,Software - Application,,,,,,,,,,,,,yfinance
+C,"Citigroup, Inc.",STOCK,Financial Services,Banks - Diversified,,,,,,,,,,,,,yfinance
+COHR,Coherent Corp.,STOCK,Technology,Scientific & Technical Instruments,,,,,,,,,,,,,yfinance
+CRWD,"CrowdStrike Holdings, Inc.",STOCK,Technology,Software - Infrastructure,,,,,,,,,,,,,yfinance
+DVA,DaVita Inc.,STOCK,Healthcare,Medical Care Facilities,,,,,,,,,,,,,yfinance
 DXCM,"DexCom, Inc.",STOCK,Healthcare,Medical Devices,,,,,,,,,,,,,yfinance
-EW,Edwards Lifesciences Corporatio,STOCK,Healthcare,Medical Devices,,,,,,,,,,,,,yfinance
 FFIV,"F5, Inc.",STOCK,Technology,Software - Infrastructure,,,,,,,,,,,,,yfinance
+FDS,FactSet Research Systems Inc.,STOCK,Financial Services,Financial Data & Stock Exchanges,,,,,,,,,,,,,yfinance
 FAST,Fastenal Company,STOCK,Industrials,Industrial Distribution,,,,,,,,,,,,,yfinance
-GILD,"Gilead Sciences, Inc.",STOCK,Healthcare,Drug Manufacturers - General,,,,,,,,,,,,,yfinance
-INCY,Incyte Corporation,STOCK,Healthcare,Biotechnology,,,,,,,,,,,,,yfinance
+GEN,Gen Digital Inc.,STOCK,Technology,Software - Infrastructure,,,,,,,,,,,,,yfinance
+GNRC,Generac Holdlings Inc.,STOCK,Industrials,Specialty Industrial Machinery,,,,,,,,,,,,,yfinance
 IFF,International Flavors & Fragran,STOCK,Basic Materials,Specialty Chemicals,,,,,,,,,,,,,yfinance
 IQV,"IQVIA Holdings, Inc.",STOCK,Healthcare,Diagnostics & Research,,,,,,,,,,,,,yfinance
 KDP,Keurig Dr Pepper Inc.,STOCK,Consumer Defensive,Beverages - Non-Alcoholic,,,,,,,,,,,,,yfinance
-KEYS,Keysight Technologies Inc.,STOCK,Technology,Scientific & Technical Instruments,,,,,,,,,,,,,yfinance
 LH,Labcorp Holdings Inc.,STOCK,Healthcare,Diagnostics & Research,,,,,,,,,,,,,yfinance
 LITE,Lumentum Holdings Inc.,STOCK,Technology,Communication Equipment,,,,,,,,,,,,,yfinance
+MDT,Medtronic plc.,STOCK,Healthcare,Medical Devices,,,,,,,,,,,,,yfinance
 MRK,"Merck & Company, Inc.",STOCK,Healthcare,Drug Manufacturers - General,,,,,,,,,,,,,yfinance
-MRNA,"Moderna, Inc.",STOCK,Healthcare,Biotechnology,,,,,,,,,,,,,yfinance
 MSI,"Motorola Solutions, Inc.",STOCK,Technology,Communication Equipment,,,,,,,,,,,,,yfinance
-NTAP,"NetApp, Inc.",STOCK,Technology,Software - Infrastructure,,,,,,,,,,,,,yfinance
 NWSA,News Corporation,STOCK,Communication Services,Entertainment,,,,,,,,,,,,,yfinance
 NWS,News Corporation,STOCK,Communication Services,Entertainment,,,,,,,,,,,,,yfinance
 NDSN,Nordson Corporation,STOCK,Industrials,Specialty Industrial Machinery,,,,,,,,,,,,,yfinance
+OKE,"ONEOK, Inc.",STOCK,Energy,Oil & Gas Midstream,,,,,,,,,,,,,yfinance
+PANW,"Palo Alto Networks, Inc.",STOCK,Technology,Software - Infrastructure,,,,,,,,,,,,,yfinance
 DGX,Quest Diagnostics Incorporated,STOCK,Healthcare,Diagnostics & Research,,,,,,,,,,,,,yfinance
 SJM,The J.M. Smucker Company,STOCK,Consumer Defensive,Packaged Foods,,,,,,,,,,,,,yfinance
 SOLV,Solventum Corporation,STOCK,Healthcare,Medical Instruments & Supplies,,,,,,,,,,,,,yfinance
-STLD,"Steel Dynamics, Inc.",STOCK,Basic Materials,Steel,,,,,,,,,,,,,yfinance
 TGT,Target Corporation,STOCK,Consumer Defensive,Discount Stores,,,,,,,,,,,,,yfinance
 TKO,"TKO Group Holdings, Inc.",STOCK,Communication Services,Entertainment,,,,,,,,,,,,,yfinance
 VRSN,"VeriSign, Inc.",STOCK,Technology,Software - Infrastructure,,,,,,,,,,,,,yfinance
 WRB,W.R. Berkley Corporation,STOCK,Financial Services,Insurance - Property & Casualty,,,,,,,,,,,,,yfinance
-WBD,"Warner Bros. Discovery, Inc. -",STOCK,Communication Services,Entertainment,,,,,,,,,,,,,yfinance
+WAT,Waters Corporation,STOCK,Healthcare,Diagnostics & Research,,,,,,,,,,,,,yfinance
 ZBRA,Zebra Technologies Corporation,STOCK,Technology,Communication Equipment,,,,,,,,,,,,,yfinance
+INSM,Insmed Incorporated,STOCK,Healthcare,Biotechnology,,,,,,,,,,,,,yfinance
 DIG,ProShares Ultra Energy,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
 ERX,Direxion Energy Bull 2X ETF,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
 GUSH,Direxion Daily S&P Oil & Gas Ex,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
 IYE,iShares U.S. Energy ETF,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
 IYG,iShares U.S. Financial Services,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
+IYM,iShares U.S. Basic Materials ET,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
 LNG,"Cheniere Energy, Inc.",STOCK,Energy,Oil & Gas Midstream,,,,,,,,,,,,,yfinance
-PPH,VanEck Pharmaceutical ETF,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
-SCCO,Southern Copper Corporation,STOCK,Basic Materials,Copper,,,,,,,,,,,,,finviz_members
+TRX,TRX Gold Corporation,STOCK,Basic Materials,Gold,,,,,,,,,,,,,yfinance
 XLE,State Street Energy Select Sect,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
 XOP,State Street SPDR S&P Oil & Gas,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
 JPM,JPMorgan Chase,STOCK,Financials,Banking,,,,,,,,,,,,,builtin
 WMT,Walmart,STOCK,Consumer Staples,Retail,,,,,,,,,,,,,builtin
 VST,Vistra Corp.,STOCK,Utilities,Power Generation,,,,,,,,,,,,,builtin
-RTX,RTX Corporation,STOCK,Industrials,Aerospace & Defense,,,,,,,,,,,,,yfinance
-PM,Philip Morris International Inc,STOCK,Consumer Defensive,Tobacco,,,,,,,,,,,,,yfinance
+LLY,Eli Lilly,STOCK,Health Care,Pharmaceuticals,,,,,,,,,,,,,builtin
 COP,ConocoPhillips,STOCK,Energy,Oil & Gas E&P,,,,,,,,,,,,,yfinance
-GM,General Motors Company,STOCK,Consumer Cyclical,Auto Manufacturers,,,,,,,,,,,,,yfinance
+AUR,"Aurora Innovation, Inc.",STOCK,Consumer Cyclical,Auto Parts,,,,,,,,,,,,,yfinance
+NXPI,NXP Semiconductors N.V.,STOCK,Technology,Semiconductors,,,,,,,,,,,,,yfinance
+ASTS,"AST SpaceMobile, Inc.",STOCK,Technology,Communication Equipment,,,,,,,,,,,,,yfinance
 SCHW,Charles Schwab Corporation (The,STOCK,Financial Services,Capital Markets,,,,,,,,,,,,,yfinance
+IRDM,Iridium Communications Inc,STOCK,Communication Services,Telecom Services,,,,,,,,,,,,,yfinance
+LUV,Southwest Airlines Company,STOCK,Industrials,Airlines,,,,,,,,,,,,,yfinance
 EXPE,"Expedia Group, Inc.",STOCK,Consumer Cyclical,Travel Services,,,,,,,,,,,,,yfinance
+ABNB,"Airbnb, Inc.",STOCK,Consumer Cyclical,Travel Services,,,,,,,,,,,,,yfinance
 APH,Amphenol Corporation,STOCK,Technology,Electronic Components,,,,,,,,,,,,,yfinance
-COPX,Global X Copper Miners ETF,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
 DRLL,Strive U.S. Energy ETF,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
+RKLB,Rocket Lab Corporation,STOCK,Industrials,Aerospace & Defense,,,,,,,,,,,,,yfinance
+EMR,Emerson Electric Company,STOCK,Industrials,Specialty Industrial Machinery,,,,,,,,,,,,,yfinance
 GOLD,"Gold.com, Inc.",STOCK,Financial Services,Capital Markets,,,,,,,,,,,,,yfinance
 FANG,"Diamondback Energy, Inc.",STOCK,Energy,Oil & Gas E&P,,,,,,,,,,,,,yfinance
 APA,APA Corporation,STOCK,Energy,Oil & Gas E&P,,,,,,,,,,,,,yfinance
 CNQ,Canadian Natural Resources Limi,STOCK,Energy,Oil & Gas E&P,,,,,,,,,,,,,yfinance
 SU,Suncor Energy  Inc.,STOCK,Energy,Oil & Gas Integrated,,,,,,,,,,,,,yfinance
 EPD,Enterprise Products Partners L.,STOCK,Energy,Oil & Gas Midstream,,,,,,,,,,,,,yfinance
-PBF,PBF Energy Inc.,STOCK,Energy,Oil & Gas Refining & Marketing,,,,,,,,,,,,,yfinance
+MMM,3M Company,STOCK,Industrials,Conglomerates,,,,,,,,,,,,,yfinance
 ALL,Allstate Corporation (The),STOCK,Financial Services,Insurance - Property & Casualty,,,,,,,,,,,,,yfinance
 AMP,"Ameriprise Financial, Inc.",STOCK,Financial Services,Asset Management,,,,,,,,,,,,,yfinance
 AMGN,Amgen Inc.,STOCK,Healthcare,Drug Manufacturers - General,,,,,,,,,,,,,yfinance
 APP,Applovin Corporation,STOCK,Communication Services,Advertising Agencies,,,,,,,,,,,,,yfinance
 BALL,Ball Corporation,STOCK,Consumer Cyclical,Packaging & Containers,,,,,,,,,,,,,yfinance
 BAX,Baxter International Inc.,STOCK,Healthcare,Medical Instruments & Supplies,,,,,,,,,,,,,yfinance
-BBY,"Best Buy Co., Inc.",STOCK,Consumer Cyclical,Specialty Retail,,,,,,,,,,,,,yfinance
 BMY,Bristol-Myers Squibb Company,STOCK,Healthcare,Drug Manufacturers - General,,,,,,,,,,,,,yfinance
 CHRW,"C.H. Robinson Worldwide, Inc.",STOCK,Industrials,Integrated Freight & Logistics,,,,,,,,,,,,,yfinance
 CAH,"Cardinal Health, Inc.",STOCK,Healthcare,Medical Distribution,,,,,,,,,,,,,yfinance
 CF,"CF Industries Holdings, Inc.",STOCK,Basic Materials,Agricultural Inputs,,,,,,,,,,,,,yfinance
 CTAS,Cintas Corporation,STOCK,Industrials,Specialty Business Services,,,,,,,,,,,,,yfinance
-DRI,"Darden Restaurants, Inc.",STOCK,Consumer Cyclical,Restaurants,,,,,,,,,,,,,yfinance
-DG,Dollar General Corporation,STOCK,Consumer Defensive,Discount Stores,,,,,,,,,,,,,yfinance
-EG,"Everest Group, Ltd.",STOCK,Financial Services,Insurance - Reinsurance,,,,,,,,,,,,,yfinance
-FDS,FactSet Research Systems Inc.,STOCK,Financial Services,Financial Data & Stock Exchanges,,,,,,,,,,,,,yfinance
+ED,"Consolidated Edison, Inc.",STOCK,Utilities,Utilities - Regulated Electric,,,,,,,,,,,,,yfinance
+EW,Edwards Lifesciences Corporatio,STOCK,Healthcare,Medical Devices,,,,,,,,,,,,,yfinance
+FTNT,"Fortinet, Inc.",STOCK,Technology,Software - Infrastructure,,,,,,,,,,,,,yfinance
+BEN,"Franklin Resources, Inc.",STOCK,Financial Services,Asset Management,,,,,,,,,,,,,yfinance
 GRMN,Garmin Ltd.,STOCK,Technology,Scientific & Technical Instruments,,,,,,,,,,,,,yfinance
 GPN,Global Payments Inc.,STOCK,Industrials,Specialty Business Services,,,,,,,,,,,,,yfinance
 GL,Globe Life Inc.,STOCK,Financial Services,Insurance - Life,,,,,,,,,,,,,yfinance
 HSIC,"Henry Schein, Inc.",STOCK,Healthcare,Medical Distribution,,,,,,,,,,,,,yfinance
-HPQ,HP Inc,STOCK,Technology,Computer Hardware,,,,,,,,,,,,,finviz_members
 HUM,Humana Inc.,STOCK,Healthcare,Healthcare Plans,,,,,,,,,,,,,yfinance
-IBM,International Business Machines,STOCK,Technology,Information Technology Services,,,,,,,,,,,,,yfinance
-INTC,Intel Corporation,STOCK,Technology,Semiconductors,,,,,,,,,,,,,yfinance
+INCY,Incyte Corporation,STOCK,Healthcare,Biotechnology,,,,,,,,,,,,,yfinance
 IVZ,Invesco Ltd,STOCK,Financial Services,Asset Management,,,,,,,,,,,,,yfinance
 KHC,The Kraft Heinz Company,STOCK,Consumer Defensive,Packaged Foods,,,,,,,,,,,,,yfinance
-OMC,Omnicom Group Inc.,STOCK,Communication Services,Advertising Agencies,,,,,,,,,,,,,yfinance
-OKE,"ONEOK, Inc.",STOCK,Energy,Oil & Gas Midstream,,,,,,,,,,,,,yfinance
+NDAQ,"Nasdaq, Inc.",STOCK,Financial Services,Financial Data & Stock Exchanges,,,,,,,,,,,,,yfinance
+PKG,Packaging Corporation of Americ,STOCK,Consumer Cyclical,Packaging & Containers,,,,,,,,,,,,,yfinance
 PAYX,"Paychex, Inc.",STOCK,Technology,Software - Application,,,,,,,,,,,,,yfinance
 PRU,"Prudential Financial, Inc.",STOCK,Financial Services,Insurance - Life,,,,,,,,,,,,,yfinance
-RJF,"Raymond James Financial, Inc.",STOCK,Financial Services,Asset Management,,,,,,,,,,,,,yfinance
+SW,Smurfit WestRock plc,STOCK,Consumer Cyclical,Packaging & Containers,,,,,,,,,,,,,yfinance
 STT,State Street Corporation,STOCK,Financial Services,Asset Management,,,,,,,,,,,,,yfinance
 TTD,"The Trade Desk, Inc.",STOCK,Communication Services,Advertising Agencies,,,,,,,,,,,,,yfinance
 WAB,Westinghouse Air Brake Technolo,STOCK,Industrials,Railroads,,,,,,,,,,,,,yfinance
 WELL,Welltower Inc.,STOCK,Real Estate,REIT - Healthcare Facilities,,,,,,,,,,,,,yfinance
-WST,"West Pharmaceutical Services, I",STOCK,Healthcare,Medical Instruments & Supplies,,,,,,,,,,,,,yfinance
 ALNY,"Alnylam Pharmaceuticals, Inc.",STOCK,Healthcare,Biotechnology,,,,,,,,,,,,,yfinance
-CCEP,Coca-Cola Europacific Partners,STOCK,Consumer Defensive,Beverages - Non-Alcoholic,,,,,,,,,,,,,yfinance
 AEM,Agnico Eagle Mines Limited,STOCK,Basic Materials,Gold,,,,,,,,,,,,,yfinance
-SLB,SLB Limited,STOCK,Energy,Oil & Gas Equipment & Services,,,,,,,,,,,,,yfinance
-TRX,TRX Gold Corporation,STOCK,Basic Materials,Gold,,,,,,,,,,,,,yfinance
 MSFT,Microsoft Corporation,STOCK,Technology,Software / Cloud,,,,,,,,,,,,,builtin
 MA,Mastercard,STOCK,Financials,Payments,,,,,,,,,,,,,builtin
 TMO,Thermo Fisher Scientific Inc,STOCK,Healthcare,Diagnostics & Research,,,,,,,,,,,,,yfinance
 DHR,Danaher Corporation,STOCK,Healthcare,Diagnostics & Research,,,,,,,,,,,,,yfinance
-PG,Procter & Gamble Company (The),STOCK,Consumer Defensive,Household & Personal Products,,,,,,,,,,,,,yfinance
-HOOD,"Robinhood Markets, Inc.",STOCK,Financial Services,Capital Markets,,,,,,,,,,,,,yfinance
 AES,The AES Corporation,STOCK,Utilities,Utilities - Diversified,,,,,,,,,,,,,yfinance
-RDW,Redwire Corporation,STOCK,Industrials,Aerospace & Defense,,,,,,,,,,,,,yfinance
-SATL,Satellogic Inc.,STOCK,Industrials,Aerospace & Defense,,,,,,,,,,,,,yfinance
+RIO,Rio Tinto Plc,STOCK,Basic Materials,Other Industrial Metals & Mining,,,,,,,,,,,,,yfinance
 GDX,VanEck Gold Miners ETF,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
+GDXJ,VanEck Junior Gold Miners ETF,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
 SIL,Global X Silver Miners ETF,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
-CB,Chubb Limited,STOCK,Financial Services,Insurance - Property & Casualty,,,,,,,,,,,,,yfinance
-CRWD,"CrowdStrike Holdings, Inc.",STOCK,Technology,Software - Infrastructure,,,,,,,,,,,,,yfinance
-DVA,DaVita Inc.,STOCK,Healthcare,Medical Care Facilities,,,,,,,,,,,,,yfinance
+SILJ,Amplify Junior Silver Miners ET,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
 DELL,Dell Technologies Inc,STOCK,Technology,Computer Hardware,,,,,,,,,,,,,finviz_members
 EL,"Estee Lauder Companies, Inc. (T",STOCK,Consumer Defensive,Household & Personal Products,,,,,,,,,,,,,yfinance
 FOXA,Fox Corporation,STOCK,Communication Services,Entertainment,,,,,,,,,,,,,yfinance
 FOX,Fox Corporation,STOCK,Communication Services,Entertainment,,,,,,,,,,,,,yfinance
 IT,"Gartner, Inc.",STOCK,Technology,Information Technology Services,,,,,,,,,,,,,yfinance
-HAS,"Hasbro, Inc.",STOCK,Consumer Cyclical,Leisure,,,,,,,,,,,,,yfinance
+GPC,Genuine Parts Company,STOCK,Consumer Cyclical,Auto Parts,,,,,,,,,,,,,yfinance
 J,Jacobs Solutions Inc.,STOCK,Industrials,Engineering & Construction,,,,,,,,,,,,,yfinance
 MCK,McKesson Corporation,STOCK,Healthcare,Medical Distribution,,,,,,,,,,,,,yfinance
-MTD,"Mettler-Toledo International, I",STOCK,Healthcare,Diagnostics & Research,,,,,,,,,,,,,yfinance
 PLTR,Palantir Technologies Inc.,STOCK,Technology,Software - Infrastructure,,,,,,,,,,,,,yfinance
-PSKY,Paramount Skydance Corporation,STOCK,Communication Services,Entertainment,,,,,,,,,,,,,yfinance
 PFE,"Pfizer, Inc.",STOCK,Healthcare,Drug Manufacturers - General,,,,,,,,,,,,,yfinance
 PGR,Progressive Corporation (The),STOCK,Financial Services,Insurance - Property & Casualty,,,,,,,,,,,,,yfinance
 REGN,"Regeneron Pharmaceuticals, Inc.",STOCK,Healthcare,Biotechnology,,,,,,,,,,,,,yfinance
 RSG,"Republic Services, Inc.",STOCK,Industrials,Waste Management,,,,,,,,,,,,,yfinance
 RMD,ResMed Inc.,STOCK,Healthcare,Medical Instruments & Supplies,,,,,,,,,,,,,yfinance
+RVTY,"Revvity, Inc.",STOCK,Healthcare,Diagnostics & Research,,,,,,,,,,,,,yfinance
+CRM,"Salesforce, Inc.",STOCK,Technology,Software - Application,,,,,,,,,,,,,yfinance
+VZ,Verizon Communications Inc.,STOCK,Communication Services,Telecom Services,,,,,,,,,,,,,yfinance
 DIS,Walt Disney Company (The),STOCK,Communication Services,Entertainment,,,,,,,,,,,,,yfinance
-WDAY,"Workday, Inc.",STOCK,Technology,Software - Application,,,,,,,,,,,,,yfinance
-ZBH,"Zimmer Biomet Holdings, Inc.",STOCK,Healthcare,Medical Devices,,,,,,,,,,,,,yfinance
-TRI,Thomson Reuters Corp,STOCK,Industrials,Specialty Business Services,,,,,,,,,,,,,yfinance
 ZS,"Zscaler, Inc.",STOCK,Technology,Software - Infrastructure,,,,,,,,,,,,,yfinance
-IYM,iShares U.S. Basic Materials ET,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
 IYZ,iShares U.S. Telecommunications,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
 OIH,VanEck Oil Services ETF,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
 SHEL,Shell PLC,STOCK,Energy,Oil & Gas Integrated,,,,,,,,,,,,,yfinance
+SLB,SLB Limited,STOCK,Energy,Oil & Gas Equipment & Services,,,,,,,,,,,,,yfinance
 SMH,VanEck Semiconductor ETF,ETF,ETF,Semiconductor ETF,,,,,,,,,,,,,builtin
 XLB,State Street Materials Select S,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
 ASML,ASML Holding,STOCK,Technology,Semiconductor Equipment,,,,,,,,,,,,,builtin
@@ -228,19 +231,22 @@ LRCX,Lam Research Corporation,STOCK,Technology,Semiconductor Equipment & Materia
 TER,"Teradyne, Inc.",STOCK,Technology,Semiconductor Equipment & Materials,,,,,,,,,,,,,yfinance
 TXN,Texas Instruments Incorporated,STOCK,Technology,Semiconductors,,,,,,,,,,,,,yfinance
 AMZN,Amazon.com,STOCK,Consumer Discretionary,E-commerce / Cloud,,,,,,,,,,,,,builtin
-BRK-B,Berkshire Hathaway,STOCK,Financials,Financial Conglomerate,,,,,,,,,,,,,builtin
 GEV,GE Vernova,STOCK,Industrials,Power Equipment,,,,,,,,,,,,,builtin
 ETN,Eaton,STOCK,Industrials,Electrical Equipment,,,,,,,,,,,,,builtin
+PWR,Quanta Services,STOCK,Industrials,Grid Infrastructure,,,,,,,,,,,,,builtin
 CAT,"Caterpillar, Inc.",STOCK,Industrials,Farm & Heavy Construction Machinery,,,,,,,,,,,,,yfinance
 URI,"United Rentals, Inc.",STOCK,Industrials,Rental & Leasing Services,,,,,,,,,,,,,yfinance
-LLY,Eli Lilly,STOCK,Health Care,Pharmaceuticals,,,,,,,,,,,,,builtin
 CVX,Chevron Corporation,STOCK,Energy,Oil & Gas Integrated,,,,,,,,,,,,,yfinance
+COIN,"Coinbase Global, Inc.",STOCK,Financial Services,Financial Data & Stock Exchanges,,,,,,,,,,,,,yfinance
+MSTR,Strategy Inc,STOCK,Technology,Software - Application,,,,,,,,,,,,,yfinance
 CME,CME Group Inc.,STOCK,Financial Services,Financial Data & Stock Exchanges,,,,,,,,,,,,,yfinance
 APD,"Air Products and Chemicals, Inc",STOCK,Basic Materials,Specialty Chemicals,,,,,,,,,,,,,yfinance
-ECL,Ecolab Inc.,STOCK,Basic Materials,Specialty Chemicals,,,,,,,,,,,,,yfinance
-VSAT,"ViaSat, Inc.",STOCK,Technology,Communication Equipment,,,,,,,,,,,,,yfinance
+GLD,SPDR Gold Shares,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
+IAU,iShares Gold Trust Shares,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
+GLDM,SPDR Gold MiniShares Trust,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
 SLV,iShares Silver Trust,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
 SIVR,abrdn Physical Silver Shares ET,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
+F,Ford Motor Company,STOCK,Consumer Cyclical,Auto Manufacturers,,,,,,,,,,,,,yfinance
 BE,Bloom Energy Corporation,STOCK,Industrials,Electrical Equipment & Parts,,,,,,,,,,,,,yfinance
 MS,Morgan Stanley,STOCK,Financial Services,Capital Markets,,,,,,,,,,,,,yfinance
 BAC,Bank of America Corporation,STOCK,Financial Services,Banks - Diversified,,,,,,,,,,,,,yfinance
@@ -248,81 +254,76 @@ DAL,"Delta Air Lines, Inc.",STOCK,Industrials,Airlines,,,,,,,,,,,,,yfinance
 ULCC,"Frontier Group Holdings, Inc.",STOCK,Industrials,Airlines,,,,,,,,,,,,,yfinance
 VIK,Viking Holdings Ltd,STOCK,Consumer Cyclical,Travel Services,,,,,,,,,,,,,yfinance
 ROST,"Ross Stores, Inc.",STOCK,Consumer Cyclical,Apparel Retail,,,,,,,,,,,,,yfinance
-ULTA,"Ulta Beauty, Inc.",STOCK,Consumer Cyclical,Specialty Retail,,,,,,,,,,,,,yfinance
-JBL,Jabil Inc.,STOCK,Technology,Electronic Components,,,,,,,,,,,,,yfinance
 FLEX,Flex Ltd.,STOCK,Technology,Electronic Components,,,,,,,,,,,,,override
 SANM,Sanmina Corporation,STOCK,Technology,Electronic Components,,,,,,,,,,,,,yfinance
+GLW,Corning Incorporated,STOCK,Technology,Electronic Components,,,,,,,,,,,,,yfinance
 PYPL,"PayPal Holdings, Inc.",STOCK,Financial Services,Credit Services,,,,,,,,,,,,,yfinance
+UGL,ProShares Ultra Gold,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
+AGQ,ProShares Ultra Silver,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
 NUGT,Direxion Daily Gold Miners Inde,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
 JNUG,Direxion Daily Junior Gold Mine,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
 PPLT,abrdn Physical Platinum Shares,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
-RIO,Rio Tinto Plc,STOCK,Basic Materials,Other Industrial Metals & Mining,,,,,,,,,,,,,yfinance
-EMR,Emerson Electric Company,STOCK,Industrials,Specialty Industrial Machinery,,,,,,,,,,,,,yfinance
 AME,"AMETEK, Inc.",STOCK,Industrials,Specialty Industrial Machinery,,,,,,,,,,,,,yfinance
 JCI,Johnson Controls International,STOCK,Industrials,Building Products & Equipment,,,,,,,,,,,,,yfinance
-GDXJ,VanEck Junior Gold Miners ETF,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
+PAAS,Pan American Silver Corp.,STOCK,Basic Materials,Gold,,,,,,,,,,,,,yfinance
 HL,Hecla Mining Company,STOCK,Basic Materials,Other Precious Metals & Mining,,,,,,,,,,,,,yfinance
-SILJ,Amplify Junior Silver Miners ET,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
+AG,First Majestic Silver Corp.,STOCK,Basic Materials,Silver,,,,,,,,,,,,,yfinance
+KMI,"Kinder Morgan, Inc.",STOCK,Energy,Oil & Gas Midstream,,,,,,,,,,,,,yfinance
 WMB,"Williams Companies, Inc. (The)",STOCK,Energy,Oil & Gas Midstream,,,,,,,,,,,,,yfinance
-MMM,3M Company,STOCK,Industrials,Conglomerates,,,,,,,,,,,,,yfinance
-AFL,AFLAC Incorporated,STOCK,Financial Services,Insurance - Life,,,,,,,,,,,,,yfinance
+PBF,PBF Energy Inc.,STOCK,Energy,Oil & Gas Refining & Marketing,,,,,,,,,,,,,yfinance
 ALLE,Allegion plc,STOCK,Industrials,Security & Protection Services,,,,,,,,,,,,,yfinance
 ADI,"Analog Devices, Inc.",STOCK,Technology,Semiconductors,,,,,,,,,,,,,yfinance
 ACGL,Arch Capital Group Ltd.,STOCK,Financial Services,Insurance - Diversified,,,,,,,,,,,,,yfinance
 AJG,Arthur J. Gallagher & Co.,STOCK,Financial Services,Insurance Brokers,,,,,,,,,,,,,yfinance
-AVY,Avery Dennison Corporation,STOCK,Consumer Cyclical,Packaging & Containers,,,,,,,,,,,,,yfinance
 TECH,Bio-Techne Corp,STOCK,Healthcare,Biotechnology,,,,,,,,,,,,,yfinance
 XYZ,"Block, Inc.",STOCK,Technology,Software - Infrastructure,,,,,,,,,,,,,yfinance
-BR,"Broadridge Financial Solutions,",STOCK,Technology,Information Technology Services,,,,,,,,,,,,,yfinance
 BXP,"BXP, Inc.",STOCK,Real Estate,REIT - Office,,,,,,,,,,,,,yfinance
-COR,"Cencora, Inc.",STOCK,Healthcare,Medical Distribution,,,,,,,,,,,,,yfinance
-CHD,"Church & Dwight Company, Inc.",STOCK,Consumer Defensive,Household & Personal Products,,,,,,,,,,,,,yfinance
-CI,The Cigna Group,STOCK,Healthcare,Healthcare Plans,,,,,,,,,,,,,yfinance
+CINF,Cincinnati Financial Corporatio,STOCK,Financial Services,Insurance - Property & Casualty,,,,,,,,,,,,,yfinance
 CSCO,"Cisco Systems, Inc.",STOCK,Technology,Communication Equipment,,,,,,,,,,,,,yfinance
-C,"Citigroup, Inc.",STOCK,Financial Services,Banks - Diversified,,,,,,,,,,,,,yfinance
 CFG,"Citizens Financial Group, Inc.",STOCK,Financial Services,Banks - Regional,,,,,,,,,,,,,yfinance
 CTSH,Cognizant Technology Solutions,STOCK,Technology,Information Technology Services,,,,,,,,,,,,,yfinance
-COHR,Coherent Corp.,STOCK,Technology,Scientific & Technical Instruments,,,,,,,,,,,,,yfinance
 FIX,"Comfort Systems USA, Inc.",STOCK,Industrials,Engineering & Construction,,,,,,,,,,,,,yfinance
 CAG,"ConAgra Brands, Inc.",STOCK,Consumer Defensive,Packaged Foods,,,,,,,,,,,,,yfinance
-CPRT,"Copart, Inc.",STOCK,Industrials,Specialty Business Services,,,,,,,,,,,,,yfinance
 CTVA,"Corteva, Inc.",STOCK,Basic Materials,Agricultural Inputs,,,,,,,,,,,,,yfinance
 CSX,CSX Corporation,STOCK,Industrials,Railroads,,,,,,,,,,,,,yfinance
 CVS,CVS Health Corporation,STOCK,Healthcare,Healthcare Plans,,,,,,,,,,,,,yfinance
+DRI,"Darden Restaurants, Inc.",STOCK,Consumer Cyclical,Restaurants,,,,,,,,,,,,,yfinance
+DDOG,"Datadog, Inc.",STOCK,Technology,Software - Application,,,,,,,,,,,,,yfinance
 DLR,"Digital Realty Trust, Inc.",STOCK,Real Estate,REIT - Specialty,,,,,,,,,,,,,yfinance
+DG,Dollar General Corporation,STOCK,Consumer Defensive,Discount Stores,,,,,,,,,,,,,yfinance
+D,"Dominion Energy, Inc.",STOCK,Utilities,Utilities - Regulated Electric,,,,,,,,,,,,,yfinance
 DASH,"DoorDash, Inc.",STOCK,Consumer Cyclical,Internet Retail,,,,,,,,,,,,,yfinance
+EBAY,eBay Inc.,STOCK,Consumer Cyclical,Internet Retail,,,,,,,,,,,,,yfinance
 EQIX,"Equinix, Inc.",STOCK,Real Estate,REIT - Specialty,,,,,,,,,,,,,yfinance
 ESS,"Essex Property Trust, Inc.",STOCK,Real Estate,REIT - Residential,,,,,,,,,,,,,yfinance
-FRT,Federal Realty Investment Trust,STOCK,Real Estate,REIT - Retail,,,,,,,,,,,,,yfinance
+EVRG,"Evergy, Inc.",STOCK,Utilities,Utilities - Regulated Electric,,,,,,,,,,,,,yfinance
 FDX,FedEx Corporation,STOCK,Industrials,Integrated Freight & Logistics,,,,,,,,,,,,,yfinance
 FITB,Fifth Third Bancorp,STOCK,Financial Services,Banks - Regional,,,,,,,,,,,,,yfinance
-BEN,"Franklin Resources, Inc.",STOCK,Financial Services,Asset Management,,,,,,,,,,,,,yfinance
 GD,General Dynamics Corporation,STOCK,Industrials,Aerospace & Defense,,,,,,,,,,,,,yfinance
-GPC,Genuine Parts Company,STOCK,Consumer Cyclical,Auto Parts,,,,,,,,,,,,,yfinance
 DOC,"Healthpeak Properties, Inc.",STOCK,Real Estate,REIT - Healthcare Facilities,,,,,,,,,,,,,yfinance
 HST,"Host Hotels & Resorts, Inc.",STOCK,Real Estate,REIT - Hotel & Motel,,,,,,,,,,,,,yfinance
+HPQ,HP Inc,STOCK,Technology,Computer Hardware,,,,,,,,,,,,,finviz_members
 IEX,IDEX Corporation,STOCK,Industrials,Specialty Industrial Machinery,,,,,,,,,,,,,yfinance
+INTC,Intel Corporation,STOCK,Technology,Semiconductors,,,,,,,,,,,,,yfinance
 IBKR,"Interactive Brokers Group, Inc.",STOCK,Financial Services,Capital Markets,,,,,,,,,,,,,yfinance
 ICE,Intercontinental Exchange Inc.,STOCK,Financial Services,Financial Data & Stock Exchanges,,,,,,,,,,,,,yfinance
 IRM,Iron Mountain Incorporated (Del,STOCK,Real Estate,REIT - Specialty,,,,,,,,,,,,,yfinance
-JKHY,"Jack Henry & Associates, Inc.",STOCK,Technology,Information Technology Services,,,,,,,,,,,,,yfinance
-KR,Kroger Company (The),STOCK,Consumer Defensive,Grocery Stores,,,,,,,,,,,,,yfinance
 LDOS,"Leidos Holdings, Inc.",STOCK,Technology,Information Technology Services,,,,,,,,,,,,,yfinance
 LYV,"Live Nation Entertainment, Inc.",STOCK,Communication Services,Entertainment,,,,,,,,,,,,,yfinance
 MTB,M&T Bank Corporation,STOCK,Financial Services,Banks - Regional,,,,,,,,,,,,,yfinance
 MNST,Monster Beverage Corporation,STOCK,Consumer Defensive,Beverages - Non-Alcoholic,,,,,,,,,,,,,yfinance
 MOS,Mosaic Company (The),STOCK,Basic Materials,Agricultural Inputs,,,,,,,,,,,,,yfinance
-NFLX,"Netflix, Inc.",ETF,Communication Services,Entertainment,,,,,,,,,,,,,yfinance
 NSC,Norfolk Southern Corporation,STOCK,Industrials,Railroads,,,,,,,,,,,,,yfinance
 NTRS,Northern Trust Corporation,STOCK,Financial Services,Asset Management,,,,,,,,,,,,,yfinance
+OMC,Omnicom Group Inc.,STOCK,Communication Services,Advertising Agencies,,,,,,,,,,,,,yfinance
 ORCL,Oracle Corporation,STOCK,Technology,Software - Infrastructure,,,,,,,,,,,,,yfinance
-PKG,Packaging Corporation of Americ,STOCK,Consumer Cyclical,Packaging & Containers,,,,,,,,,,,,,yfinance
+PSKY,Paramount Skydance Corporation,STOCK,Communication Services,Entertainment,,,,,,,,,,,,,yfinance
 PNC,"PNC Financial Services Group, I",STOCK,Financial Services,Banks - Regional,,,,,,,,,,,,,yfinance
+PSA,Public Storage,STOCK,Real Estate,REIT - Industrial,,,,,,,,,,,,,yfinance
+RJF,"Raymond James Financial, Inc.",STOCK,Financial Services,Asset Management,,,,,,,,,,,,,yfinance
 ROP,"Roper Technologies, Inc.",STOCK,Technology,Software - Application,,,,,,,,,,,,,yfinance
 STX,Seagate Technology Holdings PLC,STOCK,Technology,Computer Hardware,,,,,,,,,,,,,yfinance
 SPG,"Simon Property Group, Inc.",STOCK,Real Estate,REIT - Retail,,,,,,,,,,,,,yfinance
-SWKS,"Skyworks Solutions, Inc.",STOCK,Technology,Semiconductors,,,,,,,,,,,,,yfinance
-SW,Smurfit WestRock plc,STOCK,Consumer Cyclical,Packaging & Containers,,,,,,,,,,,,,yfinance
 SWK,"Stanley Black & Decker, Inc.",STOCK,Industrials,Tools & Accessories,,,,,,,,,,,,,yfinance
 TRMB,Trimble Inc.,STOCK,Technology,Scientific & Technical Instruments,,,,,,,,,,,,,yfinance
 TYL,"Tyler Technologies, Inc.",STOCK,Technology,Software - Application,,,,,,,,,,,,,yfinance
@@ -333,13 +334,15 @@ UHS,"Universal Health Services, Inc.",STOCK,Healthcare,Medical Care Facilities,,
 VTR,"Ventas, Inc.",STOCK,Real Estate,REIT - Healthcare Facilities,,,,,,,,,,,,,yfinance
 VLTO,Veralto Corp,STOCK,Industrials,Pollution & Treatment Controls,,,,,,,,,,,,,yfinance
 GWW,"W.W. Grainger, Inc.",STOCK,Industrials,Industrial Distribution,,,,,,,,,,,,,yfinance
+WST,"West Pharmaceutical Services, I",STOCK,Healthcare,Medical Instruments & Supplies,,,,,,,,,,,,,yfinance
 WDC,Western Digital Corporation,STOCK,Technology,Computer Hardware,,,,,,,,,,,,,yfinance
 WSM,"Williams-Sonoma, Inc.",STOCK,Consumer Cyclical,Specialty Retail,,,,,,,,,,,,,yfinance
 WTW,Willis Towers Watson Public Lim,STOCK,Financial Services,Insurance Brokers,,,,,,,,,,,,,yfinance
-ARM,Arm Holdings plc,STOCK,Technology,Semiconductors,,,,,,,,,,,,,yfinance
-INSM,Insmed Incorporated,STOCK,Healthcare,Biotechnology,,,,,,,,,,,,,yfinance
+ZBH,"Zimmer Biomet Holdings, Inc.",STOCK,Healthcare,Medical Devices,,,,,,,,,,,,,yfinance
+CCEP,Coca-Cola Europacific Partners,STOCK,Consumer Defensive,Beverages - Non-Alcoholic,,,,,,,,,,,,,yfinance
 BOIL,ProShares Ultra Bloomberg Natur,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
 CCJ,Cameco Corporation,STOCK,Energy,Uranium,,,,,,,,,,,,,yfinance
+HAL,Halliburton Company,STOCK,Energy,Oil & Gas Equipment & Services,,,,,,,,,,,,,yfinance
 HHH,Howard Hughes Holdings Inc.,STOCK,Real Estate,Real Estate - Development,,,,,,,,,,,,,yfinance
 IDU,iShares U.S. Utilities ETF,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
 IH,iHuman Inc.,STOCK,Consumer Defensive,Education & Training Services,,,,,,,,,,,,,yfinance
@@ -356,6 +359,8 @@ NRG,"NRG Energy, Inc.",STOCK,Utilities,Utilities - Independent Power Producers,,
 HWM,Howmet Aerospace Inc.,STOCK,Industrials,Aerospace & Defense,,,,,,,,,,,,,yfinance
 PH,Parker-Hannifin Corporation,STOCK,Industrials,Specialty Industrial Machinery,,,,,,,,,,,,,yfinance
 EME,"EMCOR Group, Inc.",STOCK,Industrials,Engineering & Construction,,,,,,,,,,,,,yfinance
+DE,Deere & Company,STOCK,Industrials,Farm & Heavy Construction Machinery,,,,,,,,,,,,,yfinance
+RTX,RTX Corporation,STOCK,Industrials,Aerospace & Defense,,,,,,,,,,,,,yfinance
 LMT,Lockheed Martin Corporation,STOCK,Industrials,Aerospace & Defense,,,,,,,,,,,,,yfinance
 NOC,Northrop Grumman Corporation,STOCK,Industrials,Aerospace & Defense,,,,,,,,,,,,,yfinance
 GE,GE Aerospace,STOCK,Industrials,Aerospace & Defense,,,,,,,,,,,,,yfinance
@@ -367,7 +372,7 @@ SYK,Stryker Corporation,STOCK,Healthcare,Medical Devices,,,,,,,,,,,,,yfinance
 PEP,"Pepsico, Inc.",STOCK,Consumer Defensive,Beverages - Non-Alcoholic,,,,,,,,,,,,,yfinance
 CL,Colgate-Palmolive Company,STOCK,Consumer Defensive,Household & Personal Products,,,,,,,,,,,,,yfinance
 LIN,Linde plc,STOCK,Basic Materials,Specialty Chemicals,,,,,,,,,,,,,yfinance
-COIN,"Coinbase Global, Inc.",STOCK,Financial Services,Financial Data & Stock Exchanges,,,,,,,,,,,,,yfinance
+ECL,Ecolab Inc.,STOCK,Basic Materials,Specialty Chemicals,,,,,,,,,,,,,yfinance
 SHW,Sherwin-Williams Company (The),STOCK,Basic Materials,Specialty Chemicals,,,,,,,,,,,,,yfinance
 DD,"DuPont de Nemours, Inc.",STOCK,Basic Materials,Specialty Chemicals,,,,,,,,,,,,,yfinance
 FSLR,"First Solar, Inc.",STOCK,Technology,Solar,,,,,,,,,,,,,yfinance
@@ -378,19 +383,14 @@ UBER,"Uber Technologies, Inc.",STOCK,Technology,Software - Application,,,,,,,,,,
 LYFT,"Lyft, Inc.",STOCK,Technology,Software - Application,,,,,,,,,,,,,yfinance
 MBLY,Mobileye Global Inc.,STOCK,Consumer Cyclical,Auto Parts,,,,,,,,,,,,,yfinance
 ON,ON Semiconductor Corporation,STOCK,Technology,Semiconductors,,,,,,,,,,,,,yfinance
-NXPI,NXP Semiconductors N.V.,STOCK,Technology,Semiconductors,,,,,,,,,,,,,yfinance
 ARRY,"Array Technologies, Inc.",STOCK,Technology,Solar,,,,,,,,,,,,,yfinance
-ASTS,"AST SpaceMobile, Inc.",STOCK,Technology,Communication Equipment,,,,,,,,,,,,,yfinance
 LUNR,"Intuitive Machines, Inc.",STOCK,Industrials,Aerospace & Defense,,,,,,,,,,,,,yfinance
 PL,Planet Labs PBC,STOCK,Industrials,Aerospace & Defense,,,,,,,,,,,,,yfinance
 SPIR,"Spire Global, Inc.",STOCK,Industrials,Specialty Business Services,,,,,,,,,,,,,yfinance
 BA,Boeing Company (The),STOCK,Industrials,Aerospace & Defense,,,,,,,,,,,,,yfinance
-GLD,SPDR Gold Shares,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
-IAU,iShares Gold Trust Shares,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
-GLDM,SPDR Gold MiniShares Trust,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
 RIVN,"Rivian Automotive, Inc.",STOCK,Consumer Cyclical,Auto Manufacturers,,,,,,,,,,,,,yfinance
-F,Ford Motor Company,STOCK,Consumer Cyclical,Auto Manufacturers,,,,,,,,,,,,,yfinance
 QS,QuantumScape Corporation,STOCK,Consumer Cyclical,Auto Parts,,,,,,,,,,,,,yfinance
+SLDP,"Solid Power, Inc.",STOCK,Consumer Cyclical,Auto Parts,,,,,,,,,,,,,yfinance
 ENVX,Enovix Corporation,STOCK,Industrials,Electrical Equipment & Parts,,,,,,,,,,,,,yfinance
 ALB,Albemarle Corporation,STOCK,Basic Materials,Specialty Chemicals,,,,,,,,,,,,,yfinance
 SQM,Sociedad Quimica y Minera S.A.,STOCK,Basic Materials,Specialty Chemicals,,,,,,,,,,,,,yfinance
@@ -402,7 +402,6 @@ MTZ,"MasTec, Inc.",STOCK,Industrials,Engineering & Construction,,,,,,,,,,,,,yfin
 ACM,AECOM,STOCK,Industrials,Engineering & Construction,,,,,,,,,,,,,yfinance
 UAL,"United Airlines Holdings, Inc.",STOCK,Industrials,Airlines,,,,,,,,,,,,,yfinance
 AAL,"American Airlines Group, Inc.",STOCK,Industrials,Airlines,,,,,,,,,,,,,yfinance
-LUV,Southwest Airlines Company,STOCK,Industrials,Airlines,,,,,,,,,,,,,yfinance
 ALK,"Alaska Air Group, Inc.",STOCK,Industrials,Airlines,,,,,,,,,,,,,yfinance
 JBLU,JetBlue Airways Corporation,STOCK,Industrials,Airlines,,,,,,,,,,,,,yfinance
 CCL,Carnival Corporation,STOCK,Consumer Cyclical,Travel Services,,,,,,,,,,,,,yfinance
@@ -423,23 +422,16 @@ CMG,"Chipotle Mexican Grill, Inc.",STOCK,Consumer Cyclical,Restaurants,,,,,,,,,,
 MCD,McDonald's Corporation,STOCK,Consumer Cyclical,Restaurants,,,,,,,,,,,,,yfinance
 SBUX,Starbucks Corporation,STOCK,Consumer Cyclical,Restaurants,,,,,,,,,,,,,yfinance
 AMKR,"Amkor Technology, Inc.",STOCK,Technology,Semiconductor Equipment & Materials,,,,,,,,,,,,,yfinance
-TEL,TE Connectivity plc,STOCK,Technology,Electronic Components,,,,,,,,,,,,,yfinance
-GLW,Corning Incorporated,STOCK,Technology,Electronic Components,,,,,,,,,,,,,yfinance
-UGL,ProShares Ultra Gold,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
-AGQ,ProShares Ultra Silver,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
+JBL,Jabil Inc.,STOCK,Technology,Electronic Components,,,,,,,,,,,,,yfinance
 PALL,abrdn Physical Palladium Shares,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
-RKLB,Rocket Lab Corporation,STOCK,Industrials,Aerospace & Defense,,,,,,,,,,,,,yfinance
 HUBB,Hubbell Inc,STOCK,Industrials,Electrical Equipment & Parts,,,,,,,,,,,,,yfinance
 DOV,Dover Corporation,STOCK,Industrials,Specialty Industrial Machinery,,,,,,,,,,,,,yfinance
 LIT,Global X Lithium & Battery Tech,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
 BATT,Amplify Lithium & Battery Techn,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
 MP,MP Materials Corp.,STOCK,Basic Materials,Other Industrial Metals & Mining,,,,,,,,,,,,,yfinance
-PAAS,Pan American Silver Corp.,STOCK,Basic Materials,Gold,,,,,,,,,,,,,yfinance
-AG,First Majestic Silver Corp.,STOCK,Basic Materials,Silver,,,,,,,,,,,,,yfinance
 EQT,EQT Corporation,STOCK,Energy,Oil & Gas E&P,,,,,,,,,,,,,yfinance
 AR,Antero Resources Corporation,STOCK,Energy,Oil & Gas E&P,,,,,,,,,,,,,yfinance
 RRC,Range Resources Corporation,STOCK,Energy,Oil & Gas E&P,,,,,,,,,,,,,yfinance
-KMI,"Kinder Morgan, Inc.",STOCK,Energy,Oil & Gas Midstream,,,,,,,,,,,,,yfinance
 ET,Energy Transfer LP,STOCK,Energy,Oil & Gas Midstream,,,,,,,,,,,,,yfinance
 PAA,"Plains All American Pipeline, L",STOCK,Energy,Oil & Gas Midstream,,,,,,,,,,,,,yfinance
 HII,"Huntington Ingalls Industries,",STOCK,Industrials,Aerospace & Defense,,,,,,,,,,,,,yfinance
@@ -450,6 +442,7 @@ LEU,Centrus Energy Corp.,STOCK,Energy,Uranium,,,,,,,,,,,,,yfinance
 AOS,A.O. Smith Corporation,STOCK,Industrials,Specialty Industrial Machinery,,,,,,,,,,,,,yfinance
 ADBE,Adobe Inc.,STOCK,Technology,Software - Application,,,,,,,,,,,,,yfinance
 AKAM,"Akamai Technologies, Inc.",STOCK,Technology,Software - Infrastructure,,,,,,,,,,,,,yfinance
+ARE,Alexandria Real Estate Equities,STOCK,Real Estate,REIT - Office,,,,,,,,,,,,,yfinance
 ALGN,"Align Technology, Inc.",STOCK,Healthcare,Medical Instruments & Supplies,,,,,,,,,,,,,yfinance
 LNT,Alliant Energy Corporation,STOCK,Utilities,Utilities - Regulated Electric,,,,,,,,,,,,,yfinance
 AMCR,Amcor plc,STOCK,Consumer Cyclical,Packaging & Containers,,,,,,,,,,,,,yfinance
@@ -463,9 +456,11 @@ ARES,Ares Management Corporation,STOCK,Financial Services,Asset Management,,,,,,
 ATO,Atmos Energy Corporation,STOCK,Utilities,Utilities - Regulated Gas,,,,,,,,,,,,,yfinance
 ADSK,"Autodesk, Inc.",STOCK,Technology,Software - Application,,,,,,,,,,,,,yfinance
 AZO,"AutoZone, Inc.",STOCK,Consumer Cyclical,Auto Parts,,,,,,,,,,,,,yfinance
+AVY,Avery Dennison Corporation,STOCK,Consumer Cyclical,Packaging & Containers,,,,,,,,,,,,,yfinance
 AXON,"Axon Enterprise, Inc.",STOCK,Industrials,Aerospace & Defense,,,,,,,,,,,,,yfinance
 BKR,Baker Hughes Company,STOCK,Energy,Oil & Gas Equipment & Services,,,,,,,,,,,,,yfinance
 BLK,"BlackRock, Inc.",STOCK,Financial Services,Asset Management,,,,,,,,,,,,,yfinance
+BR,"Broadridge Financial Solutions,",STOCK,Technology,Information Technology Services,,,,,,,,,,,,,yfinance
 BRO,"Brown & Brown, Inc.",STOCK,Financial Services,Insurance Brokers,,,,,,,,,,,,,yfinance
 BF-B,BF.B,STOCK,Unmapped,Unmapped,,,,,,,,,,,,,fallback
 BLDR,"Builders FirstSource, Inc.",STOCK,Industrials,Building Products & Equipment,,,,,,,,,,,,,yfinance
@@ -478,23 +473,24 @@ CVNA,Carvana Co.,STOCK,Consumer Cyclical,Auto & Truck Dealerships,,,,,,,,,,,,,yf
 CASY,"Caseys General Stores, Inc.",STOCK,Consumer Cyclical,Specialty Retail,,,,,,,,,,,,,yfinance
 CBOE,"Cboe Global Markets, Inc.",STOCK,Financial Services,Financial Data & Stock Exchanges,,,,,,,,,,,,,yfinance
 CBRE,CBRE Group Inc,STOCK,Real Estate,Real Estate Services,,,,,,,,,,,,,yfinance
+COR,"Cencora, Inc.",STOCK,Healthcare,Medical Distribution,,,,,,,,,,,,,yfinance
 CNP,"CenterPoint Energy, Inc (Holdin",STOCK,Utilities,Utilities - Regulated Electric,,,,,,,,,,,,,yfinance
 CHTR,"Charter Communications, Inc.",STOCK,Communication Services,Telecom Services,,,,,,,,,,,,,yfinance
+CHD,"Church & Dwight Company, Inc.",STOCK,Consumer Defensive,Household & Personal Products,,,,,,,,,,,,,yfinance
 CIEN,Ciena Corporation,STOCK,Technology,Communication Equipment,,,,,,,,,,,,,yfinance
-CINF,Cincinnati Financial Corporatio,STOCK,Financial Services,Insurance - Property & Casualty,,,,,,,,,,,,,yfinance
+CI,The Cigna Group,STOCK,Healthcare,Healthcare Plans,,,,,,,,,,,,,yfinance
 CLX,Clorox Company (The),STOCK,Consumer Defensive,Household & Personal Products,,,,,,,,,,,,,yfinance
 CMS,CMS Energy Corporation,STOCK,Utilities,Utilities - Regulated Electric,,,,,,,,,,,,,yfinance
 CMCSA,Comcast Corporation,STOCK,Communication Services,Telecom Services,,,,,,,,,,,,,yfinance
-ED,"Consolidated Edison, Inc.",STOCK,Utilities,Utilities - Regulated Electric,,,,,,,,,,,,,yfinance
 STZ,"Constellation Brands, Inc.",STOCK,Consumer Defensive,Beverages - Brewers,,,,,,,,,,,,,yfinance
 COO,"The Cooper Companies, Inc.",STOCK,Healthcare,Medical Instruments & Supplies,,,,,,,,,,,,,yfinance
+CPRT,"Copart, Inc.",STOCK,Industrials,Specialty Business Services,,,,,,,,,,,,,yfinance
 CSGP,"CoStar Group, Inc.",STOCK,Real Estate,Real Estate Services,,,,,,,,,,,,,yfinance
 CRH,CRH PLC,STOCK,Basic Materials,Building Materials,,,,,,,,,,,,,yfinance
 CCI,Crown Castle Inc.,STOCK,Real Estate,REIT - Specialty,,,,,,,,,,,,,yfinance
 CMI,Cummins Inc.,STOCK,Industrials,Specialty Industrial Machinery,,,,,,,,,,,,,yfinance
 DECK,Deckers Outdoor Corporation,STOCK,Consumer Cyclical,Footwear & Accessories,,,,,,,,,,,,,yfinance
 DLTR,"Dollar Tree, Inc.",STOCK,Consumer Defensive,Discount Stores,,,,,,,,,,,,,yfinance
-D,"Dominion Energy, Inc.",STOCK,Utilities,Utilities - Regulated Electric,,,,,,,,,,,,,yfinance
 DPZ,Domino's Pizza Inc,STOCK,Consumer Cyclical,Restaurants,,,,,,,,,,,,,yfinance
 DOW,Dow Inc.,STOCK,Basic Materials,Chemicals,,,,,,,,,,,,,yfinance
 DHI,"D.R. Horton, Inc.",STOCK,Consumer Cyclical,Residential Construction,,,,,,,,,,,,,yfinance
@@ -505,25 +501,26 @@ ETR,Entergy Corporation,STOCK,Utilities,Utilities - Regulated Electric,,,,,,,,,,
 EPAM,"EPAM Systems, Inc.",STOCK,Technology,Information Technology Services,,,,,,,,,,,,,yfinance
 EFX,"Equifax, Inc.",STOCK,Industrials,Consulting Services,,,,,,,,,,,,,yfinance
 ERIE,Erie Indemnity Company,STOCK,Financial Services,Insurance Brokers,,,,,,,,,,,,,yfinance
-EVRG,"Evergy, Inc.",STOCK,Utilities,Utilities - Regulated Electric,,,,,,,,,,,,,yfinance
 ES,Eversource Energy (D/B/A),STOCK,Utilities,Utilities - Regulated Electric,,,,,,,,,,,,,yfinance
 EXC,Exelon Corporation,STOCK,Utilities,Utilities - Regulated Electric,,,,,,,,,,,,,yfinance
 EXE,Expand Energy Corporation,STOCK,Energy,Oil & Gas E&P,,,,,,,,,,,,,yfinance
 EXPD,Expeditors International of Was,STOCK,Industrials,Integrated Freight & Logistics,,,,,,,,,,,,,yfinance
 EXR,Extra Space Storage Inc,STOCK,Real Estate,REIT - Industrial,,,,,,,,,,,,,yfinance
 FICO,Fair Isaac Corporation,STOCK,Technology,Software - Application,,,,,,,,,,,,,yfinance
+FRT,Federal Realty Investment Trust,STOCK,Real Estate,REIT - Retail,,,,,,,,,,,,,yfinance
 FIS,Fidelity National Information S,STOCK,Technology,Information Technology Services,,,,,,,,,,,,,yfinance
 FE,FirstEnergy Corp.,STOCK,Utilities,Utilities - Regulated Electric,,,,,,,,,,,,,yfinance
 FISV,"Fiserv, Inc.",STOCK,Unmapped,Unmapped,,,,,,,,,,,,,yfinance
 FTV,Fortive Corporation,STOCK,Technology,Scientific & Technical Instruments,,,,,,,,,,,,,yfinance
 GEHC,GE HealthCare Technologies Inc.,STOCK,Healthcare,Medical Devices,,,,,,,,,,,,,yfinance
-GNRC,Generac Holdlings Inc.,STOCK,Industrials,Specialty Industrial Machinery,,,,,,,,,,,,,yfinance
 GIS,"General Mills, Inc.",STOCK,Consumer Defensive,Packaged Foods,,,,,,,,,,,,,yfinance
 HIG,"The Hartford Insurance Group, I",STOCK,Financial Services,Insurance - Diversified,,,,,,,,,,,,,yfinance
+HAS,"Hasbro, Inc.",STOCK,Consumer Cyclical,Leisure,,,,,,,,,,,,,yfinance
 HSY,Hershey Company,STOCK,Consumer Defensive,Confectioners,,,,,,,,,,,,,finviz_members
 HON,Honeywell International Inc.,STOCK,Industrials,Conglomerates,,,,,,,,,,,,,yfinance
 HRL,Hormel Foods Corporation,STOCK,Consumer Defensive,Packaged Foods,,,,,,,,,,,,,yfinance
 HBAN,Huntington Bancshares Incorpora,STOCK,Financial Services,Banks - Regional,,,,,,,,,,,,,yfinance
+IBM,International Business Machines,STOCK,Technology,Information Technology Services,,,,,,,,,,,,,yfinance
 IDXX,"IDEXX Laboratories, Inc.",STOCK,Healthcare,Diagnostics & Research,,,,,,,,,,,,,yfinance
 ITW,Illinois Tool Works Inc.,STOCK,Industrials,Specialty Industrial Machinery,,,,,,,,,,,,,yfinance
 PODD,Insulet Corporation,STOCK,Healthcare,Medical Devices,,,,,,,,,,,,,yfinance
@@ -531,10 +528,12 @@ IP,International Paper Company,STOCK,Consumer Cyclical,Packaging & Containers,,,
 INTU,Intuit Inc.,STOCK,Technology,Software - Application,,,,,,,,,,,,,yfinance
 INVH,Invitation Homes Inc.,STOCK,Real Estate,REIT - Residential,,,,,,,,,,,,,yfinance
 JBHT,"J.B. Hunt Transport Services, I",STOCK,Industrials,Integrated Freight & Logistics,,,,,,,,,,,,,yfinance
+JKHY,"Jack Henry & Associates, Inc.",STOCK,Technology,Information Technology Services,,,,,,,,,,,,,yfinance
 KVUE,Kenvue Inc.,STOCK,Consumer Defensive,Household & Personal Products,,,,,,,,,,,,,yfinance
 KEY,KeyCorp,STOCK,Financial Services,Banks - Regional,,,,,,,,,,,,,yfinance
 KMB,Kimberly-Clark Corporation,STOCK,Consumer Defensive,Household & Personal Products,,,,,,,,,,,,,yfinance
 KIM,Kimco Realty Corporation (HC),STOCK,Real Estate,REIT - Retail,,,,,,,,,,,,,yfinance
+KR,Kroger Company (The),STOCK,Consumer Defensive,Grocery Stores,,,,,,,,,,,,,yfinance
 LHX,"L3Harris Technologies, Inc.",STOCK,Industrials,Aerospace & Defense,,,,,,,,,,,,,yfinance
 LEN,Lennar Corporation,STOCK,Consumer Cyclical,Residential Construction,,,,,,,,,,,,,yfinance
 LII,"Lennox International, Inc.",STOCK,Industrials,Building Products & Equipment,,,,,,,,,,,,,yfinance
@@ -549,7 +548,7 @@ TAP,Molson Coors Beverage Company,STOCK,Consumer Defensive,Beverages - Brewers,,
 MPWR,"Monolithic Power Systems, Inc.",STOCK,Technology,Semiconductors,,,,,,,,,,,,,yfinance
 MCO,Moody's Corporation,STOCK,Financial Services,Financial Data & Stock Exchanges,,,,,,,,,,,,,yfinance
 MSCI,MSCI Inc.,STOCK,Financial Services,Financial Data & Stock Exchanges,,,,,,,,,,,,,yfinance
-NDAQ,"Nasdaq, Inc.",STOCK,Financial Services,Financial Data & Stock Exchanges,,,,,,,,,,,,,yfinance
+NFLX,"Netflix, Inc.",ETF,Communication Services,Entertainment,,,,,,,,,,,,,yfinance
 NI,NiSource Inc,STOCK,Utilities,Utilities - Regulated Gas,,,,,,,,,,,,,yfinance
 NVR,"NVR, Inc.",STOCK,Consumer Cyclical,Residential Construction,,,,,,,,,,,,,yfinance
 ORLY,"O'Reilly Automotive, Inc.",STOCK,Consumer Cyclical,Auto Parts,,,,,,,,,,,,,yfinance
@@ -565,7 +564,6 @@ PPL,PPL Corporation,STOCK,Utilities,Utilities - Regulated Electric,,,,,,,,,,,,,y
 PLD,"Prologis, Inc.",STOCK,Real Estate,REIT - Industrial,,,,,,,,,,,,,yfinance
 PEG,Public Service Enterprise Group,STOCK,Utilities,Utilities - Regulated Electric,,,,,,,,,,,,,yfinance
 PTC,PTC Inc.,STOCK,Technology,Software - Application,,,,,,,,,,,,,yfinance
-PSA,Public Storage,STOCK,Real Estate,REIT - Industrial,,,,,,,,,,,,,yfinance
 PHM,"PulteGroup, Inc.",STOCK,Consumer Cyclical,Residential Construction,,,,,,,,,,,,,yfinance
 RL,Ralph Lauren Corporation,STOCK,Consumer Cyclical,Apparel Manufacturing,,,,,,,,,,,,,yfinance
 O,Realty Income Corporation,STOCK,Real Estate,REIT - Retail,,,,,,,,,,,,,yfinance
@@ -596,7 +594,6 @@ TSN,"Tyson Foods, Inc.",STOCK,Consumer Defensive,Farm Products,,,,,,,,,,,,,yfina
 UDR,"UDR, Inc.",STOCK,Real Estate,REIT - Residential,,,,,,,,,,,,,yfinance
 UPS,"United Parcel Service, Inc.",STOCK,Industrials,Integrated Freight & Logistics,,,,,,,,,,,,,yfinance
 VRSK,"Verisk Analytics, Inc.",STOCK,Industrials,Consulting Services,,,,,,,,,,,,,yfinance
-VZ,Verizon Communications Inc.,STOCK,Communication Services,Telecom Services,,,,,,,,,,,,,yfinance
 VICI,VICI Properties Inc.,STOCK,Real Estate,REIT - Diversified,,,,,,,,,,,,,yfinance
 VMC,Vulcan Materials Company (Holdi,STOCK,Basic Materials,Building Materials,,,,,,,,,,,,,yfinance
 WM,"Waste Management, Inc.",STOCK,Industrials,Waste Management,,,,,,,,,,,,,yfinance
@@ -610,8 +607,9 @@ FER,Ferrovial N.V.,STOCK,Industrials,Engineering & Construction,,,,,,,,,,,,,yfin
 MELI,"MercadoLibre, Inc.",STOCK,Consumer Cyclical,Internet Retail,,,,,,,,,,,,,yfinance
 PDD,PDD Holdings Inc.,STOCK,Consumer Cyclical,Internet Retail,,,,,,,,,,,,,yfinance
 SHOP,Shopify Inc.,STOCK,Technology,Software - Application,,,,,,,,,,,,,yfinance
+TRI,Thomson Reuters Corp,STOCK,Industrials,Specialty Business Services,,,,,,,,,,,,,yfinance
 QCOM,QUALCOMM Incorporated,STOCK,Technology,Semiconductors,,,,,,,,,,,,,yfinance
-CRM,"Salesforce, Inc.",STOCK,Technology,Software - Application,,,,,,,,,,,,,yfinance
+PG,Procter & Gamble Company (The),STOCK,Consumer Defensive,Household & Personal Products,,,,,,,,,,,,,yfinance
 MPC,Marathon Petroleum Corporation,STOCK,Energy,Oil & Gas Refining & Marketing,,,,,,,,,,,,,yfinance
 PSX,Phillips 66,STOCK,Energy,Oil & Gas Refining & Marketing,,,,,,,,,,,,,yfinance
 UCO,ProShares Ultra Bloomberg Crude,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
@@ -620,8 +618,10 @@ DBC,Invesco DB Commodity Index Trac,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
 PDBC,Invesco Optimum Yield Diversifi,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
 GSG,iShares GSCI Commodity-Indexed,ETF,ETF,ETF / Fund,,,,,,,,,,,,,yfinance
 VLO,Valero Energy Corporation,STOCK,Energy,Oil & Gas Refining & Marketing,,,,,,,,,,,,,yfinance
+ADM,Archer-Daniels-Midland Company,STOCK,Consumer Defensive,Farm Products,,,,,,,,,,,,,yfinance
 T,AT&T Inc.,STOCK,Communication Services,Telecom Services,,,,,,,,,,,,,yfinance
-RVTY,"Revvity, Inc.",STOCK,Healthcare,Diagnostics & Research,,,,,,,,,,,,,yfinance
+BBY,"Best Buy Co., Inc.",STOCK,Consumer Cyclical,Specialty Retail,,,,,,,,,,,,,yfinance
+SWKS,"Skyworks Solutions, Inc.",STOCK,Technology,Semiconductors,,,,,,,,,,,,,yfinance
 META,Meta Platforms,STOCK,Communication Services,Social / AI,,,,,,,,,,,,,builtin
 CHPT,"ChargePoint Holdings, Inc.",STOCK,Consumer Cyclical,Specialty Retail,,,,,,,,,,,,,yfinance
 EQNR,Equinor ASA,STOCK,Energy,Oil & Gas Integrated,,,,,,,,,,,,,yfinance
