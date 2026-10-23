@@ -26,9 +26,9 @@ MRO	no_ohlcv_or_columns
 AVB	too_short(len=1)
 BK	no_ohlcv_or_columns
 CTRA	no_ohlcv_or_columns
-SATS	too_short(len=2)
+SATS	too_short(len=3)
 EA	too_short(len=1)
 EQR	too_short(len=1)
 PSKY	too_short(len=15)
-Q	too_short(len=247)
+Q	too_short(len=248)
 WBD	too_short(len=1)
