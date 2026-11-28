@@ -1,4 +1,4 @@
 market=US
 source=github_actions
-updated_kst=2026-11-27 12:49:01 KST
-updated_utc=2026-11-27 03:49:01 UTC
+updated_kst=2026-11-28 12:33:12 KST
+updated_utc=2026-11-28 03:33:12 UTC
